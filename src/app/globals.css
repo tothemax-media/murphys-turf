@@ -1,43 +1,66 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --color-forest: #2D5016;
-  --color-forest-dark: #1E3A0E;
-  --color-sage: #7CB342;
-  --color-sage-light: #9CCC65;
-  --color-earth: #5D4037;
-  --color-earth-light: #795548;
-  --color-cream: #FFF8E1;
-  --color-charcoal: #212121;
-  --color-charcoal-light: #424242;
-  --color-gold: #F59E0B;
-  --background: #FFF8E1;
-  --foreground: #212121;
+  --forest-green: #2D5016;
+  --sage: #7CB342;
+  --brown: #5D4037;
+  --cream: #FFF8E1;
+  --charcoal: #212121;
+  --white: #FFFFFF;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-forest: var(--color-forest);
-  --color-forest-dark: var(--color-forest-dark);
-  --color-sage: var(--color-sage);
-  --color-sage-light: var(--color-sage-light);
-  --color-earth: var(--color-earth);
-  --color-earth-light: var(--color-earth-light);
-  --color-cream: var(--color-cream);
-  --color-charcoal: var(--color-charcoal);
-  --color-charcoal-light: var(--color-charcoal-light);
-  --color-gold: var(--color-gold);
-  --font-heading: var(--font-montserrat);
-  --font-body: var(--font-open-sans);
+  --color-forest: #2D5016;
+  --color-forest-light: #3a6b1c;
+  --color-forest-dark: #1e3a0e;
+  --color-sage: #7CB342;
+  --color-sage-light: #9ccc65;
+  --color-sage-dark: #689f38;
+  --color-brown: #5D4037;
+  --color-brown-light: #795548;
+  --color-cream: #FFF8E1;
+  --color-cream-dark: #FFF0B8;
+  --color-charcoal: #212121;
+  --color-charcoal-light: #424242;
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-body), Arial, Helvetica, sans-serif;
+  background-color: var(--cream);
+  color: var(--charcoal);
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-heading), Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* FAQ Accordion Animation */
+.accordion-content {
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7CB342;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2D5016;
 }
