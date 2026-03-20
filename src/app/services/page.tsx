@@ -1,72 +1,52 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import {
-  Trash2,
-  Wind,
-  Sprout,
-  Droplets,
-  Bug,
-  CalendarDays,
   ArrowRight,
   Phone,
   HelpCircle,
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Professional Lawn Care Services',
+  title: 'Artificial Turf Cleaning Services | Murphy\'s Turf',
   description:
-    "Explore Murphy's Turf Care comprehensive lawn care services including lawn cleaning, aeration, seeding, fertilization, pest control, and seasonal maintenance across California.",
+    "Professional artificial turf cleaning and maintenance services in Murrieta, CA. Pet hair removal, blooming, disinfecting, poop scooping, and OxyTurf treatments. Get a free quote today.",
 };
 
 const services = [
   {
-    name: 'Lawn Cleaning',
-    slug: 'lawn-cleaning',
-    icon: Trash2,
-    price: 49,
+    name: 'Pet Hair & Debris Removal',
+    slug: 'pet-hair-debris',
+    image: '/images/services/debris-removal.png',
     description:
-      'Professional debris removal, dethatching, and deep cleaning to restore your lawn. We tackle debris, leaves, and built-up thatch so your turf can breathe and thrive again.',
+      'All of our turf services begin with removing pet hair and waste along with any other debris such as leaves and branches. We also run a magnet over the turf to remove any metal objects and use a de-weeding tool to clear weeds from edges and seams.',
   },
   {
-    name: 'Aeration',
-    slug: 'aeration',
-    icon: Wind,
-    price: 89,
+    name: 'Blooming & De-Compacting',
+    slug: 'blooming-decompacting',
+    image: '/images/services/blooming.png',
     description:
-      "Core aeration breaks through compacted soil, allowing water, oxygen, and nutrients to reach your lawn's root zone. Essential for maintaining a healthy, resilient lawn in California's climate.",
+      'Over time, frequent foot traffic causes turf blades to become matted down. Our blooming process uses commercial-grade machines to remove caked debris from the fibers and fluff the blades back to life, standing upright like natural grass.',
   },
   {
-    name: 'Seeding',
-    slug: 'seeding',
-    icon: Sprout,
-    price: 129,
+    name: 'Disinfect & Deodorize',
+    slug: 'disinfect-deodorize',
+    image: '/images/services/oxyturf-spray.jpg',
     description:
-      'Overseeding and new lawn establishment using drought-resistant, California-adapted grass varieties like Bermuda grass, tall fescue, and St. Augustine. Build a lush lawn engineered for our unique climate.',
+      'Our disinfecting and deodorizing service uses OxyTurf to power-spray your turf, cutting past the top layer into the infill where bacteria and viruses live. OxyTurf kills 99.9% of germs and bacteria in minutes without hazardous chemicals.',
   },
   {
-    name: 'Fertilization',
-    slug: 'fertilization',
-    icon: Droplets,
-    price: 59,
+    name: 'Poop Scooping & Removal',
+    slug: 'poop-scooping',
+    image: '/images/services/poop-scooping.jpg',
     description:
-      "Custom nutrient programs designed specifically for California's varied soil conditions and extended growing season. Our slow-release formulas deliver sustained nutrition while protecting local waterways.",
+      'Pet waste is not only an unruly sight but also harmful to the environment and people around you. According to the EPA, pet waste is very toxic. We provide flexible service plans dedicated to waste removal so you can enjoy your yard worry-free.',
   },
   {
-    name: 'Pest Control',
-    slug: 'pest-control',
-    icon: Bug,
-    price: 79,
+    name: 'Powered By OxyTurf',
+    slug: 'oxyturf',
+    image: '/images/services/oxyturf-palms.jpg',
     description:
-      'Eco-friendly, integrated pest management for grubs, chinch bugs, sod webworms, and other common California lawn pests. Targeted treatments that eliminate threats without harming beneficial insects.',
-  },
-  {
-    name: 'Seasonal Maintenance',
-    slug: 'seasonal-maintenance',
-    icon: CalendarDays,
-    price: 199,
-    priceLabel: '/month',
-    description:
-      'Year-round comprehensive lawn care covering spring cleanup, summer watering management, fall aeration and overseeding, and winter preparation. One program, four seasons of results.',
+      'Murphy\'s Turf cleaning products are powered by OxyTurf, a proven synthetic turf cleaner-deodorizer that eliminates germs and bacteria while replacing them with the smell of fresh real grass. No bleach or ammonia — safe for pets and kids.',
   },
 ];
 
@@ -78,12 +58,12 @@ export default function ServicesPage() {
         <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-5" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-heading text-white mb-6 tracking-tight">
-            Our Professional Services
+            Our Services
           </h1>
           <p className="text-lg sm:text-xl text-white/90 font-body max-w-3xl mx-auto leading-relaxed">
-            Comprehensive lawn care solutions tailored for California&apos;s unique climate.
-            From routine cleaning to full seasonal programs, we have the expertise and
-            equipment to keep your turf looking its absolute best year-round.
+            Professional artificial turf cleaning and maintenance backed by 30+
+            years of experience. Serving Murrieta, CA and surrounding areas with
+            pet-safe, eco-friendly solutions powered by OxyTurf.
           </p>
         </div>
       </section>
@@ -92,56 +72,49 @@ export default function ServicesPage() {
       <section className="py-16 sm:py-24 bg-cream">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {services.map((service) => {
-              const Icon = service.icon;
-              return (
-                <div
-                  key={service.slug}
-                  className="group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-sage/30 flex flex-col"
-                >
-                  <div className="p-8 flex-1 flex flex-col">
-                    {/* Icon */}
-                    <div className="w-14 h-14 bg-sage/10 rounded-xl flex items-center justify-center mb-5 group-hover:bg-sage/20 transition-colors">
-                      <Icon className="w-7 h-7 text-forest" />
-                    </div>
+            {services.map((service) => (
+              <div
+                key={service.slug}
+                className="group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-sage/30 flex flex-col"
+              >
+                {/* Image Placeholder */}
+                {/* Replace with <Image src={service.image} /> when real images are ready */}
+                <div className="aspect-[16/10] bg-gradient-to-br from-sage/20 via-forest/10 to-sage-light/20 flex items-center justify-center">
+                  <span className="text-forest/40 font-heading font-bold text-sm uppercase tracking-wider">
+                    {service.name}
+                  </span>
+                </div>
 
-                    {/* Service Name */}
-                    <h2 className="text-xl font-bold font-heading text-charcoal mb-3">
-                      {service.name}
-                    </h2>
+                <div className="p-8 flex-1 flex flex-col">
+                  {/* Service Name */}
+                  <h2 className="text-xl font-bold font-heading text-charcoal mb-3">
+                    {service.name}
+                  </h2>
 
-                    {/* Description */}
-                    <p className="text-charcoal-light font-body text-sm leading-relaxed mb-6 flex-1">
-                      {service.description}
-                    </p>
+                  {/* Description */}
+                  <p className="text-charcoal-light font-body text-sm leading-relaxed mb-6 flex-1">
+                    {service.description}
+                  </p>
 
-                    {/* Price + CTA */}
-                    <div className="flex items-center justify-between pt-4 border-t border-gray-100">
-                      <div>
-                        <span className="text-xs text-charcoal-light font-body uppercase tracking-wide">
-                          Starting at
-                        </span>
-                        <p className="text-2xl font-bold font-heading text-forest">
-                          ${service.price}
-                          {service.priceLabel && (
-                            <span className="text-sm font-normal text-charcoal-light">
-                              {service.priceLabel}
-                            </span>
-                          )}
-                        </p>
-                      </div>
-                      <Link
-                        href={`/services/${service.slug}`}
-                        className="inline-flex items-center gap-1.5 text-sage font-semibold font-body text-sm hover:text-forest transition-colors group/link"
-                      >
-                        Learn More
-                        <ArrowRight className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
-                      </Link>
-                    </div>
+                  {/* CTA */}
+                  <div className="flex items-center justify-between pt-4 border-t border-gray-100">
+                    <Link
+                      href="/contact"
+                      className="text-sm font-semibold font-body text-forest hover:text-forest-dark transition-colors"
+                    >
+                      Get a Quote
+                    </Link>
+                    <Link
+                      href={`/services/${service.slug}`}
+                      className="inline-flex items-center gap-1.5 text-sage font-semibold font-body text-sm hover:text-forest transition-colors group/link"
+                    >
+                      Learn More
+                      <ArrowRight className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
+                    </Link>
                   </div>
                 </div>
-              );
-            })}
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -152,19 +125,20 @@ export default function ServicesPage() {
           <div className="bg-gradient-to-br from-forest to-forest-dark rounded-3xl p-10 sm:p-14 shadow-xl">
             <HelpCircle className="w-12 h-12 text-sage mx-auto mb-5" />
             <h2 className="text-3xl sm:text-4xl font-bold font-heading text-white mb-4">
-              Not Sure Which Service You Need?
+              Not Sure What Your Turf Needs?
             </h2>
             <p className="text-lg text-white/85 font-body mb-8 max-w-2xl mx-auto leading-relaxed">
-              Every lawn is different. Let our team assess your turf and recommend the
-              perfect combination of services for your property. Free consultations
-              available for all California homeowners.
+              Every yard is different. Let our team with 30+ years of experience
+              assess your artificial turf and recommend the perfect combination
+              of services for your property. Free consultations available for all
+              Murrieta-area homeowners.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
                 href="/contact"
                 className="inline-flex items-center gap-2 bg-sage hover:bg-sage-dark text-white font-semibold px-8 py-3.5 rounded-lg transition-colors font-body shadow-md hover:shadow-lg"
               >
-                Get a Free Consultation
+                Get a Free Quote
                 <ArrowRight className="w-5 h-5" />
               </Link>
               <a

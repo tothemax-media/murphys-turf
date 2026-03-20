@@ -1,4 +1,4 @@
-import { Scissors, Wind, Sprout, Droplets, Bug, Calendar } from 'lucide-react';
+import { Dog, Wind, ShieldCheck, Trash2, Sparkles } from 'lucide-react';
 import ServiceCard from '@/components/cards/ServiceCard';
 import type { LucideIcon } from 'lucide-react';
 
@@ -11,46 +11,39 @@ interface ServiceData {
 
 const services: ServiceData[] = [
   {
-    icon: Scissors,
-    name: 'Lawn Cleaning',
-    slug: 'lawn-cleaning',
+    icon: Dog,
+    name: 'Pet Hair & Debris Removal',
+    slug: 'pet-hair-debris',
     description:
-      'Complete lawn cleaning and debris removal to keep your yard pristine and healthy.',
+      'Thorough removal of pet hair, leaves, and debris to keep your artificial turf clean and fresh.',
   },
   {
     icon: Wind,
-    name: 'Aeration',
-    slug: 'aeration',
+    name: 'Blooming & De-Compacting',
+    slug: 'blooming-decompacting',
     description:
-      'Core aeration to improve soil drainage, reduce compaction, and promote root growth.',
+      'Restore your turf fibers to their upright position and de-compact infill for a like-new appearance.',
   },
   {
-    icon: Sprout,
-    name: 'Seeding',
-    slug: 'seeding',
+    icon: ShieldCheck,
+    name: 'Disinfect & Deodorize',
+    slug: 'disinfect-deodorize',
     description:
-      'Expert overseeding and new lawn establishment for a thick, lush lawn.',
+      'Eliminate bacteria, odors, and allergens with our pet-safe disinfecting and deodorizing treatment.',
   },
   {
-    icon: Droplets,
-    name: 'Fertilization',
-    slug: 'fertilization',
+    icon: Trash2,
+    name: 'Poop Scooping & Removal',
+    slug: 'poop-scooping',
     description:
-      'Custom fertilization programs to nourish your lawn throughout the seasons.',
+      'Regular pet waste removal to keep your turf sanitary and odor-free for your family.',
   },
   {
-    icon: Bug,
-    name: 'Pest Control',
-    slug: 'pest-control',
+    icon: Sparkles,
+    name: 'Powered By OxyTurf',
+    slug: 'oxyturf',
     description:
-      'Targeted pest and weed control to protect your lawn from damage.',
-  },
-  {
-    icon: Calendar,
-    name: 'Seasonal Maintenance',
-    slug: 'seasonal-maintenance',
-    description:
-      'Year-round maintenance programs to keep your property looking its best.',
+      'Our signature OxyTurf cleaning system delivers a deep clean that is safe for pets, kids, and the environment.',
   },
 ];
 
@@ -62,8 +55,8 @@ export default function ServiceOverview() {
           Our Professional Services
         </h2>
         <p className="text-center text-charcoal-light mt-4 font-body">
-          Comprehensive lawn care solutions tailored to your property&apos;s
-          needs
+          Comprehensive artificial turf cleaning solutions tailored to your
+          property&apos;s needs
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">

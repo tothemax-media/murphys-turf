@@ -19,15 +19,11 @@ export interface Lead {
 }
 
 export type ServiceType =
-  | 'lawn-mowing'
-  | 'fertilization'
-  | 'weed-control'
-  | 'aeration'
-  | 'overseeding'
-  | 'leaf-removal'
-  | 'spring-cleanup'
-  | 'fall-cleanup'
-  | 'lawn-installation'
+  | 'pet-hair-debris'
+  | 'blooming-decompacting'
+  | 'disinfect-deodorize'
+  | 'poop-scooping'
+  | 'oxyturf'
   | 'other';
 
 export type LeadStatus = 'new' | 'contacted' | 'quoted' | 'won' | 'lost';

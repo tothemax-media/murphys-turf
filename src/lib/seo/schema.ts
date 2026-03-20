@@ -56,11 +56,12 @@ export function generateLocalBusinessSchema() {
     additionalType: "https://schema.org/ProfessionalService",
     knowsAbout: [
       "Artificial Turf Cleaning",
-      "Synthetic Turf Maintenance",
-      "Pet Turf Sanitization",
-      "Turf Odor Removal",
+      "Artificial Turf Disinfecting",
+      "Pet Hair & Debris Removal",
+      "Turf Blooming & De-Compacting",
       "Turf Deodorizing",
-      "Commercial Turf Cleaning",
+      "Poop Scooping",
+      "OxyTurf Treatment",
     ],
     address: {
       "@type": "PostalAddress",

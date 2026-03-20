@@ -3,38 +3,38 @@ import Link from 'next/link';
 import { MapPin, ArrowRight, Map, Phone, Sparkles } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Service Locations | California Lawn Care & Turf Cleaning',
+  title: 'Service Locations | Artificial Turf Cleaning Across California',
   description:
-    "Murphy's Turf Care provides professional lawn care and turf cleaning services across California. Serving Los Angeles, Murrieta, Martinez, and Sacramento.",
+    "Murphy's Turf provides professional artificial turf cleaning and disinfecting services across California. Serving Huntington Beach, Murrieta, Martinez, and Sacramento.",
 };
 
 const locations = [
   {
-    city: 'Los Angeles',
-    slug: 'los-angeles',
+    city: 'Huntington Beach / LA Area',
+    slug: 'huntington-beach',
     description:
-      'Expert lawn care across the LA metro area — from Hollywood and Santa Monica to Beverly Hills, Pasadena, and Long Beach. Drought-smart treatments tailored for Southern California\'s Mediterranean climate.',
-    highlight: 'LA Metro Area',
+      'Professional artificial turf cleaning across the LA coastal corridor — Huntington Beach, Newport Beach, Costa Mesa, Long Beach, and Seal Beach. OxyTurf-powered cleaning for Southern California\'s beachside communities.',
+    highlight: 'LA Area',
   },
   {
-    city: 'Murrieta',
+    city: 'Murrieta / Inland Empire',
     slug: 'murrieta',
     description:
-      'Our headquarters in the heart of the Inland Empire. Full-service turf cleaning, aeration, fertilization, and water-smart lawn care for Murrieta, Temecula Valley, and surrounding communities.',
+      'Our headquarters in the heart of the Inland Empire. Full-service turf cleaning and disinfecting for Murrieta, Temecula, French Valley, Menifee, Lake Elsinore, Hemet, Perris, Wildomar, Canyon Lake, Temescal Valley, and Winchester.',
     highlight: 'Headquarters',
   },
   {
-    city: 'Martinez',
+    city: 'Martinez / Bay Area',
     slug: 'martinez',
     description:
-      'Serving the Bay Area from Contra Costa County. Specialized treatments for fog-influenced microclimates, heavy clay soil, and marine layer conditions across the East Bay.',
+      'Serving the East Bay with expert artificial turf cleaning and sanitization. Covering Concord, Pleasant Hill, Walnut Creek, Antioch, and Brentwood throughout Contra Costa County.',
     highlight: 'Bay Area',
   },
   {
-    city: 'Sacramento',
+    city: 'Greater Sacramento',
     slug: 'sacramento',
     description:
-      'Professional lawn care for the Central Valley capital region. Heat-resilient treatments for Elk Grove, Folsom, Rancho Cordova, and neighborhoods throughout the Sacramento metro.',
+      'Professional artificial turf cleaning for the capital region. Serving Elk Grove, Roseville, Folsom, and Rancho Cordova with OxyTurf-powered disinfecting treatments built for Central Valley heat.',
     highlight: 'Central Valley',
   },
 ];
@@ -58,9 +58,10 @@ export default function LocationsPage() {
             <span className="text-cream">Communities</span>
           </h1>
           <p className="text-lg sm:text-xl text-white/80 font-body max-w-3xl mx-auto leading-relaxed">
-            From Los Angeles to Sacramento, Murphy&apos;s Turf Care delivers professional lawn care
-            and turf cleaning services to communities across California. Our local teams
-            understand the unique soil, climate, and water conservation challenges of each region we serve.
+            From Huntington Beach to Sacramento, Murphy&apos;s Turf delivers professional
+            artificial turf cleaning and disinfecting services to communities across California.
+            With 30+ years of experience and our proprietary OxyTurf product, we keep your
+            synthetic turf clean, safe, and looking like new.
           </p>
         </div>
       </section>
@@ -73,7 +74,7 @@ export default function LocationsPage() {
               Our Service Areas
             </h2>
             <p className="text-lg text-charcoal-light font-body max-w-2xl mx-auto">
-              Select your city to learn about the lawn care services we offer in your
+              Select your area to learn about the artificial turf cleaning services we offer in your
               neighborhood and get a free quote.
             </p>
           </div>
@@ -122,7 +123,7 @@ export default function LocationsPage() {
               Our Coverage Area
             </h2>
             <p className="text-lg text-charcoal-light font-body max-w-2xl mx-auto">
-              We service communities across California, from the greater Los Angeles metro
+              We service communities across California, from the Huntington Beach coastline
               in the south to Sacramento in the north, with our headquarters in Murrieta.
             </p>
           </div>
@@ -137,7 +138,7 @@ export default function LocationsPage() {
               </h3>
               <p className="text-charcoal-light font-body max-w-md">
                 Explore our full coverage area across California. From the coast to the
-                Central Valley, we&apos;ve got your lawn covered.
+                Central Valley, Murphy&apos;s Turf has your artificial turf covered.
               </p>
               <div className="flex flex-wrap justify-center gap-3 mt-2">
                 {locations.map((loc) => (
@@ -161,9 +162,9 @@ export default function LocationsPage() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             {[
               { stat: '4', label: 'Regions Served' },
-              { stat: '40+', label: 'Neighborhoods' },
+              { stat: '30+', label: 'Years Experience' },
               { stat: '2,500+', label: 'Happy Customers' },
-              { stat: '7+', label: 'Years Experience' },
+              { stat: '10,000+', label: 'Turfs Cleaned' },
             ].map((item) => (
               <div key={item.label}>
                 <div className="text-4xl sm:text-5xl font-bold text-sage font-heading mb-2">
@@ -190,8 +191,8 @@ export default function LocationsPage() {
             </h2>
             <p className="text-lg text-charcoal-light font-body mb-8 max-w-2xl mx-auto">
               We&apos;re constantly expanding our service area across California. If you
-              don&apos;t see your community listed, reach out anyway! We may already serve your
-              neighborhood or be planning to soon.
+              don&apos;t see your community listed, reach out anyway! When you care about
+              clean turf, call Murphy&apos;s Turf.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link

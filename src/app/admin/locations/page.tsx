@@ -14,10 +14,10 @@ interface Location {
 const initialLocations: Location[] = [
   {
     id: '1',
-    name: 'Los Angeles',
-    phone: '(213) 555-0101',
+    name: 'Huntington Beach',
+    phone: '(714) 555-0101',
     description:
-      'Serving the greater Los Angeles metro area including Hollywood, Santa Monica, and Pasadena',
+      'Serving Huntington Beach and surrounding Orange County communities with professional turf cleaning',
     active: true,
   },
   {
@@ -25,7 +25,7 @@ const initialLocations: Location[] = [
     name: 'Murrieta',
     phone: '(951) 331-3300',
     description:
-      'Headquarters location — full service lawn care for Murrieta, Temecula, and the Inland Empire',
+      'Headquarters location — full service artificial turf cleaning for Murrieta, Temecula, and the Inland Empire',
     active: true,
   },
   {
@@ -33,7 +33,7 @@ const initialLocations: Location[] = [
     name: 'Martinez / Bay Area',
     phone: '(925) 555-0103',
     description:
-      'Comprehensive lawn services for Martinez, Concord, Walnut Creek, and the greater Bay Area',
+      'Comprehensive turf cleaning services for Martinez, Concord, Walnut Creek, and the greater Bay Area',
     active: true,
   },
   {
@@ -41,7 +41,7 @@ const initialLocations: Location[] = [
     name: 'Sacramento',
     phone: '(916) 555-0104',
     description:
-      "Sacramento's trusted lawn care provider serving Elk Grove, Roseville, and Folsom",
+      "Sacramento's trusted artificial turf cleaning provider serving Elk Grove, Roseville, and Folsom",
     active: true,
   },
 ];

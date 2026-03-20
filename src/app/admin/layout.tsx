@@ -51,7 +51,7 @@ export default function AdminLayout({
       <div className="flex items-center gap-2 px-6 py-5">
         <Leaf className="h-6 w-6" style={{ color: "#7CB342" }} />
         <span className="text-lg font-bold" style={{ color: "#7CB342" }}>
-          Murphy&apos;s Turf Care Admin
+          Murphy&apos;s Turf Admin
         </span>
       </div>
 

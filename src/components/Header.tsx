@@ -26,10 +26,10 @@ export default function Header() {
             </div>
             <div>
               <span className="text-xl font-bold text-forest font-heading tracking-tight">
-                Murphy&apos;s Turf Care
+                Murphy&apos;s Turf
               </span>
               <span className="hidden sm:block text-xs text-charcoal-light font-body -mt-1">
-                Professional Lawn Care
+                Artificial Turf Cleaning
               </span>
             </div>
           </Link>

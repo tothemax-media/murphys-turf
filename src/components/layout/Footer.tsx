@@ -9,16 +9,15 @@ import NewsletterForm from '@/components/forms/NewsletterForm';
 /* ------------------------------------------------------------------ */
 
 const servicesLinks = [
-  { label: 'Lawn Cleaning', href: '/services/lawn-cleaning' },
-  { label: 'Aeration', href: '/services/aeration' },
-  { label: 'Seeding', href: '/services/seeding' },
-  { label: 'Fertilization', href: '/services/fertilization' },
-  { label: 'Pest Control', href: '/services/pest-control' },
-  { label: 'Seasonal Maintenance', href: '/services/seasonal-maintenance' },
+  { label: 'Pet Hair & Debris Removal', href: '/services/pet-hair-debris' },
+  { label: 'Blooming & De-Compacting', href: '/services/blooming-decompacting' },
+  { label: 'Disinfect & Deodorize', href: '/services/disinfect-deodorize' },
+  { label: 'Poop Scooping & Removal', href: '/services/poop-scooping' },
+  { label: 'Powered By OxyTurf', href: '/services/oxyturf' },
 ];
 
 const locationsLinks = [
-  { label: 'Los Angeles', href: '/locations/los-angeles' },
+  { label: 'Huntington Beach', href: '/locations/huntington-beach' },
   { label: 'Murrieta', href: '/locations/murrieta' },
   { label: 'Martinez', href: '/locations/martinez' },
   { label: 'Sacramento', href: '/locations/sacramento' },
@@ -44,7 +43,7 @@ export default function Footer() {
           <div className="flex flex-col items-center gap-6 md:flex-row md:justify-between">
             <div className="text-center md:text-left">
               <h3 className="font-heading text-xl font-bold text-white">
-                Stay Updated with Lawn Care Tips
+                Stay Updated with Turf Cleaning Tips
               </h3>
               <p className="mt-1 font-body text-sm text-gray-400">
                 Get seasonal advice and exclusive offers delivered to your
@@ -66,16 +65,16 @@ export default function Footer() {
             <Link
               href="/"
               className="inline-flex items-center gap-2 text-white"
-              aria-label="Murphy's Turf Care — Home"
+              aria-label="Murphy's Turf — Home"
             >
               <Leaf className="h-7 w-7 text-sage" />
               <span className="font-heading text-xl font-bold">
-                Murphy&apos;s Turf Care
+                Murphy&apos;s Turf
               </span>
             </Link>
             <p className="mt-4 font-body text-sm leading-relaxed text-gray-400">
-              Professional turf cleaning and lawn care services serving the
-              California communities since 2018.
+              Professional artificial turf cleaning services powered by OxyTurf,
+              serving California communities.
             </p>
           </div>
 
@@ -143,7 +142,7 @@ export default function Footer() {
       <div className="border-t border-charcoal-light">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-6 sm:flex-row lg:px-8">
           <p className="font-body text-sm text-gray-400">
-            &copy; 2024 Murphy&apos;s Turf Care. All rights reserved.
+            &copy; 2024 Murphy&apos;s Turf. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <Link

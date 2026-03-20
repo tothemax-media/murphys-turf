@@ -2,16 +2,15 @@ import Link from 'next/link';
 import { Leaf, Phone, Mail, MapPin } from 'lucide-react';
 
 const serviceLinks = [
-  { name: 'Lawn Cleaning', href: '/services/lawn-cleaning' },
-  { name: 'Aeration', href: '/services/aeration' },
-  { name: 'Seeding', href: '/services/seeding' },
-  { name: 'Fertilization', href: '/services/fertilization' },
-  { name: 'Pest Control', href: '/services/pest-control' },
-  { name: 'Seasonal Maintenance', href: '/services/seasonal-maintenance' },
+  { name: 'Pet Hair & Debris Removal', href: '/services/pet-hair-debris' },
+  { name: 'Blooming & De-Compacting', href: '/services/blooming-decompacting' },
+  { name: 'Disinfect & Deodorize', href: '/services/disinfect-deodorize' },
+  { name: 'Poop Scooping & Removal', href: '/services/poop-scooping' },
+  { name: 'Powered By OxyTurf', href: '/services/oxyturf' },
 ];
 
 const locationLinks = [
-  { name: 'Los Angeles', href: '/locations/los-angeles' },
+  { name: 'Huntington Beach', href: '/locations/huntington-beach' },
   { name: 'Murrieta', href: '/locations/murrieta' },
   { name: 'Martinez', href: '/locations/martinez' },
   { name: 'Sacramento', href: '/locations/sacramento' },
@@ -37,12 +36,12 @@ export default function Footer() {
                 <Leaf className="w-6 h-6 text-white" />
               </div>
               <span className="text-xl font-bold font-heading text-white">
-                Murphy&apos;s Turf Care
+                Murphy&apos;s Turf
               </span>
             </Link>
             <p className="text-gray-400 font-body text-sm leading-relaxed mb-6">
-              California&apos;s trusted turf cleaning and lawn care experts. Family-owned since 2018,
-              serving California communities with pride and professionalism.
+              California&apos;s trusted artificial turf cleaning experts. Powered by OxyTurf, serving
+              California communities with pet-safe, professional turf care.
             </p>
             <div className="space-y-3">
               <a href="tel:+19513313300" className="flex items-center gap-2 text-gray-300 hover:text-sage transition-colors text-sm font-body">
@@ -124,7 +123,7 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-gray-700">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-gray-500 text-sm font-body">
-              &copy; {new Date().getFullYear()} Murphy&apos;s Turf Care. All rights reserved.
+              &copy; {new Date().getFullYear()} Murphy&apos;s Turf. All rights reserved.
             </p>
             <p className="text-gray-500 text-sm font-body">
               Licensed & Insured | Serving California

@@ -2,338 +2,257 @@ import type { Service } from '../types';
 
 export const services: Service[] = [
   {
-    slug: 'turf-cleaning',
-    name: 'Deep Cleaning & Sanitization',
+    slug: 'pet-hair-debris',
+    name: 'Pet Hair & Debris Removal',
     shortDescription:
-      'Comprehensive professional deep cleaning and sanitization of artificial turf surfaces to eliminate bacteria, restore fiber pile, and make your synthetic lawn look and feel brand new.',
-    fullDescription: `Artificial turf is a fantastic investment for California homeowners and businesses — it saves water, stays green year-round, and eliminates mowing forever. But synthetic turf is not maintenance-free. Over time, dust, pollen, pet waste, organic debris, food particles, and airborne pollutants accumulate deep within the fibers and infill material, creating an environment where bacteria thrive and odors intensify. This problem is dramatically amplified by California's relentless heat — especially in the Inland Empire and Murrieta area, where summer temperatures routinely exceed 100 degrees Fahrenheit for weeks on end. That extreme heat essentially bakes pet waste, spilled liquids, and organic matter into the synthetic fibers and infill, making surface-level cleaning with a garden hose completely ineffective. What you cannot see is often far worse than what you can: embedded bacteria, uric acid crystals from pet urine, mold spores growing in shaded areas, and compacted debris that blocks drainage and flattens your turf's once-lush appearance.
+      'Thorough removal of pet hair, leaves, dirt, and embedded debris from artificial turf fibers and infill. Our professional extraction process reaches deep into your turf system where vacuums and garden hoses cannot, restoring a clean, hygienic surface for your family and pets.',
+    fullDescription: `Pet hair, leaves, dirt, pollen, and everyday debris accumulate in artificial turf far faster than most homeowners realize. While the surface may look relatively clean, the infill layer beneath the visible fibers traps enormous amounts of material that compacts over time, blocks drainage, and creates an environment where bacteria thrive. In California's warm climate — particularly in Murrieta's Inland Empire heat, the Sacramento Valley, and the sun-drenched LA coastal corridor around Huntington Beach — this accumulation accelerates dramatically. Pet hair is especially problematic because it mats into the turf fibers and infill, creating dense clumps that resist rinsing and become breeding grounds for odor-causing bacteria.
 
-Murphy's Turf Care provides a professional-grade deep cleaning process that addresses every layer of your artificial turf system. We begin with thorough debris removal — clearing leaves, pet waste, dirt, and any foreign material from the entire surface. Next, we perform power brushing with commercial-grade equipment specifically designed for synthetic turf fibers, restoring the pile to its upright position and breaking up compacted areas that have become matted from foot traffic or heavy furniture. We then apply a high-pressure rinse calibrated to clean effectively without displacing infill material, flushing contaminants out of the turf system. Following the rinse, we apply eco-friendly, turf-safe sanitizing agents that penetrate into the infill layer where bacteria actually live, eliminating harmful microorganisms at their source. Finally, we complete a UV-accelerated deodorizing treatment that leverages California's abundant sunshine to activate freshening agents, leaving your turf smelling clean and neutral.
+Murphy's Turf pet hair and debris removal service uses commercial-grade extraction equipment specifically designed for synthetic turf systems. Our process begins with a thorough surface sweep to remove loose debris, followed by deep extraction that pulls embedded pet hair, dirt, pollen, and organic material from within the infill layer. Unlike household vacuums or leaf blowers that only address the surface, our equipment reaches into the turf system where the real problems hide. We finish with a light grooming pass that restores fiber orientation and ensures even infill distribution.
 
-How often should your artificial turf be professionally cleaned? At minimum, we recommend quarterly deep cleaning for general residential use. Homes with pets should schedule monthly service — pet urine and waste are the number one cause of odor and bacterial buildup in synthetic turf, and California's heat accelerates this problem exponentially. Our clients across Los Angeles, the Inland Empire, the Bay Area, and Sacramento consistently tell us the same thing after their first professional cleaning: they had no idea their turf could look, smell, and feel this good again. Whether your turf is two years old or ten, professional deep cleaning restores it to a condition that rivals the day it was installed — soft underfoot, vibrant in color, and completely free of the odors and grime that accumulate with everyday use.`,
+This service is ideal as a standalone maintenance visit between full cleaning appointments, or as the first step in our comprehensive cleaning process. Pet owners across Huntington Beach, Murrieta, Martinez, and Sacramento schedule regular pet hair and debris removal to prevent buildup from reaching the point where odors and bacteria become serious concerns. With 30+ years of cleaning and disinfecting experience, Murphy's Turf delivers results that keep your artificial turf looking, feeling, and smelling fresh.`,
     benefits: [
-      'Eliminates 99.9% of bacteria harbored in turf fibers and infill material',
-      'Removes deeply embedded debris that garden hoses cannot reach',
-      'Restores fiber pile to its original upright, lush position',
-      'Extends the lifespan of your artificial turf investment by years',
-      'Completely safe for pets and children immediately after drying',
-      'Improves drainage performance by clearing clogged infill passages',
-      'Enhances curb appeal with turf that looks vibrant and freshly installed',
+      'Removes deeply embedded pet hair that garden hoses and vacuums cannot reach',
+      'Extracts leaves, dirt, pollen, and organic debris from the infill layer',
+      'Prevents bacterial growth by eliminating the organic material bacteria feed on',
+      'Restores proper drainage by clearing compacted debris from infill passages',
+      'Improves turf appearance with fiber grooming and infill redistribution',
+      'Extends the lifespan of your artificial turf investment',
+      'Safe for pets and children — no chemicals involved in the extraction process',
     ],
     whatIncludes: [
-      'Complete surface debris removal including pet waste, leaves, and dirt',
-      'Commercial-grade power brushing to restore fiber pile and break up matting',
-      'High-pressure rinse calibrated for synthetic turf without displacing infill',
-      'Application of eco-friendly, turf-safe sanitizing agents',
-      'UV-accelerated deodorizing treatment for lasting freshness',
-      'Infill redistribution to ensure even coverage and proper drainage',
-      'Post-cleaning inspection with maintenance recommendations',
+      'Complete surface debris removal including pet hair, leaves, and loose dirt',
+      'Commercial-grade deep extraction of embedded material from the infill layer',
+      'Pet hair removal from turf fibers using specialized equipment',
+      'Light fiber grooming to restore upright pile orientation',
+      'Infill redistribution to ensure even surface coverage',
+      'Post-service inspection with maintenance recommendations',
     ],
-    startingPrice: 149,
+    startingPrice: 0,
     iconName: 'Sparkles',
-    metaTitle: 'Professional Artificial Turf Cleaning & Sanitization | Murphy\'s Turf Care',
+    metaTitle: "Pet Hair & Debris Removal from Artificial Turf | Murphy's Turf",
     metaDescription:
-      'Professional deep cleaning and sanitization for artificial turf in California. Eliminate bacteria, restore fiber pile, and make synthetic turf look new. Serving LA, Murrieta, Bay Area & Sacramento. Starting at $149.',
+      "Professional pet hair and debris removal for artificial turf in California. Deep extraction that reaches where vacuums can't. Serving Huntington Beach, Murrieta, Bay Area & Sacramento.",
     faqs: [
       {
-        question: 'How often should I have my artificial turf professionally cleaned?',
+        question: 'How often should I have pet hair and debris removed from my turf?',
         answer:
-          'We recommend professional deep cleaning at least quarterly for residential turf with general use. If you have pets, monthly cleaning is strongly recommended because pet waste is the leading cause of odor and bacterial buildup — and California\'s intense heat accelerates decomposition rapidly. Commercial properties with high foot traffic may require bi-weekly or monthly service depending on usage levels.',
+          'For homes with pets, we recommend professional debris removal every four to six weeks to prevent buildup from reaching levels that cause odor and drainage problems. Homes without pets can typically go two to three months between visits. California\'s warm climate accelerates debris decomposition, so more frequent service is always better for turf longevity.',
       },
       {
-        question: 'How long does a professional turf cleaning take?',
+        question: 'Can I just use a leaf blower or vacuum on my artificial turf?',
         answer:
-          'A standard residential cleaning typically takes between one and two hours depending on the size of the turf area, the level of soiling, and whether pet odor treatment is included. Larger properties or heavily soiled turf may require additional time. We work efficiently and thoroughly so your turf is ready for use as soon as it dries, usually within one to two hours after we finish.',
+          'Leaf blowers and household vacuums only address surface-level debris. The real problem is material that has worked its way down into the infill layer — pet hair, fine dirt, pollen, and decomposing organic matter that compacts and traps bacteria. Our commercial-grade extraction equipment reaches into the infill where these tools cannot, removing the embedded material that causes odors and hygiene issues.',
       },
       {
-        question: 'Is the cleaning process safe for my pets and children?',
+        question: 'Will the debris removal process damage my turf fibers or displace infill?',
         answer:
-          'Absolutely. Every product we use is specifically selected to be non-toxic, eco-friendly, and safe for pets and children. Our sanitizing and deodorizing agents are plant-based and turf-safe. We recommend waiting until the turf is fully dry before resuming normal use, which typically takes one to two hours depending on sun exposure and temperature — California sunshine usually speeds this up considerably.',
-      },
-      {
-        question: 'Will the cleaning process damage or displace my infill material?',
-        answer:
-          'No. Our equipment and techniques are specifically calibrated for artificial turf systems. We use pressure settings that effectively clean without blowing out infill material. In fact, part of our service includes redistributing infill to ensure even coverage across the entire surface. If we identify areas where infill has depleted over time, we will let you know and can recommend an infill top-up as part of our turf repair service.',
+          'No. Our equipment is specifically calibrated for artificial turf systems. The extraction process removes embedded debris without damaging fibers or displacing infill material. In fact, we finish every service with a grooming pass that restores fiber orientation and redistributes infill for an even, well-maintained surface.',
       },
     ],
   },
   {
-    slug: 'pet-odor-treatment',
-    name: 'Pet Odor & Stain Removal',
+    slug: 'blooming-decompacting',
+    name: 'Blooming & De-Compacting',
     shortDescription:
-      'Specialized enzyme-based treatment that eliminates pet urine odors and stains from artificial turf at the molecular level, leaving your synthetic lawn completely fresh and odor-free.',
-    fullDescription: `Pet urine is the single biggest problem artificial turf owners face — and in California's heat, it becomes an absolute nightmare if left untreated. When your dog urinates on synthetic turf, the liquid passes through the fibers and settles into the infill material and backing layer beneath. In cooler climates, this is manageable with regular rinsing. But in California, where summer temperatures in Los Angeles, Murrieta, the Inland Empire, and the Central Valley routinely exceed 95 to 110 degrees Fahrenheit, that urine bakes into the infill and crystallizes into uric acid deposits that no amount of water from a garden hose will dissolve. These uric acid crystals are the source of that persistent, overwhelming ammonia smell that intensifies with every degree of heat — and they reactivate with moisture, which means even morning dew or a light rinse can trigger the stench all over again. Homeowners often describe the odor as unbearable during summer evenings when they want to enjoy their outdoor spaces, and many have tried every retail product on the shelf with no lasting results.
+      'Restore your artificial turf to its original lush appearance with our professional blooming and de-compacting service. We lift flattened fibers back to their upright position and break up compacted infill to improve drainage, cushioning, and overall turf performance.',
+    fullDescription: `Over time, foot traffic, pet activity, outdoor furniture, and California's intense heat cause artificial turf fibers to flatten and infill material to compact. This dual problem — matted fibers and hardened infill — makes synthetic turf look worn, feel hard underfoot, and perform poorly. Compacted infill resists water absorption, leading to puddles and drainage issues. Flattened fibers lose their realistic appearance and soft texture, making your turf look years older than it actually is. In the Inland Empire around Murrieta and Temecula, where summer temperatures routinely exceed 100 degrees, heat accelerates both compaction and fiber fatigue. The same is true in Sacramento's Central Valley, where extreme heat bakes infill into near-concrete hardness.
 
-Murphy's Turf Care has developed a proprietary multi-step pet odor elimination process that treats the problem where it actually lives — deep in the infill layer, not just on the surface. We begin with a thorough odor source identification, using professional assessment techniques to locate the highest concentration areas where urine has accumulated. Next, we apply a professional-grade enzyme-based treatment that breaks down uric acid at the molecular level. Unlike masking agents or general-purpose cleaners, our enzyme formula specifically targets the organic compounds in pet urine, breaking them down into harmless, odorless byproducts through a natural biochemical process. This treatment penetrates deep into the infill material and turf backing where uric acid crystals have formed, dissolving them completely rather than merely covering up the smell.
+Murphy's Turf blooming and de-compacting service is a two-phase restoration process. First, we perform de-compacting — using specialized equipment to break up hardened infill material and restore its loose, granular structure. This immediately improves drainage, restores cushioning, and allows the turf system to breathe again. Second, we perform blooming — a professional power-brushing process that lifts flattened turf fibers back to their original upright position. The transformation is dramatic: turf that looked worn and matted regains its lush, full appearance and soft texture.
 
-Over 70 percent of our residential clients are pet owners — we understand this problem intimately and have refined our process through thousands of treatments across Southern California, the Bay Area, and Sacramento. After enzyme treatment, we follow with a targeted infill treatment that neutralizes any remaining odor compounds within the fill material itself. Stain spots receive individual attention to restore the visual appearance of the turf fibers. A final neutralizing rinse flushes decomposed waste products out of the turf system, and we perform a freshness verification to ensure the treatment has achieved complete odor elimination. The result is artificial turf that smells completely clean and neutral — not like chemicals, not like perfume, simply fresh and odor-free, even in the peak of a California summer.`,
+This service is one of the most visually impactful things we do. Homeowners across Huntington Beach, Murrieta, Martinez, and Sacramento are consistently amazed at how different their turf looks and feels after blooming and de-compacting. Many describe it as looking like freshly installed turf. We recommend this service annually for all artificial turf installations, and more frequently for high-traffic areas. With 30+ years of cleaning and disinfecting experience, Murphy's Turf knows exactly how to restore your synthetic lawn to peak condition.`,
     benefits: [
-      'Eliminates pet urine odors permanently by destroying uric acid crystals',
-      'Breaks down organic waste at the molecular level using natural enzymes',
-      'Removes visible urine stains and discoloration from turf fibers',
-      'Uses safe, non-toxic enzyme-based formula that is harmless to pets and people',
-      'Treats the infill layer where 90% of odor-causing compounds actually reside',
-      'Prevents bacterial growth caused by accumulated pet waste residue',
-      'Restores a genuinely fresh, neutral scent to your entire outdoor space',
+      'Restores flattened turf fibers to their original upright, lush position',
+      'Breaks up compacted infill to restore proper drainage and water absorption',
+      'Improves cushioning and softness underfoot for a more comfortable surface',
+      'Dramatically improves the visual appearance of worn or matted turf',
+      'Extends the functional lifespan of your artificial turf by years',
+      'Prevents water pooling and drainage issues caused by compacted infill',
+      'Restores the realistic look and feel that attracted you to synthetic turf',
     ],
     whatIncludes: [
-      'Professional odor source identification to locate high-concentration areas',
-      'Application of professional-grade enzyme treatment to break down uric acid',
-      'Deep infill layer treatment to neutralize embedded odor compounds',
-      'Individual stain spot treatment to restore turf fiber appearance',
-      'Neutralizing rinse to flush decomposed waste products from the turf system',
-      'Post-treatment freshness verification to confirm complete odor elimination',
+      'Comprehensive turf condition assessment to identify compaction and matting areas',
+      'Professional de-compacting of hardened infill using specialized equipment',
+      'Commercial power-brushing (blooming) to lift flattened fibers to upright position',
+      'Infill level assessment and redistribution for even coverage',
+      'High-traffic area focus with additional passes where needed',
+      'Post-service inspection with maintenance schedule recommendations',
     ],
-    startingPrice: 99,
-    iconName: 'Droplets',
-    metaTitle: 'Pet Odor Removal from Artificial Turf | Murphy\'s Turf Care',
+    startingPrice: 0,
+    iconName: 'Sprout',
+    metaTitle: "Blooming & De-Compacting for Artificial Turf | Murphy's Turf",
     metaDescription:
-      'Eliminate pet urine odors from artificial turf with our enzyme-based treatment. Destroys uric acid crystals in infill for permanent results. Serving California pet owners. Starting at $99.',
+      "Professional blooming and de-compacting service restores artificial turf fibers and infill. Make your synthetic lawn look new again. Serving California. Call (951) 331-3300.",
     faqs: [
       {
-        question: 'Why does my artificial turf smell worse in hot weather?',
+        question: 'How often should I have my turf bloomed and de-compacted?',
         answer:
-          'Heat activates and intensifies the ammonia compounds in pet urine that have accumulated in your turf\'s infill layer. When urine crystallizes into uric acid deposits, those crystals remain dormant in cooler conditions but release powerful odors when temperatures rise. In California, where summer heat regularly exceeds 100 degrees in many areas, this reaction is extreme. That is why hosing down your turf provides only temporary relief — the water reactivates the crystals briefly, but as soon as the turf dries and heats up again, the smell returns. Only enzyme-based treatment can break down these crystals permanently.',
+          'We recommend annual blooming and de-compacting for most residential installations. High-traffic areas — such as pet zones, play areas, and pathways — may benefit from service every six months. In extreme heat environments like Murrieta and Sacramento, more frequent service helps counteract the accelerated compaction that intense sun causes.',
       },
       {
-        question: 'Why doesn\'t rinsing my turf with water eliminate the pet smell?',
+        question: 'Will blooming fix turf that has been matted for years?',
         answer:
-          'Water alone cannot dissolve uric acid crystals, which are the primary source of persistent pet odor in artificial turf. Uric acid is not water-soluble — it binds to the infill material and turf backing and can only be broken down through a biochemical process. Our enzyme-based treatment contains specific biological agents that target uric acid molecules, breaking them into carbon dioxide and water-soluble compounds that rinse away completely. This is why professional enzyme treatment succeeds where water, vinegar, baking soda, and retail products consistently fail.',
+          'In most cases, yes. Even turf that has been matted and compacted for several years responds well to our professional blooming and de-compacting process. The fibers in quality artificial turf have memory and will return to their upright position when properly lifted. Severely damaged fibers may not fully recover, but the improvement is significant in virtually every case we treat.',
       },
       {
-        question: 'How often should I schedule pet odor treatment for my turf?',
+        question: 'Is blooming the same as brushing my turf with a broom?',
         answer:
-          'For homes with one or two dogs, we recommend monthly treatment during the warmer months (April through October) and bi-monthly during cooler months. Homes with three or more dogs or heavy pet use may benefit from bi-weekly service during peak summer. After your initial deep treatment eliminates the accumulated buildup, ongoing maintenance treatments are quicker, more affordable, and keep your turf odor-free year-round. We offer maintenance plans tailored to your household\'s specific needs.',
-      },
-      {
-        question: 'Is the enzyme treatment safe for my pets to walk on afterward?',
-        answer:
-          'Yes, completely. Our enzyme-based products are non-toxic, biodegradable, and specifically formulated to be safe for animals and humans. The enzymes are naturally occurring biological agents — the same types used in veterinary and pet-care applications. We recommend allowing the treated area to dry before pets resume normal use, which typically takes one to two hours in California\'s sunny conditions. There is no residual chemical risk once the surface has dried.',
+          'No. While regular homeowner brushing with a stiff broom helps maintain fiber orientation between professional visits, it cannot replicate the results of commercial power-brushing equipment. Our machines apply consistent, calibrated force across the entire turf surface, lifting deeply matted fibers that manual brushing simply cannot reach. The difference in results is immediately visible.',
       },
     ],
   },
   {
-    slug: 'turf-deodorizing',
-    name: 'Turf Deodorizing & Freshening',
+    slug: 'disinfect-deodorize',
+    name: 'Disinfect & Deodorize',
     shortDescription:
-      'Professional deodorizing and freshening service for artificial turf that eliminates general odors from organic debris, mold, mildew, and everyday use without the need for a full deep clean.',
-    fullDescription: `Not every artificial turf odor problem comes from pets. Over time, synthetic turf can develop unpleasant smells from a variety of sources that have nothing to do with animals — and California's climate creates conditions that accelerate every one of them. Organic debris like fallen leaves, grass clippings blown in from neighboring properties, tree sap, pollen, and food scraps from outdoor dining decompose in the warmth and create musty, sour odors within the turf system. Stagnant water that pools in low spots or poorly draining areas becomes a breeding ground for mold and mildew, producing that distinctive damp, earthy smell that permeates the surrounding area. In coastal regions like the Bay Area and parts of Los Angeles, marine moisture can promote algae growth in shaded sections of turf. Even something as simple as spilled beverages from a barbecue or party residue can create sticky buildup that attracts dirt and generates odors as it breaks down in the California sun.
+      'Professional-grade disinfecting and deodorizing treatment for artificial turf that eliminates bacteria, viruses, mold, and persistent odors at their source. Our OxyTurf-powered process penetrates deep into the infill layer where contaminants live, leaving your turf hygienically clean and genuinely fresh.',
+    fullDescription: `Artificial turf harbors bacteria, viruses, mold, mildew, and odor-causing compounds deep within its infill material and fiber structure — organisms that thrive in California's warm, often humid conditions. The state's generally mild temperatures mean that harmful microorganisms remain active year-round rather than being killed off by hard freezes. Pet waste introduces E. coli, Salmonella, and other pathogens into the turf system. Mold and mildew proliferate in shaded areas and in turf that retains moisture, releasing spores that trigger allergic reactions. These organisms colonize the infill material beneath the visible turf fibers, where they are protected from rain, UV light, and surface-level rinsing.
 
-Murphy's Turf Care turf deodorizing service is designed for exactly these situations — when your turf needs a refresh but does not require a full deep cleaning and sanitization. Our process begins with surface preparation, removing any loose debris and lightly brushing the turf to open the fiber pile for treatment penetration. We then apply plant-based deodorizing agents that are specifically formulated for synthetic turf systems — not generic air fresheners or household cleaners that can damage turf fibers or leave sticky residues. These agents work by neutralizing odor-causing compounds at a molecular level rather than simply masking them with fragrance. We treat the infill layer directly, where decomposing organic matter and moisture create the majority of general odor issues. Our UV-activated freshening component takes advantage of California's abundant sunshine — the treatment actually works faster and more effectively in direct sunlight, turning the state's intense sun from a liability into an asset.
+Murphy's Turf disinfecting and deodorizing service uses our proprietary OxyTurf product to address both the hygiene and odor problems that plague artificial turf. OxyTurf penetrates deep into the infill layer where bacterial colonies and odor-causing compounds actually reside — not just the visible surface. The treatment eliminates harmful microorganisms on contact and neutralizes the organic compounds that produce persistent smells. Unlike masking agents or general-purpose cleaners, OxyTurf breaks down odor-causing molecules at the chemical level, producing genuinely odor-free results rather than covering one smell with another.
 
-This service is especially popular with clients who schedule it between full deep cleaning appointments to maintain freshness, or before outdoor events, parties, and holidays when they want their backyard to be at its absolute best. Homeowners across Sacramento, the Inland Empire, and LA love booking a freshening treatment before summer entertaining season begins. The turnaround is fast — your turf is safe for immediate use after a short drying period, typically thirty minutes to an hour in California conditions. No harsh chemical smells, no residue, just clean, fresh-smelling turf that makes your outdoor space inviting for family, guests, and everyday enjoyment.`,
+This service is especially critical for homes with young children, multi-pet households, and any property where people spend extended time in direct contact with the turf surface. With 30+ years of cleaning and disinfecting experience, Murphy's Turf has refined this process across thousands of treatments in Huntington Beach, Murrieta, Martinez, and Sacramento. After treatment, your turf is safe for children, pets, and barefoot use as soon as the surface dries — typically one to two hours in California's sunny conditions. When you care about clean turf, call Murphy's Turf.`,
     benefits: [
-      'Neutralizes general odors from organic debris, mold, mildew, and everyday use',
-      'Uses plant-based, eco-friendly deodorizing agents safe for turf systems',
-      'UV-activated formula works faster in California sunshine for enhanced effectiveness',
-      'Quick turnaround with turf ready for use within thirty minutes to one hour',
-      'Perfect maintenance option between full deep cleaning appointments',
-      'Eliminates musty and sour smells without masking them with artificial fragrance',
+      'Eliminates bacteria, viruses, mold, and mildew living in turf fibers and infill',
+      'Neutralizes persistent pet odors at the molecular level — not just masking them',
+      'OxyTurf-powered formula penetrates deep into the infill where contaminants hide',
+      'Completely safe for children, pets, and barefoot use after drying',
+      'Reduces allergens including mold spores and pollen trapped in turf fibers',
+      'Prevents biofilm buildup that shelters and feeds bacterial colonies',
+      'Leaves turf smelling genuinely clean and fresh without artificial fragrances',
     ],
     whatIncludes: [
-      'Surface debris removal and light brushing to prepare fibers for treatment',
-      'Application of plant-based deodorizing agents formulated for synthetic turf',
-      'Direct infill layer treatment to neutralize embedded odor compounds',
-      'UV-activated freshening treatment enhanced by natural sunlight',
-      'Post-treatment walkthrough to verify freshness and address any remaining areas',
-    ],
-    startingPrice: 79,
-    iconName: 'Wind',
-    metaTitle: 'Artificial Turf Deodorizing & Freshening Service | Murphy\'s Turf Care',
-    metaDescription:
-      'Professional deodorizing for artificial turf. Eliminate odors from mold, mildew, debris, and everyday use. Fast-acting, plant-based formula. Serving California homeowners. Starting at $79.',
-    faqs: [
-      {
-        question: 'What is the difference between deodorizing and a full deep cleaning?',
-        answer:
-          'Our deodorizing service focuses specifically on odor elimination and freshening without the intensive cleaning steps included in our deep cleaning package. It is ideal for turf that is relatively clean but has developed general odors from organic debris, moisture, or everyday use. A full deep cleaning includes power brushing, high-pressure rinsing, sanitization, infill redistribution, and deodorizing — it is the complete reset for turf that needs comprehensive attention. Many clients alternate between the two services for optimal maintenance.',
-      },
-      {
-        question: 'Can I schedule a deodorizing treatment before a party or outdoor event?',
-        answer:
-          'Absolutely — this is one of the most popular reasons clients book our freshening service. We recommend scheduling two to three days before your event to ensure the treatment has fully activated and your turf is at peak freshness. The turf is safe for use within thirty minutes to an hour after treatment, so same-day service is possible for last-minute needs. Contact us for rush availability in Los Angeles, Murrieta, the Bay Area, and Sacramento.',
-      },
-      {
-        question: 'Why does my artificial turf smell musty even though I don\'t have pets?',
-        answer:
-          'Non-pet odors in artificial turf are more common than most people realize. Organic debris like leaves, pollen, tree sap, and grass clippings decompose within the turf system and generate musty or sour smells. Stagnant moisture from poor drainage or overwatering promotes mold and mildew growth in the infill. Coastal humidity in the Bay Area and parts of LA can accelerate algae buildup. Even accumulated dust and air pollutants contribute to a stale smell over time. Our deodorizing treatment addresses all of these sources.',
-      },
-      {
-        question: 'Are the deodorizing products safe for children and pets?',
-        answer:
-          'Yes. All of our deodorizing agents are plant-based, non-toxic, and specifically formulated for use on artificial turf surfaces where families and pets spend time. There are no harsh chemicals, volatile organic compounds, or synthetic fragrances. The treated turf is safe for normal use once the surface has dried, which typically takes thirty minutes to one hour in California sunshine. The products leave no sticky residue and will not damage turf fibers, infill, or drainage systems.',
-      },
-    ],
-  },
-  {
-    slug: 'turf-repair',
-    name: 'Turf Repair & Maintenance',
-    shortDescription:
-      'Expert repair and preventive maintenance for synthetic turf including seam repair, pile restoration, infill replenishment, and drainage correction to extend the life of your investment.',
-    fullDescription: `Synthetic turf is engineered to be durable and long-lasting, but it is not indestructible — and California's extreme climate puts unique stresses on artificial turf installations that accelerate wear and create repair needs you may not encounter in milder environments. One of the most common issues we see across Los Angeles, the Inland Empire, and the Central Valley is seam separation. California's dramatic temperature swings — from cool mornings to blistering afternoon heat that can push surface temperatures on synthetic turf well above 150 degrees Fahrenheit — cause the turf material to expand and contract repeatedly. Over months and years, this thermal cycling weakens adhesive bonds and pulls seams apart, creating visible gaps, raised edges, and trip hazards. Heavy furniture, play equipment, and concentrated foot traffic flatten the fiber pile in high-use areas, giving your turf a worn, matted appearance that makes it look far older than it actually is. Depleted infill is another widespread problem — infill naturally migrates, compacts, and washes out over time, leading to uneven surfaces, reduced cushioning, and compromised drainage performance.
-
-Murphy's Turf Care provides comprehensive repair and maintenance services that address every common issue synthetic turf faces in California's demanding conditions. For seam separations, our technicians re-bond the affected areas using professional-grade adhesives and seaming tape rated for high-temperature environments — the same materials and techniques used by professional turf installers, not the consumer-grade products available at hardware stores that fail within months under California sun. For flattened, matted pile, we use commercial power brushing equipment that lifts and restores fibers to their original upright position, dramatically improving the look and feel of high-traffic areas. Where infill has depleted, we replenish with the appropriate material — whether silica sand, crumb rubber, or specialized cooling infill — ensuring proper depth and distribution for optimal performance, cushioning, and drainage.
-
-Beyond individual repairs, we offer preventive maintenance programs designed to catch small problems before they become expensive failures. Our technicians inspect seams, edges, drainage function, infill levels, and overall turf condition during each visit, identifying emerging issues and addressing them proactively. This preventive approach is the single most effective way to extend the lifespan of your artificial turf. Well-maintained synthetic turf can last fifteen years or more, while neglected installations often need full replacement in as few as eight years. For homeowners and businesses across the Bay Area, Sacramento, Murrieta, and greater Los Angeles, our repair and maintenance service protects the significant investment you have made in your property and keeps your turf performing and looking its best for the long haul.`,
-    benefits: [
-      'Repairs seam separations caused by California heat expansion and contraction cycles',
-      'Restores flattened, matted fiber pile to its original upright position and softness',
-      'Replenishes depleted infill for proper cushioning, drainage, and surface evenness',
-      'Fixes drainage problems that cause water pooling and mold growth',
-      'Corrects edge lifting and secures perimeter fastening to prevent trip hazards',
-      'Extends the useful lifespan of artificial turf from eight years to fifteen years or more',
-      'Preventive maintenance programs catch small issues before they become costly replacements',
-    ],
-    whatIncludes: [
-      'Comprehensive turf condition assessment covering seams, edges, pile, and infill',
-      'Professional seam re-bonding with high-temperature-rated adhesives and seaming tape',
-      'Commercial power brushing for pile restoration in matted and high-traffic areas',
-      'Infill replenishment with appropriate material to restore proper depth and coverage',
-      'Drainage testing and correction to eliminate water pooling',
-      'Edge and perimeter re-securing to prevent lifting and trip hazards',
-      'Detailed condition report with photographs and future maintenance recommendations',
-    ],
-    startingPrice: 129,
-    iconName: 'Wrench',
-    metaTitle: 'Artificial Turf Repair & Maintenance Services | Murphy\'s Turf Care',
-    metaDescription:
-      'Expert synthetic turf repair including seam fixes, pile restoration, infill replenishment, and drainage correction. Extend the life of your artificial turf in California. Starting at $129.',
-    faqs: [
-      {
-        question: 'How long do synthetic turf repairs typically take?',
-        answer:
-          'Most residential repairs are completed in two to four hours depending on the scope of work. Simple seam repairs and localized pile restoration can often be finished in under two hours. More extensive work involving multiple seam repairs, full-yard infill replenishment, or drainage corrections may require a half day. We provide a time estimate during your initial assessment so you can plan accordingly. The repaired areas are ready for normal use immediately in most cases.',
-      },
-      {
-        question: 'Can separated seams on artificial turf be permanently repaired?',
-        answer:
-          'Yes. Our seam repairs use professional-grade adhesives and seaming tape specifically rated for high-temperature environments — the same materials used during original installation by professional turf companies. When properly repaired with these commercial-grade materials, seams are as strong as or stronger than the original bond. We address the underlying cause of the separation as well, ensuring proper tension and alignment so the repair lasts through California\'s temperature cycling.',
-      },
-      {
-        question: 'When should I replace my artificial turf instead of repairing it?',
-        answer:
-          'Repair is almost always the more cost-effective option when the damage is localized — isolated seam separations, specific high-traffic areas with matted pile, depleted infill, or small tears and burns. Replacement becomes the better choice when damage is widespread, the turf backing has deteriorated significantly, UV degradation has made the fibers brittle across large areas, or the turf has exceeded its expected lifespan and multiple systems are failing simultaneously. Our honest assessment will tell you which option makes the most financial sense for your situation.',
-      },
-      {
-        question: 'How often should infill be replenished in artificial turf?',
-        answer:
-          'Infill naturally migrates and depletes over time through foot traffic, rain, wind, and maintenance activities. We recommend having infill levels assessed annually and replenished as needed — most residential installations require a top-up every two to three years. High-traffic areas, pet zones, and turf exposed to heavy wind may need more frequent replenishment. Maintaining proper infill depth is critical for drainage performance, fiber support, cushioning, and the overall longevity of your turf system.',
-      },
-    ],
-  },
-  {
-    slug: 'commercial-turf-cleaning',
-    name: 'Commercial Turf Cleaning',
-    shortDescription:
-      'Large-scale professional cleaning, sanitization, and maintenance programs for commercial artificial turf installations including dog parks, HOA common areas, sports facilities, and business properties.',
-    fullDescription: `Commercial properties with artificial turf face challenges that go far beyond what residential homeowners encounter. Higher foot traffic, stricter hygiene requirements, liability concerns, and vastly larger surface areas demand a fundamentally different approach to turf cleaning and maintenance — one that combines industrial-grade equipment, rigorous sanitization protocols, and reliable scheduling that businesses and property managers can depend on. Murphy's Turf Care has built a dedicated commercial division specifically to serve the unique needs of businesses, property management companies, municipalities, and organizations across Los Angeles, Murrieta and the Inland Empire, the Bay Area, and Sacramento.
-
-Dog parks and pet facilities represent the most demanding commercial turf environments we service. These high-use installations accumulate enormous volumes of pet waste from dozens or even hundreds of animals daily, creating extreme bacterial loads and odor concentrations that require aggressive, frequent treatment. Without professional maintenance on a regular schedule, dog park turf becomes a health hazard — breeding E. coli, Salmonella, Giardia, and other pathogens that can sicken both animals and the people who handle them. Our dog park cleaning protocol includes industrial-strength enzyme treatments, hospital-grade sanitization, and complete infill decontamination on a weekly or bi-weekly schedule that keeps these facilities safe and welcoming for the community.
-
-HOA common areas and apartment or condominium complexes need consistent maintenance to protect property values, satisfy residents, and meet the aesthetic standards that management companies require. We provide scheduled cleaning programs with detailed service documentation that property managers can share with boards and residents. Daycare centers and school play areas demand the highest level of sanitization because young children play directly on the surface and frequently put their hands in their mouths — our antimicrobial protocols for these facilities exceed standard cleaning and are designed to protect the most vulnerable users. Sports facilities, from practice fields to indoor training centers, require maintenance that preserves playing surface performance and safety while managing the bacteria and odor issues that come with heavy athletic use. Rooftop deck installations, restaurant patios, and hotel pool surrounds present their own unique challenges with food and beverage spills, sunscreen residue, and high guest turnover.
-
-Our commercial cleaning process utilizes larger equipment designed for efficiency on expansive surfaces — truck-mounted systems that deliver higher water volume, industrial power brushing units, and commercial-grade sanitizing and deodorizing agents applied at concentrations appropriate for high-use environments. We work during off-hours to minimize disruption to your business operations and can accommodate early morning, evening, and weekend scheduling. Every commercial client receives a customized maintenance plan, a dedicated account representative, and detailed service reports documenting the work performed at each visit — providing the documentation trail that property managers, business owners, and compliance officers need.`,
-    benefits: [
-      'Meets health code and hygiene compliance requirements for commercial facilities',
-      'Reduces liability exposure from unsanitized surfaces in public-use areas',
-      'Maintains property values and resident satisfaction for HOAs and multi-family communities',
-      'Flexible scheduled maintenance programs tailored to your facility\'s needs and traffic levels',
-      'Industrial-grade equipment and processes designed for large-area efficiency',
-      'Off-hours service availability to minimize disruption to business operations',
-      'Detailed service reports and documentation for management, boards, and compliance records',
-    ],
-    whatIncludes: [
-      'Comprehensive site assessment to determine cleaning scope and frequency requirements',
-      'Industrial-grade cleaning with truck-mounted equipment for large surface areas',
-      'Commercial-strength sanitization using hospital-grade antimicrobial agents',
-      'Complete odor elimination with enzyme treatments rated for high-volume pet use',
-      'Infill management including level assessment, redistribution, and replenishment',
-      'Drainage system inspection and performance verification',
-      'Customized maintenance schedule developed for your facility\'s specific usage patterns',
-      'Detailed service documentation with photos and condition reporting after each visit',
-    ],
-    startingPrice: 299,
-    iconName: 'Building2',
-    metaTitle: 'Commercial Artificial Turf Cleaning & Maintenance | Murphy\'s Turf Care',
-    metaDescription:
-      'Professional commercial turf cleaning for dog parks, HOAs, sports facilities, and businesses across California. Industrial-grade sanitization, scheduled maintenance, and service documentation. Starting at $299.',
-    faqs: [
-      {
-        question: 'Can you work around our business hours to minimize disruption?',
-        answer:
-          'Absolutely. We understand that commercial properties need cleaning performed with minimal impact on operations, tenants, and guests. We offer early morning, evening, and weekend scheduling to accommodate your facility\'s needs. For dog parks and public spaces, we can coordinate with management to schedule cleaning during low-traffic hours. Our commercial team is flexible and will work with you to find the optimal service window for your specific situation.',
-      },
-      {
-        question: 'How long does it take to clean a large commercial turf area?',
-        answer:
-          'Service time depends on the total area, the level of soiling, and the specific protocols required. As a general guide, a standard commercial cleaning for a 5,000 to 10,000 square foot area takes approximately three to five hours. Dog parks and pet facilities that require intensive enzyme treatment and sanitization may take longer. Our industrial-grade equipment is specifically designed for efficiency on large surfaces — we clean commercial areas significantly faster than residential-grade equipment could achieve while delivering superior results.',
-      },
-      {
-        question: 'Do you provide documentation for health compliance and property management?',
-        answer:
-          'Yes. Every commercial service visit includes detailed documentation — a service report describing the work performed, before-and-after photographs when requested, product safety data sheets for all agents used, and a signed completion record. This documentation supports health department compliance for dog parks and childcare facilities, satisfies HOA board reporting requirements, and provides the paper trail that property management companies need for their records and liability protection.',
-      },
-      {
-        question: 'What types of maintenance contracts do you offer for commercial clients?',
-        answer:
-          'We offer weekly, bi-weekly, monthly, and quarterly maintenance contracts depending on your facility type and usage levels. Dog parks and pet facilities typically require weekly service. HOA common areas and multi-family communities generally benefit from bi-weekly or monthly cleaning. Sports facilities and commercial properties are customized based on traffic and usage patterns. All contracts include priority scheduling, a dedicated account representative, volume pricing, and the flexibility to adjust frequency as your needs change. Contact us for a custom quote for your property in LA, Murrieta, the Bay Area, or Sacramento.',
-      },
-    ],
-  },
-  {
-    slug: 'turf-sanitization',
-    name: 'Anti-Bacterial Turf Treatment',
-    shortDescription:
-      'Hospital-grade antimicrobial treatment that kills 99.9% of bacteria, viruses, mold, and allergens living in your artificial turf, providing a safe and hygienic surface for families, pets, and athletes.',
-    fullDescription: `Your artificial turf may look perfectly green and clean from a distance, but the reality beneath the surface can be alarming. Synthetic turf harbors bacteria, viruses, mold, mildew, and allergens deep within its infill material and fiber structure — organisms that thrive in the warm, sometimes humid conditions found across California. The state's generally mild temperatures mean that harmful microorganisms remain active year-round rather than being killed off by hard freezes as they are in colder climates. This creates a persistent health risk that most turf owners are completely unaware of, particularly for the people most vulnerable to infection: young children who play on the surface and put their hands in their mouths, and pets whose entire bodies make contact with the turf.
-
-The specific health risks of unsanitized artificial turf are well documented. Pet waste introduces E. coli, Salmonella, Campylobacter, and parasites like Giardia into the turf system. Staph bacteria, including antibiotic-resistant MRSA, have been found on athletic turf surfaces where skin abrasions provide entry points for infection — a serious concern for sports facilities, training centers, and school athletic fields across Los Angeles, the Inland Empire, the Bay Area, and Sacramento. Mold and mildew proliferate in shaded areas and in turf that retains moisture, releasing spores that trigger allergic reactions and respiratory issues. Bird droppings, insect activity, and wind-borne contaminants add additional layers of microbial risk. All of these organisms colonize the infill material — the layer beneath the visible turf fibers — where they are protected from rain, UV light, and surface-level rinsing, allowing populations to grow unchecked until professional treatment intervenes.
-
-Murphy's Turf Care anti-bacterial treatment uses hospital-grade antimicrobial agents — the same class of disinfectants used in medical facilities, veterinary clinics, and food processing environments — applied with equipment and techniques specifically designed for artificial turf systems. Our process begins with a bacterial assessment to identify the types and concentrations of microorganisms present. We then apply our antimicrobial solution at concentrations that achieve verified 99.9% kill rates against bacteria, viruses, mold, and mildew. The treatment penetrates deep into the infill layer where microbial colonies actually reside, not just the visible surface. We follow with a targeted mold and mildew treatment for any areas showing fungal growth, and an allergen reduction application that neutralizes common triggers including pollen, dust mites, and mold spores trapped in the turf fibers. After a short drying period — typically one to two hours in California's sunny conditions — the turf is completely safe for children, pets, and barefoot use.
-
-This service is especially critical for homes with young children, multi-pet households, dog owners whose pets have compromised immune systems, sports fields and athletic training facilities, daycare centers and schools, and any property where people spend extended time in direct contact with the turf surface. We recommend anti-bacterial treatment quarterly for general residential use, monthly for homes with pets, and on a schedule determined by usage intensity for commercial and athletic facilities.`,
-    benefits: [
-      'Kills 99.9% of bacteria and viruses including E. coli, Staph, and Salmonella',
-      'Eliminates mold and mildew colonies that cause allergic reactions and respiratory issues',
-      'Reduces allergens including pollen, dust mites, and mold spores trapped in turf fibers',
-      'Completely safe for children, pets, and barefoot use after a short drying period',
-      'Protects against dangerous pathogens like MRSA on sports and athletic turf surfaces',
-      'Prevents biofilm buildup in infill that shelters and feeds microbial colonies',
-      'Provides peace of mind that your outdoor surface meets hospital-grade hygiene standards',
-    ],
-    whatIncludes: [
-      'Professional bacterial assessment to identify microorganism types and concentrations',
-      'Application of hospital-grade antimicrobial agents with verified 99.9% kill rates',
+      'Professional assessment to identify contamination and odor source areas',
+      'Application of proprietary OxyTurf disinfecting treatment to the full turf surface',
+      'Deep infill layer treatment to reach bacteria and odor compounds at their source',
       'Targeted mold and mildew treatment for affected and susceptible areas',
-      'UV-enhanced sanitization that leverages California sunlight for accelerated effectiveness',
-      'Allergen reduction treatment for pollen, dust mites, and trapped mold spores',
-      'Post-treatment sanitization verification to confirm microbial elimination',
+      'Odor neutralization using OxyTurf molecular breakdown technology',
+      'Post-treatment verification to confirm disinfection and odor elimination',
     ],
-    startingPrice: 89,
+    startingPrice: 0,
     iconName: 'ShieldCheck',
-    metaTitle: 'Anti-Bacterial Artificial Turf Sanitization | Murphy\'s Turf Care',
+    metaTitle: "Disinfect & Deodorize Artificial Turf | Murphy's Turf",
     metaDescription:
-      'Hospital-grade antimicrobial treatment for artificial turf. Kills 99.9% of bacteria, viruses, mold, and allergens. Safe for kids and pets. Serving California homes and businesses. Starting at $89.',
+      "Professional disinfecting and deodorizing for artificial turf powered by OxyTurf. Eliminate bacteria, odors, mold & mildew. Safe for kids and pets. Serving California.",
     faqs: [
       {
-        question: 'Is the anti-bacterial treatment safe for my children and pets?',
+        question: 'How often should I have my turf disinfected and deodorized?',
         answer:
-          'Yes, completely. While we use hospital-grade antimicrobial agents that are powerful enough to kill 99.9% of harmful microorganisms, these products are specifically selected for safety once the treatment has dried. After a drying period of one to two hours — which California\'s sunshine and warmth accelerate — the treated surface is safe for children, pets, and barefoot use. The antimicrobial agents bind to surfaces and break down harmful organisms without leaving toxic residues.',
+          'For general residential use without pets, quarterly disinfecting maintains a healthy surface. Homes with pets should schedule monthly treatments because animal waste continuously introduces new bacteria into the turf system. We will assess your specific situation and recommend the optimal frequency for your property.',
       },
       {
-        question: 'How often should I have my turf professionally sanitized?',
+        question: 'Is the OxyTurf treatment safe for my children and pets?',
         answer:
-          'For general residential use without pets, quarterly sanitization maintains a healthy surface. Homes with pets should schedule monthly treatments because animal waste continuously introduces new bacteria into the turf system. Sports fields and athletic facilities should be sanitized weekly to bi-weekly during active seasons depending on usage intensity. Daycare centers and schools should follow a monthly to bi-monthly schedule at minimum. We will assess your specific situation and recommend the optimal frequency for your property.',
+          'Yes, completely. Our OxyTurf product is specifically formulated to be safe for children, pets, and barefoot use once the treatment has dried. After a drying period of one to two hours — which California sunshine accelerates — the treated surface is completely safe for normal use. There is no lingering chemical odor or residue.',
       },
       {
-        question: 'What specific bacteria and pathogens does the treatment eliminate?',
+        question: 'Why doesn\'t rinsing my turf with water eliminate the smell?',
         answer:
-          'Our hospital-grade antimicrobial treatment is verified effective against a broad spectrum of harmful microorganisms including E. coli, Staphylococcus aureus (Staph), Salmonella, MRSA, Campylobacter, Listeria, and common cold and flu viruses. It also eliminates mold species including Aspergillus and Cladosporium, mildew, and reduces allergens from pollen and dust mites. The 99.9% kill rate applies across this full spectrum of pathogens when applied at our professional concentrations and contact times.',
+          'Water alone cannot dissolve uric acid crystals from pet urine or break down the organic compounds that cause persistent odors. These molecules bind to infill material and turf backing and can only be eliminated through a chemical breakdown process. Our OxyTurf treatment specifically targets these compounds, breaking them into harmless, odorless byproducts that rinse away completely.',
+      },
+    ],
+  },
+  {
+    slug: 'poop-scooping',
+    name: 'Poop Scooping & Removal',
+    shortDescription:
+      'Regular, reliable pet waste removal from your artificial turf. Our poop scooping service keeps your yard clean, hygienic, and odor-free between full cleaning appointments — because nobody wants to play on a surface contaminated with pet waste.',
+    fullDescription: `Pet waste on artificial turf is more than just an unpleasant nuisance — it is a genuine health hazard that worsens dramatically in California's warm climate. Dog feces contain harmful bacteria including E. coli, Salmonella, and parasites like Giardia that can sicken both humans and animals. On natural grass, some of these pathogens break down naturally over time with exposure to soil microorganisms. But artificial turf has no soil ecosystem to assist with decomposition. Instead, pet waste sits on or in the synthetic fibers, baking in the California sun and grinding deeper into the infill with every footstep. The result is a contaminated surface that poses real health risks to families and pets who spend time on it.
+
+Murphy's Turf poop scooping and removal service provides scheduled, thorough pet waste cleanup for artificial turf surfaces. Our technicians inspect the entire turf area, remove all visible waste, and treat affected areas to prevent bacterial contamination from spreading. This service is designed as a regular maintenance visit — weekly or bi-weekly schedules are most popular — that keeps your turf clean between comprehensive cleaning appointments. For multi-pet households and commercial properties like dog parks and pet daycares, consistent waste removal is the single most important step in maintaining a hygienic artificial turf surface.
+
+This service pairs perfectly with our OxyTurf disinfecting treatment for complete turf hygiene. Many of our clients across Huntington Beach, Murrieta, Martinez, and Sacramento combine regular poop scooping with monthly or quarterly OxyTurf treatments to maintain a consistently clean, safe outdoor environment. With 30+ years of cleaning and disinfecting experience, Murphy's Turf understands that the foundation of clean turf starts with regular waste removal.`,
+    benefits: [
+      'Removes all pet waste from the turf surface thoroughly and reliably',
+      'Prevents bacterial contamination from spreading through the infill layer',
+      'Eliminates the primary source of odor problems in pet-use turf areas',
+      'Reduces health risks from E. coli, Salmonella, and parasites in pet waste',
+      'Keeps your yard safe and clean for children, guests, and barefoot use',
+      'Convenient scheduled service — weekly or bi-weekly options available',
+      'Pairs perfectly with OxyTurf treatments for complete turf hygiene',
+    ],
+    whatIncludes: [
+      'Thorough inspection of the entire turf surface for pet waste',
+      'Complete removal and disposal of all pet feces',
+      'Spot treatment of affected areas to prevent contamination spread',
+      'Visual assessment of turf condition with notes on any concerns',
+      'Consistent, reliable scheduling — same day, same technician when possible',
+      'Service report confirming completion for property managers and HOAs',
+    ],
+    startingPrice: 0,
+    iconName: 'Droplets',
+    metaTitle: "Poop Scooping & Pet Waste Removal from Artificial Turf | Murphy's Turf",
+    metaDescription:
+      "Professional poop scooping and pet waste removal for artificial turf. Regular scheduled service keeps your turf clean and safe. Serving Huntington Beach, Murrieta, Bay Area & Sacramento.",
+    faqs: [
+      {
+        question: 'How often should I schedule poop scooping for my artificial turf?',
+        answer:
+          'For homes with one or two dogs, weekly service is our most popular option. Homes with three or more dogs benefit from twice-weekly visits. Commercial properties like dog parks and pet daycares may need daily service. The goal is to prevent waste from sitting on the turf long enough to contaminate the infill layer and create odor problems.',
       },
       {
-        question: 'How long after treatment before I can use the turf?',
+        question: 'Do I still need poop scooping if I pick up after my dog daily?',
         answer:
-          'The turf is safe for normal use once the treated surface has fully dried. In California\'s typical sunny conditions, this takes one to two hours. On overcast or cooler days, allow two to three hours. We always verify dryness before leaving your property and will advise you on the expected timeline based on current weather conditions. There is no lingering chemical odor or residue — the turf will feel and smell completely normal once dry.',
+          'Even diligent owners miss waste, especially in larger yards or when dogs use the same area repeatedly. Our technicians are trained to find and remove waste that is easy to overlook — partially decomposed material, waste in corners and edges, and residue left behind after pickup. Professional scooping ensures nothing is missed and includes spot treatment to prevent bacterial spread.',
+      },
+      {
+        question: 'Can poop scooping be combined with other services?',
+        answer:
+          'Absolutely. Many clients combine regular poop scooping with monthly or quarterly OxyTurf disinfecting treatments for a complete turf maintenance program. We also bundle poop scooping with periodic pet hair and debris removal for comprehensive maintenance. Ask about our maintenance plans for bundled pricing.',
+      },
+    ],
+  },
+  {
+    slug: 'oxyturf',
+    name: 'Powered By OxyTurf',
+    shortDescription:
+      'OxyTurf is our proprietary cleaning and disinfecting product — the foundation of every Murphy\'s Turf treatment. This advanced formula delivers deep sanitization, odor elimination, and fiber rejuvenation in a single application that is safe for children, pets, and the environment.',
+    fullDescription: `OxyTurf is the proprietary product that sets Murphy's Turf apart from every other artificial turf cleaning company in California. Developed from our 30+ years of cleaning and disinfecting experience, OxyTurf is an advanced formula specifically engineered for the unique challenges of synthetic turf maintenance. It is not a repurposed household cleaner or a generic disinfectant — it is a purpose-built product designed from the ground up to penetrate artificial turf infill, break down the organic compounds that cause odors, eliminate the bacteria and pathogens that create health risks, and leave turf fibers looking refreshed and vibrant.
+
+The science behind OxyTurf targets the specific problems that plague artificial turf in California's climate. Pet urine crystallizes into uric acid deposits deep in the infill — OxyTurf dissolves these crystals at the molecular level. Bacteria colonize the warm, protected environment within infill material — OxyTurf eliminates them on contact. Mold and mildew take hold in shaded or moisture-prone areas, especially in Bay Area communities like Martinez, Concord, and Walnut Creek — OxyTurf destroys fungal growth at the root. Organic debris decomposes in the heat of Murrieta, Sacramento, and Huntington Beach, producing foul odors — OxyTurf neutralizes these compounds rather than masking them.
+
+Every service Murphy's Turf performs is powered by OxyTurf. Whether you book pet hair and debris removal, blooming and de-compacting, disinfecting and deodorizing, or poop scooping, OxyTurf is part of the process. Our technicians apply OxyTurf using calibrated equipment that ensures complete coverage and proper penetration into the infill layer. The product is safe for children, pets, and the environment — your family can return to the turf as soon as it dries, typically within one to two hours. When you care about clean turf, call Murphy's Turf — and experience the OxyTurf difference that our clients across California rave about.`,
+    benefits: [
+      'Proprietary formula engineered specifically for artificial turf cleaning challenges',
+      'Dissolves uric acid crystals from pet urine at the molecular level',
+      'Eliminates bacteria, viruses, mold, and mildew on contact within the infill',
+      'Neutralizes odor-causing compounds — genuine elimination, not masking',
+      'Refreshes and rejuvenates turf fiber appearance and color vibrancy',
+      'Safe for children, pets, and the environment after a short drying period',
+      'Developed from 30+ years of professional cleaning and disinfecting experience',
+    ],
+    whatIncludes: [
+      'Professional-grade OxyTurf application using calibrated equipment',
+      'Complete coverage of all turf surfaces including edges and corners',
+      'Deep infill penetration for sanitization at the source of contamination',
+      'Molecular-level odor neutralization — not chemical masking',
+      'Fiber-safe formula that refreshes appearance without causing damage',
+      'Post-application drying guidance and re-entry timeline',
+    ],
+    startingPrice: 0,
+    iconName: 'Leaf',
+    metaTitle: "Powered By OxyTurf — Proprietary Turf Cleaning Product | Murphy's Turf",
+    metaDescription:
+      "OxyTurf is Murphy's Turf proprietary cleaning and disinfecting formula for artificial turf. Deep sanitization, odor elimination, and fiber rejuvenation. Safe for kids and pets. Call (951) 331-3300.",
+    faqs: [
+      {
+        question: 'What makes OxyTurf different from store-bought turf cleaners?',
+        answer:
+          'OxyTurf is a purpose-built formula developed from 30+ years of professional cleaning experience specifically for artificial turf. Retail products are typically general-purpose cleaners repurposed for turf use — they lack the infill penetration, uric acid dissolving capability, and bacterial elimination power that professional-grade treatment requires. OxyTurf was engineered from the ground up for the unique challenges of synthetic turf maintenance in California\'s climate.',
+      },
+      {
+        question: 'Is OxyTurf safe for my pets and children?',
+        answer:
+          'Yes, completely. OxyTurf is formulated to be safe for children, pets, and the environment. Once the treated surface has dried — typically one to two hours in California\'s sunny conditions — it is completely safe for barefoot use, pet contact, and normal play. There are no harsh chemical residues, volatile organic compounds, or synthetic fragrances left behind.',
+      },
+      {
+        question: 'Is OxyTurf included in all Murphy\'s Turf services?',
+        answer:
+          'Yes. OxyTurf is the foundation of every service we provide. Whether you book pet hair and debris removal, blooming and de-compacting, disinfecting and deodorizing, or poop scooping, OxyTurf is integrated into the process to ensure the highest level of cleanliness and sanitization with every visit.',
+      },
+      {
+        question: 'Can I purchase OxyTurf for DIY use?',
+        answer:
+          'OxyTurf is a professional-grade product that requires commercial application equipment for proper coverage and infill penetration. It is not available for retail purchase. The effectiveness of OxyTurf depends not just on the formula but on the calibrated application process our technicians use to ensure the product reaches every layer of your turf system.',
       },
     ],
   },

@@ -2,12 +2,6 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import {
-  Trash2,
-  Wind,
-  Sprout,
-  Droplets,
-  Bug,
-  CalendarDays,
   Check,
   ArrowRight,
   Phone,
@@ -18,14 +12,16 @@ import {
   TrendingUp,
   Zap,
   Leaf,
-  Sun,
-  Snowflake,
-  CloudRain,
   Recycle,
-  Target,
   Heart,
   Award,
   Sparkles,
+  Bug,
+  Droplets,
+  PawPrint,
+  Baby,
+  Timer,
+  TreePine,
   type LucideIcon,
 } from 'lucide-react';
 
@@ -60,10 +56,8 @@ interface RelatedService {
 interface ServiceData {
   name: string;
   slug: string;
-  icon: LucideIcon;
+  image: string;
   tagline: string;
-  price: number;
-  priceLabel?: string;
   metaDescription: string;
   descriptionParagraphs: string[];
   included: string[];
@@ -78,561 +72,459 @@ interface ServiceData {
 // ---------------------------------------------------------------------------
 
 const servicesData: Record<string, ServiceData> = {
-  'lawn-cleaning': {
-    name: 'Lawn Cleaning',
-    slug: 'lawn-cleaning',
-    icon: Trash2,
-    tagline: 'A fresh start for your California lawn',
-    price: 49,
+  'pet-hair-debris': {
+    name: 'Pet Hair & Debris Removal',
+    slug: 'pet-hair-debris',
+    image: '/images/services/debris-removal.png',
+    tagline: 'The essential first step to a clean, safe artificial turf',
     metaDescription:
-      "Professional lawn cleaning services in California. Murphy's Turf Care removes debris, dethatches, and deep cleans your turf to restore health and curb appeal throughout the year.",
+      "Professional pet hair and debris removal for artificial turf in Murrieta, CA. Murphy's Turf removes pet hair, waste, leaves, metal objects, and weeds from your synthetic lawn. Get a free quote.",
     descriptionParagraphs: [
-      "California lawns endure a lot. Between dry summers, Santa Ana winds, fallen leaves, and the steady accumulation of debris, your turf can end up buried under layers of organic matter that choke out new growth. Murphy's Turf Care professional lawn cleaning service is designed to tackle all of it, restoring your yard to a clean, healthy canvas that is ready to flourish during the growing season.",
-      "Our cleaning process goes far beyond raking leaves. We begin with a thorough surface debris removal, picking up branches, trash, animal waste, and anything else that has collected over the off-season. Next, we perform a power dethatching to strip away the dense mat of dead grass and roots sitting between the soil surface and the living blades. Thatch layers thicker than half an inch prevent water, oxygen, and fertilizer from reaching the root zone, so removing them is one of the single most impactful things you can do for your lawn.",
-      "Once the debris and thatch are cleared, we trim all lawn edges for a crisp, manicured look, inspect the surface grade for any low spots that could pool water, and apply a light mulching pass to return fine organic matter to the soil. Every job ends with a post-cleanup walk-through so you can see the results firsthand. Whether you are preparing for spring or recovering from a particularly rough season, our lawn cleaning service sets the stage for everything else your turf needs to succeed in California's climate.",
+      "All of our turf services begin with removing pet hair and waste along with any other debris such as leaves and branches. We will also run a magnet over the turf to remove any metal objects. After having removed the debris, we will use a de-weeding tool to get rid of any weeds from the edges and seams of your turf.",
+      "Pet hair and debris removal is the foundational step in every Murphy's Turf cleaning service, and for good reason. Over time, your artificial turf accumulates far more than meets the eye. Pet hair weaves itself into the turf fibers, fallen leaves decompose and create a layer of organic matter that promotes weed growth, and small metal objects like bottle caps, nails, or staples can become hidden hazards for bare feet and paws alike. In Murrieta and across the Inland Empire, the warm Southern California climate means your outdoor turf sees year-round use, which accelerates the buildup of hair, waste, and organic debris between the synthetic blades.",
+      "Our trained technicians use specialized tools designed specifically for synthetic turf surfaces. The process starts with a thorough visual inspection to identify problem areas, followed by systematic removal of all pet hair and solid waste from the entire turf surface. We then clear leaves, twigs, and any other organic debris that has settled into the fibers. A powerful magnet sweep follows to extract any metallic objects hidden within the infill — a step that is especially important for families with children who play on the turf. Finally, we use precision de-weeding tools to pull any weeds that have taken root along the edges and seams of your artificial lawn, where organic matter tends to collect and create ideal conditions for weed germination.",
+      "Regular debris removal prevents the cascade of problems that neglected turf faces: compacted infill, weed infestations, drainage issues, and unsanitary conditions for pets and children. By starting every service with this critical step, we ensure that any subsequent treatments — whether blooming, disinfecting, or deodorizing — can penetrate the turf properly and deliver maximum effectiveness. For homeowners in Murrieta, Temecula, Menifee, and surrounding communities, this service is the foundation of a healthy, beautiful artificial lawn that performs the way it was designed to.",
     ],
     included: [
-      'Complete surface debris removal',
-      'Power dethatching',
-      'Precision edge trimming',
-      'Leaf and pine needle cleanup',
-      'Surface grading inspection',
-      'Post-cleanup walk-through inspection',
-      'Fine mulching pass',
-      'Debris hauling and disposal',
+      'Pet hair removal',
+      'Pet waste cleanup',
+      'Leaf & branch clearing',
+      'Magnet sweep for metal objects',
+      'De-weeding edges and seams',
+      'Surface inspection',
     ],
     benefits: [
       {
         icon: Sparkles,
-        title: 'Instant Curb Appeal',
+        title: 'Cleaner Surface for Pets & Kids',
         description:
-          'A clean lawn is a beautiful lawn. Remove months of buildup and reveal the vibrant green underneath.',
+          'A thoroughly cleaned turf surface means a safer, more hygienic play area for your family and furry friends.',
+      },
+      {
+        icon: Leaf,
+        title: 'Prevents Weed Growth',
+        description:
+          'Removing organic debris and weeding seams stops weeds before they can establish and spread across your turf.',
+      },
+      {
+        icon: ShieldCheck,
+        title: 'Removes Hidden Hazards',
+        description:
+          'Our magnet sweep catches metal objects you cannot see, protecting bare feet and paws from injury.',
       },
       {
         icon: Zap,
-        title: 'Better Nutrient Absorption',
+        title: 'Prepares Turf for Deeper Treatments',
         description:
-          'Dethatching opens the soil surface so water, fertilizer, and oxygen can reach the roots where they matter.',
-      },
-      {
-        icon: ShieldCheck,
-        title: 'Disease Prevention',
-        description:
-          'Matted debris harbors fungal spores and pests. A thorough cleaning reduces the risk of lawn diseases.',
-      },
-      {
-        icon: TrendingUp,
-        title: 'Faster Spring Green-Up',
-        description:
-          'Lawns cleaned before the growing season green up faster and more evenly than those left untreated.',
+          'Clean turf allows disinfectants and deodorizers to penetrate the infill layer for maximum effectiveness.',
       },
     ],
     beforeAfter: [
       {
-        label: 'Spring Post-Winter Cleanup',
+        label: 'Pet Hair & Debris Cleanup',
         beforeColor: 'bg-brown/40',
         afterColor: 'bg-sage/50',
-        beforeCaption: 'Matted debris after snow melt',
-        afterCaption: 'Clean, dethatched, and edged',
+        beforeCaption: 'Matted pet hair and leaf debris in turf fibers',
+        afterCaption: 'Clean, debris-free turf surface',
       },
       {
-        label: 'Cottonwood Season Cleanup',
-        beforeColor: 'bg-cream-dark',
+        label: 'Edge De-Weeding',
+        beforeColor: 'bg-brown/30',
         afterColor: 'bg-sage/40',
-        beforeCaption: 'Cottonwood fluff covering lawn',
-        afterCaption: 'Pristine turf ready for summer',
+        beforeCaption: 'Weeds growing along turf seams and edges',
+        afterCaption: 'Clean edges after professional de-weeding',
       },
     ],
     faqs: [
       {
-        question: 'How often should I have my lawn professionally cleaned?',
+        question: 'How often should I have debris removed from my artificial turf?',
         answer:
-          'For most California properties, we recommend a thorough cleaning at least twice per year: once in early spring and again in late fall after the leaves have dropped. Properties surrounded by trees may benefit from an additional mid-summer cleaning.',
+          'For homes with pets, we recommend debris removal at least once a month. High-traffic areas or yards with multiple pets may benefit from bi-weekly service. Properties without pets that are surrounded by trees should schedule service every four to six weeks, especially during fall when leaf drop is heaviest.',
       },
       {
-        question: 'Is dethatching included in every lawn cleaning?',
+        question: 'Why do you use a magnet on the turf?',
         answer:
-          'Yes. Every lawn cleaning includes a power dethatching pass. If your thatch layer is unusually thick (over one inch), we may recommend a dedicated deep dethatching service for the best results.',
+          'Over time, small metal objects like nails, screws, bottle caps, and wire fragments can end up in your turf without you knowing. These items settle into the infill and become invisible but can cause cuts and injuries to bare feet, children, and pets. Our magnet sweep is a quick safety measure that catches these hidden hazards every time we service your turf.',
       },
       {
-        question: 'What do you do with the debris you collect?',
+        question: 'Can pet hair really damage artificial turf?',
         answer:
-          'All organic debris is hauled away and composted at a licensed facility. Non-organic waste is disposed of responsibly. Debris removal and disposal costs are included in our pricing with no hidden fees.',
+          'While pet hair will not damage the turf fibers themselves, accumulated hair traps moisture and organic matter that promotes bacterial growth and unpleasant odors. It can also contribute to infill compaction, which affects drainage. Regular removal keeps your turf hygienic and functioning properly.',
       },
       {
-        question: 'Can you clean artificial turf as well?',
+        question: 'Is debris removal included with other services?',
         answer:
-          'Absolutely. We offer specialized synthetic turf cleaning that includes brushing, sanitizing, and infill redistribution. Contact us for a separate quote tailored to artificial turf maintenance.',
+          'Yes. Pet hair and debris removal is the first step in every Murphy\'s Turf service. Whether you book blooming, disinfecting, or any other treatment, we always begin with a thorough debris removal to ensure the best possible results from the subsequent service.',
       },
     ],
     relatedServices: [
-      { name: 'Aeration', slug: 'aeration' },
-      { name: 'Seeding', slug: 'seeding' },
-      { name: 'Seasonal Maintenance', slug: 'seasonal-maintenance' },
+      { name: 'Blooming & De-Compacting', slug: 'blooming-decompacting' },
+      { name: 'Disinfect & Deodorize', slug: 'disinfect-deodorize' },
+      { name: 'Poop Scooping & Removal', slug: 'poop-scooping' },
     ],
   },
 
-  aeration: {
-    name: 'Aeration',
-    slug: 'aeration',
-    icon: Wind,
-    tagline: 'Break through compacted soil, unlock your lawn\'s potential',
-    price: 89,
+  'blooming-decompacting': {
+    name: 'Blooming & De-Compacting',
+    slug: 'blooming-decompacting',
+    image: '/images/services/blooming.png',
+    tagline: 'Bring your worn-out turf back to life',
     metaDescription:
-      "Core aeration services for California lawns. Murphy's Turf Care combats soil compaction so water, oxygen, and nutrients reach your lawn's root zone.",
+      "Professional turf blooming and de-compacting services in Murrieta, CA. Murphy's Turf restores matted, worn artificial grass to like-new condition with commercial-grade power brushing. Get a free quote.",
     descriptionParagraphs: [
-      "If you have lived in California for any amount of time, you already know the soil can be tough. Clay composition, foot traffic, and the natural settling that occurs over time leave many California lawns sitting on a near-impenetrable layer of compacted earth. When the soil is compacted, water runs off instead of soaking in, fertilizer sits on the surface instead of feeding roots, and grassroots struggle to expand. Core aeration is the single most effective remedy.",
-      "During a core aeration service, our commercial-grade aerators punch thousands of small plugs out of your lawn, each roughly three inches deep. These cores are left on the surface to break down naturally, returning nutrients to the soil while the holes they leave behind provide direct channels for air, water, and fertilizer to penetrate deep into the root zone. In California's climate, where intense sun and water conservation demands stress lawns, maximizing every drop of water and every ounce of nutrient is critical.",
-      "We begin every aeration job with a thorough soil assessment. We check moisture levels, identify areas of heavy compaction using a penetrometer, and map out any irrigation lines or utilities to avoid. After aerating, we provide detailed post-aeration watering guidance tailored to your specific soil conditions and the current season. For the best results, we strongly recommend pairing aeration with overseeding and fertilization, as the freshly opened soil creates ideal conditions for seed germination and nutrient uptake.",
+      "The purpose of re-blooming turf is to help bring back the life in your turf after having been worn out. Over time when your turf is being frequently walked on, it can cause the blades to become matted down. During this process we utilize our machines to clean-up and remove any caked debris from the fibers of the turf while also using them to fluff the turf blades and bring them back to life standing upright like natural grass would.",
+      "Artificial turf is engineered for durability, but it is not immune to the effects of daily use. In Murrieta and throughout the Inland Empire, where outdoor living spaces are used nearly year-round thanks to Southern California's mild climate, synthetic turf takes a beating. High-traffic pathways, play areas where kids run and tumble, and spots where pets repeatedly lounge all develop visible wear patterns over time. The turf blades flatten, the infill compacts, and what once looked like a lush green lawn starts to resemble a worn carpet. This is where Murphy's Turf blooming and de-compacting service makes a dramatic difference.",
+      "Our blooming process uses commercial-grade power brushing equipment specifically designed for synthetic turf. These machines work at the fiber level, lifting each blade back to its original upright position while simultaneously loosening and redistributing the infill material that has compacted beneath the surface. Compacted infill is one of the most common and overlooked problems with artificial turf — when the infill packs down, it reduces the turf's ability to drain properly, makes the surface feel harder underfoot, and accelerates blade matting. Our de-compacting process breaks up these compressed layers, restoring proper drainage and the soft, cushioned feel your turf had when it was first installed.",
+      "During the blooming service, we also extract caked-on debris that has worked its way deep into the turf fibers — material that standard raking or leaf blowing simply cannot reach. This deep cleaning component is what separates professional blooming from DIY brushing. After the service, we perform a full post-service inspection to ensure even infill distribution and consistent blade height across your entire turf area. Homeowners are consistently amazed at the transformation — turf that looked years past its prime suddenly looks freshly installed. For properties in Murrieta, Temecula, Wildomar, Lake Elsinore, and the surrounding communities, regular blooming extends the life of your artificial turf investment by years and keeps it looking its best through every season.",
     ],
     included: [
-      'Pre-aeration soil assessment',
-      'Full-lawn core aeration',
-      'Compaction mapping',
-      'Plug distribution and management',
-      'Soil moisture evaluation',
-      'Post-aeration watering guidance',
+      'Turf fiber assessment',
+      'Commercial-grade power brushing',
+      'Debris extraction from fibers',
+      'Blade fluffing and restoration',
+      'Infill redistribution',
+      'Post-service inspection',
     ],
     benefits: [
+      {
+        icon: Sparkles,
+        title: 'Turf Looks Like New',
+        description:
+          'Matted, worn blades are lifted back to their original upright position for a freshly installed appearance.',
+      },
       {
         icon: Droplets,
-        title: 'Improved Water Penetration',
+        title: 'Improved Drainage',
         description:
-          'Aeration holes allow water to soak deep into clay soil instead of pooling on the surface or running off.',
-      },
-      {
-        icon: TrendingUp,
-        title: 'Stronger Root Growth',
-        description:
-          'Loose soil lets roots expand freely, building a deeper, more resilient root system that handles drought better.',
-      },
-      {
-        icon: Leaf,
-        title: 'Enhanced Nutrient Uptake',
-        description:
-          'Fertilizer reaches the root zone directly through aeration channels instead of sitting on compacted soil.',
-      },
-      {
-        icon: ShieldCheck,
-        title: 'Reduced Thatch Buildup',
-        description:
-          'Core aeration introduces soil microbes to the thatch layer, accelerating its natural decomposition.',
-      },
-    ],
-    beforeAfter: [
-      {
-        label: 'Clay Soil Compaction Relief',
-        beforeColor: 'bg-brown/50',
-        afterColor: 'bg-sage/50',
-        beforeCaption: 'Compacted clay, water pooling',
-        afterCaption: 'Aerated lawn absorbing water freely',
-      },
-      {
-        label: 'Thin Lawn Recovery',
-        beforeColor: 'bg-brown/30',
-        afterColor: 'bg-sage/60',
-        beforeCaption: 'Sparse, stressed turf on hard soil',
-        afterCaption: 'Dense growth 6 weeks after aeration',
-      },
-    ],
-    faqs: [
-      {
-        question: 'When is the best time to aerate in California?',
-        answer:
-          'For warm-season grasses like Bermuda and St. Augustine, late spring through early summer is the ideal aeration window. For cool-season grasses like tall fescue, early fall is best. We do not recommend aerating during the peak heat of summer when lawns are already under stress.',
-      },
-      {
-        question: 'Should I pick up the soil plugs after aeration?',
-        answer:
-          'No. The plugs break down within one to two weeks and return valuable nutrients and microorganisms to the soil surface. Leaving them in place is an important part of the process.',
-      },
-      {
-        question: 'How often does my lawn need aeration?',
-        answer:
-          'Most California lawns benefit from aeration once per year. High-traffic areas, heavy clay soils, or lawns that feel spongy from thatch buildup may benefit from twice-annual aeration in both spring and fall.',
-      },
-      {
-        question: 'Can I mow right after aeration?',
-        answer:
-          'We recommend waiting at least two to three days before mowing after aeration. This gives the soil plugs time to begin breaking down and ensures the aeration holes remain open to receive water and nutrients.',
-      },
-    ],
-    relatedServices: [
-      { name: 'Seeding', slug: 'seeding' },
-      { name: 'Fertilization', slug: 'fertilization' },
-      { name: 'Lawn Cleaning', slug: 'lawn-cleaning' },
-    ],
-  },
-
-  seeding: {
-    name: 'Seeding',
-    slug: 'seeding',
-    icon: Sprout,
-    tagline: 'Establish a lush, drought-resistant California lawn',
-    price: 129,
-    metaDescription:
-      "Professional overseeding and new lawn establishment in California. Murphy's Turf Care uses drought-resistant grass varieties perfectly adapted to California's soil and climate.",
-    descriptionParagraphs: [
-      "Building a thick, healthy lawn in California requires more than scattering seed and hoping for the best. The combination of intense sun, water conservation demands, varied soil types, and warm temperatures means only certain grass varieties can truly thrive. Murphy's Turf Care seeding service takes the guesswork out of the equation by selecting, preparing, and planting the exact seed blend your property needs to develop a dense, drought-resistant lawn that stands up to California's demanding conditions.",
-      "We offer both overseeding for established lawns that have thinned out and full new lawn establishment for bare or severely damaged areas. Every seeding project starts with a soil test to determine pH, nutrient levels, and organic matter content. Based on the results, we select a custom seed blend from proven California performers, including Bermuda grass for its heat tolerance and durability, tall fescue for deep roots and drought tolerance, and St. Augustine for lush, shade-friendly coverage. Seed is applied with precision calibrated equipment to ensure even distribution at the optimal rate.",
-      "Proper seedbed preparation is just as important as the seed itself. We prepare the soil surface by removing debris, lightly raking or aerating to create seed-to-soil contact, and applying a starter fertilizer that promotes rapid root development without burning tender new seedlings. After planting, you receive a detailed watering schedule customized for your soil type and the current weather patterns. We also offer follow-up germination monitoring visits to catch any issues early, ensuring your investment takes root and fills in beautifully.",
-    ],
-    included: [
-      'Comprehensive soil testing',
-      'Custom seed blend selection',
-      'Seedbed preparation and grading',
-      'Precision calibrated overseeding',
-      'Starter fertilizer application',
-      'Customized watering schedule',
-      'Germination monitoring visits',
-    ],
-    benefits: [
-      {
-        icon: Sun,
-        title: 'Drought Resistance',
-        description:
-          'California-adapted grass varieties develop deep root systems that survive dry spells and watering restrictions.',
-      },
-      {
-        icon: Target,
-        title: 'Weed Suppression',
-        description:
-          'A thick, dense lawn is the best defense against weeds. Overseeding fills thin spots before weeds can colonize.',
+          'De-compacting the infill restores proper water flow, preventing puddles and standing water after rain or irrigation.',
       },
       {
         icon: ThumbsUp,
-        title: 'Self-Repairing Turf',
+        title: 'More Comfortable Underfoot',
         description:
-          'Kentucky bluegrass spreads via stolons, naturally filling in small bare patches and wear areas over time.',
-      },
-      {
-        icon: Award,
-        title: 'Increased Property Value',
-        description:
-          'A lush, well-established lawn boosts curb appeal and can increase property value by up to 15 percent.',
-      },
-    ],
-    beforeAfter: [
-      {
-        label: 'Thin Lawn Overseeding',
-        beforeColor: 'bg-brown/30',
-        afterColor: 'bg-sage/60',
-        beforeCaption: 'Patchy, thin turf with bare spots',
-        afterCaption: 'Thick, uniform coverage after overseeding',
-      },
-      {
-        label: 'New Lawn Establishment',
-        beforeColor: 'bg-brown/60',
-        afterColor: 'bg-sage/50',
-        beforeCaption: 'Bare soil after construction',
-        afterCaption: 'Fully established lawn at 8 weeks',
-      },
-    ],
-    faqs: [
-      {
-        question: 'What grass types do you recommend for California?',
-        answer:
-          'For most California properties, we recommend Bermuda grass for sunny areas and tall fescue for a blend of sun and shade tolerance. This combination provides durability with deep-rooted drought tolerance. For low-water areas, native grasses and drought-tolerant varieties are excellent options that require minimal irrigation once established.',
-      },
-      {
-        question: 'When is the best time to seed in California?',
-        answer:
-          'For warm-season grasses like Bermuda, late spring through early summer is the prime seeding window. For cool-season grasses like tall fescue, early fall (September through October) is ideal as soil temperatures are warm enough for germination while cooler air temperatures reduce stress on young seedlings.',
-      },
-      {
-        question: 'How long until I can walk on my newly seeded lawn?',
-        answer:
-          'We recommend keeping foot traffic off newly seeded areas for at least four to six weeks, or until the grass has been mowed twice. Young seedlings are fragile and can be pulled out of the soil easily before their roots are established.',
-      },
-      {
-        question: 'Do I really need a soil test before seeding?',
-        answer:
-          'Yes, and here is why. California soils vary widely from region to region, and many areas have alkaline or clay-heavy soils that can lock out key nutrients like iron and phosphorus. A soil test lets us amend the soil and select seed varieties that perform well in your specific conditions, dramatically improving germination rates and long-term lawn health.',
-      },
-    ],
-    relatedServices: [
-      { name: 'Aeration', slug: 'aeration' },
-      { name: 'Fertilization', slug: 'fertilization' },
-      { name: 'Seasonal Maintenance', slug: 'seasonal-maintenance' },
-    ],
-  },
-
-  fertilization: {
-    name: 'Fertilization',
-    slug: 'fertilization',
-    icon: Droplets,
-    tagline: 'Custom nutrient programs for California\'s varied soil',
-    price: 59,
-    metaDescription:
-      "Custom lawn fertilization programs for California's varied soil. Murphy's Turf Care uses slow-release formulas and seasonal timing to deliver the right nutrients at the right time.",
-    descriptionParagraphs: [
-      "California soil varies widely by region, but many areas struggle with the nutrients your lawn needs to thrive. Many California soils can be alkaline or clay-heavy, making essential micronutrients like iron, manganese, and zinc chemically locked in the soil and unavailable to grass roots, even when they are technically present. The result is yellowing turf, stunted growth, and a lawn that never quite reaches its potential despite your best efforts. Murphy's Turf Care fertilization service solves this problem with science-backed, custom nutrient programs designed specifically for the soils and growing conditions across California.",
-      "We do not believe in one-size-fits-all fertilizer. Every program begins with a soil pH test so we know exactly what your lawn is working with. From there, we formulate a custom blend of macronutrients (nitrogen, phosphorus, and potassium) and targeted micronutrients (iron, sulfur, and manganese are the most common California deficiencies) delivered in a slow-release granular format. Slow-release formulas feed your lawn gradually over six to eight weeks, preventing the surge-and-crash cycle that comes with cheap, fast-release products. This means steadier growth, less mowing, and a deeper green that lasts.",
-      "Timing matters as much as the formula itself. We build a seasonal fertilization schedule that aligns with your lawn's natural growth cycle: a light feeding in early spring to break dormancy, a heavier application in late spring for peak growth, a maintenance round in summer focused on stress tolerance, and a winterizer application in late fall to build root reserves for the cold months ahead. Each visit also includes a pre-emergent or post-emergent weed prevention treatment, so your fertilization program pulls double duty keeping weeds at bay while feeding your turf.",
-    ],
-    included: [
-      'Soil pH and nutrient testing',
-      'Custom nutrient blend formulation',
-      'Professional slow-release application',
-      'Seasonal fertilization schedule (4-5 rounds)',
-      'Pre-emergent weed prevention',
-      'Micronutrient supplementation (iron, sulfur, manganese)',
-    ],
-    benefits: [
-      {
-        icon: Leaf,
-        title: 'Deeper, Richer Green',
-        description:
-          'Targeted iron and nitrogen applications produce a dark green color that lasts weeks, not days.',
-      },
-      {
-        icon: ShieldCheck,
-        title: 'Weed Prevention',
-        description:
-          'Every fertilization visit includes weed control treatments, giving you a one-two punch in a single service.',
+          'Loosened infill and upright blades restore the soft, cushioned feel your turf had on day one.',
       },
       {
         icon: TrendingUp,
-        title: 'Stronger Root System',
+        title: 'Extends Turf Lifespan',
         description:
-          'Slow-release feeding encourages deep root development that improves drought tolerance and winter hardiness.',
-      },
-      {
-        icon: Recycle,
-        title: 'Environmentally Responsible',
-        description:
-          'Slow-release formulas minimize nutrient runoff, protecting California waterways and the local ecosystem.',
+          'Regular blooming prevents permanent fiber damage from prolonged matting, adding years to your turf investment.',
       },
     ],
     beforeAfter: [
       {
-        label: 'Iron Deficiency Correction',
-        beforeColor: 'bg-yellow-200/60',
-        afterColor: 'bg-sage/60',
-        beforeCaption: 'Yellowing turf from iron chlorosis',
-        afterCaption: 'Rich green after custom iron treatment',
+        label: 'High-Traffic Area Restoration',
+        beforeColor: 'bg-brown/40',
+        afterColor: 'bg-sage/50',
+        beforeCaption: 'Matted, flattened turf blades from daily foot traffic',
+        afterCaption: 'Upright, fluffy blades after professional blooming',
       },
       {
-        label: 'Full-Season Fertilization Program',
+        label: 'Pet Lounge Spot Revival',
         beforeColor: 'bg-brown/30',
-        afterColor: 'bg-sage/50',
-        beforeCaption: 'Thin, pale lawn at season start',
-        afterCaption: 'Dense, vibrant turf after 4 rounds',
+        afterColor: 'bg-sage/60',
+        beforeCaption: 'Compressed turf where pets rest daily',
+        afterCaption: 'Fully restored turf with even infill distribution',
       },
     ],
     faqs: [
       {
-        question: 'How many fertilizer applications does my lawn need per year?',
+        question: 'How often does my artificial turf need blooming?',
         answer:
-          'Most California lawns perform best with four to five applications per year, spaced roughly six to eight weeks apart from early April through late October. Our seasonal schedule is designed to match your lawn type and local growing conditions.',
+          'For most residential properties, we recommend blooming every three to six months depending on foot traffic levels. Yards with heavy pet or child use may benefit from quarterly blooming, while lightly used decorative turf areas may only need it once or twice a year. During your service, our technicians will assess your turf and recommend the ideal schedule.',
       },
       {
-        question: 'Is your fertilizer safe for kids and pets?',
+        question: 'Will the power brushing damage my turf?',
         answer:
-          'Yes. We use professional-grade, slow-release granular fertilizers that are safe for children and pets once watered in and dry, typically within two to four hours of application. We always notify you of any specific re-entry guidelines after each visit.',
+          'No. Our commercial-grade equipment is specifically designed for synthetic turf and operates at carefully calibrated settings that lift and restore fibers without causing damage. In fact, regular blooming actually protects your turf by preventing the kind of prolonged matting that can lead to permanent fiber memory — where blades lose the ability to stand upright at all.',
       },
       {
-        question: 'Why is my lawn yellow even though I fertilize it myself?',
+        question: 'What is the difference between blooming and just raking my turf?',
         answer:
-          'Yellowing despite fertilization is almost always caused by iron chlorosis, which is common in many California soils. Standard store-bought fertilizers rarely contain enough iron or the right form of iron to correct this. Our custom blends include chelated iron specifically formulated for high-pH soil.',
+          'Manual raking only addresses the surface level and can actually push debris deeper into the infill. Our commercial power brushing works at the fiber level, extracting embedded debris, loosening compacted infill, and lifting individual blades from the base. The results are dramatically more thorough and longer-lasting than anything achievable with a rake or push broom.',
       },
       {
-        question: 'Do you offer organic fertilization options?',
+        question: 'Can blooming fix turf that has been neglected for years?',
         answer:
-          'We do. Our organic program uses natural nutrient sources such as composted poultry litter, bone meal, and kelp extract. While organic programs take slightly longer to show results, they build long-term soil health and microbial activity that pays dividends over time.',
+          'In most cases, yes. We have restored turf that has gone years without maintenance back to near-original condition. However, turf that has been severely neglected may have some permanent fiber memory in the most heavily worn areas. The sooner you start regular blooming, the better the long-term results. Contact us for a free assessment and we will give you an honest evaluation of what to expect.',
       },
     ],
     relatedServices: [
-      { name: 'Aeration', slug: 'aeration' },
-      { name: 'Pest Control', slug: 'pest-control' },
-      { name: 'Seasonal Maintenance', slug: 'seasonal-maintenance' },
+      { name: 'Pet Hair & Debris Removal', slug: 'pet-hair-debris' },
+      { name: 'Disinfect & Deodorize', slug: 'disinfect-deodorize' },
+      { name: 'Powered By OxyTurf', slug: 'oxyturf' },
     ],
   },
 
-  'pest-control': {
-    name: 'Pest Control',
-    slug: 'pest-control',
-    icon: Bug,
-    tagline: 'Protect your lawn with eco-friendly, targeted treatments',
-    price: 79,
+  'disinfect-deodorize': {
+    name: 'Disinfect & Deodorize',
+    slug: 'disinfect-deodorize',
+    image: '/images/services/oxyturf-spray.jpg',
+    tagline: 'Kill 99.9% of bacteria and eliminate odors at the source',
     metaDescription:
-      "Eco-friendly lawn pest control for California properties. Murphy's Turf Care uses integrated pest management to eliminate grubs, chinch bugs, and sod webworms while protecting beneficial insects.",
+      "Professional artificial turf disinfecting and deodorizing in Murrieta, CA. Murphy's Turf uses OxyTurf to kill 99.9% of bacteria and eliminate pet odors without harsh chemicals. Get a free quote.",
     descriptionParagraphs: [
-      "A beautiful lawn can be destroyed in a matter of weeks by pests you never even see. Below the surface, white grubs, the larval stage of Japanese beetles and masked chafers, feed on grass roots until entire sections of turf can be peeled back like a carpet. On the surface, chinch bugs drain the sap from grass blades, leaving behind expanding patches of brown, dead turf that are often mistaken for drought damage. And at night, sod webworms chew through grass blades close to the soil line, leaving ragged, thinning areas that get worse with every passing day. Murphy's Turf Care pest control service identifies and eliminates these threats using an integrated pest management approach that is effective, targeted, and environmentally responsible.",
-      "Integrated pest management, or IPM, means we do not blanket your entire property with chemicals and call it a day. Instead, we start with a thorough inspection to identify exactly which pests are present, where they are concentrated, and how severe the infestation is. We pull soil samples, examine damaged turf under magnification, and look for telltale signs like grub castings, webworm frass, or chinch bug feeding patterns. Only after we have a clear diagnosis do we apply treatment, and we target it precisely where it is needed. This approach uses less product, costs less, and protects the beneficial insects like earthworms and pollinators that keep your lawn ecosystem healthy.",
-      "For homeowners who prefer a fully natural approach, we offer organic pest control options that rely on biological controls like beneficial nematodes for grubs, Bt (Bacillus thuringiensis) for webworms, and neem-based products for surface feeders. Regardless of the treatment path you choose, every pest control service includes a follow-up inspection two to three weeks after application to verify that the treatment is working and no additional action is needed. We also provide preventive barrier treatments that discourage pests from returning, keeping your lawn protected all season long.",
+      "Our disinfecting and deodorizing turf services consist of power-spraying OxyTurf. OxyTurf is designed to perform as a cleaner, disinfectant, & deodorizer. It cuts past the top synthetic turf layer, into the infill where bacteria & viruses live, and attacks the contaminants at their source. OxyTurf will penetrate the synthetic turf, clean & kill 99.9% of germs & bacteria in just minutes, all without any hazardous chemicals.",
+      "If you have pets — or even if you do not — your artificial turf is harboring more bacteria than you might realize. Every time a dog urinates on synthetic turf, the liquid passes through the blades and settles into the infill layer below. In Murrieta's warm Southern California climate, heat accelerates bacterial growth and amplifies odors, turning a minor issue into a persistent problem that surface-level rinsing cannot solve. Bacteria, viruses, and the ammonia compounds from pet urine thrive in the warm, moist environment beneath your turf's surface, and no amount of hosing down the top layer will reach them. That is exactly why Murphy's Turf relies on OxyTurf — a professional-grade solution specifically formulated to penetrate past the surface and attack contaminants where they actually live.",
+      "The OxyTurf power-spray process is thorough and systematic. Our technicians apply OxyTurf across the entire turf surface using commercial spraying equipment that ensures complete, even coverage. The solution is designed to cut through the synthetic turf layer and soak into the infill, where it goes to work immediately — killing 99.9% of germs and bacteria in just minutes. Unlike household cleaners or DIY solutions, OxyTurf does not simply mask odors. It neutralizes the bacterial source of the smell, replacing it with a clean, fresh grass scent. The result is turf that does not just smell better for a day or two — it stays fresh because the underlying cause of the odor has been eliminated.",
+      "What makes OxyTurf stand out from other turf cleaners is what it does not contain. OxyTurf uses stabilized accelerated hydrogen peroxide as its active ingredient, which means no bleach, no ammonia, and no harsh chemical residues. Many competing turf cleaners rely on bleach or ammonia-based formulas that can irritate skin, weaken turf fibers over time, and leave behind chemical odors that are unpleasant for both people and pets. With OxyTurf, your turf is safe for pets and children to use as soon as it dries — typically within 30 to 60 minutes depending on weather conditions. For families in Murrieta, Temecula, and throughout the Inland Empire who want a genuinely clean and safe outdoor surface, our disinfect and deodorize service delivers peace of mind along with a dramatically fresher yard.",
     ],
     included: [
-      'Comprehensive pest identification and diagnosis',
-      'Targeted treatment application',
-      'Preventive perimeter barrier treatment',
-      'Follow-up inspection (2-3 weeks post-treatment)',
-      'Organic and biological treatment options',
-      'Integrated weed management',
+      'Full-surface OxyTurf power spray',
+      'Infill-level sanitization',
+      'Odor neutralization',
+      'Bacteria elimination (99.9%)',
+      'Safe for immediate pet/child use after drying',
     ],
     benefits: [
       {
-        icon: Target,
-        title: 'Precision Targeting',
+        icon: Bug,
+        title: 'Eliminates Pet Urine Smell',
         description:
-          'We treat the pests that are actually present rather than applying broad-spectrum chemicals to the entire lawn.',
-      },
-      {
-        icon: Recycle,
-        title: 'Eco-Friendly Methods',
-        description:
-          'Our IPM approach minimizes chemical use and protects pollinators, earthworms, and beneficial soil organisms.',
+          'OxyTurf neutralizes the bacterial source of odor deep in the infill, not just the surface symptoms.',
       },
       {
         icon: ShieldCheck,
-        title: 'Season-Long Protection',
+        title: 'Kills Bacteria at the Source',
         description:
-          'Preventive barrier treatments keep pests from returning, reducing the need for reactive treatments later.',
+          'Penetrates past the turf surface to the infill layer where 99.9% of germs and bacteria are eliminated in minutes.',
       },
       {
         icon: Heart,
-        title: 'Safe for Families',
+        title: 'No Harsh Chemical Residue',
         description:
-          'Our products and methods are selected with safety in mind. We offer fully organic options for the most sensitive properties.',
+          'Stabilized hydrogen peroxide means no bleach, no ammonia, and no skin-irritating residues left behind.',
+      },
+      {
+        icon: TreePine,
+        title: 'Fresh Grass Scent',
+        description:
+          'After treatment, your artificial turf smells like fresh-cut natural grass instead of chemicals or pet waste.',
       },
     ],
     beforeAfter: [
       {
-        label: 'Grub Damage Restoration',
-        beforeColor: 'bg-brown/50',
+        label: 'Pet Odor Elimination',
+        beforeColor: 'bg-brown/40',
         afterColor: 'bg-sage/50',
-        beforeCaption: 'Turf peeling from grub root damage',
-        afterCaption: 'Healthy recovery after grub treatment',
+        beforeCaption: 'Turf with persistent pet urine odor',
+        afterCaption: 'Fresh, odor-free surface after OxyTurf treatment',
       },
       {
-        label: 'Chinch Bug Treatment',
-        beforeColor: 'bg-yellow-700/30',
-        afterColor: 'bg-sage/40',
-        beforeCaption: 'Brown patches from chinch bug feeding',
-        afterCaption: 'Full recovery 4 weeks post-treatment',
+        label: 'Full-Surface Sanitization',
+        beforeColor: 'bg-brown/30',
+        afterColor: 'bg-sage/60',
+        beforeCaption: 'Bacteria-laden infill from pet use',
+        afterCaption: '99.9% bacteria eliminated, safe for family use',
       },
     ],
     faqs: [
       {
-        question: 'How do I know if I have grubs in my lawn?',
+        question: 'How soon can my pets and kids use the turf after treatment?',
         answer:
-          'The classic sign of a grub infestation is turf that feels spongy underfoot and can be rolled back from the soil. You may also notice increased activity from skunks, raccoons, or birds digging in your lawn, as these animals feed on grubs. If you suspect grubs, we can confirm with a quick soil pull to check larval counts.',
+          'Your turf is safe for pets and children as soon as it dries, which typically takes 30 to 60 minutes depending on temperature, humidity, and sun exposure. OxyTurf contains no bleach or ammonia, so there are no harmful residues to worry about once the surface is dry.',
       },
       {
-        question: 'Are your pest control products safe for pets?',
+        question: 'How often should I have my turf disinfected and deodorized?',
         answer:
-          'Yes. All products we use are EPA-registered and labeled for residential use. We recommend keeping pets off treated areas until the product has dried, usually two to four hours. Our organic treatment options are an excellent choice for households with pets who spend a lot of time on the lawn.',
+          'For homes with pets, we recommend treatment every four to six weeks to stay ahead of bacterial buildup and odor. Properties without pets that use their turf primarily for entertaining or play areas can typically go eight to twelve weeks between treatments. Our team will recommend a schedule based on your specific usage patterns.',
       },
       {
-        question: 'When should I treat for grubs in California?',
+        question: 'Will OxyTurf damage or discolor my artificial turf?',
         answer:
-          'Preventive grub treatments are most effective when applied in June or early July, before eggs hatch and larvae begin feeding. Curative treatments for active infestations work best in August and September when grubs are small and close to the surface. Fall grubs that have grown large are much harder to control.',
+          'No. OxyTurf is specifically formulated for synthetic turf and will not damage, discolor, or weaken your turf fibers. Unlike bleach-based cleaners that can fade turf color and break down fibers over time, OxyTurf uses stabilized accelerated hydrogen peroxide that is tough on bacteria but gentle on your turf investment.',
       },
       {
-        question: 'Do you treat for lawn weeds as part of pest control?',
+        question: 'Can I just hose down my turf to remove pet odors?',
         answer:
-          'Yes. Our pest control service includes integrated weed management because weeds often proliferate in areas where pests have weakened the turf. We address both problems simultaneously so your lawn recovers faster and more completely.',
+          'Water alone cannot eliminate pet urine odor because the bacteria that cause the smell live deep in the infill layer, not on the surface. Hosing may temporarily dilute surface-level odor, but it does not kill the bacteria at the source. OxyTurf penetrates into the infill to eliminate contaminants where they actually live, providing lasting results rather than a temporary rinse.',
       },
     ],
     relatedServices: [
-      { name: 'Fertilization', slug: 'fertilization' },
-      { name: 'Lawn Cleaning', slug: 'lawn-cleaning' },
-      { name: 'Seasonal Maintenance', slug: 'seasonal-maintenance' },
+      { name: 'Poop Scooping & Removal', slug: 'poop-scooping' },
+      { name: 'Pet Hair & Debris Removal', slug: 'pet-hair-debris' },
+      { name: 'Powered By OxyTurf', slug: 'oxyturf' },
     ],
   },
 
-  'seasonal-maintenance': {
-    name: 'Seasonal Maintenance',
-    slug: 'seasonal-maintenance',
-    icon: CalendarDays,
-    tagline: 'Year-round professional care, one simple plan',
-    price: 199,
-    priceLabel: '/month',
+  'poop-scooping': {
+    name: 'Poop Scooping & Removal',
+    slug: 'poop-scooping',
+    image: '/images/services/poop-scooping.jpg',
+    tagline: 'Keep your yard clean so you can enjoy time with your pets',
     metaDescription:
-      "Year-round lawn care maintenance programs for California homeowners. Murphy's Turf Care handles spring cleanup, summer watering, fall aeration, and seasonal prep so you don't have to.",
+      "Professional poop scooping and pet waste removal for artificial turf in Murrieta, CA. Murphy's Turf offers flexible weekly and daily plans to keep your yard clean and safe. Get a free quote.",
     descriptionParagraphs: [
-      "California's climate presents unique year-round challenges for your lawn. Spring brings rapid growth, compacted soil, and a rush of weed germination. Summer delivers scorching sun, watering restrictions, and heat stress. Fall is prime time for aeration and overseeding but also the season when cooler temperatures can invite fungal issues. And winter, while milder than other states, can still bring dormancy and damage if lawns are not properly maintained. Managing all of this on your own requires knowledge, equipment, and a time commitment that most homeowners simply cannot sustain. That is where our Seasonal Maintenance program comes in.",
-      "Murphy's Turf Care Seasonal Maintenance is a comprehensive, year-round lawn care plan that covers every service your turf needs, when it needs it, for a single predictable monthly fee. In spring, we handle post-winter cleanup, early fertilization, and pre-emergent weed control. Summer brings mowing height guidance, irrigation system auditing, and targeted pest treatments. Fall is dedicated to core aeration, overseeding, winterizer fertilization, and leaf removal. And in late fall and early winter, we apply snow mold prevention treatments and prepare your lawn to weather the cold months ahead. Every visit is performed by the same experienced crew, so we know your property intimately and can spot emerging issues before they become expensive problems.",
-      "This program is not just about convenience, although it is certainly that. It is about results. Lawns on a year-round maintenance plan consistently outperform lawns that receive sporadic, reactive care. Regular, proactive treatment builds cumulative health in the soil, the root system, and the turf canopy that makes your lawn more resistant to drought, disease, pests, and extreme weather. Our seasonal maintenance clients typically see a noticeable improvement in lawn density and color within the first year, and by year two, their lawns are the envy of the neighborhood. The program includes an annual soil test so we can fine-tune every treatment to your property's evolving needs.",
+      "It's important that we clean-up after our pets as their waste is not only an unruly sight but also harmful to the environment and people around you. Surprisingly, according to the EPA, pet waste is very toxic and is even a polluter within the same category as oil. Pet waste when not properly disposed can contain a vast array of different bacteria and parasites that can not only make people sick but even your own pet as well. In terms of how often you should pick up poop is based on how many dogs you have. With one it could be doable to do it once a week but if you have multiple it may be necessary to do it once a day. We understand that some people are too busy to deal with the poo and much rather spend their time playing with them than picking up after them. That's why we decided to provide several service plans dedicated to waste removal so you can keep your yard looking fresh while saving more time to spend with your fluffy friends.",
+      "Pet waste on artificial turf presents a unique set of challenges that natural grass does not face. On a natural lawn, rain and soil microbes eventually break down waste over time — though the health risks remain. On synthetic turf, pet waste sits on or within the infill layer with nowhere to go. In Murrieta's warm climate, the heat accelerates decomposition and bacterial growth, intensifying odors and creating an increasingly unsanitary environment with each passing day. The bacteria and parasites found in pet waste — including E. coli, salmonella, giardia, roundworms, and hookworms — can survive in your turf for weeks or even months, posing a genuine health risk to your family, your pets, and even your neighbors.",
+      "Murphy's Turf poop scooping and removal service takes this chore completely off your plate. Our technicians arrive on your scheduled day, systematically walk your entire turf area, and remove all pet waste from the surface. After removal, we sanitize the areas where waste was found to reduce bacterial contamination and keep your turf hygienic between full disinfecting treatments. All waste is bagged and disposed of properly — you never have to deal with it. We offer flexible scheduling that adapts to your household's needs, whether that means weekly visits for a single-dog home or daily service for multi-pet families.",
+      "Beyond the obvious convenience factor, regular professional waste removal protects your turf investment. Pet waste that sits on artificial turf can stain the fibers, accelerate infill breakdown, and create persistent odor problems that become increasingly difficult to resolve the longer they are left untreated. Our scheduled removal service prevents these issues from developing in the first place, keeping your turf in top condition between deeper cleaning treatments. For busy pet owners in Murrieta, Temecula, Menifee, Winchester, and the surrounding Inland Empire communities, our poop scooping service means you get to spend your time enjoying your pets instead of cleaning up after them.",
     ],
     included: [
-      'Monthly professional visits (12 per year)',
-      'Seasonal fertilization program (4-5 applications)',
-      'Mowing height and frequency management',
-      'Irrigation system audit and adjustment guidance',
-      'Snow mold prevention treatment',
-      'Annual comprehensive soil testing',
-      'Fall core aeration and overseeding',
-      'Spring and fall cleanup services',
+      'Scheduled pet waste removal',
+      'Surface sanitizing after removal',
+      'Flexible weekly/daily plans',
+      'Disposal handled for you',
     ],
     benefits: [
       {
         icon: Clock,
-        title: 'Save Your Weekends',
+        title: 'Save Time',
         description:
-          'Stop spending every Saturday on lawn chores. We handle it all so you can enjoy your yard instead of working on it.',
+          'Spend your free time playing with your pets instead of scooping after them. We handle the dirty work on your schedule.',
       },
       {
-        icon: TrendingUp,
-        title: 'Cumulative Results',
+        icon: PawPrint,
+        title: 'Healthier Yard',
         description:
-          'Consistent, proactive care builds soil health and turf density that gets better every single year.',
+          'Regular waste removal keeps your turf hygienic and reduces the bacterial load between deeper cleaning treatments.',
       },
       {
-        icon: Snowflake,
-        title: 'Four-Season Coverage',
+        icon: Bug,
+        title: 'Reduces Bacteria & Parasites',
         description:
-          'From spring thaw to winter freeze, your lawn is professionally managed through every California season.',
+          'Prompt waste removal minimizes exposure to E. coli, salmonella, giardia, roundworms, and other harmful organisms.',
       },
       {
-        icon: Award,
-        title: 'Predictable Pricing',
+        icon: Recycle,
+        title: 'Prevents Environmental Contamination',
         description:
-          'One monthly fee covers everything. No surprise invoices, no upsells, no wondering what your lawn needs next.',
+          'Proper disposal keeps pet waste — classified by the EPA alongside oil as a toxic pollutant — out of the environment.',
       },
     ],
     beforeAfter: [
       {
-        label: 'Year-One Transformation',
+        label: 'Weekly Waste Removal Service',
         beforeColor: 'bg-brown/40',
-        afterColor: 'bg-sage/60',
-        beforeCaption: 'Neglected lawn at program start',
-        afterCaption: 'Same lawn after 12 months of care',
+        afterColor: 'bg-sage/50',
+        beforeCaption: 'Accumulated pet waste across turf surface',
+        afterCaption: 'Clean, sanitized turf after professional removal',
       },
       {
-        label: 'Winter-to-Spring Transition',
-        beforeColor: 'bg-gray-300',
-        afterColor: 'bg-sage/50',
-        beforeCaption: 'Post-winter dormancy and damage',
-        afterCaption: 'Spring green-up under maintenance plan',
+        label: 'Multi-Pet Household Cleanup',
+        beforeColor: 'bg-brown/30',
+        afterColor: 'bg-sage/40',
+        beforeCaption: 'Heavy waste accumulation from multiple dogs',
+        afterCaption: 'Thoroughly cleaned and disposal handled',
       },
     ],
     faqs: [
       {
-        question: 'What exactly is included in the monthly fee?',
+        question: 'How often should I schedule poop scooping service?',
         answer:
-          'Everything your lawn needs: fertilization, weed control, pest treatments, aeration, overseeding, seasonal cleanups, irrigation guidance, and snow mold prevention. The only service not included is weekly mowing, which can be added as a separate option. There are no hidden fees or surprise charges.',
+          'It depends on the number of pets in your household. For one dog, weekly service is usually sufficient. For two or more dogs, twice-weekly or even daily service may be necessary to keep your turf clean and odor-free. During your first visit, we will assess your situation and recommend the ideal schedule.',
       },
       {
-        question: 'Can I cancel my maintenance plan at any time?',
+        question: 'Do you sanitize the turf after removing waste?',
         answer:
-          'Yes. Our seasonal maintenance plans run month-to-month with no long-term contracts. We ask for 30 days notice before cancellation so we can wrap up any pending treatments. Most clients stay with us year after year because the results speak for themselves.',
+          'Yes. After removing all pet waste, we sanitize the affected areas to reduce bacterial contamination. This surface sanitizing is included with every poop scooping visit and helps maintain turf hygiene between your scheduled full disinfecting treatments.',
       },
       {
-        question: 'Do you include mowing in the seasonal maintenance plan?',
+        question: 'What happens to the waste you collect?',
         answer:
-          'Weekly mowing is available as an add-on to the maintenance plan at a discounted rate. The base plan includes mowing height and frequency guidance so that whoever mows your lawn, whether that is you or another provider, follows best practices for the current season and grass type.',
+          'All pet waste is double-bagged and disposed of properly by our team. You do not need to provide bags, bins, or handle any part of the disposal process. We take care of everything from start to finish.',
       },
       {
-        question: 'How soon will I see results after starting the program?',
+        question: 'Can I combine poop scooping with other turf services?',
         answer:
-          'Most homeowners notice a visible improvement in color and density within four to six weeks of the first treatment. Significant transformation, including thickening of thin areas and reduction in weed pressure, typically occurs over the first full growing season. By the end of year two, your lawn will be in the best shape of its life.',
+          'Absolutely. Many of our clients pair scheduled poop scooping with monthly or bi-monthly disinfecting and deodorizing treatments for complete turf maintenance. We can build a custom service plan that covers all your needs at a frequency that works for your household and budget. Contact us for a free quote.',
       },
     ],
     relatedServices: [
-      { name: 'Aeration', slug: 'aeration' },
-      { name: 'Fertilization', slug: 'fertilization' },
-      { name: 'Seeding', slug: 'seeding' },
+      { name: 'Disinfect & Deodorize', slug: 'disinfect-deodorize' },
+      { name: 'Pet Hair & Debris Removal', slug: 'pet-hair-debris' },
+      { name: 'Powered By OxyTurf', slug: 'oxyturf' },
+    ],
+  },
+
+  oxyturf: {
+    name: 'Powered By OxyTurf',
+    slug: 'oxyturf',
+    image: '/images/services/oxyturf-palms.jpg',
+    tagline: 'The safe, effective cleaning solution behind every Murphy\'s Turf service',
+    metaDescription:
+      "Murphy's Turf cleaning services are powered by OxyTurf — a proven synthetic turf cleaner, disinfectant, and deodorizer. No bleach, no ammonia, safe for pets and kids. Serving Murrieta, CA.",
+    descriptionParagraphs: [
+      "Murphy's Turf's cleaning products are powered by OxyTurf. Specifically formulated for use on turf in mind, OxyTurf is a proven synthetic turf cleaner-deodorizer that eliminates germs and bacteria while replacing them with the smell of fresh real grass. Formulated containing stabilized accelerated hydrogen peroxide as compared to other turf cleaners, OxyTurf doesn't use any bleach or ammonia in their products as those chemicals can leave residues on turf that can irritate skin, weaken turf, and leave a mystery odor on your artificial grass, turning it from a safe-zone to a hazard-zone for your pets and kids.",
+      "When we founded Murphy's Turf, we knew that the cleaning products we chose would define the quality and safety of every service we deliver. After extensive research and testing, we selected OxyTurf as the backbone of our cleaning process because it meets every standard we demand: proven effectiveness against bacteria and viruses, complete safety for families and pets, compatibility with all synthetic turf types, and zero harmful residues. OxyTurf is not a general-purpose cleaner repurposed for turf — it was engineered from the ground up specifically for synthetic turf applications, and that purpose-built design makes all the difference in real-world performance.",
+      "The science behind OxyTurf centers on stabilized accelerated hydrogen peroxide, or SAHP. This active ingredient delivers powerful antimicrobial action — killing 99.9% of germs and bacteria on contact — while breaking down into water and oxygen after it has done its job. There are no chemical residues left behind, no lingering fumes, and no compounds that could irritate sensitive skin or harm pets who roll on the turf. Compare this to bleach-based turf cleaners, which can fade the color of your synthetic grass, degrade the fiber structure with repeated use, and leave behind chlorine residues that are irritating to both people and animals. Or ammonia-based products, which produce harsh fumes and can actually worsen urine odors by chemically reacting with the ammonia compounds already present in pet waste. OxyTurf avoids all of these problems entirely.",
+      "Beyond its cleaning and disinfecting power, OxyTurf leaves behind a fresh, natural grass scent that homeowners consistently love. Instead of a chemical smell that announces 'this turf was just cleaned,' your yard simply smells like fresh-cut grass — the way an outdoor space should smell. This deodorizing effect lasts well beyond the initial treatment because OxyTurf eliminates the bacteria that cause odor at the source rather than masking the smell with fragrances. For Murphy's Turf clients across Murrieta, Temecula, and the greater Inland Empire, OxyTurf is not just a product — it is our commitment to delivering artificial turf cleaning that is effective, safe, and genuinely enjoyable. Every service we perform, from routine maintenance to deep sanitization, is powered by this trusted formula.",
+    ],
+    included: [
+      'OxyTurf cleaning treatment',
+      'Full-surface application',
+      'Infill penetration',
+      'Deodorizing',
+      'Bacterial elimination',
+    ],
+    benefits: [
+      {
+        icon: ShieldCheck,
+        title: 'No Bleach or Ammonia',
+        description:
+          'Stabilized accelerated hydrogen peroxide delivers powerful cleaning without the harsh chemicals found in competing products.',
+      },
+      {
+        icon: Baby,
+        title: 'Pet & Kid Safe',
+        description:
+          'No harmful residues left behind. Your turf is safe for the whole family as soon as the surface dries.',
+      },
+      {
+        icon: TreePine,
+        title: 'Fresh Grass Scent',
+        description:
+          'OxyTurf replaces bacterial odors with the smell of fresh-cut natural grass, not chemicals.',
+      },
+      {
+        icon: Award,
+        title: 'Won\'t Weaken Turf Fibers',
+        description:
+          'Unlike bleach-based cleaners, OxyTurf is safe for repeated use without degrading your turf\'s color or structural integrity.',
+      },
+    ],
+    beforeAfter: [
+      {
+        label: 'OxyTurf Deep Clean',
+        beforeColor: 'bg-brown/40',
+        afterColor: 'bg-sage/50',
+        beforeCaption: 'Turf with odor and bacterial buildup in infill',
+        afterCaption: 'Fresh, sanitized turf after OxyTurf treatment',
+      },
+      {
+        label: 'Odor Elimination',
+        beforeColor: 'bg-brown/30',
+        afterColor: 'bg-sage/60',
+        beforeCaption: 'Persistent pet urine smell despite hosing',
+        afterCaption: 'Fresh grass scent, bacteria eliminated at the source',
+      },
+    ],
+    faqs: [
+      {
+        question: 'What makes OxyTurf different from store-bought turf cleaners?',
+        answer:
+          'Most store-bought turf cleaners use bleach or ammonia as their active ingredient. These chemicals can fade turf color, weaken fibers with repeated use, and leave irritating residues. OxyTurf uses stabilized accelerated hydrogen peroxide, which is equally effective at killing bacteria but breaks down into water and oxygen — leaving no harmful residue behind.',
+      },
+      {
+        question: 'Is OxyTurf safe for all types of artificial turf?',
+        answer:
+          'Yes. OxyTurf was specifically formulated for synthetic turf and is safe for all turf types, including nylon, polyethylene, and polypropylene fibers. It will not damage, discolor, or degrade any component of your artificial turf system, including the infill and backing materials.',
+      },
+      {
+        question: 'How long does the fresh grass scent last?',
+        answer:
+          'The fresh grass scent typically lasts one to three weeks depending on weather conditions, pet activity, and overall turf usage. Because OxyTurf eliminates the bacteria that cause odor rather than just masking the smell, the deodorizing effect lasts significantly longer than spray-on fragrance products.',
+      },
+      {
+        question: 'Can I buy OxyTurf and apply it myself?',
+        answer:
+          'OxyTurf is a professional-grade product that delivers the best results when applied with commercial spraying equipment at the correct concentration and coverage rate. Our trained technicians ensure complete, even application that reaches deep into the infill layer. Contact us for a free quote and let our team handle the application for optimal results.',
+      },
+    ],
+    relatedServices: [
+      { name: 'Disinfect & Deodorize', slug: 'disinfect-deodorize' },
+      { name: 'Blooming & De-Compacting', slug: 'blooming-decompacting' },
+      { name: 'Pet Hair & Debris Removal', slug: 'pet-hair-debris' },
     ],
   },
 };
@@ -642,12 +534,11 @@ const servicesData: Record<string, ServiceData> = {
 // ---------------------------------------------------------------------------
 
 const validSlugs = [
-  'lawn-cleaning',
-  'aeration',
-  'seeding',
-  'fertilization',
-  'pest-control',
-  'seasonal-maintenance',
+  'pet-hair-debris',
+  'blooming-decompacting',
+  'disinfect-deodorize',
+  'poop-scooping',
+  'oxyturf',
 ];
 
 export function generateStaticParams() {
@@ -667,10 +558,10 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${service.name} Services`,
+    title: `${service.name} | Murphy's Turf`,
     description: service.metaDescription,
     openGraph: {
-      title: `${service.name} | Murphy's Turf Care`,
+      title: `${service.name} | Murphy's Turf — Artificial Turf Cleaning`,
       description: service.metaDescription,
       type: 'website',
     },
@@ -693,8 +584,6 @@ export default async function ServiceDetailPage({
     notFound();
   }
 
-  const Icon = service.icon;
-
   return (
     <>
       {/* ----------------------------------------------------------------- */}
@@ -716,18 +605,13 @@ export default async function ServiceDetailPage({
             <span className="text-white font-medium">{service.name}</span>
           </nav>
 
-          <div className="flex items-start gap-5">
-            <div className="hidden sm:flex w-16 h-16 bg-white/10 backdrop-blur-sm rounded-2xl items-center justify-center flex-shrink-0">
-              <Icon className="w-8 h-8 text-white" />
-            </div>
-            <div>
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-heading text-white mb-3 tracking-tight">
-                {service.name}
-              </h1>
-              <p className="text-lg sm:text-xl text-white/85 font-body max-w-2xl">
-                {service.tagline}
-              </p>
-            </div>
+          <div>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-heading text-white mb-3 tracking-tight">
+              {service.name}
+            </h1>
+            <p className="text-lg sm:text-xl text-white/85 font-body max-w-2xl">
+              {service.tagline}
+            </p>
           </div>
         </div>
       </section>
@@ -738,7 +622,7 @@ export default async function ServiceDetailPage({
       <section className="py-16 sm:py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold font-heading text-charcoal mb-8">
-            Why {service.name} Matters for California Lawns
+            About {service.name}
           </h2>
           <div className="space-y-6">
             {service.descriptionParagraphs.map((paragraph, index) => (
@@ -831,6 +715,7 @@ export default async function ServiceDetailPage({
                     <div
                       className={`${pair.beforeColor} rounded-xl aspect-[4/3] flex items-center justify-center`}
                     >
+                      {/* Replace with real before photo */}
                       <span className="text-charcoal/60 font-heading font-bold text-lg">
                         Before
                       </span>
@@ -844,6 +729,7 @@ export default async function ServiceDetailPage({
                     <div
                       className={`${pair.afterColor} rounded-xl aspect-[4/3] flex items-center justify-center`}
                     >
+                      {/* Replace with real after photo */}
                       <span className="text-forest font-heading font-bold text-lg">
                         After
                       </span>
@@ -860,32 +746,26 @@ export default async function ServiceDetailPage({
       </section>
 
       {/* ----------------------------------------------------------------- */}
-      {/* Pricing Callout */}
+      {/* Quote CTA (No Prices) */}
       {/* ----------------------------------------------------------------- */}
       <section className="py-16 sm:py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-gradient-to-br from-cream to-cream-dark rounded-3xl p-10 sm:p-14 border border-sage/20">
-            <p className="text-sm font-body text-charcoal-light uppercase tracking-wider mb-2">
-              {service.name} starting at
-            </p>
-            <p className="text-5xl sm:text-6xl font-bold font-heading text-forest mb-1">
-              ${service.price}
-              {service.priceLabel && (
-                <span className="text-2xl font-normal text-charcoal-light">
-                  {service.priceLabel}
-                </span>
-              )}
-            </p>
-            <p className="text-charcoal-light font-body mb-8">
-              Final pricing based on lawn size and condition. Free estimates, no
-              obligation.
+            <h2 className="text-2xl sm:text-3xl font-bold font-heading text-charcoal mb-3">
+              Interested in {service.name}?
+            </h2>
+            <p className="text-charcoal-light font-body mb-8 max-w-2xl mx-auto leading-relaxed">
+              Every property is different. Contact us for a free, no-obligation
+              quote tailored to your turf size and condition. With 30+ years of
+              experience, Murphy&apos;s Turf delivers results you can see and
+              smell.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
                 href="/contact"
                 className="inline-flex items-center gap-2 bg-sage hover:bg-sage-dark text-white font-semibold px-8 py-3.5 rounded-lg transition-colors font-body shadow-md hover:shadow-lg"
               >
-                Get Your Exact Quote
+                Get a Free Quote
                 <ArrowRight className="w-5 h-5" />
               </Link>
               <a
@@ -938,28 +818,21 @@ export default async function ServiceDetailPage({
             Related Services
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl mx-auto">
-            {service.relatedServices.map((related) => {
-              const relatedData = servicesData[related.slug];
-              const RelatedIcon = relatedData?.icon ?? Leaf;
-              return (
-                <Link
-                  key={related.slug}
-                  href={`/services/${related.slug}`}
-                  className="group flex flex-col items-center p-6 bg-cream rounded-2xl border border-gray-100 hover:border-sage/30 hover:shadow-md transition-all text-center"
-                >
-                  <div className="w-12 h-12 bg-sage/15 rounded-xl flex items-center justify-center mb-3 group-hover:bg-sage/25 transition-colors">
-                    <RelatedIcon className="w-6 h-6 text-forest" />
-                  </div>
-                  <span className="font-bold font-heading text-charcoal group-hover:text-forest transition-colors">
-                    {related.name}
-                  </span>
-                  <span className="text-xs text-sage font-body mt-1 inline-flex items-center gap-1">
-                    View Details
-                    <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
-                  </span>
-                </Link>
-              );
-            })}
+            {service.relatedServices.map((related) => (
+              <Link
+                key={related.slug}
+                href={`/services/${related.slug}`}
+                className="group flex flex-col items-center p-6 bg-cream rounded-2xl border border-gray-100 hover:border-sage/30 hover:shadow-md transition-all text-center"
+              >
+                <span className="font-bold font-heading text-charcoal group-hover:text-forest transition-colors">
+                  {related.name}
+                </span>
+                <span className="text-xs text-sage font-body mt-2 inline-flex items-center gap-1">
+                  View Details
+                  <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
+                </span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
@@ -970,19 +843,19 @@ export default async function ServiceDetailPage({
       <section className="py-16 sm:py-20 bg-gradient-to-br from-forest to-forest-dark">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold font-heading text-white mb-4">
-            Ready to Transform Your Lawn?
+            Ready to Restore Your Turf?
           </h2>
           <p className="text-lg text-white/85 font-body mb-8 max-w-2xl mx-auto leading-relaxed">
             Request a free, no-obligation quote for {service.name.toLowerCase()} and
-            discover why homeowners across California trust Murphy&apos;s
-            Turf with their lawns.
+            discover why homeowners across Murrieta trust Murphy&apos;s Turf
+            with their artificial turf maintenance.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href="/contact"
               className="inline-flex items-center gap-2 bg-sage hover:bg-sage-dark text-white font-semibold px-8 py-3.5 rounded-lg transition-colors font-body shadow-md hover:shadow-lg"
             >
-              Request a Free Quote
+              Contact Us for Pricing
               <ArrowRight className="w-5 h-5" />
             </Link>
             <a

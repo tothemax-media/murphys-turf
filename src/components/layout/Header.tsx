@@ -9,16 +9,15 @@ import { Leaf, Menu, X, ChevronDown } from 'lucide-react';
 /* ------------------------------------------------------------------ */
 
 const servicesItems = [
-  { label: 'Lawn Cleaning', href: '/services/lawn-cleaning' },
-  { label: 'Aeration', href: '/services/aeration' },
-  { label: 'Seeding', href: '/services/seeding' },
-  { label: 'Fertilization', href: '/services/fertilization' },
-  { label: 'Pest Control', href: '/services/pest-control' },
-  { label: 'Seasonal Maintenance', href: '/services/seasonal-maintenance' },
+  { label: 'Pet Hair & Debris Removal', href: '/services/pet-hair-debris' },
+  { label: 'Blooming & De-Compacting', href: '/services/blooming-decompacting' },
+  { label: 'Disinfect & Deodorize', href: '/services/disinfect-deodorize' },
+  { label: 'Poop Scooping & Removal', href: '/services/poop-scooping' },
+  { label: 'Powered By OxyTurf', href: '/services/oxyturf' },
 ];
 
 const locationsItems = [
-  { label: 'Los Angeles', href: '/locations/los-angeles' },
+  { label: 'Huntington Beach', href: '/locations/huntington-beach' },
   { label: 'Murrieta', href: '/locations/murrieta' },
   { label: 'Martinez', href: '/locations/martinez' },
   { label: 'Sacramento', href: '/locations/sacramento' },
@@ -210,11 +209,11 @@ export default function Header() {
           className={`flex items-center gap-2 transition-colors duration-300 ${
             scrolled ? 'text-forest' : 'text-white'
           }`}
-          aria-label="Murphy's Turf Care — Home"
+          aria-label="Murphy's Turf — Home"
         >
           <Leaf className="h-7 w-7" />
           <span className="font-heading text-xl font-bold">
-            Murphy&apos;s Turf Care
+            Murphy&apos;s Turf
           </span>
         </Link>
 
@@ -311,11 +310,11 @@ export default function Header() {
             href="/"
             onClick={closeDrawer}
             className="flex items-center gap-2 text-forest"
-            aria-label="Murphy's Turf Care — Home"
+            aria-label="Murphy's Turf — Home"
           >
             <Leaf className="h-6 w-6" />
             <span className="font-heading text-lg font-bold">
-              Murphy&apos;s Turf Care
+              Murphy&apos;s Turf
             </span>
           </Link>
 

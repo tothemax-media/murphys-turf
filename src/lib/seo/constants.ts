@@ -1,7 +1,7 @@
 export const SITE_URL = "https://murphysturf.com";
-export const COMPANY_NAME = "Murphy's Turf Care";
+export const COMPANY_NAME = "Murphy's Turf";
 export const COMPANY_DESCRIPTION =
-  "Professional artificial turf cleaning, sanitization, and maintenance services across California. Murphy's Turf Care specializes in pet turf cleaning, odor removal, turf deodorizing, and synthetic turf repair to keep your artificial lawn fresh, clean, and looking like new.";
+  "Professional artificial turf cleaning, disinfecting, and maintenance services across California. Murphy's Turf specializes in pet hair and debris removal, blooming and de-compacting, disinfecting and deodorizing, poop scooping, and OxyTurf-powered treatments to keep your artificial lawn fresh, clean, and looking like new. 30+ years of cleaning and disinfecting experience.";
 export const COMPANY_PHONE = "(951) 331-3300";
 export const COMPANY_EMAIL = "info@murphysturf.com";
 
@@ -16,23 +16,22 @@ export const COMPANY_ADDRESS = {
 export const DEFAULT_OG_IMAGE = "/images/og-default.jpg";
 
 export const SOCIAL_LINKS = {
-  facebook: "https://facebook.com/murphysturfcare",
-  instagram: "https://instagram.com/murphysturfcare",
-  google: "https://g.page/murphysturfcare",
-  yelp: "https://yelp.com/biz/murphys-turf-care-murrieta",
+  facebook: "https://facebook.com/murphysturf",
+  instagram: "https://instagram.com/murphysturf",
+  google: "https://g.page/murphysturf",
+  yelp: "https://yelp.com/biz/murphys-turf-murrieta",
 };
 
 export const SERVICE_SLUGS = [
-  "turf-cleaning",
-  "pet-odor-treatment",
-  "turf-deodorizing",
-  "turf-repair",
-  "commercial-turf-cleaning",
-  "turf-sanitization",
+  "pet-hair-debris",
+  "blooming-decompacting",
+  "disinfect-deodorize",
+  "poop-scooping",
+  "oxyturf",
 ] as const;
 
 export const LOCATION_SLUGS = [
-  "los-angeles",
+  "huntington-beach",
   "murrieta",
   "martinez",
   "sacramento",

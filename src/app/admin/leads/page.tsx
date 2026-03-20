@@ -303,7 +303,7 @@ export default function AdminLeadsPage() {
               <Leaf className="w-5 h-5 text-white" />
             </div>
             <span className="text-white font-semibold text-lg tracking-tight">
-              Murphy&apos;s Turf Care Admin
+              Murphy&apos;s Turf Admin
             </span>
           </div>
         </div>
@@ -319,7 +319,7 @@ export default function AdminLeadsPage() {
             </span>
           </div>
           <p className="text-[#5D4037] text-sm">
-            Manage and track incoming lawn care service inquiries across California.
+            Manage and track incoming turf cleaning service inquiries across California.
           </p>
         </div>
 

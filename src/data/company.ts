@@ -1,8 +1,8 @@
 import type { Company } from '../types';
 
 export const company: Company = {
-  name: "Murphy's Turf Care",
-  tagline: "Professional Artificial Turf Cleaning & Sanitization",
+  name: "Murphy's Turf",
+  tagline: "When you care about clean turf, call Murphy's Turf",
   phone: "(951) 331-3300",
   email: "info@murphysturf.com",
   address: {
@@ -17,10 +17,10 @@ export const company: Company = {
     sunday: "Closed",
   },
   founded: 2018,
-  description: `Murphy's Turf Care was founded in 2018 by Patrick Murphy in Murrieta, California with a simple mission: to keep California's artificial turf clean, safe, and looking like new. As synthetic turf installations boomed across Southern California — driven by drought conditions, water restrictions, and the desire for low-maintenance outdoor spaces — Patrick recognized that homeowners and businesses needed a professional cleaning solution. Garden hoses and DIY efforts simply couldn't address the bacteria, pet odors, and embedded debris that accumulate in synthetic turf, especially under California's intense sun.
+  description: `Murphy's Turf brings over 30 years of cleaning and disinfecting experience to the artificial turf industry. Based in Murrieta, California, we recognized early on that synthetic turf installations across Southern California needed a professional cleaning solution that garden hoses and DIY efforts simply could not deliver. Pet waste, bacteria, embedded debris, and California's intense sun combine to create unsanitary conditions that demand specialized treatment.
 
-What started as a one-truck operation serving neighbors in the Inland Empire has grown into one of California's most trusted artificial turf cleaning companies, with a dedicated team of over 25 professionals serving thousands of residential and commercial clients across Los Angeles, Murrieta, the Bay Area's Contra Costa County, and Sacramento. We specialize in deep cleaning, sanitization, pet odor elimination, deodorizing, turf repair, and commercial maintenance — everything needed to keep synthetic turf performing and looking its best for years to come.`,
-  mission: "To deliver exceptional artificial turf cleaning and sanitization that keeps synthetic grass safe, clean, and beautiful — using eco-friendly products that protect California families, pets, and the environment.",
+Our proprietary OxyTurf product powers every cleaning we perform — delivering deep sanitization, odor elimination, and fiber restoration that leaves artificial turf looking, smelling, and feeling like the day it was installed. What started as a local operation serving the Inland Empire has grown into one of California's most trusted artificial turf cleaning companies, with a dedicated team serving thousands of residential and commercial clients across Huntington Beach, Murrieta, the Bay Area's Contra Costa County, and Sacramento. We specialize in pet hair and debris removal, blooming and de-compacting, disinfecting and deodorizing, poop scooping, and OxyTurf-powered treatments — everything needed to keep synthetic turf performing and looking its best for years to come.`,
+  mission: "To deliver exceptional artificial turf cleaning and disinfecting that keeps synthetic grass safe, clean, and beautiful — using our proprietary OxyTurf product that protects California families, pets, and the environment.",
   values: [
     {
       title: "Quality First",
@@ -32,15 +32,15 @@ What started as a one-truck operation serving neighbors in the Inland Empire has
     },
     {
       title: "Eco-Friendly",
-      description: "We use plant-based, biodegradable cleaning products that are safe for children, pets, and the environment. Our methods conserve water while delivering a superior clean.",
+      description: "Our OxyTurf product is safe for children, pets, and the environment. Our methods conserve water while delivering a superior clean.",
     },
     {
       title: "Community Driven",
-      description: "As a California family business, we're invested in the communities we serve. We sponsor local youth sports, partner with animal shelters, and believe in giving back to the places that have supported our growth.",
+      description: "As a California family business with 30+ years of cleaning and disinfecting experience, we're invested in the communities we serve. We believe in giving back to the places that have supported our growth.",
     },
   ],
   stats: {
-    yearsInBusiness: 8,
+    yearsInBusiness: 30,
     customersServed: "2,500+",
     satisfactionRate: "98%",
     projectsCompleted: "10,000+",

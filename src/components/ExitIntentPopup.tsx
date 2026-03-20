@@ -40,7 +40,7 @@ export default function ExitIntentPopup() {
             Wait! Don&apos;t Leave Yet
           </h3>
           <p className="text-charcoal-light font-body mb-6">
-            Get <span className="font-bold text-sage">10% off</span> your first lawn care service
+            Get <span className="font-bold text-sage">10% off</span> your first turf cleaning service
             when you request a free quote today!
           </p>
           <a

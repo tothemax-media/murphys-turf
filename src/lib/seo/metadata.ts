@@ -63,7 +63,7 @@ export function generateLocationMetadata(location: {
   description: string;
 }): Metadata {
   const title = `Artificial Turf Cleaning in ${location.name}, CA`;
-  const description = `${location.description} ${COMPANY_NAME} provides professional artificial turf cleaning and sanitization in ${location.name}, CA. Call today for a free estimate!`;
+  const description = `${location.description} ${COMPANY_NAME} provides professional artificial turf cleaning and disinfecting in ${location.name}, CA. Call today for a free estimate!`;
 
   return generatePageMetadata(
     title,
@@ -114,7 +114,7 @@ export function generateBlogMetadata(post: {
 export function generateBlogIndexMetadata(): Metadata {
   return generatePageMetadata(
     "Artificial Turf Cleaning Blog — Tips & Guides",
-    "Expert artificial turf cleaning tips, synthetic turf maintenance guides, and pet turf care advice from Murphy's Turf Care. Keep your California artificial turf fresh and clean.",
+    "Expert artificial turf cleaning tips, synthetic turf maintenance guides, and pet turf care advice from Murphy's Turf. Keep your California artificial turf fresh and clean.",
     "/blog"
   );
 }
@@ -129,14 +129,14 @@ export const DEFAULT_METADATA: Metadata = {
   keywords: [
     "artificial turf cleaning",
     "synthetic turf cleaning",
-    "turf sanitization",
+    "turf disinfecting",
     "pet turf cleaning",
     "turf odor removal",
     "turf deodorizing",
     "artificial grass cleaning",
     "turf maintenance California",
-    "commercial turf cleaning",
-    "turf repair",
+    "OxyTurf",
+    "poop scooping turf",
   ],
   alternates: {
     canonical: SITE_URL,

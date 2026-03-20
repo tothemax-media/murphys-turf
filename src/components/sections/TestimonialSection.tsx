@@ -12,21 +12,21 @@ const testimonials: Testimonial[] = [
   {
     rating: 5,
     quote:
-      "Murphy's Turf Care completely transformed our backyard. The team was professional, punctual, and the results exceeded our expectations.",
+      "Murphy's Turf completely transformed our backyard turf. The team was professional, punctual, and the results exceeded our expectations.",
     name: 'Sarah Johnson',
     location: 'Murrieta, CA',
   },
   {
     rating: 5,
     quote:
-      "Best lawn care service in California. They've been maintaining our property for 3 years and it's never looked better.",
+      "Best turf cleaning service in California. They've been maintaining our artificial turf for 3 years and it's never looked better.",
     name: 'Mike Rodriguez',
-    location: 'Los Angeles, CA',
+    location: 'Huntington Beach, CA',
   },
   {
     rating: 5,
     quote:
-      "Incredible attention to detail. Our neighbors keep asking who does our lawn. Highly recommend Murphy's Turf Care!",
+      "Incredible attention to detail. Our neighbors keep asking who cleans our turf. Highly recommend Murphy's Turf!",
     name: 'Jennifer Walsh',
     location: 'Sacramento, CA',
   },

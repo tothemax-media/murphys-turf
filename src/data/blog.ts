@@ -9,7 +9,7 @@ export const blogPosts: BlogPost[] = [
 
 Artificial turf has become one of the most popular landscaping choices across California and beyond. It saves water, eliminates the need for weekly yard work, and stays green all year long. But there is a persistent myth that synthetic grass is entirely maintenance-free. The truth is that artificial turf absolutely requires regular cleaning to remain hygienic, visually appealing, and long-lasting. Without proper care, your investment can become a breeding ground for bacteria, a magnet for odors, and a surface that degrades far sooner than it should.
 
-In this complete guide, we will walk you through everything you need to know about cleaning artificial turf — from understanding what accumulates on your synthetic lawn to knowing when it is time to call in a professional service like Murphy's Turf Care.
+In this complete guide, we will walk you through everything you need to know about cleaning artificial turf — from understanding what accumulates on your synthetic lawn to knowing when it is time to call in a professional service like Murphy's Turf.
 
 ## Why Artificial Turf Needs Cleaning
 
@@ -55,7 +55,7 @@ Professional cleaning is not a luxury — it is a necessary part of turf ownersh
 
 ## The Professional Cleaning Process
 
-At Murphy's Turf Care, our professional cleaning process goes far beyond what any homeowner can achieve with a hose and soap. Here is what a thorough professional cleaning involves.
+At Murphy's Turf, our professional cleaning process goes far beyond what any homeowner can achieve with a hose and soap. Here is what a thorough professional cleaning involves.
 
 **Assessment and inspection** come first. We examine your turf for damage, drainage issues, infill displacement, and problem areas that need targeted treatment. Every turf installation is different, and understanding the specific conditions of your lawn allows us to tailor our approach.
 
@@ -93,12 +93,12 @@ Whether you are in the scorching Inland Empire, the mild Bay Area, or sunny Sout
 
 Artificial turf is a fantastic investment that saves water, time, and money when properly maintained. But maintenance is the key word. A consistent routine of DIY care combined with regular professional cleaning will keep your synthetic lawn looking beautiful, smelling fresh, and safe for everyone who uses it. Do not wait until odors or visible contamination tell you there is a problem — by then, the issue has been building for weeks or months beneath the surface.
 
-Contact Murphy's Turf Care today to schedule your professional artificial turf cleaning and experience the difference that expert care makes.`,
+Contact Murphy's Turf today to schedule your professional artificial turf cleaning and experience the difference that expert care makes.`,
     author: "Patrick Murphy",
     publishedDate: "2025-12-15",
     category: "guides",
     tags: ["artificial turf cleaning", "synthetic grass maintenance", "turf care guide"],
-    metaTitle: "How to Clean Artificial Turf: The Complete Guide | Murphy's Turf Care",
+    metaTitle: "How to Clean Artificial Turf: The Complete Guide | Murphy's Turf",
     metaDescription: "Learn how to clean artificial turf with this complete guide. Covers DIY maintenance, professional cleaning, pet odor removal, and California-specific tips for synthetic grass care.",
     featuredImage: "/images/blog/how-to-clean-artificial-turf-complete-guide.jpg"
   },
@@ -176,12 +176,12 @@ Artificial turf was one of the smartest landscaping decisions you could have mad
 
 Professional turf cleaning is not an optional luxury in the Los Angeles climate — it is a fundamental part of responsible turf ownership. The combination of extreme heat, intense UV radiation, minimal rainfall, and urban air pollution creates conditions that demand regular, thorough, professional-grade cleaning.
 
-Murphy's Turf Care provides comprehensive artificial turf cleaning services throughout the Los Angeles metro area. Contact us today to schedule your first cleaning and discover the difference professional care makes for your synthetic lawn.`,
+Murphy's Turf provides comprehensive artificial turf cleaning services throughout the Los Angeles metro area. Contact us today to schedule your first cleaning and discover the difference professional care makes for your synthetic lawn.`,
     author: "Patrick Murphy",
     publishedDate: "2025-11-20",
     category: "local",
     tags: ["Los Angeles", "artificial turf cleaning", "professional cleaning", "LA turf care"],
-    metaTitle: "Why Professional Turf Cleaning is Essential in Los Angeles | Murphy's Turf Care",
+    metaTitle: "Why Professional Turf Cleaning is Essential in Los Angeles | Murphy's Turf",
     metaDescription: "Discover why Los Angeles homeowners need professional artificial turf cleaning. LA's heat, UV, smog, and drought conditions demand expert synthetic grass maintenance.",
     featuredImage: "/images/blog/why-professional-turf-cleaning-essential-los-angeles.jpg",
     location: "los-angeles"
@@ -192,7 +192,7 @@ Murphy's Turf Care provides comprehensive artificial turf cleaning services thro
     excerpt: "Pet odor on artificial turf is the number one complaint among Murrieta homeowners. Learn why Inland Empire heat makes it worse and what actually works to eliminate it for good.",
     content: `# Removing Pet Odors from Artificial Turf in Murrieta's Heat
 
-If you live in Murrieta and have both a dog and artificial turf in your backyard, there is a very good chance you are dealing with the single most common complaint among synthetic turf owners: the unmistakable, stomach-turning smell of pet urine that seems to get worse with every passing week. You are not imagining it, and you are certainly not alone. Pet odor on artificial turf is the number one reason homeowners in Murrieta and throughout the Inland Empire contact Murphy's Turf Care, and it is a problem that has a clear scientific explanation — along with a proven solution.
+If you live in Murrieta and have both a dog and artificial turf in your backyard, there is a very good chance you are dealing with the single most common complaint among synthetic turf owners: the unmistakable, stomach-turning smell of pet urine that seems to get worse with every passing week. You are not imagining it, and you are certainly not alone. Pet odor on artificial turf is the number one reason homeowners in Murrieta and throughout the Inland Empire contact Murphy's Turf, and it is a problem that has a clear scientific explanation — along with a proven solution.
 
 ## Why Pet Odor Is Worse in the Inland Empire
 
@@ -226,7 +226,7 @@ The only reliable way to eliminate pet odor from artificial turf in Murrieta's h
 
 Enzyme treatments use specifically engineered biological molecules — enzymes — that catalyze the breakdown of uric acid crystals into their component parts: carbon dioxide and ammonia gas, which dissipate harmlessly into the air. Unlike chemical treatments that try to mask or neutralize odors, enzyme treatments actually destroy the odor-causing compounds at a molecular level.
 
-At Murphy's Turf Care, our process begins with a thorough assessment of your turf system. We identify high-concentration areas, check infill depth and condition, evaluate drainage, and develop a treatment plan tailored to the severity of your odor problem.
+At Murphy's Turf, our process begins with a thorough assessment of your turf system. We identify high-concentration areas, check infill depth and condition, evaluate drainage, and develop a treatment plan tailored to the severity of your odor problem.
 
 Next, we perform a deep extraction cleaning that removes loose debris, surface contamination, and displaced infill from the turf system. This step prepares the infill layer to receive the enzyme treatment by clearing pathways for the solution to penetrate effectively.
 
@@ -270,12 +270,12 @@ For Murrieta homeowners with pets, we recommend the following maintenance schedu
 
 You installed artificial turf so you could enjoy your outdoor space without the constant work of maintaining a natural lawn in Murrieta's punishing climate. Pet odor should not force you to avoid your own backyard or feel embarrassed when guests come over. The problem is solvable, and the solution is proven.
 
-Murphy's Turf Care specializes in pet odor removal from artificial turf throughout Murrieta and the Inland Empire. We understand the unique challenges that this climate presents, and our enzyme-based treatment process is specifically designed to address them. Contact us today to reclaim your backyard from pet odor — and enjoy your turf the way it was meant to be enjoyed.`,
+Murphy's Turf specializes in pet odor removal from artificial turf throughout Murrieta and the Inland Empire. We understand the unique challenges that this climate presents, and our enzyme-based treatment process is specifically designed to address them. Contact us today to reclaim your backyard from pet odor — and enjoy your turf the way it was meant to be enjoyed.`,
     author: "Patrick Murphy",
     publishedDate: "2025-10-28",
     category: "pet-care",
     tags: ["Murrieta", "pet odor removal", "artificial turf", "Inland Empire", "dog turf care"],
-    metaTitle: "Removing Pet Odors from Artificial Turf in Murrieta's Heat | Murphy's Turf Care",
+    metaTitle: "Removing Pet Odors from Artificial Turf in Murrieta's Heat | Murphy's Turf",
     metaDescription: "Pet urine odor on artificial turf is worse in Murrieta's Inland Empire heat. Learn why DIY solutions fail and how professional enzyme treatments eliminate the smell for good.",
     featuredImage: "/images/blog/removing-pet-odors-artificial-turf-murrieta-heat.jpg",
     location: "murrieta"
@@ -300,7 +300,7 @@ Mold and mildew thrive in consistently moist environments. When your turf infill
 
 The challenge is compounded by the fact that many Bay Area homes feature mature landscaping with large trees that shade portions of the yard. Shade reduces the evaporation rate of morning moisture, extending the window during which mold-friendly conditions exist. Properties nestled against the East Bay hills or situated on north-facing slopes are particularly vulnerable.
 
-Professional turf cleaning in the Bay Area must specifically address mold and mildew prevention and remediation. At Murphy's Turf Care, our Bay Area service protocol includes targeted antimicrobial treatments formulated to prevent fungal colonization, along with drainage assessment to ensure moisture is not being trapped beneath the turf surface.
+Professional turf cleaning in the Bay Area must specifically address mold and mildew prevention and remediation. At Murphy's Turf, our Bay Area service protocol includes targeted antimicrobial treatments formulated to prevent fungal colonization, along with drainage assessment to ensure moisture is not being trapped beneath the turf surface.
 
 ## Oak Trees and Leaf Debris
 
@@ -393,12 +393,12 @@ Bay Area artificial turf is a significant investment, typically costing between 
 
 Professional cleaning tailored to Bay Area conditions costs a fraction of what early turf replacement would run. More importantly, it ensures that your synthetic lawn remains a safe, clean, and beautiful outdoor surface for your family and pets throughout the year.
 
-Murphy's Turf Care provides Bay Area-specific artificial turf cleaning services throughout Contra Costa County, including Martinez, Concord, Walnut Creek, Pleasant Hill, Pittsburg, Antioch, and surrounding communities. Our technicians understand the unique challenges of the Bay Area climate and tailor every service visit to address the specific conditions affecting your turf. Contact us today to schedule your maintenance appointment.`,
+Murphy's Turf provides Bay Area-specific artificial turf cleaning services throughout Contra Costa County, including Martinez, Concord, Walnut Creek, Pleasant Hill, Pittsburg, Antioch, and surrounding communities. Our technicians understand the unique challenges of the Bay Area climate and tailor every service visit to address the specific conditions affecting your turf. Contact us today to schedule your maintenance appointment.`,
     author: "Patrick Murphy",
     publishedDate: "2025-10-10",
     category: "local",
     tags: ["Bay Area", "Martinez", "Contra Costa County", "artificial turf maintenance"],
-    metaTitle: "Artificial Turf Maintenance for Bay Area Homeowners | Murphy's Turf Care",
+    metaTitle: "Artificial Turf Maintenance for Bay Area Homeowners | Murphy's Turf",
     metaDescription: "Bay Area artificial turf faces unique challenges from fog, moisture, oak debris, and marine air. Get expert maintenance tips for Contra Costa County synthetic lawns.",
     featuredImage: "/images/blog/artificial-turf-maintenance-bay-area-homeowners.jpg",
     location: "martinez"
@@ -507,12 +507,12 @@ Artificial turf in Sacramento faces a uniquely challenging combination of enviro
 
 The tips in this guide will help you maintain your turf effectively between professional service visits. But they are not a substitute for the deep cleaning, sanitization, and expert assessment that only professional service can provide.
 
-Murphy's Turf Care serves Sacramento and the surrounding Central Valley communities with artificial turf cleaning services designed specifically for this region's demanding conditions. Our technicians understand what Sacramento turf faces and how to address it comprehensively. Contact us today to put your turf on a maintenance plan that keeps it looking and performing its best year-round.`,
+Murphy's Turf serves Sacramento and the surrounding Central Valley communities with artificial turf cleaning services designed specifically for this region's demanding conditions. Our technicians understand what Sacramento turf faces and how to address it comprehensively. Contact us today to put your turf on a maintenance plan that keeps it looking and performing its best year-round.`,
     author: "Patrick Murphy",
     publishedDate: "2025-09-15",
     category: "local",
     tags: ["Sacramento", "Central Valley", "artificial turf cleaning", "turf maintenance tips"],
-    metaTitle: "Sacramento's Best Artificial Turf Cleaning Tips | Murphy's Turf Care",
+    metaTitle: "Sacramento's Best Artificial Turf Cleaning Tips | Murphy's Turf",
     metaDescription: "Sacramento homeowners: get expert tips for cleaning artificial turf in Central Valley heat, dust, and pollen. Seasonal maintenance guide for synthetic grass care.",
     featuredImage: "/images/blog/sacramento-artificial-turf-cleaning-tips.jpg",
     location: "sacramento"
@@ -603,7 +603,7 @@ Consumer turf cleaning products typically contain dilute concentrations of basic
 
 Hospital-grade products are EPA-registered antimicrobials that have undergone rigorous testing to demonstrate their efficacy against specific pathogens at specific concentrations. They are formulated to achieve rapid, broad-spectrum kill rates against bacteria, viruses, and fungi. When applied by trained professionals using appropriate equipment, these products provide a level of sanitization that is simply unattainable with consumer alternatives.
 
-Importantly, the hospital-grade products used by Murphy's Turf Care are selected specifically for turf compatibility. They are non-corrosive to synthetic fibers, safe for infill materials, non-toxic to pets and children after drying, and environmentally responsible. Effective sanitization does not require harsh or dangerous chemicals — it requires the right products applied correctly.
+Importantly, the hospital-grade products used by Murphy's Turf are selected specifically for turf compatibility. They are non-corrosive to synthetic fibers, safe for infill materials, non-toxic to pets and children after drying, and environmentally responsible. Effective sanitization does not require harsh or dangerous chemicals — it requires the right products applied correctly.
 
 ## How Often Should You Sanitize?
 
@@ -635,12 +635,12 @@ Regular artificial turf sanitization is one of the most straightforward investme
 
 Do not let the clean appearance of your synthetic lawn lull you into a false sense of security. What you cannot see can absolutely affect your family's health. Professional sanitization eliminates the invisible threats lurking in your turf and provides the peace of mind that comes with knowing your outdoor living space is genuinely clean — not just visually clean.
 
-Murphy's Turf Care provides comprehensive artificial turf sanitization services using hospital-grade, turf-safe antimicrobial treatments. Contact us today to schedule your sanitization service and protect the health of everyone who uses your synthetic lawn.`,
+Murphy's Turf provides comprehensive artificial turf sanitization services using hospital-grade, turf-safe antimicrobial treatments. Contact us today to schedule your sanitization service and protect the health of everyone who uses your synthetic lawn.`,
     author: "Patrick Murphy",
     publishedDate: "2025-08-22",
     category: "health",
     tags: ["turf sanitization", "health benefits", "bacteria removal", "artificial turf hygiene"],
-    metaTitle: "Health Benefits of Regular Artificial Turf Sanitization | Murphy's Turf Care",
+    metaTitle: "Health Benefits of Regular Artificial Turf Sanitization | Murphy's Turf",
     metaDescription: "Learn what bacteria lurk in artificial turf — E. coli, Staph, MRSA, Salmonella — and why regular professional sanitization is essential for protecting your family's health.",
     featuredImage: "/images/blog/health-benefits-regular-artificial-turf-sanitization.jpg"
   },
@@ -650,7 +650,7 @@ Murphy's Turf Care provides comprehensive artificial turf sanitization services 
     excerpt: "Discover the ideal cleaning frequency for your artificial turf based on usage, pets, and California's climate to keep it fresh, safe, and long-lasting.",
     content: `
       <h2>How Often Should You Clean Your Artificial Turf?</h2>
-      <p>One of the most common questions we get at Murphy's Turf Care is straightforward: how often should artificial turf be cleaned? The answer, however, depends on several factors — from whether you have pets to how much foot traffic your turf receives and even where in California you live. Getting the frequency right is the difference between a pristine, odor-free surface and one that becomes a breeding ground for bacteria, develops persistent smells, and deteriorates years before its time.</p>
+      <p>One of the most common questions we get at Murphy's Turf is straightforward: how often should artificial turf be cleaned? The answer, however, depends on several factors — from whether you have pets to how much foot traffic your turf receives and even where in California you live. Getting the frequency right is the difference between a pristine, odor-free surface and one that becomes a breeding ground for bacteria, develops persistent smells, and deteriorates years before its time.</p>
       <p>This definitive guide breaks down cleaning frequency by scenario, explains what happens when you skip maintenance, and accounts for the unique demands of California's climate on synthetic turf surfaces.</p>
 
       <h2>Cleaning Frequency by Usage Scenario</h2>
@@ -696,13 +696,13 @@ Murphy's Turf Care provides comprehensive artificial turf sanitization services 
       <p>Between scheduled cleanings, watch for these indicators that your turf needs attention sooner than planned. A persistent smell that doesn't dissipate after hosing is the most obvious sign. Visible discoloration — yellowing, dark patches, or a generally dull appearance — signals organic buildup on fibers. If water pools on the surface instead of draining within minutes, the infill is likely compacted or clogged. Fibers that remain flat after brushing indicate they've lost their resilience due to embedded debris and compaction. If you notice any of these signs, don't wait for your next scheduled cleaning — contact your turf care provider for an early visit.</p>
 
       <h2>Building Your Cleaning Schedule</h2>
-      <p>The best approach is to establish a baseline frequency based on your usage scenario, then adjust seasonally for California's climate and reactively when warning signs appear. Keep a simple log of cleaning dates, any issues observed, and the condition of the turf at each visit. Over time, this record helps you fine-tune the ideal frequency for your specific installation. Professional turf care providers like Murphy's Turf Care can also assess your turf during each visit and recommend schedule adjustments based on observed conditions. A proactive cleaning schedule isn't just maintenance — it's an investment that protects the significant cost of your turf installation and ensures your outdoor space remains clean, safe, and enjoyable year-round.</p>
+      <p>The best approach is to establish a baseline frequency based on your usage scenario, then adjust seasonally for California's climate and reactively when warning signs appear. Keep a simple log of cleaning dates, any issues observed, and the condition of the turf at each visit. Over time, this record helps you fine-tune the ideal frequency for your specific installation. Professional turf care providers like Murphy's Turf can also assess your turf during each visit and recommend schedule adjustments based on observed conditions. A proactive cleaning schedule isn't just maintenance — it's an investment that protects the significant cost of your turf installation and ensures your outdoor space remains clean, safe, and enjoyable year-round.</p>
     `,
     author: "Patrick Murphy",
     publishedDate: "2025-08-05",
     category: "guides",
     tags: ["cleaning frequency", "artificial turf maintenance", "turf cleaning schedule"],
-    metaTitle: "How Often Should You Clean Your Artificial Turf? | Murphy's Turf Care",
+    metaTitle: "How Often Should You Clean Your Artificial Turf? | Murphy's Turf",
     metaDescription: "Learn the ideal artificial turf cleaning frequency based on pets, foot traffic, and California climate. Avoid odor, bacteria, and drainage issues with the right schedule.",
     featuredImage: "/images/blog/how-often-clean-artificial-turf.jpg"
   },
@@ -760,13 +760,13 @@ Murphy's Turf Care provides comprehensive artificial turf sanitization services 
 
       <h2>Volume Pricing and Budget Planning</h2>
       <p>Commercial turf cleaning is typically priced by square footage, with volume discounts for larger installations and multi-location accounts. A facility with multiple turf areas — for example, an apartment complex with a dog park, a children's play area, and courtyard turf — can often negotiate a bundled rate that covers all areas on a single service visit. HOA management companies overseeing multiple communities can secure portfolio pricing that reduces the per-community cost. When budgeting, plan for twelve months of service with a seasonal adjustment — expect slightly higher costs during summer months when more frequent cleaning is needed to manage heat-amplified issues. Most reputable providers will conduct a free site assessment and provide a detailed quote before any commitment, allowing you to budget with precision.</p>
-      <p>Commercial artificial turf is an asset worth protecting. The businesses and communities that treat maintenance as a core operating expense — not an afterthought — are the ones that enjoy clean, safe, attractive turf surfaces for the full duration of the product's intended lifespan. At Murphy's Turf Care, we work with commercial clients throughout California to develop maintenance programs tailored to their specific installations, usage patterns, and budgets. Reach out for a free consultation and site assessment.</p>
+      <p>Commercial artificial turf is an asset worth protecting. The businesses and communities that treat maintenance as a core operating expense — not an afterthought — are the ones that enjoy clean, safe, attractive turf surfaces for the full duration of the product's intended lifespan. At Murphy's Turf, we work with commercial clients throughout California to develop maintenance programs tailored to their specific installations, usage patterns, and budgets. Reach out for a free consultation and site assessment.</p>
     `,
     author: "Patrick Murphy",
     publishedDate: "2025-07-18",
     category: "commercial",
     tags: ["commercial turf cleaning", "business turf maintenance", "HOA turf cleaning", "dog park cleaning"],
-    metaTitle: "Commercial Artificial Turf Cleaning for Business Owners | Murphy's Turf Care",
+    metaTitle: "Commercial Artificial Turf Cleaning for Business Owners | Murphy's Turf",
     metaDescription: "Learn what business owners need to know about commercial artificial turf cleaning — from dog parks and HOAs to sports fields. Compliance, contracts, and ROI explained.",
     featuredImage: "/images/blog/commercial-artificial-turf-cleaning-business-owners.jpg"
   },
@@ -824,14 +824,14 @@ Murphy's Turf Care provides comprehensive artificial turf sanitization services 
 
       <h2>The False Economy of Neglecting Professional Cleaning</h2>
       <p>The most expensive mistake homeowners make is assuming that DIY maintenance alone is sufficient. Surface cleaning addresses the visible symptoms but not the underlying issues. Over months and years, bacteria, uric acid, and organic matter accumulate in the infill layer where no amount of hosing can reach. Drainage gradually degrades. Fibers lose their resilience permanently. By the time the problems become impossible to ignore — pervasive odor, standing water, visibly deteriorated surface — the turf may need partial or complete replacement rather than routine maintenance.</p>
-      <p>We see this pattern repeatedly at Murphy's Turf Care: a homeowner calls after two or three years of DIY-only maintenance, frustrated by problems that surface cleaning won't resolve. The remediation cost is invariably higher than the cumulative cost of regular professional service would have been. In some cases, the turf is damaged beyond what cleaning can restore, and replacement is the only option. The "savings" from skipping professional cleaning evaporated the moment the turf's subsurface became a problem that DIY methods couldn't address.</p>
+      <p>We see this pattern repeatedly at Murphy's Turf: a homeowner calls after two or three years of DIY-only maintenance, frustrated by problems that surface cleaning won't resolve. The remediation cost is invariably higher than the cumulative cost of regular professional service would have been. In some cases, the turf is damaged beyond what cleaning can restore, and replacement is the only option. The "savings" from skipping professional cleaning evaporated the moment the turf's subsurface became a problem that DIY methods couldn't address.</p>
       <p>The bottom line: DIY and professional cleaning aren't competitors — they're complementary. Your effort keeps the surface clean day to day. Professional service protects the system from the inside out. Together, they ensure your artificial turf looks great, performs well, and lasts its full intended lifespan.</p>
     `,
     author: "Patrick Murphy",
     publishedDate: "2025-07-01",
     category: "guides",
     tags: ["DIY turf cleaning", "professional turf cleaning", "artificial turf maintenance", "cost comparison"],
-    metaTitle: "DIY vs Professional Artificial Turf Cleaning: What's Worth It? | Murphy's Turf Care",
+    metaTitle: "DIY vs Professional Artificial Turf Cleaning: What's Worth It? | Murphy's Turf",
     metaDescription: "Compare DIY and professional artificial turf cleaning — what you can handle yourself, what needs a pro, and the true cost of each approach for California homeowners.",
     featuredImage: "/images/blog/diy-vs-professional-artificial-turf-cleaning.jpg"
   },
@@ -877,7 +877,7 @@ Murphy's Turf Care provides comprehensive artificial turf sanitization services 
       <p>Enzymes are biological catalysts that accelerate chemical reactions. In the context of pet turf cleaning, bio-enzymatic products contain specific enzyme strains that target and break down uric acid, proteins, and other organic compounds found in pet waste. The enzymes essentially digest these substances, converting them into carbon dioxide, water, and simple salts that rinse away harmlessly. Unlike chemical deodorizers that mask odor temporarily, enzyme treatments eliminate the odor source permanently. Professional-grade enzyme formulations are significantly more concentrated and effective than consumer products, which is why monthly professional application provides results that weekly consumer product application cannot match. The two approaches work best in combination: professional treatments reset the baseline, and consumer applications maintain it between visits.</p>
 
       <h2>Choosing Pet-Safe Cleaning Products</h2>
-      <p>Not every cleaning product is safe for use on turf where pets play. Avoid bleach, ammonia, and harsh chemical disinfectants — they can damage turf fibers, harm your pets through paw contact, and kill the beneficial microorganisms in enzyme products. Look for products that are explicitly labeled as pet-safe, non-toxic, and biodegradable. Check that they are free of phenols, which are toxic to dogs and cats. If you use a professional service, ask what products they use and request safety data sheets if you have concerns. Reputable turf care companies like Murphy's Turf Care use products that are safe for pets to walk on immediately after application and are formulated to be environmentally responsible.</p>
+      <p>Not every cleaning product is safe for use on turf where pets play. Avoid bleach, ammonia, and harsh chemical disinfectants — they can damage turf fibers, harm your pets through paw contact, and kill the beneficial microorganisms in enzyme products. Look for products that are explicitly labeled as pet-safe, non-toxic, and biodegradable. Check that they are free of phenols, which are toxic to dogs and cats. If you use a professional service, ask what products they use and request safety data sheets if you have concerns. Reputable turf care companies like Murphy's Turf use products that are safe for pets to walk on immediately after application and are formulated to be environmentally responsible.</p>
 
       <h2>Training Tips to Minimize Turf Challenges</h2>
       <p>A few behavioral adjustments can meaningfully reduce the maintenance burden on your artificial turf. If possible, train your dog to use a designated relief area rather than the entire yard. This concentrates the waste in a smaller zone that's easier to manage and clean, while keeping the majority of your turf in lighter-use condition. Some pet owners install a small gravel or pea-stone relief pad in one corner and train their dogs to use that area, reserving the turf for play. If your dog already has a preferred spot, embrace it — it's easier to maintain one area intensively than to treat the entire yard uniformly.</p>
@@ -888,7 +888,7 @@ Murphy's Turf Care provides comprehensive artificial turf sanitization services 
     publishedDate: "2025-06-12",
     category: "pet-care",
     tags: ["pets", "artificial turf", "dog turf care", "pet odor", "pet-safe turf cleaning"],
-    metaTitle: "Artificial Turf and Pets: Keeping Your Yard Clean and Safe | Murphy's Turf Care",
+    metaTitle: "Artificial Turf and Pets: Keeping Your Yard Clean and Safe | Murphy's Turf",
     metaDescription: "The complete pet owner's guide to artificial turf maintenance. Learn daily routines, enzyme treatments, odor control, and pet-safe cleaning for your synthetic turf.",
     featuredImage: "/images/blog/artificial-turf-and-pets-keeping-yard-clean.jpg"
   },
@@ -944,13 +944,13 @@ Murphy's Turf Care provides comprehensive artificial turf sanitization services 
       <p><strong>September:</strong> Maintain summer intensity through mid-month, then transition as temperatures moderate. Professional cleaning to reset after summer's demands.</p>
       <p><strong>October - November:</strong> Leaf and debris removal becomes the priority. Weekly or biweekly debris clearing. Monthly professional cleaning. Fall deep cleaning to address summer's residual buildup. Inspect drainage before rainy season.</p>
       <p><strong>December:</strong> Monthly professional cleaning. Begin winter mold monitoring. Ensure drainage channels are clear for rainy season. Reduce rinsing frequency as rain provides natural flushing.</p>
-      <p>Following this seasonal approach ensures your artificial turf receives the right type of care at the right time of year, adapted to California's unique climate demands. At Murphy's Turf Care, we adjust our service protocols seasonally and regionally, so your turf maintenance is always calibrated to current conditions — not a one-size-fits-all schedule that misses the nuances of California's diverse climate zones.</p>
+      <p>Following this seasonal approach ensures your artificial turf receives the right type of care at the right time of year, adapted to California's unique climate demands. At Murphy's Turf, we adjust our service protocols seasonally and regionally, so your turf maintenance is always calibrated to current conditions — not a one-size-fits-all schedule that misses the nuances of California's diverse climate zones.</p>
     `,
     author: "Patrick Murphy",
     publishedDate: "2025-05-25",
     category: "seasonal",
     tags: ["seasonal care", "California", "artificial turf maintenance", "year-round turf care"],
-    metaTitle: "Seasonal Artificial Turf Care in California | Murphy's Turf Care",
+    metaTitle: "Seasonal Artificial Turf Care in California | Murphy's Turf",
     metaDescription: "Season-by-season artificial turf maintenance guide for California. Regional tips for SoCal, Bay Area, and Central Valley with a month-by-month cleaning calendar.",
     featuredImage: "/images/blog/seasonal-artificial-turf-care-california.jpg"
   },
@@ -1012,13 +1012,13 @@ Murphy's Turf Care provides comprehensive artificial turf sanitization services 
 
       <h2>Emergency vs. Routine: When to Act Immediately</h2>
       <p>Most turf issues are progressive and can wait for a scheduled service appointment. However, certain situations warrant an immediate call. Standing water that persists more than twenty-four hours after rain stops indicates a drainage failure that can cause rapid mold growth and structural damage. Visible black mold spreading across a significant area should be treated before it penetrates seams and backing. A sudden and severe odor spike — especially in turf used by children — suggests a contamination event that poses a health concern. Seams that have separated enough to create a trip hazard are a liability issue that needs prompt repair. For these situations, contact your turf care provider and describe the urgency so they can prioritize your visit accordingly.</p>
-      <p>At Murphy's Turf Care, we encourage homeowners to reach out at the first sign of concern rather than waiting until problems become severe. Early intervention is always less expensive, less disruptive, and more effective than remediation after months of neglect. Your artificial turf is a significant investment — protecting it with attentive monitoring and timely professional care ensures it serves your family well for its full expected lifespan.</p>
+      <p>At Murphy's Turf, we encourage homeowners to reach out at the first sign of concern rather than waiting until problems become severe. Early intervention is always less expensive, less disruptive, and more effective than remediation after months of neglect. Your artificial turf is a significant investment — protecting it with attentive monitoring and timely professional care ensures it serves your family well for its full expected lifespan.</p>
     `,
     author: "Patrick Murphy",
     publishedDate: "2025-05-08",
     category: "guides",
     tags: ["turf cleaning signs", "artificial turf problems", "when to clean turf", "turf maintenance"],
-    metaTitle: "Signs Your Artificial Turf Needs Professional Cleaning | Murphy's Turf Care",
+    metaTitle: "Signs Your Artificial Turf Needs Professional Cleaning | Murphy's Turf",
     metaDescription: "Discover the telltale signs your artificial turf needs professional cleaning — persistent odor, poor drainage, matted fibers, mold, and more. Know when to call a pro.",
     featuredImage: "/images/blog/signs-artificial-turf-needs-professional-cleaning.jpg"
   }];

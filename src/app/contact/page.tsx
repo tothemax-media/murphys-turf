@@ -36,7 +36,7 @@ export default function ContactPage() {
             Get In Touch
           </h1>
           <p className="text-lg sm:text-xl text-white/90 font-body max-w-2xl mx-auto leading-relaxed">
-            Ready for a healthier, greener lawn? Reach out for a{' '}
+            Ready for cleaner, fresher artificial turf? Reach out for a{' '}
             <span className="font-semibold text-cream">free quote</span> and let our experts
             take care of the rest.
           </p>
@@ -67,7 +67,7 @@ export default function ContactPage() {
                     </h3>
                     <p className="text-charcoal-light font-body max-w-md mx-auto mb-6">
                       Thank you for reaching out. A member of our team will contact you within 24
-                      hours to discuss your lawn care needs.
+                      hours to discuss your turf cleaning needs.
                     </p>
                     <button
                       type="button"
@@ -176,12 +176,11 @@ export default function ContactPage() {
                           <option value="" disabled>
                             Select a service
                           </option>
-                          <option value="lawn-cleaning">Lawn Cleaning</option>
-                          <option value="aeration">Aeration</option>
-                          <option value="seeding">Seeding</option>
-                          <option value="fertilization">Fertilization</option>
-                          <option value="pest-control">Pest Control</option>
-                          <option value="seasonal-maintenance">Seasonal Maintenance</option>
+                          <option value="pet-hair-debris">Pet Hair &amp; Debris Removal</option>
+                          <option value="blooming-decompacting">Blooming &amp; De-Compacting</option>
+                          <option value="disinfect-deodorize">Disinfect &amp; Deodorize</option>
+                          <option value="poop-scooping">Poop Scooping &amp; Removal</option>
+                          <option value="oxyturf">Powered By OxyTurf</option>
                           <option value="not-sure">Not Sure</option>
                         </select>
                       </div>
@@ -200,7 +199,7 @@ export default function ContactPage() {
                         name="message"
                         required
                         rows={5}
-                        placeholder="Tell us about your lawn care needs, property size, or any questions you have..."
+                        placeholder="Tell us about your artificial turf cleaning needs, property size, or any questions you have..."
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg font-body text-charcoal placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-sage focus:border-transparent transition-shadow resize-y"
                       />
                     </div>
@@ -398,7 +397,7 @@ export default function ContactPage() {
               What to Expect
             </h2>
             <p className="text-lg text-charcoal-light font-body max-w-2xl mx-auto">
-              From first contact to a beautiful lawn, here&apos;s how we make it simple.
+              From first contact to pristine turf, here&apos;s how we make it simple.
             </p>
           </div>
 
@@ -415,7 +414,7 @@ export default function ContactPage() {
                 Submit Your Request
               </h3>
               <p className="text-charcoal-light font-body leading-relaxed">
-                Fill out our quick contact form or give us a call. Tell us about your lawn and
+                Fill out our quick contact form or give us a call. Tell us about your turf and
                 what services you&apos;re interested in.
               </p>
             </div>
@@ -432,7 +431,7 @@ export default function ContactPage() {
                 We&apos;ll Contact You Within 24 Hours
               </h3>
               <p className="text-charcoal-light font-body leading-relaxed">
-                A lawn care specialist will reach out to discuss your needs, answer any questions,
+                A turf cleaning specialist will reach out to discuss your needs, answer any questions,
                 and schedule a convenient time to visit.
               </p>
             </div>
@@ -449,7 +448,7 @@ export default function ContactPage() {
                 Get Your Free On-Site Estimate
               </h3>
               <p className="text-charcoal-light font-body leading-relaxed">
-                We&apos;ll visit your property, assess your lawn&apos;s condition, and provide a
+                We&apos;ll visit your property, assess your turf&apos;s condition, and provide a
                 detailed, no-obligation quote tailored to your needs.
               </p>
             </div>
