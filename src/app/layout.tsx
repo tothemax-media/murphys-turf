@@ -5,41 +5,19 @@ import "./globals.css";
 const montserrat = Montserrat({
   variable: "--font-montserrat",
   subsets: ["latin"],
-  display: "swap",
+  weight: ["400", "500", "600", "700", "800"],
 });
 
 const openSans = Open_Sans({
   variable: "--font-open-sans",
   subsets: ["latin"],
-  display: "swap",
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
-  title: {
-    default: "Murphy's Turf | Professional Turf Cleaning & Lawn Care | Colorado Front Range",
-    template: "%s | Murphy's Turf",
-  },
+  title: "Murphy's Turf — Professional Lawn Care & Turf Cleaning",
   description:
-    "Professional turf cleaning and lawn care services for the Colorado Front Range. Residential and commercial artificial turf maintenance, cleaning, and repair.",
-  keywords: [
-    "turf cleaning",
-    "lawn care",
-    "artificial turf maintenance",
-    "Colorado Front Range",
-    "turf repair",
-    "commercial turf cleaning",
-    "residential lawn care",
-  ],
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://murphysturf.com"),
-  openGraph: {
-    type: "website",
-    locale: "en_US",
-    siteName: "Murphy's Turf",
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
+    "Professional turf cleaning & lawn care services across the Colorado Front Range. Licensed, insured, and trusted by 2,500+ customers.",
 };
 
 export default function RootLayout({
@@ -48,7 +26,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${montserrat.variable} ${openSans.variable} h-full antialiased`}>
+    <html
+      lang="en"
+      className={`${montserrat.variable} ${openSans.variable} h-full antialiased`}
+    >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );

@@ -1,18 +1,31 @@
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
+import Hero from "@/components/sections/Hero";
+import ServiceOverview from "@/components/sections/ServiceOverview";
+import WhyChooseUs from "@/components/sections/WhyChooseUs";
+import TestimonialSection from "@/components/sections/TestimonialSection";
+import BeforeAfterGallery from "@/components/sections/BeforeAfterGallery";
+import CTABanner from "@/components/sections/CTABanner";
+import LocationsPreview from "@/components/sections/LocationsPreview";
+import FAQ from "@/components/sections/FAQ";
+import ExitIntentPopup from "@/components/ui/ExitIntentPopup";
+
 export default function Home() {
   return (
-    <main className="flex flex-1 flex-col items-center justify-center px-6 text-center">
-      <h1 className="text-5xl font-bold tracking-tight text-primary font-heading">
-        Murphy&apos;s Turf
-      </h1>
-      <p className="mt-4 text-xl text-charcoal/70">
-        Professional Turf Cleaning &amp; Lawn Care
-      </p>
-      <p className="mt-2 text-lg text-charcoal/50">
-        Serving the Colorado Front Range
-      </p>
-      <div className="mt-8 rounded-full bg-primary px-8 py-3 text-white font-semibold">
-        Coming Soon
-      </div>
-    </main>
+    <>
+      <Header />
+      <main>
+        <Hero />
+        <ServiceOverview />
+        <WhyChooseUs />
+        <TestimonialSection />
+        <BeforeAfterGallery />
+        <CTABanner />
+        <LocationsPreview />
+        <FAQ />
+      </main>
+      <Footer />
+      <ExitIntentPopup />
+    </>
   );
 }
