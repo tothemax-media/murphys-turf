@@ -7,12 +7,11 @@ import {
   ArrowRight,
   Star,
   Map,
-  Leaf,
+  Sparkles,
   Droplets,
-  Bug,
   Sprout,
-  Wind,
-  Calendar,
+  ShieldCheck,
+  Leaf,
   ChevronRight,
   Clock,
   CheckCircle,
@@ -59,46 +58,39 @@ interface LocationData {
 
 const services: ServiceItem[] = [
   {
-    name: 'Lawn Cleaning',
-    slug: 'lawn-cleaning',
-    icon: 'leaf',
+    name: 'Pet Hair & Debris Removal',
+    slug: 'pet-hair-debris',
+    icon: 'sparkles',
     shortDescription:
-      'Professional turf cleaning to remove debris, thatch, and buildup for a healthier, greener lawn.',
+      'Thorough removal of pet hair, leaves, dirt, and embedded debris from artificial turf fibers and infill using commercial-grade extraction equipment.',
   },
   {
-    name: 'Aeration',
-    slug: 'aeration',
-    icon: 'wind',
-    shortDescription:
-      'Core aeration to relieve compaction, improve drainage, and allow nutrients to reach the root zone.',
-  },
-  {
-    name: 'Seeding',
-    slug: 'seeding',
+    name: 'Blooming & De-Compacting',
+    slug: 'blooming-decompacting',
     icon: 'sprout',
     shortDescription:
-      'Overseeding and new lawn establishment with premium grass varieties suited for California climates.',
+      'Restore flattened turf fibers to their original upright position and break up compacted infill for improved drainage and appearance.',
   },
   {
-    name: 'Fertilization',
-    slug: 'fertilization',
+    name: 'Disinfect & Deodorize',
+    slug: 'disinfect-deodorize',
+    icon: 'shieldcheck',
+    shortDescription:
+      'Professional-grade disinfecting and deodorizing powered by OxyTurf. Eliminate bacteria, pet odors, mold, and mildew at their source.',
+  },
+  {
+    name: 'Poop Scooping & Removal',
+    slug: 'poop-scooping',
     icon: 'droplets',
     shortDescription:
-      'Custom fertilization programs designed around soil tests and seasonal nutrient needs.',
+      'Regular, reliable pet waste removal from artificial turf. Scheduled weekly or bi-weekly service to keep your yard clean and hygienic.',
   },
   {
-    name: 'Pest Control',
-    slug: 'pest-control',
-    icon: 'bug',
+    name: 'Powered By OxyTurf',
+    slug: 'oxyturf',
+    icon: 'leaf',
     shortDescription:
-      'Targeted pest and grub management to protect your lawn from damage without harsh chemicals.',
-  },
-  {
-    name: 'Seasonal Maintenance',
-    slug: 'seasonal-maintenance',
-    icon: 'calendar',
-    shortDescription:
-      'Year-round maintenance plans including spring revitalization, summer heat protection, and fall preparation.',
+      'Our proprietary OxyTurf cleaning and disinfecting formula delivers deep sanitization, odor elimination, and fiber rejuvenation in every treatment.',
   },
 ];
 
@@ -107,60 +99,55 @@ const services: ServiceItem[] = [
 // ---------------------------------------------------------------------------
 
 const locationData: Record<string, LocationData> = {
-  'los-angeles': {
-    city: 'Los Angeles',
-    slug: 'los-angeles',
+  'huntington-beach': {
+    city: 'Huntington Beach',
+    slug: 'huntington-beach',
     state: 'CA',
-    phone: '(213) 555-7890',
-    email: 'la@murphysturfcare.com',
+    phone: '(951) 331-3300',
+    email: 'info@murphysturf.com',
     heroSubtitle:
-      "Professional lawn care for LA's diverse neighborhoods and Mediterranean climate. From coastal Santa Monica to inland Pasadena, our team delivers water-smart turf solutions tailored to Southern California's unique growing conditions.",
+      "Professional artificial turf cleaning for Huntington Beach and the LA coastal corridor. From Newport Beach and Costa Mesa to Long Beach and Seal Beach, Murphy's Turf delivers OxyTurf-powered cleaning tailored to Southern California's beachside communities.",
     description: [
-      "Los Angeles presents one of the most complex lawn care environments in the country. The city's sprawling geography — stretching from the Pacific coast through the basin and up into foothill communities — creates a patchwork of microclimates that can vary dramatically within just a few miles. Coastal neighborhoods like Santa Monica and Mar Vista enjoy cooler temperatures moderated by ocean breezes and marine layer, while inland areas like Pasadena and Burbank experience significantly hotter summers and wider temperature swings. At Murphy's Turf Care, our LA team understands these distinctions at a granular level. We build custom treatment plans for each property based on its specific microclimate, sun exposure, soil composition, and irrigation setup. Whether your lawn sits in the shade of Silver Lake's hillsides or bakes in the full sun of the San Fernando Valley, we have the expertise to keep it thriving.",
-      "Water conservation is the defining challenge of lawn care in Los Angeles. LADWP watering restrictions limit outdoor irrigation to specific days and durations, and drought conditions have made Angelenos more conscious than ever about every gallon they use. Murphy's Turf Care embraces this reality by designing lawn care programs that maximize turf health while minimizing water consumption. We use warm-season grass varieties like Bermuda and St. Augustine that require less water than traditional cool-season lawns, and our aeration services improve soil permeability so that every drop of irrigation water reaches the root zone instead of running off into the gutter. Our fertilization programs use slow-release formulations that feed steadily over weeks rather than creating flush growth that demands extra watering. For customers exploring alternatives, we also consult on drought-tolerant turf varieties and hybrid approaches that blend natural grass with water-efficient landscaping.",
-      "The Santa Ana winds add another layer of complexity to LA lawn care. These hot, dry offshore winds can arrive without warning between October and March, desiccating lawns and stressing turf grasses already dealing with limited irrigation. Our seasonal maintenance programs prepare lawns for Santa Ana events with deep watering schedules, anti-desiccant treatments, and root-zone moisture management. Year-round, our LA team monitors weather patterns and adjusts treatment timing to work with the city's roughly 284 sunny days and 35 days of measurable rain. From the celebrity estates of Beverly Hills to the bungalow lawns of Echo Park, Murphy's Turf Care delivers consistent, professional results that keep Los Angeles green, healthy, and water-responsible.",
+      "Huntington Beach and the surrounding LA coastal communities present a unique environment for artificial turf owners. The combination of ocean salt air, coastal humidity, marine layer moisture, and intense Southern California sunshine creates conditions that accelerate contamination in synthetic turf systems. Sand blown inland from the beaches works its way deep into turf fibers and infill, mixing with pet waste residue, pollen, and organic debris to form a compacted layer that blocks drainage and harbors bacteria. The marine layer that rolls through Huntington Beach, Newport Beach, and Seal Beach most mornings creates damp conditions in the turf that promote mold and mildew growth — problems that intensify in shaded areas under patios, pergolas, and near fences. Meanwhile, afternoon sun bakes everything that has accumulated in the turf, crystallizing pet urine into persistent uric acid deposits and amplifying odors that make outdoor spaces unpleasant. Homeowners in Costa Mesa, Long Beach, and throughout the coastal corridor invest heavily in their outdoor living areas, and dirty, smelly artificial turf undermines that investment entirely.",
+
+      "Murphy's Turf brings over 30 years of cleaning and disinfecting experience to the Huntington Beach and LA coastal area. Our proprietary OxyTurf product is specifically formulated to address the dual challenges of coastal moisture and Southern California heat — dissolving uric acid crystals from pet urine, eliminating mold and mildew colonies that thrive in marine layer conditions, and neutralizing the embedded organic compounds that produce persistent odors. Our technicians understand that a turf installation two blocks from the Huntington Beach pier faces different conditions than one in a Costa Mesa backyard shielded from ocean breezes, and we calibrate our treatment approach accordingly. From the prestigious neighborhoods along Pacific Coast Highway in Newport Beach to the family communities of Seal Beach and the bustling commercial districts of Long Beach, Murphy's Turf delivers consistent, professional results that restore artificial turf to like-new condition. Our full range of services — pet hair and debris removal, blooming and de-compacting, disinfecting and deodorizing, poop scooping, and comprehensive OxyTurf treatments — ensures that every aspect of your turf's condition is addressed.",
+
+      "The coastal lifestyle in Huntington Beach means outdoor spaces are used year-round — backyard entertaining, pet play areas, rooftop patios, and poolside lounging are everyday activities, not seasonal luxuries. That year-round use means year-round accumulation of contaminants in your artificial turf. Murphy's Turf offers flexible maintenance plans that keep your turf consistently clean, hygienic, and visually impressive regardless of the season. Whether you need weekly poop scooping for your Newport Beach pet area, monthly OxyTurf disinfecting for your Seal Beach backyard, or quarterly full-service cleaning for your Costa Mesa commercial property, we build a program around your specific needs and budget. When you care about clean turf, call Murphy's Turf — the trusted choice for artificial turf cleaning across the Huntington Beach and LA coastal area.",
     ],
     neighborhoods: [
-      'Hollywood',
-      'Santa Monica',
-      'Beverly Hills',
-      'Pasadena',
+      'Huntington Beach',
+      'Newport Beach',
+      'Costa Mesa',
       'Long Beach',
-      'Burbank',
-      'Glendale',
-      'West Hollywood',
-      'Silver Lake',
-      'Echo Park',
-      'Mar Vista',
-      'Culver City',
+      'Seal Beach',
     ],
     testimonials: [
       {
         name: 'Jessica Moreno',
-        neighborhood: 'Pasadena',
+        neighborhood: 'Newport Beach',
         rating: 5,
-        text: "Our Pasadena lawn was turning brown every summer no matter how much we watered. Murphy's Turf Care did a soil analysis, switched us to a warm-season blend, and set up an aeration schedule. Our water bill went down and our lawn has never looked better. They really understand how to work with LA's climate, not against it.",
+        text: "Our Newport Beach backyard turf was developing a musty smell from the marine layer moisture and our two labs weren't helping. Murphy's Turf came out with OxyTurf and the difference was unbelievable. No more mold smell, no pet odor, and the fibers look like new. They understand coastal turf challenges better than anyone we've worked with.",
       },
       {
         name: 'Derek Lawson',
-        neighborhood: 'Santa Monica',
+        neighborhood: 'Huntington Beach',
         rating: 5,
-        text: "Living near the coast, our lawn dealt with salt air and the marine layer constantly. Murphy's team recommended specific grass varieties that handle coastal conditions and built a fertilization program around the cooler microclimate here. Two seasons in and our neighbors keep asking who takes care of our yard. Highly recommend.",
+        text: "Living near the beach, our turf collects sand constantly and the salt air creates issues other companies don't know how to handle. Murphy's Turf deep extraction removed sand we didn't even know was in there, and the OxyTurf treatment left everything disinfected and fresh. Highly recommend for any coastal homeowner.",
       },
       {
         name: 'Nina Patel',
-        neighborhood: 'Silver Lake',
+        neighborhood: 'Costa Mesa',
         rating: 5,
-        text: "We have a steep hillside lawn in Silver Lake that other companies refused to even quote. Murphy's Turf Care not only took it on but designed a maintenance program that prevents erosion and keeps the grass lush. Their crew is professional, punctual, and genuinely knowledgeable about Southern California turf. Outstanding service from start to finish.",
+        text: "We have a large pet area in our Costa Mesa backyard that three dogs use daily. The smell was terrible by summer. Murphy's Turf poop scooping service combined with their monthly OxyTurf treatment completely solved the problem. Our yard is actually pleasant to be in again. Outstanding service from start to finish.",
       },
     ],
-    metaTitle: "Lawn Care & Turf Cleaning in Los Angeles, CA | Murphy's Turf Care",
+    metaTitle: "Artificial Turf Cleaning in Huntington Beach & LA Area | Murphy's Turf",
     metaDescription:
-      "LA's trusted lawn care professionals. Murphy's Turf Care offers aeration, seeding, fertilization, pest control, and seasonal maintenance across Hollywood, Santa Monica, Pasadena, Beverly Hills, and more.",
+      "Professional artificial turf cleaning in Huntington Beach, Newport Beach, Costa Mesa, Long Beach & Seal Beach. OxyTurf-powered disinfecting. Call (951) 331-3300.",
     climateNote:
-      'Los Angeles features a Mediterranean climate with approximately 284 sunny days and only 35 days of measurable rain per year. Microclimates vary widely from the cool coast to the hot inland valleys. LADWP watering restrictions and Santa Ana wind events are key factors in lawn care planning.',
+      'The Huntington Beach and LA coastal corridor features a mild Mediterranean climate moderated by ocean breezes and marine layer. Morning coastal fog and humidity promote mold and mildew in turf systems, while afternoon sun intensifies pet odors and bakes contaminants into infill. Windblown sand from nearby beaches embeds in turf fibers and requires specialized extraction.',
     serviceAreaDescription:
-      'Our Los Angeles service area covers the greater LA metro from Santa Monica and Mar Vista on the Westside through Hollywood, Silver Lake, and Echo Park in the center, up to Pasadena, Burbank, and Glendale in the foothills, and south to Culver City and Long Beach.',
+      'Our Huntington Beach service area covers the LA coastal corridor from Long Beach in the north through Seal Beach and Huntington Beach, south to Newport Beach and Costa Mesa. We serve residential, commercial, and HOA properties throughout Orange County and southern LA County coastal communities.',
   },
 
   murrieta: {
@@ -168,157 +155,156 @@ const locationData: Record<string, LocationData> = {
     slug: 'murrieta',
     state: 'CA',
     phone: '(951) 331-3300',
-    email: 'info@murphysturfcare.com',
+    email: 'info@murphysturf.com',
     heroSubtitle:
-      'Our Headquarters — Serving the Inland Empire & Temecula Valley. Murphy\'s Turf Care was founded right here in Murrieta, and our deepest roots are in the communities of Southwest Riverside County.',
+      "Our Headquarters — Serving the Inland Empire & Temecula Valley. Murphy's Turf was founded right here in Murrieta, and our deepest roots are in the communities of Southwest Riverside County and the greater Inland Empire.",
     description: [
-      "Murrieta is home to Murphy's Turf Care, and no other lawn care company knows this region as intimately as we do. Located in the heart of Southwest Riverside County, Murrieta and the surrounding Temecula Valley present a distinctive set of challenges for homeowners who want beautiful, healthy lawns. Summer temperatures regularly exceed 100 degrees Fahrenheit, the Santa Ana winds sweep through the Temecula Gap with punishing force, and the region's heavy clay soil resists water absorption while baking into near-concrete hardness during the dry months. Our team lives and works in these neighborhoods — from the master-planned community of Greer Ranch to the established streets of California Oaks — and we have spent years perfecting treatment protocols that deliver green, resilient lawns despite these demanding conditions.",
-      "Water management is central to every lawn care program we design in Murrieta. The Eastern Municipal Water District (EMWD) sets irrigation guidelines that Murrieta homeowners must follow, and our treatment plans are built to maximize the effectiveness of every allowed watering session. Our core aeration services break through the compacted clay that is ubiquitous across the Inland Empire, allowing water to penetrate deep into the root zone rather than pooling on the surface or running off. We pair aeration with slow-release fertilization programs that promote deep root growth, which makes turf more drought-tolerant and better able to survive the intense heat of July, August, and September. For newer communities like Warm Springs and Bear Creek, where builder-grade landscapes often struggle within the first year, we offer establishment programs that get young lawns rooted and thriving before their first full Murrieta summer.",
-      "Beyond the heat and clay soil, Murrieta lawns contend with the Santa Ana winds that funnel through the Temecula Gap, sometimes gusting above 60 miles per hour. These events strip moisture from turf, deposit dust and debris, and can flatten or damage grass blades. Our seasonal maintenance programs include post-Santa Ana recovery treatments, deep cleaning services to remove wind-blown debris, and anti-stress applications that help lawns bounce back quickly. Whether you live in the hillside homes of Los Alamos Hills with panoramic views, the family-friendly streets of French Valley, or the resort-style community of The Oaks, Murphy's Turf Care has the local knowledge and professional equipment to keep your Murrieta lawn looking its best year-round. As our headquarters city, Murrieta customers also benefit from the fastest response times and most flexible scheduling in our entire service network.",
+      "Murrieta is home to Murphy's Turf, and no other artificial turf cleaning company knows this region as intimately as we do. Located in the heart of Southwest Riverside County, Murrieta and the surrounding Inland Empire present a distinctive set of challenges for homeowners who want clean, hygienic artificial turf. Summer temperatures regularly exceed 100 degrees Fahrenheit, the Santa Ana winds sweep through the Temecula Gap with punishing force, and the region's heavy clay soil creates drainage problems that affect turf performance. Our team lives and works in these neighborhoods — from the master-planned communities of Temecula to the growing developments of French Valley and Menifee — and we have spent decades perfecting treatment protocols that deliver clean, odor-free turf despite these demanding conditions. With 30+ years of cleaning and disinfecting experience, Murphy's Turf understands Inland Empire artificial turf at a level no competitor can match.",
+
+      "The extreme heat of the Inland Empire is the defining challenge for artificial turf cleanliness in this region. When surface temperatures on synthetic turf exceed 150 degrees on a typical July afternoon, pet urine crystallizes rapidly into uric acid deposits that bind to infill material and resist every DIY cleaning attempt. Dog waste decomposes and bakes into the turf system within hours, creating bacterial hotspots that produce the overwhelming ammonia smell Inland Empire turf owners know all too well. Murphy's Turf OxyTurf product was developed in this exact environment — our proprietary formula is specifically engineered to dissolve heat-hardened uric acid crystals, eliminate the bacteria that thrive in Murrieta's extreme temperatures, and neutralize the odor compounds that make summer evenings on the patio unbearable. Our blooming and de-compacting service addresses the fiber matting and infill compaction that intense heat accelerates, restoring turf that looks years older than it is back to its original lush condition.",
+
+      "Beyond Murrieta proper, our Inland Empire service area extends throughout the communities that make up this rapidly growing region. In Temecula, wine country homeowners maintain premium outdoor spaces that demand immaculate turf. In Lake Elsinore and Canyon Lake, lakeside properties deal with unique humidity and insect challenges. Hemet and Perris face some of the highest summer temperatures in the region. Wildomar and Temescal Valley homeowners contend with the same clay soil and Santa Ana wind conditions as Murrieta. Winchester's newer developments often have builder-grade turf installations that need professional attention within the first year. Across all of these communities, Murphy's Turf delivers the same OxyTurf-powered cleaning excellence that has made us the Inland Empire's most trusted artificial turf cleaning company. As our headquarters city, Murrieta and Inland Empire customers benefit from the fastest response times and most flexible scheduling in our entire service network. When you care about clean turf, call Murphy's Turf.",
     ],
     neighborhoods: [
+      'Temecula',
       'French Valley',
-      'Greer Ranch',
-      'The Oaks',
-      'Los Alamos Hills',
-      'California Oaks',
-      'Copper Canyon',
-      'Warm Springs',
-      'Bear Creek',
+      'Menifee',
+      'Lake Elsinore',
+      'Hemet',
+      'Perris',
+      'Wildomar',
+      'Canyon Lake',
+      'Temescal Valley',
+      'Winchester',
     ],
     testimonials: [
       {
         name: 'Brian Callahan',
-        neighborhood: 'Greer Ranch',
+        neighborhood: 'Temecula',
         rating: 5,
-        text: "We moved to Greer Ranch from the coast and had no idea how different lawn care would be out here. The clay soil was rock-hard and our grass was dying by mid-July. Murphy's Turf Care did a deep aeration, amended the soil, and put us on their seasonal program. Three summers in and our lawn stays green even in August. These guys are the real deal.",
+        text: "We moved to Temecula from the coast and had no idea how different turf maintenance would be in the Inland Empire heat. The pet smell was unbearable by mid-July. Murphy's Turf OxyTurf treatment completely eliminated the odor and their blooming service made our matted turf look brand new. These guys are the real deal — 30 years of experience shows.",
       },
       {
         name: 'Maria Sandoval',
-        neighborhood: 'California Oaks',
+        neighborhood: 'Menifee',
         rating: 5,
-        text: "After trying two other lawn care companies that gave us generic treatments, we switched to Murphy's Turf Care. The difference was immediate — they actually tested our soil, explained the clay issues, and built a plan around the EMWD watering schedule. Our California Oaks lawn is the best it's ever looked and we're using less water. Can't recommend them enough.",
+        text: "After trying two other companies that gave us generic treatments, we switched to Murphy's Turf. The difference was immediate — OxyTurf actually works where other products failed. Our Menifee backyard turf is the best it's ever looked and smelled. When you care about clean turf, these are the people to call.",
       },
       {
         name: 'Tyler Richardson',
         neighborhood: 'French Valley',
         rating: 5,
-        text: "Our new construction lawn in French Valley was struggling badly after the first Santa Ana season. Murphy's Turf Care came out, assessed the damage, and set up a recovery program that included aeration, overseeding with heat-tolerant varieties, and their fertilization plan. Within a few months our lawn went from embarrassing to the best on the block. Being local really makes a difference.",
+        text: "Our new turf in French Valley was already starting to smell after just one summer with our dogs. Murphy's Turf came out, did the full OxyTurf treatment plus de-compacting, and within a few hours our backyard went from embarrassing to the best on the block. Being headquartered locally really makes a difference in response time too.",
       },
     ],
-    metaTitle: "Lawn Care & Turf Cleaning in Murrieta, CA | Murphy's Turf Care HQ",
+    metaTitle: "Artificial Turf Cleaning in Murrieta & Inland Empire | Murphy's Turf HQ",
     metaDescription:
-      "Murrieta's hometown lawn care provider. Murphy's Turf Care headquarters serves the Inland Empire and Temecula Valley with aeration, seeding, fertilization, pest control, and seasonal maintenance.",
+      "Murphy's Turf headquarters in Murrieta. Professional artificial turf cleaning, pet odor removal & OxyTurf disinfecting for the Inland Empire & Temecula Valley. Call (951) 331-3300.",
     climateNote:
-      'Murrieta features a hot semi-arid climate with summer temperatures regularly exceeding 100°F, mild winters in the 40s-60s, and minimal rainfall. Heavy clay soil, Santa Ana winds through the Temecula Gap, and EMWD water conservation guidelines are primary considerations for lawn care.',
+      'Murrieta and the Inland Empire feature a hot semi-arid climate with summer temperatures regularly exceeding 100 degrees Fahrenheit, mild winters, and minimal rainfall. Heavy clay soil, Santa Ana winds through the Temecula Gap, and intense UV exposure are primary factors in artificial turf contamination and odor development.',
     serviceAreaDescription:
-      'Our Murrieta service area covers all of Murrieta from French Valley and Warm Springs in the north through Greer Ranch, The Oaks, and California Oaks in the center, down to Bear Creek and the Temecula border in the south, and east to Los Alamos Hills and Copper Canyon.',
+      'Our Murrieta service area covers the entire Inland Empire from Temecula and French Valley through Menifee and Lake Elsinore, out to Hemet and Perris, and including Wildomar, Canyon Lake, Temescal Valley, and Winchester. As our headquarters city, Murrieta customers enjoy the fastest response times in our network.',
   },
 
   martinez: {
     city: 'Martinez',
     slug: 'martinez',
     state: 'CA',
-    phone: '(925) 555-3456',
-    email: 'bayarea@murphysturfcare.com',
+    phone: '(951) 331-3300',
+    email: 'info@murphysturf.com',
     heroSubtitle:
-      'Serving Martinez & the Greater Bay Area. Our Contra Costa County team delivers expert lawn care calibrated for the fog, marine layer, and unique microclimates of the East Bay.',
+      "Serving Martinez & the Greater East Bay. Our Contra Costa County team delivers expert artificial turf cleaning calibrated for the fog, marine layer, and unique microclimates of the East Bay — from Concord and Pleasant Hill to Walnut Creek, Antioch, and Brentwood.",
     description: [
-      "Martinez sits at the edge of the Carquinez Strait where the Sacramento River Delta meets San Francisco Bay, and this geography creates one of the most fascinating microclimate environments in all of California. Morning fog and marine layer regularly roll through the strait, keeping coastal-facing neighborhoods cooler and more humid than communities just a few ridgelines inland. The delta breezes that flow through Martinez and into the East Bay valleys moderate afternoon temperatures but also create uneven drying patterns across lawns. Murphy's Turf Care has built our Bay Area operation around these nuances. Our Martinez team understands that a lawn in the Alhambra Valley faces different conditions than a property in downtown Martinez, and that a yard in nearby Walnut Creek has different needs than one in Benicia just across the water. Every treatment plan we design starts with a thorough assessment of your property's specific exposure to fog, wind, sun, and soil type.",
-      "Soil composition in the Martinez area presents both challenges and opportunities. Much of Contra Costa County sits on heavy clay soil that retains moisture during the wet season but becomes compacted and nearly impermeable during the dry months. This clay base means that without proper aeration, irrigation water and rainfall sit on the surface rather than reaching root zones, leading to shallow root development and turf that struggles as soon as the dry season arrives. Murphy's Turf Care addresses this with our core aeration program, strategically timed to coincide with the transition from wet to dry seasons. We also recommend and apply soil amendments that improve clay structure over time, gradually creating a more balanced growing medium. For properties near the delta and along the Pacheco Creek corridor, we see more varied soil profiles including alluvial deposits that drain quickly — these lawns benefit from our targeted fertilization programs that prevent nutrient leaching and maintain steady growth through the long, dry California summer.",
-      "Water conservation is a central concern for Bay Area homeowners, and EBMUD (East Bay Municipal Utility District) guidelines shape how our customers irrigate their lawns. Murphy's Turf Care designs every treatment plan with water efficiency as a core principle. Our aeration services ensure maximum water penetration, our fertilization programs promote deep root growth that reduces watering frequency, and we consult on irrigation scheduling that works within EBMUD allowances. The Bay Area's mild year-round temperatures — rarely freezing and seldom exceeding 95 degrees in Martinez — allow for a long growing season that responds well to consistent, science-based care. Whether you are maintaining a sprawling estate in the Alhambra Valley, a craftsman bungalow lot in downtown Martinez, or a suburban property in Pleasant Hill or Concord, Murphy's Turf Care brings professional-grade Bay Area lawn care to your doorstep.",
+      "Martinez sits at the edge of the Carquinez Strait where the Sacramento River Delta meets San Francisco Bay, and this geography creates one of the most fascinating microclimate environments in all of California for artificial turf maintenance. Morning fog and marine layer regularly roll through the strait, keeping Martinez and nearby communities cooler and more humid than areas just a few ridgelines inland. The delta breezes that flow through Martinez and into the East Bay valleys moderate afternoon temperatures but also create uneven drying patterns across turf surfaces. Murphy's Turf has built our Bay Area operation around these nuances. Our team understands that a turf installation in the Alhambra Valley corridor faces different moisture conditions than a property in downtown Martinez, and that a yard in Walnut Creek has different needs than one in Brentwood where temperatures run significantly hotter. With 30+ years of cleaning and disinfecting experience, we assess every property's specific exposure to fog, wind, sun, and drainage before designing a treatment protocol.",
+
+      "The East Bay's moisture-driven challenges make mold, mildew, and algae growth a primary concern for artificial turf owners — problems that are far less common in drier inland regions like the Inland Empire or Sacramento. In Martinez, Concord, Pleasant Hill, and Walnut Creek, coastal moisture settles into turf infill and creates the damp conditions that fungal organisms need to colonize. Shaded areas under trees, along fences, and beneath patio covers are especially vulnerable. Left untreated, mold and mildew produce musty odors, cause discoloration, and create an unhealthy surface for families and pets. Murphy's Turf OxyTurf treatment is specifically effective against these moisture-driven contaminants — our proprietary formula eliminates mold and mildew colonies at their source within the infill layer, not just on the visible surface. For communities further east like Antioch and Brentwood, where summer temperatures climb significantly higher than the coast, pet odor and bacterial contamination become the dominant concerns, and our OxyTurf disinfecting protocol addresses those heat-amplified problems with equal effectiveness.",
+
+      "Water conservation awareness throughout the East Bay has driven tremendous growth in artificial turf installations across Contra Costa County, and that growth has created an urgent need for professional turf hygiene services. Murphy's Turf serves the entire East Bay with our full range of services — pet hair and debris removal, blooming and de-compacting, disinfecting and deodorizing, poop scooping, and comprehensive OxyTurf treatments. Whether you are maintaining a family backyard in Pleasant Hill, a commercial property in Concord, an HOA common area in Walnut Creek, or a pet-friendly yard in Antioch, our technicians deliver the same professional results that have made us California's trusted artificial turf cleaning company. We build maintenance plans around your specific location's microclimate and usage patterns, ensuring your turf stays clean, hygienic, and visually impressive year-round. When you care about clean turf, call Murphy's Turf.",
     ],
     neighborhoods: [
-      'Downtown Martinez',
-      'Alhambra Valley',
-      'Pleasant Hill',
       'Concord',
+      'Pleasant Hill',
       'Walnut Creek',
-      'Benicia',
-      'Pacheco',
-      'Lafayette',
+      'Antioch',
+      'Brentwood',
     ],
     testimonials: [
       {
         name: 'Richard Yamamoto',
         neighborhood: 'Walnut Creek',
         rating: 5,
-        text: "Our Walnut Creek property sits in a hot microclimate that dries out the lawn by June every year. Murphy's Turf Care built a program around deep aeration and slow-release fertilization that has completely transformed our yard. They understand the Bay Area microclimates better than any company we've worked with. Our lawn stays green well into October now.",
+        text: "Our Walnut Creek property had mold growing in the shaded areas of our turf from the Bay Area moisture. Murphy's Turf OxyTurf treatment eliminated every trace of it and their disinfecting protocol killed the bacteria our dogs had been tracking around. They understand East Bay microclimates better than any company we've worked with.",
       },
       {
-        name: 'Colleen O\'Malley',
-        neighborhood: 'Downtown Martinez',
+        name: "Colleen O'Malley",
+        neighborhood: 'Concord',
         rating: 5,
-        text: "We have an older home in Martinez with heavy clay soil that nothing seemed to grow well in. Murphy's team tested the soil, explained exactly what amendments were needed, and started us on a comprehensive treatment plan. Within two seasons our lawn went from patchy and struggling to thick and healthy. They really know this area's soil challenges.",
+        text: "We had tried cleaning our Concord turf ourselves for years with store-bought products that never worked. Murphy's Turf came out, explained exactly what was living in our infill, and did their full OxyTurf treatment. The difference was dramatic — genuinely clean and fresh smelling turf for the first time since installation. Their 30 years of experience really shows.",
       },
       {
         name: 'Arjun Mehta',
         neighborhood: 'Pleasant Hill',
         rating: 5,
-        text: "After years of trying to manage our Pleasant Hill lawn ourselves, we finally called Murphy's Turf Care. Best decision we made. They identified that our irrigation was inefficient, our soil was severely compacted, and we were using the wrong fertilizer schedule for our microclimate. The turnaround has been remarkable — lush, even, and green. Worth every penny.",
+        text: "After years of trying to manage our Pleasant Hill lawn ourselves, we finally called Murphy's Turf. Best decision we made. They identified that our turf had compacted infill and embedded debris causing drainage issues, then did their blooming and OxyTurf treatment. The turnaround has been remarkable — our turf looks and drains like new. Worth every penny.",
       },
     ],
-    metaTitle: "Lawn Care & Turf Cleaning in Martinez & Bay Area, CA | Murphy's Turf Care",
+    metaTitle: "Artificial Turf Cleaning in Martinez & East Bay | Murphy's Turf",
     metaDescription:
-      "Bay Area lawn care experts. Murphy's Turf Care serves Martinez, Walnut Creek, Pleasant Hill, Concord, and Contra Costa County with aeration, seeding, fertilization, pest control, and seasonal maintenance.",
+      "East Bay artificial turf cleaning experts. Murphy's Turf serves Martinez, Walnut Creek, Pleasant Hill, Concord, Antioch & Brentwood with OxyTurf-powered disinfecting. Call (951) 331-3300.",
     climateNote:
-      'Martinez features a Mediterranean climate strongly influenced by fog, marine layer, and delta breezes from the Carquinez Strait. Temperatures are mild year-round, rarely freezing or exceeding 95°F. Heavy clay soil is prevalent, and EBMUD water conservation guidelines shape irrigation practices throughout the region.',
+      'Martinez and the East Bay feature a Mediterranean climate strongly influenced by fog, marine layer, and delta breezes from the Carquinez Strait. Temperatures are mild year-round near the water but significantly hotter inland toward Antioch and Brentwood. Coastal moisture promotes mold and mildew in turf systems, while inland heat amplifies pet odor and bacterial concerns.',
     serviceAreaDescription:
-      'Our Martinez service area covers Contra Costa County from Benicia and the Carquinez Strait in the north through downtown Martinez and Pacheco, south to Pleasant Hill and Walnut Creek, and west to Lafayette. We also serve the Alhambra Valley and Concord communities.',
+      'Our Martinez service area covers the East Bay from Martinez through Concord, Pleasant Hill, and Walnut Creek in the central corridor, east to Antioch and Brentwood. We serve residential, commercial, and HOA properties throughout Contra Costa County.',
   },
 
   sacramento: {
     city: 'Sacramento',
     slug: 'sacramento',
     state: 'CA',
-    phone: '(916) 555-7890',
-    email: 'sacramento@murphysturfcare.com',
+    phone: '(951) 331-3300',
+    email: 'info@murphysturf.com',
     heroSubtitle:
-      "Professional Lawn Care for Sacramento & the Central Valley. Our Sacramento team specializes in heat-resilient turf management for the capital region's extreme summers and unique river delta soil conditions.",
+      "Professional Artificial Turf Cleaning for Sacramento & the Capital Region. Murphy's Turf Sacramento team specializes in heat-resilient turf cleaning for the Central Valley, serving Elk Grove, Roseville, Folsom, and Rancho Cordova.",
     description: [
-      "Sacramento's Central Valley location creates a climate that is as rewarding as it is demanding for lawn care. The capital city enjoys abundant sunshine and a long growing season that can produce truly spectacular lawns, but the flip side is summer heat that routinely pushes past 105 degrees Fahrenheit, sometimes for weeks at a stretch. These extreme temperatures stress turf grasses to their limits, accelerating moisture loss and pushing root systems deeper in search of water. Murphy's Turf Care has developed our Sacramento program specifically for these conditions. Our team uses warm-season grass varieties and heat-adapted blends that are proven performers in the Central Valley, and our fertilization schedules are calibrated to feed lawns during the cooler shoulder seasons when nutrient uptake is most efficient, rather than pushing growth during the brutal summer months when grass is simply trying to survive.",
-      "The Sacramento region's soil tells the story of its two great rivers. Properties near the Sacramento and American River confluences sit on rich alluvial deposits — sandy loam that drains well but can leach nutrients quickly without proper management. Move away from the river corridors into neighborhoods like Natomas, Arden-Arcade, and Citrus Heights, and the soil transitions to heavier clay compositions that compact under the summer heat and resist water absorption. Murphy's Turf Care conducts soil testing for every Sacramento customer because the difference between a river-influenced property in East Sacramento and a clay-heavy lot in Elk Grove can dictate entirely different treatment approaches. Our aeration services are especially critical in the clay-soil areas, where breaking through compaction layers is essential for water penetration and root development. In the sandy-loam zones, we focus on nutrient retention strategies and organic matter amendments that build the soil's ability to hold both moisture and fertilizer.",
-      "Winter brings its own set of challenges to Sacramento lawns. The Central Valley's infamous tule fog settles in from November through February, creating cold, damp conditions that can promote fungal diseases like brown patch and dollar spot in vulnerable turf. These dense fog events, combined with dramatic temperature swings from freezing overnight lows to mild afternoon highs, create a stress cycle that weakens lawns heading into spring. Murphy's Turf Care addresses this with our winter maintenance program, which includes fungicide treatments for at-risk lawns, careful mowing height management to prevent moisture trapping, and early spring recovery applications that help turf bounce back as the fog lifts and temperatures begin to climb. From the tree-lined avenues of Land Park and the charming streets of Midtown to the growing communities of Folsom, Rancho Cordova, and Roseville, our Sacramento team delivers year-round professional lawn care that keeps your property looking its best through every season the Central Valley throws at it.",
+      "Sacramento's Central Valley location creates a climate that is as rewarding as it is demanding for artificial turf maintenance. The capital region enjoys abundant sunshine and warm temperatures that make outdoor living a year-round reality, but the flip side is summer heat that routinely pushes past 105 degrees Fahrenheit, sometimes for weeks at a stretch. These extreme temperatures stress artificial turf systems in ways that many homeowners do not realize until the problems become severe. Pet urine crystallizes into uric acid deposits within hours on a 110-degree summer day, embedding deep in the infill where no amount of hosing can reach them. Bacteria reproduce at accelerated rates in the warmth, colonizing the protected environment within infill material. Organic debris — leaves from Sacramento's famous tree canopy, pollen, grass clippings from neighboring natural lawns — decomposes rapidly in the heat, producing foul odors and providing food for bacterial colonies. By the time many Sacramento homeowners realize their turf needs professional attention, months or years of contamination have accumulated beneath the surface.",
+
+      "Murphy's Turf brings 30+ years of cleaning and disinfecting experience to the Sacramento metropolitan area, with a team that understands the specific demands of Central Valley heat. Our proprietary OxyTurf product was developed to perform in exactly these conditions — dissolving heat-hardened uric acid crystals that bind to infill material, eliminating the bacterial biofilms that colonize warm turf systems, and neutralizing the odor compounds that make Sacramento backyards unusable during summer evenings. Our blooming and de-compacting service addresses the severe fiber matting and infill compaction that Sacramento's extreme heat accelerates, restoring turf that has been baked flat by years of triple-digit temperatures back to its original lush, upright appearance. The transformation is dramatic — clients regularly describe their post-treatment turf as looking like a brand new installation.",
+
+      "Our Sacramento service area covers the communities where artificial turf has become most popular across the capital region. In Elk Grove, the combination of suburban family living and extreme summer heat has made synthetic turf the default choice for backyards, and our pet hair removal and OxyTurf disinfecting services keep those family spaces safe and clean. Roseville's master-planned communities feature beautiful outdoor spaces where maintaining pristine turf appearance is a priority — our blooming service and comprehensive cleaning programs deliver the visual results Roseville homeowners expect. Folsom's active families and pet owners rely on our poop scooping and regular maintenance plans to keep their turf hygienic between full cleaning appointments. Rancho Cordova's newer developments benefit from our preventive maintenance programs that protect turf investments from the start. Across all four communities and the greater Sacramento metro, Murphy's Turf delivers the same OxyTurf-powered excellence that has made us California's trusted artificial turf cleaning company. When you care about clean turf, call Murphy's Turf.",
     ],
     neighborhoods: [
-      'East Sacramento',
-      'Land Park',
-      'Midtown',
-      'Natomas',
       'Elk Grove',
+      'Roseville',
       'Folsom',
       'Rancho Cordova',
-      'Arden-Arcade',
-      'Citrus Heights',
-      'Roseville',
     ],
     testimonials: [
       {
         name: 'Greg Thomsen',
-        neighborhood: 'East Sacramento',
+        neighborhood: 'Elk Grove',
         rating: 5,
-        text: "East Sac has beautiful old homes but the mature trees and river-influenced soil make lawn care tricky. Murphy's Turf Care figured out our unique soil profile and built a treatment plan that accounts for the shade, the sandy loam, and the nutrient leaching issues. Our lawn has never been this consistently green, even in August. They genuinely know Sacramento.",
+        text: "The pet smell on our Elk Grove turf was so bad we stopped using the backyard entirely. Two dogs and Sacramento summers are a brutal combination. Murphy's Turf OxyTurf treatment completely eliminated the odor — not masked it, eliminated it. We can actually enjoy our outdoor space again. They genuinely know Sacramento turf challenges.",
       },
       {
         name: 'Priya Venkatesh',
-        neighborhood: 'Elk Grove',
+        neighborhood: 'Roseville',
         rating: 5,
-        text: "The clay soil in Elk Grove had defeated us for years. We'd water and water but the lawn still browned out every summer. Murphy's Turf Care did a deep double-pass aeration, amended the soil, and started us on their seasonal fertilization program. The difference was visible within weeks. Our grass stays green through the heat now and we're actually using less water. Phenomenal service.",
+        text: "Our Roseville turf looked terrible after three years of Central Valley heat — fibers matted flat, infill compacted hard. Murphy's Turf blooming and de-compacting service was transformative. The turf looks like it was installed last week. Combined with OxyTurf disinfecting, our backyard is clean, fresh, and beautiful again. Phenomenal service.",
       },
       {
         name: 'Danielle Foster',
         neighborhood: 'Folsom',
         rating: 5,
-        text: "We were dealing with tule fog damage and brown patch every winter in our Folsom lawn. Murphy's Turf Care diagnosed the problem, set up a preventive fungicide program for the fog season, and adjusted our fall maintenance schedule. This past winter was the first time in five years we didn't lose patches of grass to disease. Their knowledge of Sacramento-specific lawn issues is impressive.",
+        text: "We signed up for Murphy's Turf monthly maintenance plan for our Folsom property — poop scooping plus quarterly OxyTurf treatment. The consistency has been outstanding. Our turf always looks and smells clean, our kids play on it without concern, and we never have to think about it. Their 30+ years of experience means they know exactly what they're doing.",
       },
     ],
-    metaTitle: "Lawn Care & Turf Cleaning in Sacramento, CA | Murphy's Turf Care",
+    metaTitle: "Artificial Turf Cleaning in Sacramento, CA | Murphy's Turf",
     metaDescription:
-      "Sacramento's professional lawn care provider. Murphy's Turf Care serves East Sacramento, Land Park, Elk Grove, Folsom, Rancho Cordova, and the greater capital region with aeration, seeding, fertilization, and seasonal maintenance.",
+      "Sacramento's professional artificial turf cleaning. Murphy's Turf serves Elk Grove, Roseville, Folsom & Rancho Cordova with OxyTurf-powered disinfecting. Call (951) 331-3300.",
     climateNote:
-      'Sacramento features a hot-summer Mediterranean climate with extreme heat often exceeding 105°F in summer and mild winters characterized by dense tule fog from November through February. Soil varies from sandy river-delta loam near the Sacramento and American Rivers to heavy clay in outlying neighborhoods. Dramatic daily temperature swings and winter fungal pressure are key lawn care considerations.',
+      'Sacramento features a hot-summer Mediterranean climate with extreme heat often exceeding 105 degrees Fahrenheit in summer and mild winters. The Central Valley receives minimal summer rainfall, and intense heat accelerates pet odor development, bacterial growth, and infill compaction in artificial turf systems. Sacramento\'s famous tree canopy contributes significant leaf and pollen debris to turf surfaces.',
     serviceAreaDescription:
-      'Our Sacramento service area covers the greater capital region from Roseville and Citrus Heights in the north through Arden-Arcade and East Sacramento in the center, down to Elk Grove in the south, and east to Folsom and Rancho Cordova along the American River corridor. We also serve the Natomas, Land Park, and Midtown neighborhoods.',
+      'Our Sacramento service area covers the greater capital region including Elk Grove to the south, Roseville to the north, Folsom to the east along the American River corridor, and Rancho Cordova in the central metro. We serve residential, commercial, and HOA properties throughout the Sacramento metropolitan area.',
   },
 };
 
@@ -329,20 +315,18 @@ const locationData: Record<string, LocationData> = {
 function ServiceIcon({ icon, className }: { icon: string; className?: string }) {
   const props = { className: className || 'w-6 h-6' };
   switch (icon) {
-    case 'leaf':
-      return <Leaf {...props} />;
-    case 'wind':
-      return <Wind {...props} />;
+    case 'sparkles':
+      return <Sparkles {...props} />;
     case 'sprout':
       return <Sprout {...props} />;
+    case 'shieldcheck':
+      return <ShieldCheck {...props} />;
     case 'droplets':
       return <Droplets {...props} />;
-    case 'bug':
-      return <Bug {...props} />;
-    case 'calendar':
-      return <Calendar {...props} />;
-    default:
+    case 'leaf':
       return <Leaf {...props} />;
+    default:
+      return <Sparkles {...props} />;
   }
 }
 
@@ -352,7 +336,7 @@ function ServiceIcon({ icon, className }: { icon: string; className?: string }) 
 
 export function generateStaticParams() {
   return [
-    { slug: 'los-angeles' },
+    { slug: 'huntington-beach' },
     { slug: 'murrieta' },
     { slug: 'martinez' },
     { slug: 'sacramento' },
@@ -423,7 +407,7 @@ export default async function LocationPage({
               {location.city}, California
             </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white font-heading mb-6 leading-tight">
-              Turf Cleaning & Lawn Care
+              Artificial Turf Cleaning
               <br />
               <span className="text-cream">
                 in {location.city}, CA
@@ -458,7 +442,7 @@ export default async function LocationPage({
           <div className="grid lg:grid-cols-3 gap-12">
             <div className="lg:col-span-2">
               <h2 className="text-3xl font-bold text-charcoal font-heading mb-8">
-                Professional Lawn Care in {location.city}
+                Professional Artificial Turf Cleaning in {location.city}
               </h2>
               <div className="space-y-6">
                 {location.description.map((paragraph, idx) => (
@@ -521,8 +505,8 @@ export default async function LocationPage({
               Services Available in {location.city}
             </h2>
             <p className="text-lg text-charcoal-light font-body max-w-2xl mx-auto">
-              Every service is tailored to {location.city}&apos;s specific soil, climate,
-              and growing conditions.
+              Every service is powered by OxyTurf and tailored to {location.city}&apos;s specific
+              climate and conditions.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -649,7 +633,7 @@ export default async function LocationPage({
                 Get a Free Quote in {location.city}
               </h2>
               <p className="text-charcoal-light font-body leading-relaxed mb-8">
-                Ready to transform your {location.city} lawn? Fill out the form and our
+                Ready for clean, fresh artificial turf in {location.city}? Fill out the form and our
                 local team will get back to you within one business day with a custom quote.
                 Or reach out directly:
               </p>
@@ -704,7 +688,6 @@ export default async function LocationPage({
                 Request Your Free Quote
               </h3>
               <form className="space-y-5">
-                {/* Hidden/Readonly location field */}
                 <div>
                   <label
                     htmlFor="location"
@@ -819,7 +802,7 @@ export default async function LocationPage({
                     id="message"
                     name="message"
                     rows={4}
-                    placeholder="Tell us about your lawn and what you're looking for..."
+                    placeholder="Tell us about your turf and what you're looking for..."
                     className="w-full px-4 py-3 border border-gray-200 rounded-lg font-body text-charcoal placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-sage/50 focus:border-sage transition-colors resize-none"
                   />
                 </div>

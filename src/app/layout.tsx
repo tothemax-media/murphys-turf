@@ -25,20 +25,20 @@ export const metadata: Metadata = {
     template: "%s | Murphy's Turf",
   },
   description:
-    "California's premier artificial turf cleaning company with 30+ years of experience. Professional pet hair removal, turf blooming, disinfecting, and deodorizing services across California. Get a free quote today!",
+    "California's premier artificial turf cleaning company. Powered by OxyTurf, we provide pet-safe turf cleaning, disinfecting, deodorizing, and maintenance services. Serving Murrieta, Huntington Beach, Martinez, and Sacramento. Get a free quote today!",
   keywords: [
     'artificial turf cleaning California',
-    'turf cleaning Huntington Beach',
-    'pet turf cleaning Murrieta',
-    'artificial grass cleaning Martinez',
+    'turf cleaning Murrieta',
+    'OxyTurf turf cleaning',
+    'pet turf cleaning Huntington Beach',
+    'turf disinfect deodorize Martinez',
     'turf maintenance Sacramento',
-    'artificial turf deodorizing',
-    'pet friendly turf cleaning Southern California',
+    'pet-safe turf cleaning Southern California',
   ],
   openGraph: {
     title: "Murphy's Turf | Professional Artificial Turf Cleaning in California",
     description:
-      "California's premier artificial turf cleaning company with 30+ years of experience serving communities statewide.",
+      "California's premier artificial turf cleaning company. Powered by OxyTurf, serving communities statewide.",
     type: 'website',
     locale: 'en_US',
     siteName: "Murphy's Turf",

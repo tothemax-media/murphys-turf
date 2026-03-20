@@ -62,13 +62,13 @@ export default function NotFound() {
 
         {/* Heading */}
         <h2 className="mt-2 font-heading text-2xl sm:text-3xl font-bold text-charcoal">
-          Looks Like This Page Got Mowed Down
+          Looks Like This Page Got Swept Away
         </h2>
 
         {/* Subtext */}
         <p className="mt-4 font-body text-lg text-charcoal-light leading-relaxed">
-          The page you&apos;re looking for seems to have been over-trimmed.
-          Let&apos;s get you back on the green.
+          The page you&apos;re looking for seems to have disappeared.
+          Let&apos;s get you back to fresh turf.
         </p>
 
         {/* Buttons */}

@@ -10,29 +10,29 @@ interface FAQItem {
 
 const defaultItems: FAQItem[] = [
   {
-    question: 'How much does lawn care cost?',
+    question: 'How much does artificial turf cleaning cost?',
     answer:
-      'Our services start at $49 for basic lawn cleaning. We offer free estimates tailored to your property size and specific needs. Contact us for a personalized quote.',
+      'Our services start at $49 for basic turf cleaning. We offer free estimates tailored to your turf size and specific needs. Contact us for a personalized quote.',
   },
   {
-    question: 'How often should I have my lawn serviced?',
+    question: 'How often should I have my turf cleaned?',
     answer:
-      "We recommend weekly or bi-weekly maintenance during the growing season (April-October) and monthly service during the off-season. We'll create a custom schedule based on your lawn's needs.",
+      "We recommend monthly cleaning for most residential turf, or bi-weekly if you have pets. We'll create a custom schedule based on your turf's needs and usage.",
   },
   {
     question: 'Do you offer free estimates?',
     answer:
-      "Yes! We provide free, no-obligation estimates for all our services. Simply fill out our quote form or give us a call, and we'll schedule a convenient time to assess your property.",
+      "Yes! We provide free, no-obligation estimates for all our services. Simply fill out our quote form or give us a call, and we'll schedule a convenient time to assess your turf.",
   },
   {
-    question: 'Are your products safe for pets and children?',
+    question: 'Is OxyTurf safe for pets and children?',
     answer:
-      "Absolutely. We use eco-friendly, pet-safe, and child-safe products whenever possible. We'll always inform you of any precautions needed after treatment.",
+      "Absolutely. OxyTurf is an eco-friendly, pet-safe, and child-safe cleaning solution. Your family and pets can safely use the turf immediately after our cleaning service.",
   },
   {
     question: 'What areas do you serve?',
     answer:
-      'We proudly serve communities across California, including Los Angeles, Murrieta, Martinez, Sacramento, and surrounding areas.',
+      'We proudly serve communities across California, including Huntington Beach, Murrieta, Martinez, Sacramento, and surrounding areas.',
   },
   {
     question: 'What if I\'m not satisfied with the service?',

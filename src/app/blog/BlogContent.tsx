@@ -168,7 +168,7 @@ export default function BlogContent({
                                 </span>
                               </div>
                               <span className="text-white/90 font-body text-xs font-medium">
-                                Murphy&apos;s Turf Care
+                                Murphy&apos;s Turf
                               </span>
                             </div>
                           </div>
@@ -330,7 +330,7 @@ export default function BlogContent({
                   Recent Posts
                 </h4>
                 <div className="space-y-4">
-                  {recentPosts.map((post, idx) => (
+                  {recentPosts.map((post) => (
                     <Link
                       key={post.slug}
                       href={`/blog/${post.slug}`}
@@ -397,11 +397,11 @@ export default function BlogContent({
                 <div className="absolute top-0 right-0 w-32 h-32 bg-sage/20 rounded-full blur-2xl -translate-y-1/2 translate-x-1/2" />
                 <div className="relative">
                   <h4 className="font-heading font-bold text-white text-lg mb-2">
-                    Need Professional Help?
+                    Need Professional Turf Cleaning?
                   </h4>
                   <p className="font-body text-white/85 text-sm leading-relaxed mb-5">
-                    Our California lawn care experts are ready to transform your
-                    yard. Get a free consultation today.
+                    Our artificial turf cleaning experts are ready to restore
+                    your synthetic lawn. Get a free quote today.
                   </p>
                   <Link
                     href="/contact"
@@ -448,11 +448,11 @@ export default function BlogContent({
               <div className="absolute top-0 right-0 w-32 h-32 bg-sage/20 rounded-full blur-2xl -translate-y-1/2 translate-x-1/2" />
               <div className="relative text-center sm:text-left">
                 <h4 className="font-heading font-bold text-white text-lg mb-2">
-                  Need Professional Help?
+                  Need Professional Turf Cleaning?
                 </h4>
                 <p className="font-body text-white/85 text-sm leading-relaxed mb-5">
-                  Our California lawn care experts are ready to transform your
-                  yard. Get a free consultation today.
+                  Our artificial turf cleaning experts are ready to restore
+                  your synthetic lawn. Get a free quote today.
                 </p>
                 <div className="flex flex-col sm:flex-row items-center gap-3">
                   <Link
