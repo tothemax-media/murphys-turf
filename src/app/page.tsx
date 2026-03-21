@@ -198,7 +198,7 @@ export default function Home() {
   return (
     <>
       {/* ────────────────── 1. HERO SECTION ────────────────── */}
-      <section className="relative overflow-hidden">
+      <section className="relative overflow-hidden -mt-24 lg:-mt-28">
         {/* Hero background image */}
         <Image
           src="/images/hero.jpg"
@@ -214,14 +214,6 @@ export default function Home() {
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32 lg:py-40">
           <div className="max-w-3xl">
-            <motion.span
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, ease: 'easeOut' }}
-              className="inline-block bg-sage/20 border border-sage/40 text-sage-light font-body font-semibold text-sm px-4 py-1.5 rounded-full mb-6"
-            >
-              Professional Artificial Turf Cleaning
-            </motion.span>
             <motion.h1
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -255,33 +247,6 @@ export default function Home() {
               >
                 Find Your Location
                 <MapPin className="w-5 h-5" />
-              </Link>
-              <Link
-                href="/locations"
-                className="btn-hover inline-flex items-center justify-center gap-2 bg-white/15 backdrop-blur-sm border border-white/25 hover:bg-white/25 text-white font-heading font-semibold text-lg px-8 py-4 rounded-xl transition-all duration-200"
-              >
-                Contact Us
-              </Link>
-              <Link
-                href="/locations"
-                className="btn-hover inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 text-white font-heading font-semibold text-lg px-8 py-4 rounded-xl transition-all duration-200"
-              >
-                <MapPin className="w-5 h-5" />
-                Find Your Local Office
-              </Link>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, delay: 0.5, ease: 'easeOut' }}
-              className="mt-6"
-            >
-              <Link
-                href="/services/poop-scooping"
-                className="inline-flex items-center gap-2 text-sage-light hover:text-white font-body font-medium text-base transition-colors group"
-              >
-                Just looking for a Poop Removal Service?
-                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </Link>
             </motion.div>
           </div>
@@ -648,13 +613,6 @@ export default function Home() {
               >
                 Get Free Quote
                 <ArrowRight className="w-5 h-5" />
-              </Link>
-              <Link
-                href="/locations"
-                className="btn-hover inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 text-white font-heading font-semibold text-lg px-10 py-4 rounded-xl transition-all duration-200"
-              >
-                <MapPin className="w-5 h-5" />
-                Find Your Local Office
               </Link>
             </div>
           </div>
