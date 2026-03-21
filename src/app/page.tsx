@@ -395,7 +395,7 @@ export default function Home() {
       </section>
 
       {/* ────────────────── 2. WELCOME SECTION ────────────────── */}
-      <section className="bg-white py-20 sm:py-28">
+      <section className="bg-white py-12 sm:py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="inline-block font-body font-semibold text-sage text-sm uppercase tracking-widest mb-3">
             About Us
@@ -404,14 +404,7 @@ export default function Home() {
             Welcome to Murphy&apos;s
           </h2>
           <p className="mt-6 font-body text-charcoal-light text-lg leading-relaxed max-w-3xl mx-auto">
-            With over 30 years in the cleaning &amp; disinfecting business, we&apos;ve
-            decided to take our experience and bring it to your lawn with turf
-            maintenance and pet waste removal services. Murphy&apos;s technicians are
-            carefully selected and trained to provide you the satisfaction of clean
-            and maintained artificial grass with the best of our ability. With this
-            process we ensure consistency as well as invest in our technicians so
-            each and every team member is proud of the service they provide our
-            clients.
+            30+ years in cleaning &amp; disinfecting, now applied to your lawn. Our trained technicians deliver consistent, satisfaction-guaranteed turf care across California.
           </p>
           <div className="mt-8 flex items-center justify-center gap-3">
             <div className="w-12 h-1 rounded-full bg-sage" />
@@ -423,8 +416,8 @@ export default function Home() {
 
       {/* ────────────────── 3. TRUST BADGES ────────────────── */}
       <section className="bg-cream border-y border-gray-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+          <div className="grid grid-cols-3 gap-4 sm:gap-8">
             {trustBadges.map((badge) => {
               const Icon = badge.icon;
               return (
@@ -432,10 +425,10 @@ export default function Home() {
                   key={badge.label}
                   className="flex flex-col items-center text-center gap-3"
                 >
-                  <div className="w-16 h-16 bg-sage/15 rounded-full flex items-center justify-center">
-                    <Icon className="w-8 h-8 text-forest" />
+                  <div className="w-12 h-12 sm:w-16 sm:h-16 bg-sage/15 rounded-full flex items-center justify-center">
+                    <Icon className="w-6 h-6 sm:w-8 sm:h-8 text-forest" />
                   </div>
-                  <span className="font-heading font-bold text-lg text-charcoal">
+                  <span className="font-heading font-bold text-sm sm:text-lg text-charcoal">
                     {badge.label}
                   </span>
                 </div>
@@ -446,9 +439,9 @@ export default function Home() {
       </section>
 
       {/* ────────────────── 4. SERVICES SECTION ────────────────── */}
-      <section className="bg-cream py-20 sm:py-28">
+      <section className="bg-cream py-12 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-2xl mx-auto mb-14">
+          <div className="text-center max-w-2xl mx-auto mb-8 sm:mb-14">
             <span className="inline-block font-body font-semibold text-sage text-sm uppercase tracking-widest mb-3">
               What We Offer
             </span>
@@ -496,9 +489,9 @@ export default function Home() {
       </section>
 
       {/* ────────────────── 5. BEFORE / AFTER SECTION ────────────────── */}
-      <section className="bg-white py-20 sm:py-28">
+      <section className="bg-white py-12 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-2xl mx-auto mb-14">
+          <div className="text-center max-w-2xl mx-auto mb-8 sm:mb-14">
             <span className="inline-block font-body font-semibold text-sage text-sm uppercase tracking-widest mb-3">
               Real Results
             </span>
@@ -530,7 +523,7 @@ export default function Home() {
       </section>
 
       {/* ────────────────── 6. OXYTURF FEATURE SECTION ────────────────── */}
-      <section className="bg-cream py-20 sm:py-28">
+      <section className="bg-cream py-12 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             {/* Content */}
@@ -589,9 +582,9 @@ export default function Home() {
       </section>
 
       {/* ────────────────── 7. TESTIMONIALS ────────────────── */}
-      <section className="bg-white py-20 sm:py-28">
+      <section className="bg-white py-12 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-2xl mx-auto mb-14">
+          <div className="text-center max-w-2xl mx-auto mb-8 sm:mb-14">
             <span className="inline-block font-body font-semibold text-sage text-sm uppercase tracking-widest mb-3">
               Customer Reviews
             </span>
@@ -644,9 +637,9 @@ export default function Home() {
       </section>
 
       {/* ────────────────── 8. SERVICE AREAS ────────────────── */}
-      <section className="bg-cream py-20 sm:py-28">
+      <section className="bg-cream py-12 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-2xl mx-auto mb-14">
+          <div className="text-center max-w-2xl mx-auto mb-8 sm:mb-14">
             <span className="inline-block font-body font-semibold text-sage text-sm uppercase tracking-widest mb-3">
               Where We Work
             </span>
@@ -691,9 +684,9 @@ export default function Home() {
       </section>
 
       {/* ────────────────── 9. FAQ ACCORDION ────────────────── */}
-      <section className="bg-white py-20 sm:py-28">
+      <section className="bg-white py-12 sm:py-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-14">
+          <div className="text-center mb-8 sm:mb-14">
             <span className="inline-block font-body font-semibold text-sage text-sm uppercase tracking-widest mb-3">
               Got Questions?
             </span>
@@ -725,7 +718,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-r from-forest-dark via-forest to-forest-light" />
         <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_75%_50%,white_1px,transparent_1px)] bg-[length:32px_32px]" />
 
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-24 text-center">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20 text-center">
           <h2 className="font-heading font-extrabold text-3xl sm:text-4xl lg:text-5xl text-white">
             Ready for Fresh, Clean Turf?
           </h2>
@@ -754,7 +747,7 @@ export default function Home() {
       </section>
 
       {/* ────────────────── 11. QUOTE FORM SECTION ────────────────── */}
-      <section className="bg-cream py-20 sm:py-28">
+      <section className="bg-cream py-12 sm:py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <span className="inline-block font-body font-semibold text-sage text-sm uppercase tracking-widest mb-3">
