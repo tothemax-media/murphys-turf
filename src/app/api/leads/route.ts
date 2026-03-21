@@ -10,8 +10,10 @@ const SECURITY_HEADERS = {
   'X-Frame-Options': 'DENY',
 } as const;
 
+const ALLOWED_ORIGIN = process.env.NEXT_PUBLIC_SITE_URL || 'https://murphysturf.com';
+
 const CORS_HEADERS = {
-  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Origin': ALLOWED_ORIGIN,
   'Access-Control-Allow-Methods': 'POST, OPTIONS',
   'Access-Control-Allow-Headers': 'Content-Type',
   ...SECURITY_HEADERS,
