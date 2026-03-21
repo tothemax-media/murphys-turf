@@ -227,7 +227,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.2, ease: 'easeOut' }}
-              className="mt-6 text-sm sm:text-base lg:text-lg text-gray-200 font-body leading-relaxed max-w-2xl"
+              className="mt-6 text-base lg:text-lg text-gray-200 font-body leading-relaxed max-w-2xl"
             >
               Worried about your pets ruining your turf? Count on Murphy&apos;s to help
               bring your artificial grass back to life with a variety of services

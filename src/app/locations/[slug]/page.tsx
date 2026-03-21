@@ -676,17 +676,20 @@ export default async function LocationPage({
       </section>
 
       {/* Mobile Sticky CTA */}
-      <div className="fixed bottom-0 left-0 right-0 z-50 lg:hidden bg-forest shadow-[0_-4px_12px_rgba(0,0,0,0.15)]">
-        <div className="flex items-center justify-between px-4 py-3">
+      <div
+        className="fixed bottom-0 left-0 right-0 z-50 lg:hidden bg-forest shadow-[0_-4px_12px_rgba(0,0,0,0.15)]"
+        style={{ paddingBottom: 'max(0.75rem, env(safe-area-inset-bottom))' }}
+      >
+        <div className="flex items-center justify-between px-4 pt-3">
           <a
             href="#quote-form"
-            className="flex-1 mr-2 bg-sage hover:bg-sage-dark text-white font-bold text-sm py-2.5 px-4 rounded-lg text-center font-body transition-colors"
+            className="flex-1 mr-2 bg-sage hover:bg-sage-dark text-white font-bold text-sm min-h-[44px] flex items-center justify-center px-4 rounded-lg text-center font-body transition-colors"
           >
             Get Free Quote
           </a>
           <a
             href={`tel:${location.phone.replace(/[^\d+]/g, '')}`}
-            className="flex items-center gap-1.5 bg-white/10 hover:bg-white/20 text-white font-semibold text-sm py-2.5 px-4 rounded-lg font-body transition-colors whitespace-nowrap"
+            className="flex items-center justify-center gap-1.5 bg-white/10 hover:bg-white/20 text-white font-semibold text-sm min-h-[44px] px-4 rounded-lg font-body transition-colors whitespace-nowrap"
           >
             <Phone className="w-4 h-4" />
             Call Now

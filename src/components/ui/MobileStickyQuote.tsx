@@ -37,7 +37,7 @@ export default function MobileStickyQuote() {
               <button
                 type="button"
                 onClick={() => setPickerOpen(false)}
-                className="p-1 text-charcoal-light hover:text-charcoal transition-colors"
+                className="p-2 -mr-2 min-w-[44px] min-h-[44px] flex items-center justify-center text-charcoal-light hover:text-charcoal transition-colors"
                 aria-label="Close"
               >
                 <X className="w-5 h-5" />
@@ -88,7 +88,10 @@ export default function MobileStickyQuote() {
       )}
 
       {/* Sticky bottom bar */}
-      <div className="fixed bottom-0 left-0 right-0 z-50 lg:hidden bg-forest py-2 px-4 shadow-[0_-2px_10px_rgba(0,0,0,0.1)]">
+      <div
+        className="fixed bottom-0 left-0 right-0 z-50 lg:hidden bg-forest py-2 px-4 shadow-[0_-2px_10px_rgba(0,0,0,0.1)]"
+        style={{ paddingBottom: 'max(0.5rem, env(safe-area-inset-bottom))' }}
+      >
         <div className="flex gap-3">
           <button
             type="button"

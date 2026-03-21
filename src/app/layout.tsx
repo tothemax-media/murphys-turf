@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Montserrat, Open_Sans } from 'next/font/google';
 import Script from 'next/script';
 import './globals.css';
@@ -20,6 +20,13 @@ const openSans = Open_Sans({
   display: 'swap',
   weight: ['300', '400', '500', '600', '700'],
 });
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  themeColor: '#2D5016',
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://murphys-turf.netlify.app'),
@@ -63,7 +70,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col font-body">
         <Header />
-        <main className="flex-1 pt-24 lg:pt-28">{children}</main>
+        <main className="flex-1 pt-24 lg:pt-28 pb-16 lg:pb-0">{children}</main>
         <Footer />
         <ExitIntentPopup />
         <MobileStickyQuote />
