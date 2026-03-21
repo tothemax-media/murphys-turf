@@ -404,7 +404,7 @@ export default function BlogContent({
                     your synthetic lawn. Get a free quote today.
                   </p>
                   <Link
-                    href="/contact"
+                    href="/locations"
                     className="inline-flex items-center gap-2 bg-sage hover:bg-sage-dark text-white font-body font-semibold text-sm px-5 py-2.5 rounded-xl transition-all duration-200 shadow-md hover:shadow-lg"
                   >
                     Contact Us
@@ -456,7 +456,7 @@ export default function BlogContent({
                 </p>
                 <div className="flex flex-col sm:flex-row items-center gap-3">
                   <Link
-                    href="/contact"
+                    href="/locations"
                     className="inline-flex items-center gap-2 bg-sage hover:bg-sage-dark text-white font-body font-semibold text-sm px-5 py-2.5 rounded-xl transition-all duration-200 shadow-md hover:shadow-lg"
                   >
                     Contact Us

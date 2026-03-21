@@ -17,7 +17,7 @@ export default function CTABanner() {
           cleaning makes. Select your area to call your local office or request a quote online.
         </p>
         <Link
-          href="/contact"
+          href="/locations"
           className="inline-block bg-white text-forest px-8 py-4 rounded-lg text-lg font-semibold hover:bg-cream transition mt-8"
         >
           Get Your Free Quote

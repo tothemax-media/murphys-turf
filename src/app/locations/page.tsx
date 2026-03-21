@@ -198,14 +198,14 @@ export default function LocationsPage() {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
-                href="/contact"
+                href="/locations"
                 className="inline-flex items-center gap-2 bg-sage hover:bg-sage-dark text-white font-semibold px-8 py-3.5 rounded-lg transition-colors font-body shadow-sm hover:shadow-md"
               >
                 Contact Us Today
                 <ArrowRight className="w-4 h-4" />
               </Link>
               <Link
-                href="/contact"
+                href="/locations"
                 className="inline-flex items-center gap-2 bg-forest hover:bg-forest-light text-white font-semibold px-8 py-3.5 rounded-lg transition-colors font-body shadow-sm hover:shadow-md"
               >
                 <Mail className="w-4 h-4" />

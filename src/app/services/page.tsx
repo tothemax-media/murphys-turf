@@ -103,7 +103,7 @@ export default function ServicesPage() {
                     {/* CTA */}
                     <div className="flex items-center justify-between pt-4 border-t border-gray-100">
                       <Link
-                        href="/contact"
+                        href="/locations"
                         className="text-sm font-semibold font-body text-forest hover:text-forest-dark transition-colors"
                       >
                         Get a Quote
@@ -140,7 +140,7 @@ export default function ServicesPage() {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
-                href="/contact"
+                href="/locations"
                 className="btn-hover inline-flex items-center gap-2 bg-sage hover:bg-sage-dark text-white font-semibold px-8 py-3.5 rounded-lg transition-colors font-body shadow-md hover:shadow-lg"
               >
                 Get a Free Quote
