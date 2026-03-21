@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { Phone, Mail, MapPin, Clock, Instagram, Facebook, Youtube } from 'lucide-react';
+import { Instagram, Facebook, Youtube } from 'lucide-react';
 import NewsletterForm from '@/components/forms/NewsletterForm';
 
 /* ------------------------------------------------------------------ */
@@ -24,18 +24,6 @@ const locationsLinks = [
   { label: 'Greater Sacramento', href: '/locations/sacramento' },
 ];
 
-const contactInfo = [
-  { icon: Mail, text: 'info@murphysturf.com' },
-  { icon: MapPin, text: 'Murrieta, CA' },
-  { icon: Clock, text: 'Mon-Fri: 7AM-6PM | Sat: 8AM-4PM' },
-];
-
-const phoneByLocation = [
-  { name: 'Huntington Beach / LA', phone: '951-331-3300', href: '/locations/huntington-beach' },
-  { name: 'Murrieta / Inland Empire', phone: '951-331-3300', href: '/locations/murrieta' },
-  { name: 'Martinez / Bay Area', phone: '925-338-0048', href: '/locations/martinez' },
-  { name: 'Sacramento', phone: '916-432-5033', href: '/locations/sacramento' },
-];
 
 const socialLinks = [
   { name: 'Instagram', href: 'https://www.instagram.com/murphysturfcare/', icon: Instagram },
@@ -72,7 +60,7 @@ export default function Footer() {
 
       {/* ---- Main grid ---- */}
       <div className="mx-auto max-w-7xl px-4 py-12 lg:px-8">
-        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
           {/* Column 1 — Company info */}
           <div>
             <Link
@@ -83,13 +71,10 @@ export default function Footer() {
               <Image
                 src="/images/logo.png"
                 alt="Murphy's Turf"
-                width={40}
-                height={40}
-                className="w-10 h-10 object-contain"
+                width={56}
+                height={56}
+                className="w-14 h-14 object-contain"
               />
-              <span className="font-heading text-xl font-bold">
-                Murphy&apos;s Turf
-              </span>
             </Link>
             <p className="mt-4 font-body text-sm leading-relaxed text-gray-400">
               California&apos;s trusted artificial turf cleaning experts. Specializing in pet hair
@@ -153,41 +138,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 4 — Contact */}
-          <div>
-            <h4 className="font-heading text-base font-semibold text-white">
-              Contact Us
-            </h4>
-            <ul className="mt-4 space-y-3">
-              {contactInfo.map((item) => {
-                const Icon = item.icon;
-                return (
-                  <li key={item.text} className="flex items-start gap-3">
-                    <Icon className="mt-0.5 h-5 w-5 shrink-0 text-sage" />
-                    <span className="font-body text-sm text-gray-300">
-                      {item.text}
-                    </span>
-                  </li>
-                );
-              })}
-            </ul>
-            <h5 className="mt-5 font-heading text-sm font-semibold text-white flex items-center gap-2">
-              <Phone className="h-4 w-4 text-sage" />
-              Call Your Local Office
-            </h5>
-            <ul className="mt-2 space-y-1.5">
-              {phoneByLocation.map((loc) => (
-                <li key={loc.href}>
-                  <Link
-                    href={loc.href}
-                    className="font-body text-sm text-gray-300 hover:text-sage transition-colors"
-                  >
-                    {loc.name}: <span className="font-semibold">{loc.phone}</span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
         </div>
       </div>
 
