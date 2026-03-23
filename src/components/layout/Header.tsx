@@ -73,10 +73,6 @@ export default function Header() {
             Home
           </Link>
 
-          <Link href="/about" className={linkClass}>
-            About
-          </Link>
-
           <Link href="/services" className={linkClass}>
             Services
           </Link>
@@ -177,14 +173,6 @@ export default function Header() {
                   className="block py-3 font-body text-base font-medium text-charcoal transition-colors hover:text-forest"
                 >
                   Home
-                </Link>
-
-                <Link
-                  href="/about"
-                  onClick={closeDrawer}
-                  className="block py-3 font-body text-base font-medium text-charcoal transition-colors hover:text-forest"
-                >
-                  About
                 </Link>
 
                 <Link

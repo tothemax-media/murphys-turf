@@ -12,12 +12,6 @@ export const homeMetadata = generatePageMetadata(
   "/"
 );
 
-export const aboutMetadata = generatePageMetadata(
-  "About Us — 30+ Years of Turf Cleaning Experience",
-  "Murphy's Turf brings 30+ years of experience to artificial turf cleaning. Based in Murrieta, CA, we serve communities across California with our proprietary deep cleaning solution. When you care about clean turf, call Murphy's Turf.",
-  "/about"
-);
-
 export const servicesMetadata = generatePageMetadata(
   "Our Artificial Turf Cleaning Services",
   "Murphy's Turf offers complete artificial turf cleaning: pet hair & debris removal, blooming & decompacting, disinfecting & deodorizing, poop scooping, and our signature deep cleaning treatment. 30+ years experience.",

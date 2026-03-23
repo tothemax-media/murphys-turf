@@ -354,15 +354,6 @@ export default function Home() {
                   );
                 })}
               </ul>
-              <div className="mt-8">
-                <Link
-                  href="/about"
-                  className="inline-flex items-center justify-center gap-2 bg-sage hover:bg-sage-dark text-white font-heading font-bold text-lg px-8 py-4 rounded-xl transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5"
-                >
-                  Learn More
-                  <ArrowRight className="w-5 h-5" />
-                </Link>
-              </div>
             </div>
           </div>
         </div>

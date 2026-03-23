@@ -6,11 +6,6 @@ export const seoMetadata: Record<string, SEOMetadata> = {
     description: "Murphy's Turf — 30+ years of professional artificial turf cleaning, sanitization, and deodorizing across California. Professional-grade deep cleaning. Serving Huntington Beach, Murrieta, Bay Area & Sacramento. Get a free quote today.",
     keywords: ["artificial turf cleaning", "synthetic turf cleaning California", "turf sanitization", "pet turf cleaning", "professional turf cleaning", "Murphy's Turf", "turf odor removal", "California turf cleaning"],
   },
-  about: {
-    title: "About Murphy's Turf | 30+ Years Artificial Turf Cleaning Experience",
-    description: "Murphy's Turf brings 30+ years of experience to artificial turf cleaning in California. Based in Murrieta, CA, we use professional-grade cleaning solutions. When you care about clean turf, call Murphy's Turf.",
-    keywords: ["about Murphy's Turf", "artificial turf cleaning company", "California turf cleaning experts", "30 years experience turf cleaning", "professional turf cleaning"],
-  },
   contact: {
     title: "Contact Murphy's Turf | Free Artificial Turf Cleaning Quote",
     description: "Contact Murphy's Turf for a free artificial turf cleaning estimate. Serving Huntington Beach, Murrieta, Martinez, and Sacramento. Get a free quote today.",
