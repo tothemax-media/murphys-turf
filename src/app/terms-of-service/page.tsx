@@ -522,12 +522,12 @@ export default function TermsOfServicePage() {
               </h3>
               <p className="text-charcoal font-body text-base leading-relaxed mb-6">
                 Please contact us directly by phone (find your{' '}
-                <a
+                <Link
                   href="/locations"
                   className="text-forest hover:text-sage underline underline-offset-2 transition-colors"
                 >
                   local office number
-                </a>) or by email at{' '}
+                </Link>) or by email at{' '}
                 <a
                   href="mailto:info@murphysturfcare.com"
                   className="text-forest hover:text-sage underline underline-offset-2 transition-colors"
@@ -617,12 +617,12 @@ export default function TermsOfServicePage() {
                   </p>
                   <p>
                     <strong>Phone:</strong>{' '}
-                    <a
+                    <Link
                       href="/locations"
                       className="text-forest hover:text-sage underline underline-offset-2 transition-colors"
                     >
                       Find your local office number
-                    </a>
+                    </Link>
                   </p>
                   <p>
                     <strong>Business Hours:</strong> Monday through Friday, 7:00 AM to 6:00 PM PST;

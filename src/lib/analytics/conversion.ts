@@ -1,6 +1,6 @@
 import * as gtag from "./gtag";
 
-function pushToDataLayer(event: string, data: Record<string, any>): void {
+function pushToDataLayer(event: string, data: Record<string, unknown>): void {
   if (typeof window === "undefined") return;
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({ event, ...data });
@@ -11,7 +11,7 @@ export function trackLeadConversion(serviceType: string, location?: string): voi
     service_type: serviceType,
     location: location ?? "",
     value: 1,
-    currency: "EUR",
+    currency: "USD",
   });
 
   pushToDataLayer("lead_conversion", {
@@ -23,7 +23,7 @@ export function trackLeadConversion(serviceType: string, location?: string): voi
 export function trackContactConversion(): void {
   gtag.event("contact_form_submission", {
     value: 1,
-    currency: "EUR",
+    currency: "USD",
   });
 
   pushToDataLayer("contact_conversion", {});
@@ -32,7 +32,7 @@ export function trackContactConversion(): void {
 export function trackNewsletterConversion(): void {
   gtag.event("newsletter_signup", {
     value: 0.5,
-    currency: "EUR",
+    currency: "USD",
   });
 
   pushToDataLayer("newsletter_conversion", {});
@@ -42,7 +42,7 @@ export function trackQuoteRequest(serviceType: string): void {
   gtag.event("quote_request", {
     service_type: serviceType,
     value: 5,
-    currency: "EUR",
+    currency: "USD",
   });
 
   pushToDataLayer("quote_request", {

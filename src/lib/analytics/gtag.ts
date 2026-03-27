@@ -2,8 +2,8 @@ export const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID as st
 
 declare global {
   interface Window {
-    gtag: (...args: any[]) => void;
-    dataLayer: Record<string, any>[];
+    gtag: (...args: [string, ...unknown[]]) => void;
+    dataLayer: Record<string, unknown>[];
   }
 }
 
@@ -14,7 +14,7 @@ export function pageview(url: string): void {
   });
 }
 
-export function event(action: string, params: Record<string, any>): void {
+export function event(action: string, params: Record<string, unknown>): void {
   if (typeof window === "undefined" || !window.gtag) return;
   window.gtag("event", action, params);
 }

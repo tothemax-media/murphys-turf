@@ -42,7 +42,7 @@ export function getStoredUTMParams(): UTMParams | null {
   }
 }
 
-export function appendUTMToFormData(formData: Record<string, any>): Record<string, any> {
+export function appendUTMToFormData(formData: Record<string, unknown>): Record<string, unknown> {
   const utm = getStoredUTMParams();
   if (!utm) return formData;
   return {

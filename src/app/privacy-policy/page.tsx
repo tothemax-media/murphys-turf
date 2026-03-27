@@ -446,12 +446,12 @@ export default function PrivacyPolicyPage() {
                   </p>
                   <p>
                     <strong>Phone:</strong>{' '}
-                    <a
+                    <Link
                       href="/locations"
                       className="text-forest hover:text-sage underline underline-offset-2 transition-colors"
                     >
                       Find your local office number
-                    </a>
+                    </Link>
                   </p>
                 </div>
               </div>

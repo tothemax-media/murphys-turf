@@ -6,6 +6,9 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import ExitIntentPopup from '@/components/ExitIntentPopup';
 import MobileStickyQuote from '@/components/ui/MobileStickyQuote';
+import { GoogleAnalytics } from '@/components/analytics/GoogleAnalytics';
+import { GTMHead, GTMBody } from '@/components/analytics/GoogleTagManager';
+import { CookieConsent } from '@/components/analytics/CookieConsent';
 
 const montserrat = Montserrat({
   variable: '--font-heading',
@@ -29,7 +32,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://murphys-turf.netlify.app'),
+  metadataBase: new URL('https://murphysturf.com'),
   alternates: {
     canonical: '/',
   },
@@ -85,11 +88,15 @@ export default function RootLayout({
       className={`${montserrat.variable} ${openSans.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col font-body">
+        <GoogleAnalytics />
+        <GTMHead />
+        <GTMBody />
         <Header />
         <main className="flex-1 pt-24 lg:pt-28 pb-16 lg:pb-0">{children}</main>
         <Footer />
         <ExitIntentPopup />
         <MobileStickyQuote />
+        <CookieConsent />
         <Script
           src="https://link.msgsndr.com/js/form_embed.js"
           strategy="lazyOnload"
@@ -103,7 +110,7 @@ export default function RootLayout({
               "@type": "LocalBusiness",
               "name": "Murphy's Turf",
               "description": "Professional artificial turf cleaning company serving California with pet-safe cleaning technology.",
-              "url": "https://murphys-turf.netlify.app",
+              "url": "https://murphysturf.com",
               "contactPoint": [
                 { "@type": "ContactPoint", "telephone": "+19513313300", "areaServed": ["Huntington Beach", "Murrieta"], "contactType": "customer service" },
                 { "@type": "ContactPoint", "telephone": "+19253380048", "areaServed": ["Martinez", "Bay Area"], "contactType": "customer service" },
@@ -125,7 +132,7 @@ export default function RootLayout({
               ],
               "openingHours": ["Mo-Fr 07:00-18:00", "Sa 08:00-16:00"],
               "priceRange": "$$",
-              "image": "https://murphys-turf.netlify.app/images/logo.avif",
+              "image": "https://murphysturf.com/images/logo.avif",
               "sameAs": [
                 "https://www.instagram.com/murphysturfcare/",
                 "https://www.facebook.com/profile.php?id=100090088264095",

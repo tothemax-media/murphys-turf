@@ -64,5 +64,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...servicePages, ...locationPages, ...blogPages];
+  // Sub-location pages (turf-cleaning-in-{city})
+  const subLocationMap: Record<string, string[]> = {
+    'huntington-beach': ['newport-beach', 'costa-mesa', 'long-beach', 'seal-beach'],
+    'murrieta': ['temecula', 'french-valley', 'menifee', 'lake-elsinore', 'hemet', 'perris', 'wildomar', 'canyon-lake', 'temescal-valley', 'winchester'],
+    'martinez': ['concord', 'pleasant-hill', 'walnut-creek', 'antioch', 'brentwood'],
+    'sacramento': ['elk-grove', 'roseville', 'folsom', 'rancho-cordova'],
+  };
+
+  const subLocationPages: MetadataRoute.Sitemap = Object.entries(subLocationMap).flatMap(
+    ([parentSlug, subSlugs]) =>
+      subSlugs.map((subSlug) => ({
+        url: `${SITE_URL}/locations/${parentSlug}/turf-cleaning-in-${subSlug}`,
+        lastModified: new Date(),
+        changeFrequency: "weekly" as const,
+        priority: 0.8,
+      }))
+  );
+
+  return [...staticPages, ...servicePages, ...locationPages, ...subLocationPages, ...blogPages];
 }
