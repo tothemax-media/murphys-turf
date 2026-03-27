@@ -19,10 +19,11 @@ export interface Lead {
 }
 
 export type ServiceType =
-  | 'pet-hair-debris'
-  | 'blooming-decompacting'
-  | 'disinfect-deodorize'
-  | 'poop-scooping'
+  | 'janitorial-cleaning'
+  | 'day-porter'
+  | 'electrostatic-disinfection'
+  | 'floor-care'
+  | 'carpet-cleaning'
   | 'other';
 
 export type LeadStatus = 'new' | 'contacted' | 'quoted' | 'won' | 'lost';

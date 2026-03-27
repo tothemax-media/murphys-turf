@@ -5,14 +5,14 @@ import TestimonialCard from '@/components/cards/TestimonialCard';
 const defaultProps = {
   rating: 5,
   quote: 'Amazing service and beautiful results!',
-  name: 'John Murphy',
+  name: 'John Rangel',
   location: 'Dublin, Ireland',
 };
 
 describe('TestimonialCard', () => {
   it('renders customer name', () => {
     render(<TestimonialCard {...defaultProps} />);
-    expect(screen.getByText('John Murphy')).toBeInTheDocument();
+    expect(screen.getByText('John Rangel')).toBeInTheDocument();
   });
 
   it('renders customer location', () => {

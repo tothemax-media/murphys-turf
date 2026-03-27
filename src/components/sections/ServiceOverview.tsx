@@ -1,4 +1,4 @@
-import { Dog, Flower2, SprayCan, Trash2 } from 'lucide-react';
+import { Building2, UserCheck, Zap, Layers, Sparkles } from 'lucide-react';
 import ServiceCard from '@/components/cards/ServiceCard';
 import type { LucideIcon } from 'lucide-react';
 
@@ -11,32 +11,39 @@ interface ServiceData {
 
 const services: ServiceData[] = [
   {
-    icon: Dog,
-    name: 'Pet Hair & Debris Removal',
-    slug: 'pet-hair-debris',
+    icon: Building2,
+    name: 'Janitorial Cleaning',
+    slug: 'janitorial-cleaning',
     description:
-      'Thorough removal of pet hair, fur, and debris from your artificial turf to keep it clean and safe for your family and pets.',
+      'Comprehensive daily and nightly janitorial services for offices, medical facilities, and commercial buildings. Reliable, thorough, and consistent.',
   },
   {
-    icon: Flower2,
-    name: 'Blooming & De-Compacting',
-    slug: 'blooming-decompacting',
+    icon: UserCheck,
+    name: 'Day Porter',
+    slug: 'day-porter',
     description:
-      'Restore your turf\'s natural look and feel with our professional blooming and de-compacting service that revives flattened fibers.',
+      'On-site daytime cleaning and maintenance to keep your facility looking its best throughout the business day.',
   },
   {
-    icon: SprayCan,
-    name: 'Disinfect & Deodorize',
-    slug: 'disinfect-deodorize',
+    icon: Zap,
+    name: 'Electrostatic Disinfection',
+    slug: 'electrostatic-disinfection',
     description:
-      'Eliminate bacteria, odors, and harmful pathogens with our eco-friendly disinfecting and deodorizing treatment.',
+      'Advanced electrostatic spraying technology for thorough disinfection of high-touch surfaces and hard-to-reach areas.',
   },
   {
-    icon: Trash2,
-    name: 'Poop Scooping & Removal',
-    slug: 'poop-scooping',
+    icon: Layers,
+    name: 'Floor Care',
+    slug: 'floor-care',
     description:
-      'Regular pet waste cleanup and removal to maintain a hygienic outdoor space for your family.',
+      'Professional floor care including VCT strip and wax, polishing, and maintenance to keep your floors looking pristine.',
+  },
+  {
+    icon: Sparkles,
+    name: 'Carpet Cleaning',
+    slug: 'carpet-cleaning',
+    description:
+      'Commercial carpet cleaning services using professional-grade equipment to extend carpet life and maintain a clean appearance.',
   },
 ];
 
@@ -45,11 +52,11 @@ export default function ServiceOverview() {
     <section className="py-16 lg:py-24 bg-cream">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-center font-heading text-3xl md:text-4xl font-bold text-charcoal">
-          Our Turf Cleaning Services
+          Our Commercial Cleaning Services
         </h2>
         <p className="text-center text-charcoal-light mt-4 font-body">
-          Comprehensive artificial turf care solutions to keep your outdoor
-          space clean, fresh, and beautiful
+          Comprehensive janitorial and facility maintenance solutions to keep your
+          commercial space clean, healthy, and professional
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">

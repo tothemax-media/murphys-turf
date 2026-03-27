@@ -12,14 +12,13 @@ import {
   ThumbsUp,
   TrendingUp,
   Zap,
-  Leaf,
-  Recycle,
-  Heart,
   Sparkles,
-  Bug,
   Droplets,
-  PawPrint,
-  TreePine,
+  Building2,
+  UserCheck,
+  CalendarCheck,
+  Layers,
+  Gauge,
   type LucideIcon,
 } from 'lucide-react';
 import { AnimateOnScroll, StaggerContainer, StaggerItem } from '@/components/ui/AnimateOnScroll';
@@ -71,368 +70,463 @@ interface ServiceData {
 // ---------------------------------------------------------------------------
 
 const servicesData: Record<string, ServiceData> = {
-  'pet-hair-debris': {
-    name: 'Pet Hair & Debris Removal',
-    slug: 'pet-hair-debris',
-    image: '/images/services/debris-removal.png',
-    tagline: 'The essential first step to a clean, safe artificial turf',
+  'janitorial-cleaning': {
+    name: 'Janitorial Cleaning',
+    slug: 'janitorial-cleaning',
+    image: '/images/services/janitorial-cleaning.png',
+    tagline: 'Reliable, thorough cleaning that creates excellent first impressions',
     metaDescription:
-      "Professional pet hair and debris removal for artificial turf in Murrieta, CA. Murphy's Turf removes pet hair, waste, leaves, metal objects, and weeds from your synthetic lawn. Get a free quote.",
+      'Professional janitorial cleaning services in California. Rangel Janitorial provides daily and nightly cleaning for offices, medical facilities, and commercial buildings. 30+ years experience. Get a free quote.',
     descriptionParagraphs: [
-      "All of our turf services begin with removing pet hair and waste along with any other debris such as leaves and branches. We will also run a magnet over the turf to remove any metal objects. After having removed the debris, we will use a de-weeding tool to get rid of any weeds from the edges and seams of your turf.",
-      "Pet hair and debris removal is the foundational step in every Murphy's Turf cleaning service, and for good reason. Over time, your artificial turf accumulates far more than meets the eye. Pet hair weaves itself into the turf fibers, fallen leaves decompose and create a layer of organic matter that promotes weed growth, and small metal objects like bottle caps, nails, or staples can become hidden hazards for bare feet and paws alike. In Murrieta and across the Inland Empire, the warm Southern California climate means your outdoor turf sees year-round use, which accelerates the buildup of hair, waste, and organic debris between the synthetic blades.",
-      "Our trained technicians use specialized tools designed specifically for synthetic turf surfaces. The process starts with a thorough visual inspection to identify problem areas, followed by systematic removal of all pet hair and solid waste from the entire turf surface. We then clear leaves, twigs, and any other organic debris that has settled into the fibers. A powerful magnet sweep follows to extract any metallic objects hidden within the infill — a step that is especially important for families with children who play on the turf. Finally, we use precision de-weeding tools to pull any weeds that have taken root along the edges and seams of your artificial lawn, where organic matter tends to collect and create ideal conditions for weed germination.",
-      "Regular debris removal prevents the cascade of problems that neglected turf faces: compacted infill, weed infestations, drainage issues, and unsanitary conditions for pets and children. By starting every service with this critical step, we ensure that any subsequent treatments — whether blooming, disinfecting, or deodorizing — can penetrate the turf properly and deliver maximum effectiveness. For homeowners in Murrieta, Temecula, Menifee, and surrounding communities, this service is the foundation of a healthy, beautiful artificial lawn that performs the way it was designed to.",
+      'Rangel Janitorial provides comprehensive janitorial cleaning services for commercial facilities throughout California. With over 30 years of experience, our trained crews deliver consistent, thorough cleaning that keeps your building looking its best every single day. We understand that a clean facility creates excellent first impressions for your tenants, visitors, and employees.',
+      'Our janitorial services cover every aspect of daily and nightly facility maintenance. From lobbies and common areas to restrooms, break rooms, and individual office suites, we follow detailed cleaning checklists customized to your building\'s specific needs. Our crews are trained in proper cleaning techniques, chemical handling, and safety protocols to ensure the highest quality results with every visit.',
+      'We serve a wide range of facility types including Class A office buildings, corporate campuses, light industrial parks, multi-unit complexes, medical and dental facilities, municipalities, and fitness centers. Each facility type has unique cleaning requirements, and our team has the expertise to meet them all. Whether you need nightly cleaning for a corporate office or specialized cleaning for a medical facility, Rangel Janitorial delivers reliable, professional results.',
+      'Our commitment to quality goes beyond just cleaning. We provide dedicated account managers, regular quality inspections, and open communication channels to ensure your complete satisfaction. We carry full insurance and all employees undergo background checks for your peace of mind. When you partner with Rangel Janitorial, you get a cleaning team that treats your facility as if it were their own.',
     ],
     included: [
-      'Pet hair removal',
-      'Pet waste cleanup',
-      'Leaf & branch clearing',
-      'Magnet sweep for metal objects',
-      'De-weeding edges and seams',
-      'Surface inspection',
+      'Lobby and common area cleaning',
+      'Restroom sanitation and restocking',
+      'Break room and kitchen cleaning',
+      'Trash and recycling removal',
+      'Dusting and surface wiping',
+      'Floor sweeping, mopping, and vacuuming',
     ],
     benefits: [
       {
-        icon: Sparkles,
-        title: 'Cleaner Surface for Pets & Kids',
+        icon: Building2,
+        title: 'Professional First Impressions',
         description:
-          'A thoroughly cleaned turf surface means a safer, more hygienic play area for your family and furry friends.',
-      },
-      {
-        icon: Leaf,
-        title: 'Prevents Weed Growth',
-        description:
-          'Removing organic debris and weeding seams stops weeds before they can establish and spread across your turf.',
+          'A consistently clean facility makes a strong impression on tenants, visitors, and employees from the moment they walk through the door.',
       },
       {
         icon: ShieldCheck,
-        title: 'Removes Hidden Hazards',
+        title: 'Healthier Work Environment',
         description:
-          'Our magnet sweep catches metal objects you cannot see, protecting bare feet and paws from injury.',
+          'Regular sanitization of high-touch surfaces and restrooms reduces the spread of illness and creates a healthier workplace.',
       },
       {
-        icon: Zap,
-        title: 'Prepares Turf for Deeper Treatments',
+        icon: CalendarCheck,
+        title: 'Consistent & Reliable',
         description:
-          'Clean turf allows disinfectants and deodorizers to penetrate the infill layer for maximum effectiveness.',
-      },
-    ],
-    beforeAfter: [
-      {
-        label: 'Pet Hair & Debris Cleanup',
-        beforeColor: 'bg-brown/40',
-        afterColor: 'bg-sage/50',
-        beforeCaption: 'Matted pet hair and leaf debris in turf fibers',
-        afterCaption: 'Clean, debris-free turf surface',
-      },
-      {
-        label: 'Edge De-Weeding',
-        beforeColor: 'bg-brown/30',
-        afterColor: 'bg-sage/40',
-        beforeCaption: 'Weeds growing along turf seams and edges',
-        afterCaption: 'Clean edges after professional de-weeding',
-      },
-    ],
-    faqs: [
-      {
-        question: 'How often should I have debris removed from my artificial turf?',
-        answer:
-          'For homes with pets, we recommend debris removal at least once a month. High-traffic areas or yards with multiple pets may benefit from bi-weekly service. Properties without pets that are surrounded by trees should schedule service every four to six weeks, especially during fall when leaf drop is heaviest.',
-      },
-      {
-        question: 'Why do you use a magnet on the turf?',
-        answer:
-          'Over time, small metal objects like nails, screws, bottle caps, and wire fragments can end up in your turf without you knowing. These items settle into the infill and become invisible but can cause cuts and injuries to bare feet, children, and pets. Our magnet sweep is a quick safety measure that catches these hidden hazards every time we service your turf.',
-      },
-      {
-        question: 'Can pet hair really damage artificial turf?',
-        answer:
-          'While pet hair will not damage the turf fibers themselves, accumulated hair traps moisture and organic matter that promotes bacterial growth and unpleasant odors. It can also contribute to infill compaction, which affects drainage. Regular removal keeps your turf hygienic and functioning properly.',
-      },
-      {
-        question: 'Is debris removal included with other services?',
-        answer:
-          'Yes. Pet hair and debris removal is the first step in every Murphy\'s Turf service. Whether you book blooming, disinfecting, or any other treatment, we always begin with a thorough debris removal to ensure the best possible results from the subsequent service.',
-      },
-    ],
-    relatedServices: [
-      { name: 'Blooming & De-Compacting', slug: 'blooming-decompacting' },
-      { name: 'Disinfect & Deodorize', slug: 'disinfect-deodorize' },
-      { name: 'Poop Scooping & Removal', slug: 'poop-scooping' },
-    ],
-  },
-
-  'blooming-decompacting': {
-    name: 'Blooming & De-Compacting',
-    slug: 'blooming-decompacting',
-    image: '/images/services/blooming.png',
-    tagline: 'Bring your worn-out turf back to life',
-    metaDescription:
-      "Professional turf blooming and de-compacting services in Murrieta, CA. Murphy's Turf restores matted, worn artificial grass to like-new condition with commercial-grade power brushing. Get a free quote.",
-    descriptionParagraphs: [
-      "The purpose of re-blooming turf is to help bring back the life in your turf after having been worn out. Over time when your turf is being frequently walked on, it can cause the blades to become matted down. During this process we utilize our machines to clean-up and remove any caked debris from the fibers of the turf while also using them to fluff the turf blades and bring them back to life standing upright like natural grass would.",
-      "Artificial turf is engineered for durability, but it is not immune to the effects of daily use. In Murrieta and throughout the Inland Empire, where outdoor living spaces are used nearly year-round thanks to Southern California's mild climate, synthetic turf takes a beating. High-traffic pathways, play areas where kids run and tumble, and spots where pets repeatedly lounge all develop visible wear patterns over time. The turf blades flatten, the infill compacts, and what once looked like a lush green lawn starts to resemble a worn carpet. This is where Murphy's Turf blooming and de-compacting service makes a dramatic difference.",
-      "Our blooming process uses commercial-grade power brushing equipment specifically designed for synthetic turf. These machines work at the fiber level, lifting each blade back to its original upright position while simultaneously loosening and redistributing the infill material that has compacted beneath the surface. Compacted infill is one of the most common and overlooked problems with artificial turf — when the infill packs down, it reduces the turf's ability to drain properly, makes the surface feel harder underfoot, and accelerates blade matting. Our de-compacting process breaks up these compressed layers, restoring proper drainage and the soft, cushioned feel your turf had when it was first installed.",
-      "During the blooming service, we also extract caked-on debris that has worked its way deep into the turf fibers — material that standard raking or leaf blowing simply cannot reach. This deep cleaning component is what separates professional blooming from DIY brushing. After the service, we perform a full post-service inspection to ensure even infill distribution and consistent blade height across your entire turf area. Homeowners are consistently amazed at the transformation — turf that looked years past its prime suddenly looks freshly installed. For properties in Murrieta, Temecula, Wildomar, Lake Elsinore, and the surrounding communities, regular blooming extends the life of your artificial turf investment by years and keeps it looking its best through every season.",
-    ],
-    included: [
-      'Turf fiber assessment',
-      'Commercial-grade power brushing',
-      'Debris extraction from fibers',
-      'Blade fluffing and restoration',
-      'Infill redistribution',
-      'Post-service inspection',
-    ],
-    benefits: [
-      {
-        icon: Sparkles,
-        title: 'Turf Looks Like New',
-        description:
-          'Matted, worn blades are lifted back to their original upright position for a freshly installed appearance.',
-      },
-      {
-        icon: Droplets,
-        title: 'Improved Drainage',
-        description:
-          'De-compacting the infill restores proper water flow, preventing puddles and standing water after rain or irrigation.',
+          'Our trained crews follow detailed checklists and regular quality inspections ensure the same high standard every visit.',
       },
       {
         icon: ThumbsUp,
-        title: 'More Comfortable Underfoot',
+        title: '30+ Years of Experience',
         description:
-          'Loosened infill and upright blades restore the soft, cushioned feel your turf had on day one.',
-      },
-      {
-        icon: TrendingUp,
-        title: 'Extends Turf Lifespan',
-        description:
-          'Regular blooming prevents permanent fiber damage from prolonged matting, adding years to your turf investment.',
+          'Decades of commercial cleaning expertise mean we know how to handle any facility type and any cleaning challenge.',
       },
     ],
     beforeAfter: [
       {
-        label: 'High-Traffic Area Restoration',
+        label: 'Office Common Area',
         beforeColor: 'bg-brown/40',
         afterColor: 'bg-sage/50',
-        beforeCaption: 'Matted, flattened turf blades from daily foot traffic',
-        afterCaption: 'Upright, fluffy blades after professional blooming',
+        beforeCaption: 'Dusty, cluttered common area before cleaning',
+        afterCaption: 'Spotless, organized space after professional janitorial service',
       },
       {
-        label: 'Pet Lounge Spot Revival',
+        label: 'Restroom Sanitation',
         beforeColor: 'bg-brown/30',
-        afterColor: 'bg-sage/60',
-        beforeCaption: 'Compressed turf where pets rest daily',
-        afterCaption: 'Fully restored turf with even infill distribution',
+        afterColor: 'bg-sage/40',
+        beforeCaption: 'Restroom needing attention',
+        afterCaption: 'Fully sanitized and restocked restroom',
       },
     ],
     faqs: [
       {
-        question: 'How often does my artificial turf need blooming?',
+        question: 'What types of facilities do you clean?',
         answer:
-          'For most residential properties, we recommend blooming every three to six months depending on foot traffic levels. Yards with heavy pet or child use may benefit from quarterly blooming, while lightly used decorative turf areas may only need it once or twice a year. During your service, our technicians will assess your turf and recommend the ideal schedule.',
+          'We clean Class A office buildings, corporate campuses, light industrial parks, multi-unit complexes, medical and dental facilities, municipalities, and fitness centers. Each facility type has unique requirements and our team is trained to meet them all.',
       },
       {
-        question: 'Will the power brushing damage my turf?',
+        question: 'Do you offer daily or nightly cleaning?',
         answer:
-          'No. Our commercial-grade equipment is specifically designed for synthetic turf and operates at carefully calibrated settings that lift and restore fibers without causing damage. In fact, regular blooming actually protects your turf by preventing the kind of prolonged matting that can lead to permanent fiber memory — where blades lose the ability to stand upright at all.',
+          'Yes, we offer both daily and nightly janitorial services. Most office buildings prefer nightly cleaning so work is completed before employees arrive each morning. We work with you to determine the best schedule for your facility.',
       },
       {
-        question: 'What is the difference between blooming and just raking my turf?',
+        question: 'Are your employees background checked and insured?',
         answer:
-          'Manual raking only addresses the surface level and can actually push debris deeper into the infill. Our commercial power brushing works at the fiber level, extracting embedded debris, loosening compacted infill, and lifting individual blades from the base. The results are dramatically more thorough and longer-lasting than anything achievable with a rake or push broom.',
+          'Absolutely. All Rangel Janitorial employees undergo thorough background checks, and we carry comprehensive general liability and workers compensation insurance for your protection and peace of mind.',
       },
       {
-        question: 'Can blooming fix turf that has been neglected for years?',
+        question: 'How do you ensure consistent quality?',
         answer:
-          'In most cases, yes. We have restored turf that has gone years without maintenance back to near-original condition. However, turf that has been severely neglected may have some permanent fiber memory in the most heavily worn areas. The sooner you start regular blooming, the better the long-term results. Contact us for a free assessment and we will give you an honest evaluation of what to expect.',
+          'We use detailed cleaning checklists customized to your facility, conduct regular quality inspections, and assign dedicated account managers who serve as your single point of contact. If an issue ever arises, we address it immediately.',
       },
     ],
     relatedServices: [
-      { name: 'Pet Hair & Debris Removal', slug: 'pet-hair-debris' },
-      { name: 'Disinfect & Deodorize', slug: 'disinfect-deodorize' },
-      { name: 'Poop Scooping & Removal', slug: 'poop-scooping' },
+      { name: 'Day Porter', slug: 'day-porter' },
+      { name: 'Electrostatic Disinfection', slug: 'electrostatic-disinfection' },
+      { name: 'Floor Care', slug: 'floor-care' },
     ],
   },
 
-  'disinfect-deodorize': {
-    name: 'Disinfect & Deodorize',
-    slug: 'disinfect-deodorize',
-    image: '/images/gallery/service-turf-disinfecting-v2.jpeg',
-    tagline: 'Kill 99.9% of bacteria and eliminate odors at the source',
+  'day-porter': {
+    name: 'Day Porter',
+    slug: 'day-porter',
+    image: '/images/services/day-porter.png',
+    tagline: 'On-site daytime cleaning that keeps your facility pristine throughout the day',
     metaDescription:
-      "Professional artificial turf disinfecting and deodorizing in Murrieta, CA. Murphy's Turf uses a professional-grade hydrogen peroxide-based cleaner to kill 99.9% of bacteria and eliminate pet odors without harsh chemicals. Get a free quote.",
+      'Professional day porter services in California. Rangel Janitorial provides on-site daytime cleaning and maintenance for offices, lobbies, and commercial facilities. Get a free quote.',
     descriptionParagraphs: [
-      "Our disinfecting and deodorizing turf services consist of power-spraying our professional-grade cleaning solution. This solution is designed to perform as a cleaner, disinfectant, & deodorizer. It cuts past the top synthetic turf layer, into the infill where bacteria & viruses live, and attacks the contaminants at their source. Our cleaning solution will penetrate the synthetic turf, clean & kill 99.9% of germs & bacteria in just minutes, all without any hazardous chemicals.",
-      "If you have pets — or even if you do not — your artificial turf is harboring more bacteria than you might realize. Every time a dog urinates on synthetic turf, the liquid passes through the blades and settles into the infill layer below. In Murrieta's warm Southern California climate, heat accelerates bacterial growth and amplifies odors, turning a minor issue into a persistent problem that surface-level rinsing cannot solve. Bacteria, viruses, and the ammonia compounds from pet urine thrive in the warm, moist environment beneath your turf's surface, and no amount of hosing down the top layer will reach them. That is exactly why Murphy's Turf relies on a professional-grade cleaning solution specifically formulated to penetrate past the surface and attack contaminants where they actually live.",
-      "Our power-spray process is thorough and systematic. Our technicians apply our professional-grade cleaning solution across the entire turf surface using commercial spraying equipment that ensures complete, even coverage. The solution is designed to cut through the synthetic turf layer and soak into the infill, where it goes to work immediately — killing 99.9% of germs and bacteria in just minutes. Unlike household cleaners or DIY solutions, our cleaning solution does not simply mask odors. It neutralizes the bacterial source of the smell, replacing it with a clean, fresh grass scent. The result is turf that does not just smell better for a day or two — it stays fresh because the underlying cause of the odor has been eliminated.",
-      "What makes our cleaning solution stand out from other turf cleaners is what it does not contain. Our professional-grade solution uses stabilized accelerated hydrogen peroxide as its active ingredient, which means no bleach, no ammonia, and no harsh chemical residues. Many competing turf cleaners rely on bleach or ammonia-based formulas that can irritate skin, weaken turf fibers over time, and leave behind chemical odors that are unpleasant for both people and pets. With our cleaning solution, your turf is safe for pets and children to use as soon as it dries — typically within 30 to 60 minutes depending on weather conditions. For families in Murrieta, Temecula, and throughout the Inland Empire who want a genuinely clean and safe outdoor surface, our disinfect and deodorize service delivers peace of mind along with a dramatically fresher yard.",
+      'Day porter services provide on-site cleaning and maintenance throughout the business day, ensuring your facility looks its best during operating hours when it matters most. Unlike nightly janitorial cleaning that happens after hours, day porters are present during the workday to handle real-time cleaning needs, maintain restrooms, and keep common areas spotless.',
+      'Rangel Janitorial day porters are trained professionals who understand the importance of working discreetly and efficiently in occupied spaces. They handle a wide range of tasks including lobby maintenance, restroom checks and restocking, break room cleaning, conference room turnover, spill cleanup, and trash management. Their presence ensures that high-traffic areas never deteriorate throughout the day.',
+      'Day porter services are especially valuable for facilities with heavy foot traffic, such as corporate lobbies, medical offices, fitness centers, and multi-tenant buildings. In these environments, a single nightly cleaning is often not enough to maintain the level of cleanliness that tenants and visitors expect. A day porter bridges that gap, addressing messes as they happen and maintaining a consistently professional appearance.',
+      'Our day porter program is flexible and scalable. Whether you need a porter for a few hours each morning or full-day coverage across multiple buildings, we customize the service to match your facility\'s needs and budget. Each porter follows a detailed task list that we develop in consultation with you, ensuring that the most important areas of your building receive the attention they deserve throughout the day.',
     ],
     included: [
-      'Full-surface professional-grade power spray',
-      'Infill-level sanitization',
-      'Odor neutralization',
-      'Bacteria elimination (99.9%)',
-      'Safe for immediate pet/child use after drying',
-    ],
-    benefits: [
-      {
-        icon: Bug,
-        title: 'Eliminates Pet Urine Smell',
-        description:
-          'Our cleaning solution neutralizes the bacterial source of odor deep in the infill, not just the surface symptoms.',
-      },
-      {
-        icon: ShieldCheck,
-        title: 'Kills Bacteria at the Source',
-        description:
-          'Penetrates past the turf surface to the infill layer where 99.9% of germs and bacteria are eliminated in minutes.',
-      },
-      {
-        icon: Heart,
-        title: 'No Harsh Chemical Residue',
-        description:
-          'Stabilized hydrogen peroxide means no bleach, no ammonia, and no skin-irritating residues left behind.',
-      },
-      {
-        icon: TreePine,
-        title: 'Fresh Grass Scent',
-        description:
-          'After treatment, your artificial turf smells like fresh-cut natural grass instead of chemicals or pet waste.',
-      },
-    ],
-    beforeAfter: [
-      {
-        label: 'Pet Odor Elimination',
-        beforeColor: 'bg-brown/40',
-        afterColor: 'bg-sage/50',
-        beforeCaption: 'Turf with persistent pet urine odor',
-        afterCaption: 'Fresh, odor-free surface after professional treatment',
-      },
-      {
-        label: 'Full-Surface Sanitization',
-        beforeColor: 'bg-brown/30',
-        afterColor: 'bg-sage/60',
-        beforeCaption: 'Bacteria-laden infill from pet use',
-        afterCaption: '99.9% bacteria eliminated, safe for family use',
-      },
-    ],
-    faqs: [
-      {
-        question: 'How soon can my pets and kids use the turf after treatment?',
-        answer:
-          'Your turf is safe for pets and children as soon as it dries, which typically takes 30 to 60 minutes depending on temperature, humidity, and sun exposure. Our cleaning solution contains no bleach or ammonia, so there are no harmful residues to worry about once the surface is dry.',
-      },
-      {
-        question: 'How often should I have my turf disinfected and deodorized?',
-        answer:
-          'For homes with pets, we recommend treatment every four to six weeks to stay ahead of bacterial buildup and odor. Properties without pets that use their turf primarily for entertaining or play areas can typically go eight to twelve weeks between treatments. Our team will recommend a schedule based on your specific usage patterns.',
-      },
-      {
-        question: 'Will your cleaning solution damage or discolor my artificial turf?',
-        answer:
-          'No. Our cleaning solution is specifically formulated for synthetic turf and will not damage, discolor, or weaken your turf fibers. Unlike bleach-based cleaners that can fade turf color and break down fibers over time, our professional-grade solution uses stabilized accelerated hydrogen peroxide that is tough on bacteria but gentle on your turf investment.',
-      },
-      {
-        question: 'Can I just hose down my turf to remove pet odors?',
-        answer:
-          'Water alone cannot eliminate pet urine odor because the bacteria that cause the smell live deep in the infill layer, not on the surface. Hosing may temporarily dilute surface-level odor, but it does not kill the bacteria at the source. Our cleaning solution penetrates into the infill to eliminate contaminants where they actually live, providing lasting results rather than a temporary rinse.',
-      },
-    ],
-    relatedServices: [
-      { name: 'Poop Scooping & Removal', slug: 'poop-scooping' },
-      { name: 'Pet Hair & Debris Removal', slug: 'pet-hair-debris' },
-      { name: 'Blooming & De-Compacting', slug: 'blooming-decompacting' },
-    ],
-  },
-
-  'poop-scooping': {
-    name: 'Poop Scooping & Removal',
-    slug: 'poop-scooping',
-    image: '/images/services/poop-scooping.jpg',
-    tagline: 'Keep your yard clean so you can enjoy time with your pets',
-    metaDescription:
-      "Professional poop scooping and pet waste removal for artificial turf in Murrieta, CA. Murphy's Turf offers flexible weekly and daily plans to keep your yard clean and safe. Get a free quote.",
-    descriptionParagraphs: [
-      "It's important that we clean-up after our pets as their waste is not only an unruly sight but also harmful to the environment and people around you. Surprisingly, according to the EPA, pet waste is very toxic and is even a polluter within the same category as oil. Pet waste when not properly disposed can contain a vast array of different bacteria and parasites that can not only make people sick but even your own pet as well. In terms of how often you should pick up poop is based on how many dogs you have. With one it could be doable to do it once a week but if you have multiple it may be necessary to do it once a day. We understand that some people are too busy to deal with the poo and much rather spend their time playing with them than picking up after them. That's why we decided to provide several service plans dedicated to waste removal so you can keep your yard looking fresh while saving more time to spend with your fluffy friends.",
-      "Pet waste on artificial turf presents a unique set of challenges that natural grass does not face. On a natural lawn, rain and soil microbes eventually break down waste over time — though the health risks remain. On synthetic turf, pet waste sits on or within the infill layer with nowhere to go. In Murrieta's warm climate, the heat accelerates decomposition and bacterial growth, intensifying odors and creating an increasingly unsanitary environment with each passing day. The bacteria and parasites found in pet waste — including E. coli, salmonella, giardia, roundworms, and hookworms — can survive in your turf for weeks or even months, posing a genuine health risk to your family, your pets, and even your neighbors.",
-      "Murphy's Turf poop scooping and removal service takes this chore completely off your plate. Our technicians arrive on your scheduled day, systematically walk your entire turf area, and remove all pet waste from the surface. After removal, we sanitize the areas where waste was found to reduce bacterial contamination and keep your turf hygienic between full disinfecting treatments. All waste is bagged and disposed of properly — you never have to deal with it. We offer flexible scheduling that adapts to your household's needs, whether that means weekly visits for a single-dog home or daily service for multi-pet families.",
-      "Beyond the obvious convenience factor, regular professional waste removal protects your turf investment. Pet waste that sits on artificial turf can stain the fibers, accelerate infill breakdown, and create persistent odor problems that become increasingly difficult to resolve the longer they are left untreated. Our scheduled removal service prevents these issues from developing in the first place, keeping your turf in top condition between deeper cleaning treatments. For busy pet owners in Murrieta, Temecula, Menifee, Winchester, and the surrounding Inland Empire communities, our poop scooping service means you get to spend your time enjoying your pets instead of cleaning up after them.",
-    ],
-    included: [
-      'Scheduled pet waste removal',
-      'Surface sanitizing after removal',
-      'Flexible weekly/daily plans',
-      'Disposal handled for you',
+      'Lobby and entrance maintenance',
+      'Restroom checks and restocking',
+      'Break room and kitchen upkeep',
+      'Conference room turnover',
+      'Spill and mess cleanup',
+      'Trash monitoring and removal',
     ],
     benefits: [
       {
         icon: Clock,
-        title: 'Save Time',
+        title: 'Real-Time Cleaning',
         description:
-          'Spend your free time playing with your pets instead of scooping after them. We handle the dirty work on your schedule.',
+          'Issues are addressed as they happen rather than waiting until after hours, keeping your facility consistently clean.',
       },
       {
-        icon: PawPrint,
-        title: 'Healthier Yard',
+        icon: UserCheck,
+        title: 'Professional On-Site Presence',
         description:
-          'Regular waste removal keeps your turf hygienic and reduces the bacterial load between deeper cleaning treatments.',
+          'A trained professional dedicated to your facility who understands your specific needs and building layout.',
       },
       {
-        icon: Bug,
-        title: 'Reduces Bacteria & Parasites',
+        icon: Sparkles,
+        title: 'Always Presentation-Ready',
         description:
-          'Prompt waste removal minimizes exposure to E. coli, salmonella, giardia, roundworms, and other harmful organisms.',
+          'Common areas, restrooms, and lobbies stay pristine throughout the day, impressing tenants and visitors.',
       },
       {
-        icon: Recycle,
-        title: 'Prevents Environmental Contamination',
+        icon: Gauge,
+        title: 'Flexible Scheduling',
         description:
-          'Proper disposal keeps pet waste — classified by the EPA alongside oil as a toxic pollutant — out of the environment.',
+          'Choose the hours and days that match your facility\'s peak traffic times for maximum impact.',
       },
     ],
     beforeAfter: [
       {
-        label: 'Weekly Waste Removal Service',
+        label: 'Lobby Maintenance',
         beforeColor: 'bg-brown/40',
         afterColor: 'bg-sage/50',
-        beforeCaption: 'Accumulated pet waste across turf surface',
-        afterCaption: 'Clean, sanitized turf after professional removal',
+        beforeCaption: 'Lobby after morning rush',
+        afterCaption: 'Lobby maintained throughout the day by day porter',
       },
       {
-        label: 'Multi-Pet Household Cleanup',
+        label: 'Break Room Upkeep',
         beforeColor: 'bg-brown/30',
-        afterColor: 'bg-sage/40',
-        beforeCaption: 'Heavy waste accumulation from multiple dogs',
-        afterCaption: 'Thoroughly cleaned and disposal handled',
+        afterColor: 'bg-sage/60',
+        beforeCaption: 'Break room after lunch hour',
+        afterCaption: 'Cleaned and restocked by mid-afternoon',
       },
     ],
     faqs: [
       {
-        question: 'How often should I schedule poop scooping service?',
+        question: 'What does a day porter do?',
         answer:
-          'It depends on the number of pets in your household. For one dog, weekly service is usually sufficient. For two or more dogs, twice-weekly or even daily service may be necessary to keep your turf clean and odor-free. During your first visit, we will assess your situation and recommend the ideal schedule.',
+          'A day porter provides on-site cleaning and maintenance during business hours. Tasks typically include lobby upkeep, restroom monitoring and restocking, break room cleaning, conference room turnover, spill cleanup, trash management, and any other cleaning needs that arise during the workday.',
       },
       {
-        question: 'Do you sanitize the turf after removing waste?',
+        question: 'How is day porter service different from nightly janitorial?',
         answer:
-          'Yes. After removing all pet waste, we sanitize the affected areas to reduce bacterial contamination. This surface sanitizing is included with every poop scooping visit and helps maintain turf hygiene between your scheduled full disinfecting treatments.',
+          'Nightly janitorial cleaning provides a thorough deep clean after business hours. Day porter service supplements this by maintaining cleanliness throughout the day during operating hours. Many facilities benefit from both services working together for the best results.',
       },
       {
-        question: 'What happens to the waste you collect?',
+        question: 'Can I customize the day porter schedule?',
         answer:
-          'All pet waste is double-bagged and disposed of properly by our team. You do not need to provide bags, bins, or handle any part of the disposal process. We take care of everything from start to finish.',
+          'Absolutely. We offer flexible scheduling from a few hours per day to full-day coverage. We work with you to identify peak traffic times and critical areas, then build a custom task list and schedule that maximizes the impact of the service.',
       },
       {
-        question: 'Can I combine poop scooping with other turf services?',
+        question: 'Is day porter service available for multi-building campuses?',
         answer:
-          'Absolutely. Many of our clients pair scheduled poop scooping with monthly or bi-monthly disinfecting and deodorizing treatments for complete turf maintenance. We can build a custom service plan that covers all your needs at a frequency that works for your household and budget. Contact us for a free quote.',
+          'Yes. We can assign porters to multiple buildings on a campus and create rotation schedules that ensure every building receives attention throughout the day. Our porters are trained to work independently and manage their time efficiently across multiple locations.',
       },
     ],
     relatedServices: [
-      { name: 'Disinfect & Deodorize', slug: 'disinfect-deodorize' },
-      { name: 'Pet Hair & Debris Removal', slug: 'pet-hair-debris' },
-      { name: 'Blooming & De-Compacting', slug: 'blooming-decompacting' },
+      { name: 'Janitorial Cleaning', slug: 'janitorial-cleaning' },
+      { name: 'Electrostatic Disinfection', slug: 'electrostatic-disinfection' },
+      { name: 'Carpet Cleaning', slug: 'carpet-cleaning' },
+    ],
+  },
+
+  'electrostatic-disinfection': {
+    name: 'Electrostatic Disinfection',
+    slug: 'electrostatic-disinfection',
+    image: '/images/services/electrostatic-disinfection.png',
+    tagline: 'Advanced disinfection technology for complete surface coverage',
+    metaDescription:
+      'Professional electrostatic disinfection services in California. Rangel Janitorial uses advanced electrostatic spraying technology for thorough disinfection of commercial facilities. Get a free quote.',
+    descriptionParagraphs: [
+      'Electrostatic disinfection is an advanced cleaning technology that provides superior surface coverage compared to traditional wiping or spraying methods. The electrostatic sprayer applies a positive electrical charge to disinfectant particles as they leave the nozzle. These charged droplets are attracted to surfaces and wrap around objects, coating them evenly on all sides including hard-to-reach areas that manual cleaning often misses.',
+      'Rangel Janitorial utilizes hospital-grade disinfectants applied through professional electrostatic spraying equipment. This method is particularly effective for facilities that require high levels of sanitation, including medical and dental offices, fitness centers, schools, and any building where infection control is a priority. The even coverage ensures that every surface receives the proper concentration of disinfectant for effective pathogen elimination.',
+      'The electrostatic disinfection process is fast and efficient, allowing us to treat large areas in a fraction of the time required by traditional methods. A single technician with an electrostatic sprayer can disinfect an entire office floor in minutes, making it practical for regular application as part of your ongoing maintenance program. The disinfectant dries quickly and leaves no residue, so your facility can be occupied shortly after treatment.',
+      'We recommend electrostatic disinfection as a complement to regular janitorial cleaning, not a replacement. While daily cleaning removes visible dirt and debris, electrostatic disinfection targets the invisible pathogens on surfaces that standard cleaning may not eliminate. For facilities in Sacramento, Murrieta, Walnut Creek, and throughout California, this service provides an extra layer of protection for the health and safety of your building occupants.',
+    ],
+    included: [
+      'Hospital-grade disinfectant application',
+      'Full-room electrostatic spraying',
+      'High-touch surface focus',
+      'Restroom disinfection',
+      'Common area treatment',
+      'Post-treatment safety verification',
+    ],
+    benefits: [
+      {
+        icon: Zap,
+        title: 'Superior Coverage',
+        description:
+          'Charged droplets wrap around surfaces and reach areas that manual wiping cannot, ensuring complete disinfection.',
+      },
+      {
+        icon: ShieldCheck,
+        title: 'Hospital-Grade Protection',
+        description:
+          'We use EPA-registered, hospital-grade disinfectants that eliminate a broad spectrum of pathogens including bacteria and viruses.',
+      },
+      {
+        icon: Clock,
+        title: 'Fast & Efficient',
+        description:
+          'Large areas can be treated in minutes, minimizing disruption to your facility operations.',
+      },
+      {
+        icon: ThumbsUp,
+        title: 'Safe for Occupants',
+        description:
+          'The disinfectant dries quickly with no residue, allowing your facility to be used shortly after treatment.',
+      },
+    ],
+    beforeAfter: [
+      {
+        label: 'Office Workspace Disinfection',
+        beforeColor: 'bg-brown/40',
+        afterColor: 'bg-sage/50',
+        beforeCaption: 'Standard cleaning leaves invisible pathogens',
+        afterCaption: 'Electrostatic treatment provides complete surface coverage',
+      },
+      {
+        label: 'Medical Facility Treatment',
+        beforeColor: 'bg-brown/30',
+        afterColor: 'bg-sage/60',
+        beforeCaption: 'High-touch surfaces harbor bacteria',
+        afterCaption: 'Hospital-grade disinfection of all surfaces',
+      },
+    ],
+    faqs: [
+      {
+        question: 'How does electrostatic disinfection work?',
+        answer:
+          'The sprayer applies a positive electrical charge to disinfectant droplets as they exit the nozzle. These charged particles are attracted to surfaces like a magnet, wrapping around objects and coating them evenly on all sides. This ensures complete coverage including the backs and undersides of surfaces that manual wiping typically misses.',
+      },
+      {
+        question: 'Is electrostatic disinfection safe for electronics?',
+        answer:
+          'Yes. The ultra-fine mist produced by electrostatic sprayers uses minimal liquid, so it will not damage electronics, paper, or other sensitive materials. The disinfectant dries quickly and leaves no residue.',
+      },
+      {
+        question: 'How often should electrostatic disinfection be performed?',
+        answer:
+          'Frequency depends on your facility type and occupancy. Medical facilities and fitness centers may benefit from daily or several-times-per-week treatments. Office buildings typically schedule weekly or bi-weekly treatments. We will recommend a frequency based on your specific needs.',
+      },
+      {
+        question: 'Can this replace regular janitorial cleaning?',
+        answer:
+          'No. Electrostatic disinfection targets invisible pathogens on surfaces but does not remove visible dirt, dust, or debris. It works best as a complement to regular janitorial cleaning, adding an extra layer of sanitation to your maintenance program.',
+      },
+    ],
+    relatedServices: [
+      { name: 'Janitorial Cleaning', slug: 'janitorial-cleaning' },
+      { name: 'Day Porter', slug: 'day-porter' },
+      { name: 'Carpet Cleaning', slug: 'carpet-cleaning' },
+    ],
+  },
+
+  'floor-care': {
+    name: 'Floor Care',
+    slug: 'floor-care',
+    image: '/images/services/floor-care.png',
+    tagline: 'Professional floor maintenance that protects your investment and looks stunning',
+    metaDescription:
+      'Professional floor care services in California including VCT strip and wax, polishing, and maintenance. Rangel Janitorial keeps your commercial floors pristine. 30+ years experience. Get a free quote.',
+    descriptionParagraphs: [
+      'Your facility\'s floors are one of the first things visitors notice and one of the most heavily used surfaces in any building. Professional floor care is essential for maintaining both the appearance and longevity of your flooring investment. Rangel Janitorial provides comprehensive floor care services including VCT strip and wax, floor polishing, buffing, and ongoing maintenance programs tailored to your specific flooring type.',
+      'VCT (vinyl composition tile) is one of the most common commercial flooring materials, found in offices, schools, medical facilities, and retail spaces across California. Over time, foot traffic wears down the protective finish, leaving floors looking dull, scratched, and unprofessional. Our strip and wax service removes all old finish down to the bare tile, then applies multiple coats of high-quality floor finish that restores a brilliant shine and provides a durable protective barrier against daily wear.',
+      'Beyond VCT, we provide specialized care for a variety of commercial flooring types including concrete, terrazzo, ceramic tile, and natural stone. Each material has unique maintenance requirements, and our technicians are trained in the proper techniques and products for each type. Whether your floors need a routine buff and polish or a complete restoration, we have the equipment and expertise to deliver outstanding results.',
+      'We offer both one-time floor restoration services and ongoing maintenance programs. Regular maintenance — including periodic buffing, spot cleaning, and scheduled re-coating — dramatically extends the life of your floor finish and keeps your facility looking its best year-round. Our team will assess your floors and recommend a maintenance schedule that balances appearance, protection, and budget for your specific situation.',
+    ],
+    included: [
+      'VCT strip and wax',
+      'Floor polishing and buffing',
+      'Multi-coat finish application',
+      'Specialized stone and tile care',
+      'Ongoing maintenance programs',
+      'Floor assessment and recommendations',
+    ],
+    benefits: [
+      {
+        icon: Sparkles,
+        title: 'Restored Appearance',
+        description:
+          'Strip and wax services bring dull, worn floors back to a brilliant, professional shine.',
+      },
+      {
+        icon: Layers,
+        title: 'Protective Barrier',
+        description:
+          'Multiple coats of quality finish protect your flooring from scratches, scuffs, and daily wear.',
+      },
+      {
+        icon: TrendingUp,
+        title: 'Extended Floor Life',
+        description:
+          'Regular maintenance dramatically extends the life of your flooring investment, saving money over time.',
+      },
+      {
+        icon: Gauge,
+        title: 'Custom Maintenance Plans',
+        description:
+          'We create a maintenance schedule tailored to your floor type, traffic level, and budget.',
+      },
+    ],
+    beforeAfter: [
+      {
+        label: 'VCT Strip and Wax',
+        beforeColor: 'bg-brown/40',
+        afterColor: 'bg-sage/50',
+        beforeCaption: 'Worn, dull VCT flooring with visible scuffs',
+        afterCaption: 'Brilliant shine after professional strip and wax',
+      },
+      {
+        label: 'Lobby Floor Restoration',
+        beforeColor: 'bg-brown/30',
+        afterColor: 'bg-sage/60',
+        beforeCaption: 'Heavily trafficked lobby floor',
+        afterCaption: 'Restored floor with fresh finish and shine',
+      },
+    ],
+    faqs: [
+      {
+        question: 'How often should VCT floors be stripped and waxed?',
+        answer:
+          'Most commercial VCT floors benefit from a full strip and wax every 12 to 18 months, with periodic buffing and spot maintenance in between. High-traffic areas like lobbies and hallways may need more frequent attention. We will assess your floors and recommend the ideal schedule.',
+      },
+      {
+        question: 'How long does the strip and wax process take?',
+        answer:
+          'Timing depends on the square footage and condition of the floors. A typical office floor takes one to two evenings to complete, including stripping, cleaning, and applying multiple coats of finish with drying time between each coat. We schedule this work during off-hours to minimize disruption.',
+      },
+      {
+        question: 'Can you work on floors other than VCT?',
+        answer:
+          'Yes. We provide specialized care for concrete, terrazzo, ceramic tile, natural stone, and other commercial flooring types. Each material requires specific techniques and products, and our technicians are trained to handle them all.',
+      },
+      {
+        question: 'Do you offer ongoing floor maintenance programs?',
+        answer:
+          'Absolutely. We offer scheduled maintenance programs that include periodic buffing, spot cleaning, and re-coating to keep your floors looking great between full strip and wax services. Regular maintenance extends floor life and reduces overall costs.',
+      },
+    ],
+    relatedServices: [
+      { name: 'Janitorial Cleaning', slug: 'janitorial-cleaning' },
+      { name: 'Carpet Cleaning', slug: 'carpet-cleaning' },
+      { name: 'Day Porter', slug: 'day-porter' },
+    ],
+  },
+
+  'carpet-cleaning': {
+    name: 'Carpet Cleaning',
+    slug: 'carpet-cleaning',
+    image: '/images/services/carpet-cleaning.png',
+    tagline: 'Extend carpet life and improve indoor air quality with professional cleaning',
+    metaDescription:
+      'Professional commercial carpet cleaning services in California. Rangel Janitorial uses professional-grade equipment for deep carpet cleaning in offices and commercial facilities. Get a free quote.',
+    descriptionParagraphs: [
+      'Commercial carpets take a beating from daily foot traffic, spills, and the accumulation of dirt and allergens that regular vacuuming alone cannot remove. Professional carpet cleaning is essential for maintaining the appearance of your facility, extending the life of your carpet investment, and improving indoor air quality for building occupants.',
+      'Rangel Janitorial uses professional-grade hot water extraction equipment — the method recommended by major carpet manufacturers — to deliver a deep clean that reaches the base of carpet fibers where dirt, bacteria, and allergens accumulate. Our process removes embedded soil, stains, and contaminants that daily vacuuming leaves behind, restoring your carpet\'s appearance and freshness.',
+      'Regular professional carpet cleaning is not just about appearance. Carpets trap airborne particles including dust, pollen, mold spores, and bacteria. Over time, these trapped contaminants can affect indoor air quality and aggravate allergies and respiratory conditions for building occupants. Our deep extraction process removes these particles from the carpet, contributing to a healthier indoor environment.',
+      'We work with you to develop a carpet cleaning schedule that makes sense for your facility. High-traffic areas like lobbies, hallways, and conference rooms may need quarterly cleaning, while private offices can typically go six to twelve months between deep cleanings. We also offer spot cleaning and stain treatment services for spills and messes that need immediate attention between scheduled cleanings.',
+    ],
+    included: [
+      'Hot water extraction deep cleaning',
+      'Pre-treatment of stains and high-traffic areas',
+      'Spot and stain removal',
+      'Deodorizing treatment',
+      'Fast-dry technology',
+      'Furniture moving as needed',
+    ],
+    benefits: [
+      {
+        icon: Sparkles,
+        title: 'Revived Appearance',
+        description:
+          'Deep cleaning removes embedded dirt and stains, restoring your carpet\'s original color and texture.',
+      },
+      {
+        icon: Droplets,
+        title: 'Improved Air Quality',
+        description:
+          'Extraction removes trapped allergens, dust, and bacteria from carpet fibers for a healthier indoor environment.',
+      },
+      {
+        icon: TrendingUp,
+        title: 'Extended Carpet Life',
+        description:
+          'Regular professional cleaning prevents fiber breakdown from embedded grit, adding years to your carpet investment.',
+      },
+      {
+        icon: Clock,
+        title: 'Minimal Downtime',
+        description:
+          'Our fast-dry technology means carpets are ready for use much sooner than traditional methods.',
+      },
+    ],
+    beforeAfter: [
+      {
+        label: 'High-Traffic Hallway',
+        beforeColor: 'bg-brown/40',
+        afterColor: 'bg-sage/50',
+        beforeCaption: 'Dingy, worn carpet from heavy foot traffic',
+        afterCaption: 'Clean, refreshed carpet after professional extraction',
+      },
+      {
+        label: 'Conference Room Cleaning',
+        beforeColor: 'bg-brown/30',
+        afterColor: 'bg-sage/40',
+        beforeCaption: 'Stained and soiled conference room carpet',
+        afterCaption: 'Stain-free, deodorized carpet ready for use',
+      },
+    ],
+    faqs: [
+      {
+        question: 'How often should commercial carpets be professionally cleaned?',
+        answer:
+          'Frequency depends on foot traffic and use. High-traffic areas like lobbies and hallways benefit from quarterly cleaning. General office areas typically need cleaning every six to twelve months. We will assess your facility and recommend a schedule that keeps your carpets in optimal condition.',
+      },
+      {
+        question: 'How long does it take for carpets to dry?',
+        answer:
+          'With our professional-grade equipment and fast-dry technology, most carpets are ready for light foot traffic within two to four hours. Complete drying typically occurs within six to eight hours depending on humidity and air circulation.',
+      },
+      {
+        question: 'Can you remove tough stains?',
+        answer:
+          'We treat a wide variety of stains including coffee, food, ink, and dirt. We pre-treat stains with specialized solutions before extraction for the best results. While most stains can be removed or significantly reduced, some older or set-in stains may not be completely removable. We will always give you an honest assessment.',
+      },
+      {
+        question: 'Do you clean carpets after hours?',
+        answer:
+          'Yes. We schedule carpet cleaning during evenings and weekends to minimize disruption to your business operations. This ensures maximum drying time before employees return and avoids any impact on your daily workflow.',
+      },
+    ],
+    relatedServices: [
+      { name: 'Janitorial Cleaning', slug: 'janitorial-cleaning' },
+      { name: 'Floor Care', slug: 'floor-care' },
+      { name: 'Electrostatic Disinfection', slug: 'electrostatic-disinfection' },
     ],
   },
 };
@@ -442,10 +536,11 @@ const servicesData: Record<string, ServiceData> = {
 // ---------------------------------------------------------------------------
 
 const validSlugs = [
-  'pet-hair-debris',
-  'blooming-decompacting',
-  'disinfect-deodorize',
-  'poop-scooping',
+  'janitorial-cleaning',
+  'day-porter',
+  'electrostatic-disinfection',
+  'floor-care',
+  'carpet-cleaning',
 ];
 
 export function generateStaticParams() {
@@ -465,10 +560,10 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${service.name} | Murphy's Turf`,
+    title: `${service.name} | Rangel Janitorial`,
     description: service.metaDescription,
     openGraph: {
-      title: `${service.name} | Murphy's Turf — Artificial Turf Cleaning`,
+      title: `${service.name} | Rangel Janitorial — Commercial Cleaning`,
       description: service.metaDescription,
       type: 'website',
     },
@@ -650,7 +745,7 @@ export default async function ServiceDetailPage({
       </section>
 
       {/* ----------------------------------------------------------------- */}
-      {/* Quote CTA (No Prices) */}
+      {/* Quote CTA */}
       {/* ----------------------------------------------------------------- */}
       <section className="py-16 sm:py-20 bg-white">
         <AnimateOnScroll direction="up" className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -659,10 +754,9 @@ export default async function ServiceDetailPage({
               Interested in {service.name}?
             </h2>
             <p className="text-charcoal-light font-body mb-8 max-w-2xl mx-auto leading-relaxed">
-              Every property is different. Contact us for a free, no-obligation
-              quote tailored to your turf size and condition. With 30+ years of
-              experience, Murphy&apos;s Turf delivers results you can see and
-              smell.
+              Every facility is different. Contact us for a free, no-obligation
+              quote tailored to your building&apos;s size and needs. With 30+ years of
+              experience, Rangel Janitorial delivers results you can count on.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
@@ -748,12 +842,12 @@ export default async function ServiceDetailPage({
       <section className="py-16 sm:py-20 bg-gradient-to-br from-forest to-forest-dark">
         <AnimateOnScroll direction="up" className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold font-heading text-white mb-4">
-            Ready to Restore Your Turf?
+            Ready for a Cleaner Facility?
           </h2>
           <p className="text-lg text-white/85 font-body mb-8 max-w-2xl mx-auto leading-relaxed">
             Request a free, no-obligation quote for {service.name.toLowerCase()} and
-            discover why homeowners across Murrieta trust Murphy&apos;s Turf
-            with their artificial turf maintenance.
+            discover why businesses across California trust Rangel Janitorial
+            with their facility maintenance.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link

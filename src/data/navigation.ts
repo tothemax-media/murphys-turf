@@ -12,19 +12,19 @@ export const footerNav: NavGroup[] = [
   {
     title: "Services",
     links: [
-      { label: "Pet Hair & Debris Removal", href: "/services/pet-hair-debris" },
-      { label: "Blooming & De-Compacting", href: "/services/blooming-decompacting" },
-      { label: "Disinfect & Deodorize", href: "/services/disinfect-deodorize" },
-      { label: "Poop Scooping & Removal", href: "/services/poop-scooping" },
+      { label: "Janitorial Cleaning", href: "/services/janitorial-cleaning" },
+      { label: "Day Porter", href: "/services/day-porter" },
+      { label: "Electrostatic Disinfection", href: "/services/electrostatic-disinfection" },
+      { label: "Floor Care", href: "/services/floor-care" },
+      { label: "Carpet Cleaning", href: "/services/carpet-cleaning" },
     ],
   },
   {
     title: "Locations",
     links: [
-      { label: "Huntington Beach / LA Area", href: "/locations/huntington-beach" },
-      { label: "Murrieta / Inland Empire", href: "/locations/murrieta" },
-      { label: "Martinez / Bay Area", href: "/locations/martinez" },
       { label: "Greater Sacramento", href: "/locations/sacramento" },
+      { label: "Murrieta / Inland Empire", href: "/locations/murrieta" },
+      { label: "Walnut Creek / East Bay", href: "/locations/walnut-creek" },
     ],
   },
   {

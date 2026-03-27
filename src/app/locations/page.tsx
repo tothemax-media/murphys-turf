@@ -4,39 +4,32 @@ import { MapPin, ArrowRight, Phone } from 'lucide-react';
 import { AnimateOnScroll, StaggerContainer, StaggerItem } from '@/components/ui/AnimateOnScroll';
 
 export const metadata: Metadata = {
-  title: 'Service Locations | Artificial Turf Cleaning Across California',
+  title: 'Service Locations | Professional Janitorial Services Across California',
   description:
-    "Murphy's Turf provides professional artificial turf cleaning and disinfecting services across California. Serving Huntington Beach, Murrieta, Martinez, and Sacramento.",
+    "Rangel Janitorial provides professional janitorial and commercial cleaning services across California. Serving Sacramento, Murrieta, and Walnut Creek.",
 };
 
 const locations = [
   {
-    city: 'Huntington Beach / LA Area',
-    slug: 'huntington-beach',
+    city: 'Greater Sacramento',
+    slug: 'sacramento',
     description:
-      'Professional-grade turf cleaning for coastal LA — from Huntington Beach to Seal Beach.',
-    highlight: 'LA Area',
+      'Professional janitorial services for offices, medical facilities, and commercial spaces across the Sacramento metro.',
+    highlight: 'Sacramento',
   },
   {
     city: 'Murrieta / Inland Empire',
     slug: 'murrieta',
     description:
-      'Our headquarters. Serving the entire Inland Empire from Murrieta to Temecula and beyond.',
-    highlight: 'Headquarters',
+      'Reliable commercial cleaning for the entire Inland Empire — from Murrieta and Temecula to Menifee and beyond.',
+    highlight: 'Inland Empire',
   },
   {
-    city: 'Martinez / Bay Area',
-    slug: 'martinez',
+    city: 'Walnut Creek / East Bay',
+    slug: 'walnut-creek',
     description:
-      'Expert turf cleaning across Contra Costa County and the East Bay.',
-    highlight: 'Bay Area',
-  },
-  {
-    city: 'Greater Sacramento',
-    slug: 'sacramento',
-    description:
-      'Professional turf cleaning built for Central Valley heat. Serving Sacramento to Folsom.',
-    highlight: 'Central Valley',
+      'Expert janitorial services across Walnut Creek, Concord, Pleasant Hill, and the greater East Bay.',
+    highlight: 'East Bay',
   },
 ];
 
@@ -51,7 +44,7 @@ export default function LocationsPage() {
         <AnimateOnScroll direction="up" className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm text-white/90 text-sm font-body px-4 py-2 rounded-full mb-6">
             <MapPin className="w-4 h-4" />
-            Proudly Serving 4 California Regions
+            Proudly Serving 3 California Regions
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white font-heading mb-12 leading-tight">
             Serving California
@@ -59,7 +52,7 @@ export default function LocationsPage() {
             <span className="text-cream">Communities</span>
           </h1>
 
-          <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-8 max-w-5xl mx-auto text-left">
+          <StaggerContainer className="grid grid-cols-1 sm:grid-cols-3 gap-6 lg:gap-8 max-w-5xl mx-auto text-left">
             {locations.map((location) => (
               <StaggerItem key={location.slug}>
                 <Link
@@ -108,15 +101,15 @@ export default function LocationsPage() {
             </h2>
             <p className="text-lg text-charcoal-light font-body mb-8 max-w-2xl mx-auto">
               We&apos;re constantly expanding our service area across California. If you
-              don&apos;t see your community listed, reach out anyway! When you care about
-              clean turf, call Murphy&apos;s Turf.
+              don&apos;t see your community listed, reach out anyway — we&apos;d love to
+              help keep your facility clean.
             </p>
             <a
               href="tel:9253380048"
               className="inline-flex items-center gap-2 bg-forest hover:bg-forest-light text-white font-bold px-10 py-4 rounded-lg transition-colors font-body shadow-md hover:shadow-lg text-lg"
             >
               <Phone className="w-5 h-5" />
-              Call Ralph: (925) 338-0048
+              Call Us: (925) 338-0048
             </a>
           </div>
         </AnimateOnScroll>

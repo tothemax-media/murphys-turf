@@ -4,10 +4,10 @@ export const dynamic = "force-static";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Murphy's Turf",
-    short_name: "Murphy's Turf",
+    name: "Rangel Janitorial",
+    short_name: "Rangel Janitorial",
     description:
-      "Professional artificial turf cleaning and sanitization services across California. 30+ years experience.",
+      "Professional janitorial and commercial cleaning services across California. 30+ years experience. Creating Excellent First Impressions.",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",

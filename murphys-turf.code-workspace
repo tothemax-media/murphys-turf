@@ -1,9 +1,0 @@
-{
-  "folders": [{"path": ".", "name": "QB (Murphy's Turf)"},{"path": "../murphys-turf-ui", "name": "Ui"},{"path": "../murphys-turf-frontend", "name": "Frontend"},{"path": "../murphys-turf-backend", "name": "Backend"},{"path": "../murphys-turf-api", "name": "Api"},{"path": "../murphys-turf-database", "name": "Database"},{"path": "../murphys-turf-auth", "name": "Auth"},{"path": "../murphys-turf-tests", "name": "Tests"},{"path": "../murphys-turf-devops", "name": "Devops"},{"path": "../murphys-turf-data", "name": "Data"}],
-  "settings": {
-    "files.exclude": {
-      "**/.git": true,
-      "**/.DS_Store": true
-    }
-  }
-}

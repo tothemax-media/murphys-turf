@@ -1,52 +1,52 @@
-export const SITE_URL = "https://murphysturf.com";
-export const COMPANY_NAME = "Murphy's Turf";
-export const COMPANY_TAGLINE = "When you care about clean turf, call Murphy's Turf";
+export const SITE_URL = "https://rangeljanitorial.com";
+export const COMPANY_NAME = "Rangel Janitorial";
+export const COMPANY_TAGLINE = "Creating Excellent First Impressions";
 export const COMPANY_DESCRIPTION =
-  "Professional artificial turf cleaning and sanitization services across California. With 30+ years of experience, Murphy's Turf uses professional-grade cleaning solutions to deep clean, deodorize, and sanitize your synthetic turf. Serving Huntington Beach, Murrieta, Martinez, and Sacramento.";
-export const COMPANY_PHONE = "";
-export const COMPANY_EMAIL = "info@murphysturf.com";
+  "Professional janitorial and commercial cleaning services across California. Rangel Janitorial delivers reliable, thorough cleaning for offices, medical facilities, industrial parks, and more. Serving Sacramento, Murrieta, and Walnut Creek.";
+export const COMPANY_PHONE = "951-894-4222";
+export const COMPANY_EMAIL = "info@rangeljanitorial.com";
 
 export const COMPANY_ADDRESS = {
   city: "Murrieta",
   state: "CA",
-  full: "Murrieta, CA",
+  full: "Murrieta, CA 92562",
 };
 
 export const DEFAULT_OG_IMAGE = "/images/og-image.png";
 
 export const SOCIAL_LINKS = {
-  facebook: "https://www.facebook.com/profile.php?id=100090088264095",
-  instagram: "https://www.instagram.com/murphysturfcare/",
-  youtube: "https://www.youtube.com/@murphysturfcare/featured",
+  facebook: "",
+  instagram: "",
+  youtube: "",
 };
 
 export const SERVICE_SLUGS = [
-  "pet-hair-debris",
-  "blooming-decompacting",
-  "disinfect-deodorize",
-  "poop-scooping",
+  "janitorial-cleaning",
+  "day-porter",
+  "electrostatic-disinfection",
+  "floor-care",
+  "carpet-cleaning",
 ] as const;
 
 export const LOCATION_SLUGS = [
-  "huntington-beach",
-  "murrieta",
-  "martinez",
   "sacramento",
+  "murrieta",
+  "walnut-creek",
 ] as const;
 
 export const BLOG_SLUGS = [
-  "how-to-clean-artificial-turf",
-  "professional-turf-cleaning-huntington-beach",
-  "removing-pet-odors-murrieta",
-  "artificial-turf-maintenance-bay-area",
-  "sacramento-turf-cleaning-tips",
-  "health-benefits-turf-sanitization",
-  "how-often-clean-artificial-turf",
-  "hydrogen-peroxide-safe-turf-cleaning",
-  "diy-vs-professional-turf-cleaning",
-  "artificial-turf-pets-clean-safe",
-  "why-artificial-turf-smells-fix",
-  "signs-turf-needs-professional-cleaning",
+  "office-cleaning-best-practices",
+  "janitorial-services-sacramento",
+  "commercial-cleaning-murrieta",
+  "day-porter-benefits",
+  "electrostatic-disinfection-explained",
+  "floor-care-vct-strip-wax",
+  "medical-facility-cleaning-standards",
+  "fitness-center-cleaning-guide",
+  "choosing-commercial-cleaning-company",
+  "carpet-cleaning-commercial-buildings",
+  "green-cleaning-commercial-facilities",
+  "janitorial-services-walnut-creek",
 ] as const;
 
 export type ServiceSlug = (typeof SERVICE_SLUGS)[number];

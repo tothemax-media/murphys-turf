@@ -4,10 +4,9 @@ import Link from 'next/link';
 import { MapPin, ArrowRight } from 'lucide-react';
 
 const locations = [
-  { slug: 'huntington-beach', name: 'Huntington Beach / LA Area' },
-  { slug: 'murrieta', name: 'Murrieta / Inland Empire' },
-  { slug: 'martinez', name: 'Martinez / Bay Area' },
   { slug: 'sacramento', name: 'Greater Sacramento' },
+  { slug: 'murrieta', name: 'Murrieta / Inland Empire' },
+  { slug: 'walnut-creek', name: 'Walnut Creek / East Bay' },
 ];
 
 interface LocationPickerProps {

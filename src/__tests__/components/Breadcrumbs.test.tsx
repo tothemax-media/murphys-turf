@@ -11,7 +11,7 @@ vi.mock('@/lib/seo/schema', () => ({
   generateBreadcrumbSchema: vi.fn(() => ({})),
 }));
 vi.mock('@/lib/seo/constants', () => ({
-  SITE_URL: 'https://murphysturf.com',
+  SITE_URL: 'https://rangeljanitorial.com',
 }));
 
 import { Breadcrumbs } from '@/components/seo/Breadcrumbs';

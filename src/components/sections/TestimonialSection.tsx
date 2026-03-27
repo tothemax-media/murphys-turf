@@ -12,23 +12,23 @@ const testimonials: Testimonial[] = [
   {
     rating: 5,
     quote:
-      "Murphy's Turf completely transformed our backyard turf. The team was professional, punctual, and the results exceeded our expectations.",
+      "Rangel Janitorial keeps our corporate offices immaculate. The team is professional, punctual, and the results consistently exceed our expectations. Highly recommend.",
     name: 'Sarah Johnson',
     location: 'Murrieta, CA',
   },
   {
     rating: 5,
     quote:
-      "Best turf cleaning service in California. They've been maintaining our artificial turf for 3 years and it's never looked better.",
+      "Best commercial cleaning service in California. They've been maintaining our medical facility for 3 years and it's never been cleaner. Their electrostatic disinfection is a game-changer.",
     name: 'Mike Rodriguez',
-    location: 'Huntington Beach, CA',
+    location: 'Sacramento, CA',
   },
   {
     rating: 5,
     quote:
-      "Incredible attention to detail. Our neighbors keep asking who cleans our turf. Highly recommend Murphy's Turf!",
+      "Incredible attention to detail. Our tenants constantly compliment the building's cleanliness. The day porter service keeps everything pristine during business hours.",
     name: 'Jennifer Walsh',
-    location: 'Sacramento, CA',
+    location: 'Walnut Creek, CA',
   },
 ];
 
@@ -37,7 +37,7 @@ export default function TestimonialSection() {
     <section className="py-16 lg:py-24 bg-cream">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-center font-heading text-3xl md:text-4xl font-bold text-charcoal">
-          What Our Customers Say
+          What Our Clients Say
         </h2>
 
         <div className="flex items-center justify-center gap-2 mt-4">

@@ -9,39 +9,46 @@ import {
 import { AnimateOnScroll, StaggerContainer, StaggerItem } from '@/components/ui/AnimateOnScroll';
 
 export const metadata: Metadata = {
-  title: 'Artificial Turf Cleaning Services | Murphy\'s Turf',
+  title: 'Commercial Cleaning Services | Rangel Janitorial',
   description:
-    "Professional artificial turf cleaning and maintenance services in Murrieta, CA. Pet hair removal, blooming, disinfecting, deodorizing, and poop scooping. Get a free quote today.",
+    "Professional janitorial cleaning, day porter, electrostatic disinfection, floor care, and carpet cleaning services. Serving Sacramento, Murrieta, and Walnut Creek. Get a free quote today.",
 };
 
 const services = [
   {
-    name: 'Pet Hair & Debris Removal',
-    slug: 'pet-hair-debris',
-    image: '/images/services/debris-removal.png',
+    name: 'Janitorial Cleaning',
+    slug: 'janitorial-cleaning',
+    image: '/images/stock/janitorial-cleaning.jpg',
     description:
-      'All of our turf services begin with removing pet hair and waste along with any other debris such as leaves and branches. We also run a magnet over the turf to remove any metal objects and use a de-weeding tool to clear weeds from edges and seams.',
+      'Comprehensive nightly and recurring cleaning for corporate buildings, warehouses, residential buildings, and offices — customized to your facility and schedule.',
   },
   {
-    name: 'Blooming & De-Compacting',
-    slug: 'blooming-decompacting',
-    image: '/images/services/blooming.png',
+    name: 'Day Porter',
+    slug: 'day-porter',
+    image: '/images/stock/day-porter.jpg',
     description:
-      'Over time, frequent foot traffic causes turf blades to become matted down. Our blooming process uses commercial-grade machines to remove caked debris from the fibers and fluff the blades back to life, standing upright like natural grass.',
+      'Customer-facing team members who provide cleaning and maintenance tasks during normal working hours, keeping your facility looking its best all day long.',
   },
   {
-    name: 'Disinfect & Deodorize',
-    slug: 'disinfect-deodorize',
-    image: '/images/gallery/service-turf-disinfecting-v2.jpeg',
+    name: 'Electrostatic Disinfection',
+    slug: 'electrostatic-disinfection',
+    image: '/images/stock/electrostatic-disinfection.jpg',
     description:
-      'Our professional-grade disinfecting and deodorizing service power-sprays your turf, cutting past the top layer into the infill where bacteria and viruses live. Kills 99.9% of germs and bacteria in minutes without hazardous chemicals.',
+      'Advanced electrostatic spraying technology to apply EPA List N approved disinfectants on all high-touch surfaces for comprehensive germ elimination.',
   },
   {
-    name: 'Poop Scooping & Removal',
-    slug: 'poop-scooping',
-    image: '/images/services/poop-scooping.jpg',
+    name: 'Floor Care',
+    slug: 'floor-care',
+    image: '/images/stock/floor-care.jpg',
     description:
-      'Pet waste is not only an unruly sight but also harmful to the environment and people around you. According to the EPA, pet waste is very toxic. We provide flexible service plans dedicated to waste removal so you can enjoy your yard worry-free.',
+      'Specialized floor maintenance including VCT strip and wax, tile and grout cleaning, LVT care, concrete polishing, and stone floor restoration.',
+  },
+  {
+    name: 'Carpet Cleaning',
+    slug: 'carpet-cleaning',
+    image: '/images/stock/carpet-cleaning.jpg',
+    description:
+      'Professional commercial carpet cleaning using hot water extraction, encapsulation, and spot treatment to extend carpet life and maintain a clean appearance.',
   },
 ];
 
@@ -56,9 +63,9 @@ export default function ServicesPage() {
             Our Services
           </h1>
           <p className="text-lg sm:text-xl text-white/90 font-body max-w-3xl mx-auto leading-relaxed">
-            Professional artificial turf cleaning and maintenance backed by 30+
-            years of experience. Serving Murrieta, CA and surrounding areas with
-            pet-safe, eco-friendly solutions.
+            Professional janitorial and commercial cleaning services for
+            offices, medical facilities, industrial parks, and more. Serving
+            Sacramento, Murrieta, and Walnut Creek.
           </p>
         </AnimateOnScroll>
       </section>
@@ -123,13 +130,12 @@ export default function ServicesPage() {
           <div className="bg-gradient-to-br from-forest to-forest-dark rounded-3xl p-10 sm:p-14 shadow-xl">
             <HelpCircle className="w-12 h-12 text-sage mx-auto mb-5" />
             <h2 className="text-3xl sm:text-4xl font-bold font-heading text-white mb-4">
-              Not Sure What Your Turf Needs?
+              Not Sure What Your Facility Needs?
             </h2>
             <p className="text-lg text-white/85 font-body mb-8 max-w-2xl mx-auto leading-relaxed">
-              Every yard is different. Let our team with 30+ years of experience
-              assess your artificial turf and recommend the perfect combination
-              of services for your property. Free consultations available for all
-              Murrieta-area homeowners.
+              Every facility is different. Let our team assess your space and
+              recommend the perfect combination of services for your building.
+              Free walkthroughs available across all service areas.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link

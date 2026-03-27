@@ -11,9 +11,9 @@ vi.mock('next/image', () => ({
 import Header from '@/components/layout/Header';
 
 describe('Header', () => {
-  it('renders the logo with Murphy\u2019s Turf text', () => {
+  it('renders the logo with Rangel\u2019s Turf text', () => {
     render(<Header />);
-    const homeLinks = screen.getAllByLabelText(/Murphy.*Turf.*Home/i);
+    const homeLinks = screen.getAllByLabelText(/Rangel.*Turf.*Home/i);
     expect(homeLinks.length).toBeGreaterThanOrEqual(1);
     expect(homeLinks[0]).toHaveAttribute('href', '/');
   });

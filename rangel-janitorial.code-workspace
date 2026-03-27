@@ -1,0 +1,9 @@
+{
+  "folders": [{"path": ".", "name": "QB (Rangel Janitorial)"},{"path": "../rangel-janitorial-ui", "name": "Ui"},{"path": "../rangel-janitorial-frontend", "name": "Frontend"},{"path": "../rangel-janitorial-backend", "name": "Backend"},{"path": "../rangel-janitorial-api", "name": "Api"},{"path": "../rangel-janitorial-database", "name": "Database"},{"path": "../rangel-janitorial-auth", "name": "Auth"},{"path": "../rangel-janitorial-tests", "name": "Tests"},{"path": "../rangel-janitorial-devops", "name": "Devops"},{"path": "../rangel-janitorial-data", "name": "Data"}],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true
+    }
+  }
+}

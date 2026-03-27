@@ -27,15 +27,15 @@ describe('TestimonialSection', () => {
   it('renders all 3 testimonial locations', () => {
     render(<TestimonialSection />);
     expect(screen.getByText('Murrieta, CA')).toBeInTheDocument();
-    expect(screen.getByText('Huntington Beach, CA')).toBeInTheDocument();
     expect(screen.getByText('Sacramento, CA')).toBeInTheDocument();
+    expect(screen.getByText('Walnut Creek, CA')).toBeInTheDocument();
   });
 
   it('renders testimonial quotes', () => {
     render(<TestimonialSection />);
     expect(
       screen.getByText(
-        /Murphy's Turf completely transformed our backyard turf/
+        /Rangel Janitorial completely transformed our backyard turf/
       )
     ).toBeInTheDocument();
     expect(

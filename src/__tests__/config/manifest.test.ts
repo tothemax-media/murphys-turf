@@ -16,12 +16,12 @@ describe("manifest", () => {
     expect(result).toHaveProperty("icons");
   });
 
-  it('has correct name "Murphy\'s Turf"', () => {
-    expect(result.name).toBe("Murphy's Turf");
+  it('has correct name "Rangel\'s Turf"', () => {
+    expect(result.name).toBe("Rangel Janitorial");
   });
 
   it("has short_name", () => {
-    expect(result.short_name).toBe("Murphy's Turf");
+    expect(result.short_name).toBe("Rangel Janitorial");
   });
 
   it('has theme_color "#2D5016" and background_color "#ffffff"', () => {

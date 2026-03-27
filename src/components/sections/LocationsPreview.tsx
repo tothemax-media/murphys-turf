@@ -3,28 +3,22 @@ import LocationCard from '@/components/cards/LocationCard';
 
 const locations = [
   {
-    city: 'Huntington Beach / LA Area',
+    city: 'Sacramento',
     description:
-      'Professional artificial turf cleaning serving Huntington Beach, Los Angeles, and the surrounding Southern California coast.',
-    slug: 'huntington-beach',
+      'Professional commercial cleaning services for Sacramento and surrounding communities.',
+    slug: 'sacramento',
   },
   {
     city: 'Murrieta / Inland Empire',
     description:
-      'Our home base — expert turf maintenance and cleaning for the Inland Empire region.',
+      'Our home base — expert janitorial services and facility maintenance for the Inland Empire region.',
     slug: 'murrieta',
   },
   {
-    city: 'Martinez / Bay Area',
+    city: 'Walnut Creek / East Bay',
     description:
-      'Trusted turf care for Martinez and Bay Area families and businesses.',
-    slug: 'martinez',
-  },
-  {
-    city: 'Greater Sacramento',
-    description:
-      'Professional turf cleaning services for Sacramento and surrounding communities.',
-    slug: 'sacramento',
+      'Trusted commercial cleaning for Walnut Creek, Contra Costa County, and East Bay businesses.',
+    slug: 'walnut-creek',
   },
 ];
 
@@ -33,10 +27,10 @@ export default function LocationsPreview() {
     <section className="py-16 lg:py-24 bg-cream">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-charcoal text-center">
-          Serving California Communities
+          Serving California Businesses
         </h2>
         <p className="text-charcoal-light text-center mt-4 font-body">
-          Professional artificial turf cleaning in your neighborhood
+          Professional commercial cleaning in your area
         </p>
 
         <div className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-8">

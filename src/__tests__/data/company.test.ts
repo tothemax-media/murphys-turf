@@ -2,12 +2,12 @@ import { company } from '@/data/company';
 
 describe('company data', () => {
   describe('identity fields', () => {
-    it('company.name is "Murphy\'s Turf"', () => {
-      expect(company.name).toBe("Murphy's Turf");
+    it('company.name is "Rangel\'s Turf"', () => {
+      expect(company.name).toBe("Rangel Janitorial");
     });
 
-    it('company.email is "info@murphysturf.com"', () => {
-      expect(company.email).toBe('info@murphysturf.com');
+    it('company.email is "info@rangeljanitorial.com"', () => {
+      expect(company.email).toBe('info@rangeljanitorial.com');
     });
 
     it('company.founded is 1994', () => {

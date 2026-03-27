@@ -19,7 +19,7 @@ describe('CookieConsent', () => {
   });
 
   it('does not show banner when consent already exists', () => {
-    localStorage.setItem('murphys_turf_cookie_consent', 'accepted');
+    localStorage.setItem('rangel_janitorial_cookie_consent', 'accepted');
 
     render(<CookieConsent />);
 
@@ -34,7 +34,7 @@ describe('CookieConsent', () => {
 
     await user.click(screen.getByRole('button', { name: 'Accept' }));
 
-    expect(localStorage.setItem).toHaveBeenCalledWith('murphys_turf_cookie_consent', 'accepted');
+    expect(localStorage.setItem).toHaveBeenCalledWith('rangel_janitorial_cookie_consent', 'accepted');
     await waitFor(() => {
       expect(screen.queryByText(/We use cookies/)).not.toBeInTheDocument();
     });
@@ -48,7 +48,7 @@ describe('CookieConsent', () => {
 
     await user.click(screen.getByRole('button', { name: 'Decline' }));
 
-    expect(localStorage.setItem).toHaveBeenCalledWith('murphys_turf_cookie_consent', 'declined');
+    expect(localStorage.setItem).toHaveBeenCalledWith('rangel_janitorial_cookie_consent', 'declined');
     await waitFor(() => {
       expect(screen.queryByText(/We use cookies/)).not.toBeInTheDocument();
     });

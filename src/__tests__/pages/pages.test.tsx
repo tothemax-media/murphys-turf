@@ -13,10 +13,10 @@ vi.mock('next/navigation', () => ({
 // 1. Home Page
 // ─────────────────────────────────────────────────────────────
 describe('Home Page', () => {
-  it('renders without crashing and displays "Murphy" text', async () => {
+  it('renders without crashing and displays "Rangel" text', async () => {
     const HomePage = (await import('@/app/page')).default;
     render(<HomePage />);
-    expect(screen.getByText(/Murphy/i)).toBeInTheDocument();
+    expect(screen.getByText(/Rangel/i)).toBeInTheDocument();
   });
 });
 
@@ -24,10 +24,10 @@ describe('Home Page', () => {
 // 2. About Page
 // ─────────────────────────────────────────────────────────────
 describe('About Page', () => {
-  it('renders without crashing and displays "Meet the Murphy" heading text', async () => {
+  it('renders without crashing and displays "Meet the Rangel" heading text', async () => {
     const AboutPage = (await import('@/app/about/page')).default;
     render(<AboutPage />);
-    expect(screen.getByText(/Meet the Murphy/i)).toBeInTheDocument();
+    expect(screen.getByText(/Meet the Rangel/i)).toBeInTheDocument();
   });
 });
 
@@ -75,10 +75,10 @@ describe('Locations [slug] Page', () => {
 // 7. Blog Page
 // ─────────────────────────────────────────────────────────────
 describe('Blog Page', () => {
-  it('renders without crashing and displays "Murphy" and "Blog" text', async () => {
+  it('renders without crashing and displays "Rangel" and "Blog" text', async () => {
     const BlogPage = (await import('@/app/blog/page')).default;
     render(<BlogPage />);
-    expect(screen.getByText(/Murphy/i)).toBeInTheDocument();
+    expect(screen.getByText(/Rangel/i)).toBeInTheDocument();
     expect(screen.getByText(/Blog/i)).toBeInTheDocument();
   });
 });

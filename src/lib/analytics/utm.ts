@@ -6,7 +6,7 @@ export interface UTMParams {
   content: string;
 }
 
-const UTM_STORAGE_KEY = "murphys_turf_utm";
+const UTM_STORAGE_KEY = "rangel_janitorial_utm";
 
 export function parseUTMFromURL(searchParams: URLSearchParams): UTMParams | null {
   const source = searchParams.get("utm_source");

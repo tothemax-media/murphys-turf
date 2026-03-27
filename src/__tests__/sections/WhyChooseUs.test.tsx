@@ -6,7 +6,7 @@ describe('WhyChooseUs', () => {
   it('renders section heading', () => {
     render(<WhyChooseUs />);
     expect(
-      screen.getByRole('heading', { name: /why choose murphy.s turf/i })
+      screen.getByRole('heading', { name: /why choose rangel janitorial/i })
     ).toBeInTheDocument();
   });
 

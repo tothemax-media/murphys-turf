@@ -29,46 +29,49 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://murphys-turf.netlify.app'),
+  metadataBase: new URL('https://rangel-janitorial.netlify.app'),
   alternates: {
     canonical: '/',
   },
   title: {
-    default: "Murphy's Turf | Professional Artificial Turf Cleaning in California",
-    template: "%s | Murphy's Turf",
+    default: "Rangel Janitorial | Professional Commercial Cleaning Services in California",
+    template: "%s | Rangel Janitorial",
   },
   description:
-    "California's premier artificial turf cleaning company. We provide pet-safe turf cleaning, disinfecting, deodorizing, and maintenance services. Serving Murrieta, Huntington Beach, Martinez, and Sacramento. Get a free quote today!",
+    "Professional janitorial and commercial cleaning services across California. Janitorial cleaning, day porter, electrostatic disinfection, floor care, and carpet cleaning for offices, medical facilities, and more. Serving Sacramento, Murrieta, and Walnut Creek.",
   keywords: [
-    'artificial turf cleaning California',
-    'turf cleaning Murrieta',
-    'professional turf cleaning',
-'pet turf cleaning Huntington Beach',
-    'turf disinfect deodorize Martinez',
-    'turf maintenance Sacramento',
-    'pet-safe turf cleaning Southern California',
+    'commercial cleaning services California',
+    'janitorial services Murrieta',
+    'office cleaning Sacramento',
+    'janitorial company Walnut Creek',
+    'commercial janitorial California',
+    'day porter services',
+    'electrostatic disinfection',
   ],
   icons: {
     icon: [
-      { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
-      { url: '/icon-512.png', sizes: '512x512', type: 'image/png' },
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
     ],
     apple: '/apple-touch-icon.png',
   },
   manifest: '/manifest.json',
   openGraph: {
-    title: "Murphy's Turf | Professional Artificial Turf Cleaning in California",
+    title: "Rangel Janitorial | Professional Commercial Cleaning Services in California",
     description:
-      "California's premier artificial turf cleaning company, serving communities statewide.",
+      "Professional janitorial and commercial cleaning services across California. Serving Sacramento, Murrieta, and Walnut Creek.",
     type: 'website',
     locale: 'en_US',
-    siteName: "Murphy's Turf",
+    siteName: "Rangel Janitorial",
     images: [
       {
         url: '/images/og-image.png',
         width: 1200,
         height: 630,
-        alt: "Murphy's Turf - Professional Artificial Turf Cleaning",
+        alt: "Rangel Janitorial - Professional Commercial Cleaning Services",
       },
     ],
   },
@@ -101,13 +104,13 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "name": "Murphy's Turf",
-              "description": "Professional artificial turf cleaning company serving California with pet-safe cleaning technology.",
-              "url": "https://murphys-turf.netlify.app",
+              "name": "Rangel Janitorial",
+              "description": "Professional janitorial and commercial cleaning services across California. Serving offices, medical facilities, industrial parks, and more.",
+              "url": "https://rangel-janitorial.netlify.app",
               "contactPoint": [
-                { "@type": "ContactPoint", "telephone": "+19513313300", "areaServed": ["Huntington Beach", "Murrieta"], "contactType": "customer service" },
-                { "@type": "ContactPoint", "telephone": "+19253380048", "areaServed": ["Martinez", "Bay Area"], "contactType": "customer service" },
-                { "@type": "ContactPoint", "telephone": "+19164325033", "areaServed": ["Sacramento"], "contactType": "customer service" }
+                { "@type": "ContactPoint", "telephone": "+19164325033", "areaServed": ["Sacramento"], "contactType": "customer service" },
+                { "@type": "ContactPoint", "telephone": "+19513313300", "areaServed": ["Murrieta", "Inland Empire"], "contactType": "customer service" },
+                { "@type": "ContactPoint", "telephone": "+19253380048", "areaServed": ["Walnut Creek", "East Bay"], "contactType": "customer service" }
               ],
               "address": {
                 "@type": "PostalAddress",
@@ -118,18 +121,17 @@ export default function RootLayout({
                 "addressCountry": "US"
               },
               "areaServed": [
-                { "@type": "City", "name": "Huntington Beach" },
+                { "@type": "City", "name": "Sacramento" },
                 { "@type": "City", "name": "Murrieta" },
-                { "@type": "City", "name": "Martinez" },
-                { "@type": "City", "name": "Sacramento" }
+                { "@type": "City", "name": "Walnut Creek" }
               ],
-              "openingHours": ["Mo-Fr 07:00-18:00", "Sa 08:00-16:00"],
+              "openingHours": ["Mo-Fr 09:00-17:00"],
               "priceRange": "$$",
-              "image": "https://murphys-turf.netlify.app/images/logo.avif",
+              "image": "https://rangel-janitorial.netlify.app/images/logo.png",
               "sameAs": [
-                "https://www.instagram.com/murphysturfcare/",
+                "https://www.instagram.com/rangeljanitorial/",
                 "https://www.facebook.com/profile.php?id=100090088264095",
-                "https://www.youtube.com/@murphysturfcare/featured"
+                "https://www.youtube.com/@rangeljanitorial/featured"
               ]
             })
           }}

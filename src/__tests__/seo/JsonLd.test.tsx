@@ -105,9 +105,9 @@ describe("JsonLd", () => {
     const schema = {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Murphy's Turf",
-      url: "https://murphysturf.com",
-      logo: "https://murphysturf.com/logo.png",
+      name: "Rangel Janitorial",
+      url: "https://rangeljanitorial.com",
+      logo: "https://rangeljanitorial.com/logo.png",
       description: "Premium turf & landscaping services",
       address: {
         "@type": "PostalAddress",
@@ -123,8 +123,8 @@ describe("JsonLd", () => {
         contactType: "customer service",
       },
       sameAs: [
-        "https://facebook.com/murphysturf",
-        "https://instagram.com/murphysturf",
+        "https://facebook.com/rangeljanitorial",
+        "https://instagram.com/rangeljanitorial",
       ],
     };
     const { container } = render(<JsonLd schema={schema} />);
@@ -133,7 +133,7 @@ describe("JsonLd", () => {
     const parsed = JSON.parse(content);
     expect(parsed["@context"]).toBe("https://schema.org");
     expect(parsed["@type"]).toBe("Organization");
-    expect(parsed.name).toBe("Murphy's Turf");
+    expect(parsed.name).toBe("Rangel Janitorial");
     expect(parsed.address["@type"]).toBe("PostalAddress");
     expect(parsed.contactPoint.telephone).toBe("+353-1-234-5678");
     expect(parsed.sameAs).toHaveLength(2);

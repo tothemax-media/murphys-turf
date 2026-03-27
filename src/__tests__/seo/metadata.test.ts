@@ -8,14 +8,14 @@ import {
   DEFAULT_METADATA,
 } from "@/lib/seo/metadata";
 
-const SITE_URL = "https://murphysturf.com";
-const COMPANY_NAME = "Murphy's Turf";
+const SITE_URL = "https://rangeljanitorial.com";
+const COMPANY_NAME = "Rangel Janitorial";
 const DEFAULT_OG_IMAGE = "/images/og-default.jpg";
 
 describe("generatePageMetadata", () => {
-  it("formats the title as '{title} | Murphy's Turf'", () => {
+  it("formats the title as '{title} | Rangel Janitorial'", () => {
     const meta = generatePageMetadata("About Us", "Our story", "/about");
-    expect(meta.title).toBe("About Us | Murphy's Turf");
+    expect(meta.title).toBe("About Us | Rangel Janitorial");
   });
 
   it("sets the canonical URL from SITE_URL + path", () => {
@@ -54,7 +54,7 @@ describe("generatePageMetadata", () => {
   it("sets OpenGraph fields correctly", () => {
     const meta = generatePageMetadata("Contact", "Get in touch", "/contact");
     const og = meta.openGraph as any;
-    expect(og.title).toBe("Contact | Murphy's Turf");
+    expect(og.title).toBe("Contact | Rangel Janitorial");
     expect(og.description).toBe("Get in touch");
     expect(og.url).toBe(`${SITE_URL}/contact`);
     expect(og.siteName).toBe(COMPANY_NAME);
@@ -66,7 +66,7 @@ describe("generatePageMetadata", () => {
     const meta = generatePageMetadata("Contact", "Get in touch", "/contact");
     const twitter = meta.twitter as any;
     expect(twitter.card).toBe("summary_large_image");
-    expect(twitter.title).toBe("Contact | Murphy's Turf");
+    expect(twitter.title).toBe("Contact | Rangel Janitorial");
     expect(twitter.description).toBe("Get in touch");
   });
 
@@ -129,15 +129,15 @@ describe("generateServiceMetadata", () => {
 
 describe("generateLocationMetadata", () => {
   const location = {
-    name: "Huntington Beach",
-    slug: "huntington-beach",
-    description: "Serving the Huntington Beach area.",
+    name: "Sacramento",
+    slug: "sacramento",
+    description: "Serving the Sacramento area.",
   };
 
   it("formats the title as 'Artificial Turf Cleaning in {name}, CA'", () => {
     const meta = generateLocationMetadata(location);
     const title = meta.title as string;
-    expect(title).toContain("Artificial Turf Cleaning in Huntington Beach, CA");
+    expect(title).toContain("Artificial Turf Cleaning in Sacramento, CA");
   });
 
   it("sets the canonical path to /locations/{slug}", () => {
@@ -151,7 +151,7 @@ describe("generateLocationMetadata", () => {
     const meta = generateLocationMetadata(location);
     expect(meta.description).toContain(location.description);
     expect(meta.description).toContain(COMPANY_NAME);
-    expect(meta.description).toContain("Huntington Beach, CA");
+    expect(meta.description).toContain("Sacramento, CA");
   });
 });
 
@@ -162,9 +162,9 @@ describe("generateBlogMetadata", () => {
     description: "A guide to cleaning turf properly.",
   };
 
-  it("formats the title as '{title} | Murphy's Turf Blog'", () => {
+  it("formats the title as '{title} | Rangel Janitorial Blog'", () => {
     const meta = generateBlogMetadata(post);
-    expect(meta.title).toBe("How to Clean Turf | Murphy's Turf Blog");
+    expect(meta.title).toBe("How to Clean Turf | Rangel Janitorial Blog");
   });
 
   it("sets the canonical URL to /blog/{slug}", () => {
@@ -258,7 +258,7 @@ describe("DEFAULT_METADATA", () => {
     const keywords = DEFAULT_METADATA.keywords as string[];
     expect(keywords).toContain("artificial turf cleaning");
     expect(keywords).toContain("turf odor removal");
-    expect(keywords).toContain("Murphy's Turf");
+    expect(keywords).toContain("Rangel Janitorial");
     expect(keywords).toContain("turf sanitization");
   });
 

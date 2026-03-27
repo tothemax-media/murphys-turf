@@ -15,12 +15,12 @@ import {
 
 describe("SEO constants", () => {
   it("SITE_URL is the production URL with no trailing slash", () => {
-    expect(SITE_URL).toBe("https://murphysturf.com");
+    expect(SITE_URL).toBe("https://rangeljanitorial.com");
     expect(SITE_URL.endsWith("/")).toBe(false);
   });
 
-  it("COMPANY_NAME is Murphy's Turf", () => {
-    expect(COMPANY_NAME).toBe("Murphy's Turf");
+  it("COMPANY_NAME is Rangel Janitorial", () => {
+    expect(COMPANY_NAME).toBe("Rangel Janitorial");
   });
 
   it("COMPANY_TAGLINE is a non-empty string", () => {
@@ -34,8 +34,8 @@ describe("SEO constants", () => {
     expect(COMPANY_DESCRIPTION).toContain("artificial turf");
   });
 
-  it("COMPANY_EMAIL is info@murphysturf.com", () => {
-    expect(COMPANY_EMAIL).toBe("info@murphysturf.com");
+  it("COMPANY_EMAIL is info@rangeljanitorial.com", () => {
+    expect(COMPANY_EMAIL).toBe("info@rangeljanitorial.com");
   });
 
   it("COMPANY_ADDRESS has correct city, state, and full fields", () => {
@@ -67,12 +67,11 @@ describe("SEO constants", () => {
     expect(SERVICE_SLUGS).toContain("poop-scooping");
   });
 
-  it("LOCATION_SLUGS has exactly 4 entries with expected slugs", () => {
-    expect(LOCATION_SLUGS).toHaveLength(4);
-    expect(LOCATION_SLUGS).toContain("huntington-beach");
-    expect(LOCATION_SLUGS).toContain("murrieta");
-    expect(LOCATION_SLUGS).toContain("martinez");
+  it("LOCATION_SLUGS has exactly 3 entries with expected slugs", () => {
+    expect(LOCATION_SLUGS).toHaveLength(3);
     expect(LOCATION_SLUGS).toContain("sacramento");
+    expect(LOCATION_SLUGS).toContain("murrieta");
+    expect(LOCATION_SLUGS).toContain("walnut-creek");
   });
 
   it("BLOG_SLUGS has exactly 12 entries", () => {

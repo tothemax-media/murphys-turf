@@ -42,10 +42,9 @@ describe('Footer', () => {
     expect(screen.getByText('Service Areas')).toBeInTheDocument();
 
     const locationLinks = [
-      { label: 'Huntington Beach / LA Area', href: '/locations/huntington-beach' },
-      { label: 'Murrieta / Inland Empire', href: '/locations/murrieta' },
-      { label: 'Martinez / Bay Area', href: '/locations/martinez' },
       { label: 'Greater Sacramento', href: '/locations/sacramento' },
+      { label: 'Murrieta / Inland Empire', href: '/locations/murrieta' },
+      { label: 'Walnut Creek / East Bay', href: '/locations/walnut-creek' },
     ];
 
     for (const { label, href } of locationLinks) {
@@ -58,13 +57,13 @@ describe('Footer', () => {
     render(<Footer />);
 
     const instagram = screen.getByLabelText('Instagram');
-    expect(instagram).toHaveAttribute('href', 'https://www.instagram.com/murphysturfcare/');
+    expect(instagram).toHaveAttribute('href', 'https://www.instagram.com/rangeljanitorial/');
 
     const facebook = screen.getByLabelText('Facebook');
     expect(facebook).toHaveAttribute('href', 'https://www.facebook.com/profile.php?id=100090088264095');
 
     const youtube = screen.getByLabelText('YouTube');
-    expect(youtube).toHaveAttribute('href', 'https://www.youtube.com/@murphysturfcare/featured');
+    expect(youtube).toHaveAttribute('href', 'https://www.youtube.com/@rangeljanitorial/featured');
   });
 
   it('renders company description text', () => {
@@ -78,7 +77,7 @@ describe('Footer', () => {
     render(<Footer />);
     const year = new Date().getFullYear();
     expect(
-      screen.getByText(new RegExp(`© ${year} Murphy's Turf`)),
+      screen.getByText(new RegExp(`© ${year} Rangel Janitorial`)),
     ).toBeInTheDocument();
   });
 
@@ -91,7 +90,7 @@ describe('Footer', () => {
 
   it('renders the logo image', () => {
     render(<Footer />);
-    const logo = screen.getByAltText("Murphy's Turf");
+    const logo = screen.getByAltText("Rangel Janitorial");
     expect(logo).toBeInTheDocument();
     expect(logo).toHaveAttribute('src', '/images/logo.png');
   });

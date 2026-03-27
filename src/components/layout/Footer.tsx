@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { Instagram, Facebook, Youtube } from 'lucide-react';
+import { Instagram, Facebook, Youtube, Phone, MapPin } from 'lucide-react';
 import NewsletterForm from '@/components/forms/NewsletterForm';
 
 /* ------------------------------------------------------------------ */
@@ -10,23 +10,23 @@ import NewsletterForm from '@/components/forms/NewsletterForm';
 /* ------------------------------------------------------------------ */
 
 const servicesLinks = [
-  { label: 'Pet Hair & Debris Removal', href: '/services/pet-hair-debris' },
-  { label: 'Blooming & De-Compacting', href: '/services/blooming-decompacting' },
-  { label: 'Disinfect & Deodorize', href: '/services/disinfect-deodorize' },
-  { label: 'Poop Scooping & Removal', href: '/services/poop-scooping' },
+  { label: 'Janitorial Cleaning', href: '/services/janitorial-cleaning' },
+  { label: 'Day Porter', href: '/services/day-porter' },
+  { label: 'Electrostatic Disinfection', href: '/services/electrostatic-disinfection' },
+  { label: 'Floor Care', href: '/services/floor-care' },
+  { label: 'Carpet Cleaning', href: '/services/carpet-cleaning' },
 ];
 
 const locationsLinks = [
-  { label: 'Huntington Beach / LA Area', href: '/locations/huntington-beach' },
+  { label: 'Sacramento', href: '/locations/sacramento' },
   { label: 'Murrieta / Inland Empire', href: '/locations/murrieta' },
-  { label: 'Martinez / Bay Area', href: '/locations/martinez' },
-  { label: 'Greater Sacramento', href: '/locations/sacramento' },
+  { label: 'Walnut Creek / East Bay', href: '/locations/walnut-creek' },
 ];
 
 const socialLinks = [
-  { name: 'Instagram', href: 'https://www.instagram.com/murphysturfcare/', icon: Instagram },
+  { name: 'Instagram', href: 'https://www.instagram.com/rangeljanitorial/', icon: Instagram },
   { name: 'Facebook', href: 'https://www.facebook.com/profile.php?id=100090088264095', icon: Facebook },
-  { name: 'YouTube', href: 'https://www.youtube.com/@murphysturfcare/featured', icon: Youtube },
+  { name: 'YouTube', href: 'https://www.youtube.com/@rangeljanitorial/featured', icon: Youtube },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -42,10 +42,10 @@ export default function Footer() {
           <div className="flex flex-col items-center gap-6 md:flex-row md:justify-between">
             <div className="text-center md:text-left">
               <h3 className="font-heading text-xl font-bold text-white">
-                Stay Updated with Turf Care Tips
+                Stay Updated with Facility Cleaning Tips
               </h3>
               <p className="mt-1 font-body text-sm text-gray-400">
-                Get seasonal advice and exclusive offers delivered to your
+                Get industry insights and exclusive offers delivered to your
                 inbox.
               </p>
             </div>
@@ -64,20 +64,28 @@ export default function Footer() {
             <Link
               href="/"
               className="inline-flex items-center gap-2 text-white"
-              aria-label="Murphy's Turf — Home"
+              aria-label="Rangel Janitorial — Home"
             >
               <Image
-                src="/images/logo.avif"
-                alt="Murphy's Turf"
+                src="/images/logo.png"
+                alt="Rangel Janitorial"
                 width={56}
                 height={56}
                 className="w-14 h-14 object-contain"
               />
             </Link>
             <p className="mt-4 font-body text-sm leading-relaxed text-gray-400">
-              California&apos;s trusted artificial turf cleaning experts. Specializing in pet hair
-              removal, turf deodorizing, and maintenance. Serving California since 1994.
+              California&apos;s trusted commercial cleaning experts. Specializing in janitorial
+              services, floor care, electrostatic disinfection, and facility maintenance. Serving California.
             </p>
+            <div className="mt-4 flex items-center gap-2 text-gray-400 font-body text-sm">
+              <MapPin className="w-4 h-4 text-sage flex-shrink-0" />
+              <span>26323 Jefferson Ave Suite C, Murrieta, CA 92562</span>
+            </div>
+            <div className="mt-2 flex items-center gap-2 text-gray-400 font-body text-sm">
+              <Phone className="w-4 h-4 text-sage flex-shrink-0" />
+              <a href="tel:9518944222" className="hover:text-sage transition-colors">951-894-4222</a>
+            </div>
             {/* Social Media Links */}
             <div className="mt-6 flex items-center gap-4">
               {socialLinks.map((social) => {
@@ -143,10 +151,10 @@ export default function Footer() {
       <div className="border-t border-charcoal-light">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-6 sm:flex-row lg:px-8">
           <p className="font-body text-sm text-gray-400">
-            &copy; {new Date().getFullYear()} Murphy&apos;s Turf. All rights reserved.
+            &copy; {new Date().getFullYear()} Rangel Janitorial. All rights reserved.
           </p>
           <p className="font-body text-sm text-gray-400">
-            100% Pet Friendly | Eco Friendly | Satisfaction Guaranteed
+            Background-Checked Crews | Fully Insured | Satisfaction Guaranteed
           </p>
         </div>
       </div>

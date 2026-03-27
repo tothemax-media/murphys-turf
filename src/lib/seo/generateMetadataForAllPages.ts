@@ -7,47 +7,53 @@ import {
 } from "./metadata";
 
 export const homeMetadata = generatePageMetadata(
-  "Professional Artificial Turf Cleaning in California",
-  "Murphy's Turf — 30+ years of professional artificial turf cleaning, sanitization, and deodorizing across California. Our professional-grade cleaning solution keeps your synthetic turf fresh and clean. Serving Huntington Beach, Murrieta, Martinez & Sacramento. Get a free quote today!",
+  "Professional Janitorial & Commercial Cleaning in California",
+  "Rangel Janitorial — 30+ years of professional janitorial and commercial cleaning services across California. Creating Excellent First Impressions for offices, medical facilities, and more. Serving Sacramento, Murrieta & Walnut Creek. Get a free quote today!",
   "/"
 );
 
 export const servicesMetadata = generatePageMetadata(
-  "Our Artificial Turf Cleaning Services",
-  "Murphy's Turf offers complete artificial turf cleaning: pet hair & debris removal, blooming & decompacting, disinfecting & deodorizing, poop scooping, and our signature deep cleaning treatment. 30+ years experience.",
+  "Our Janitorial & Commercial Cleaning Services",
+  "Rangel Janitorial offers comprehensive commercial cleaning: janitorial cleaning, day porter services, electrostatic disinfection, floor care, and carpet cleaning. 30+ years experience.",
   "/services"
 );
 
 export const locationsMetadata = generatePageMetadata(
-  "Artificial Turf Cleaning Locations in California",
-  "Murphy's Turf serves Huntington Beach, Murrieta, Martinez, Sacramento, and surrounding areas. Find professional artificial turf cleaning and sanitization near you.",
+  "Janitorial & Commercial Cleaning Locations in California",
+  "Rangel Janitorial serves Sacramento, Murrieta, Walnut Creek, and surrounding areas. Find professional janitorial and commercial cleaning services near you.",
   "/locations"
 );
 
 const services = [
   {
-    name: "Pet Hair & Debris Removal",
-    slug: "pet-hair-debris" as const,
+    name: "Janitorial Cleaning",
+    slug: "janitorial-cleaning" as const,
     shortDescription:
-      "Thorough removal of pet hair, leaves, dirt, and embedded debris from your artificial turf using professional-grade equipment.",
+      "Comprehensive daily and nightly janitorial services for offices, medical facilities, and commercial buildings across California.",
   },
   {
-    name: "Blooming & Decompacting",
-    slug: "blooming-decompacting" as const,
+    name: "Day Porter",
+    slug: "day-porter" as const,
     shortDescription:
-      "Restore your turf's natural look with professional blooming and decompacting — lifts matted fibers and loosens compacted infill for a fresh, upright appearance.",
+      "On-site daytime cleaning and maintenance to keep your facility looking its best throughout the business day.",
   },
   {
-    name: "Disinfect & Deodorize",
-    slug: "disinfect-deodorize" as const,
+    name: "Electrostatic Disinfection",
+    slug: "electrostatic-disinfection" as const,
     shortDescription:
-      "Kill 99.9% of bacteria and eliminate odors from your artificial turf with our professional disinfecting and deodorizing treatment. Safe for pets and kids.",
+      "Advanced electrostatic spraying technology for thorough disinfection of high-touch surfaces and hard-to-reach areas.",
   },
   {
-    name: "Poop Scooping",
-    slug: "poop-scooping" as const,
+    name: "Floor Care",
+    slug: "floor-care" as const,
     shortDescription:
-      "Regular poop scooping service for artificial turf — we remove pet waste and sanitize the affected area to prevent odor buildup and bacteria growth.",
+      "Professional floor care including VCT strip and wax, polishing, and ongoing maintenance to keep your floors pristine.",
+  },
+  {
+    name: "Carpet Cleaning",
+    slug: "carpet-cleaning" as const,
+    shortDescription:
+      "Commercial carpet cleaning services using professional-grade equipment to extend carpet life and maintain a clean, professional appearance.",
   },
 ];
 
@@ -58,28 +64,22 @@ for (const service of services) {
 
 const locations = [
   {
-    name: "Huntington Beach",
-    slug: "huntington-beach" as const,
+    name: "Sacramento",
+    slug: "sacramento" as const,
     description:
-      "Serving Huntington Beach and Orange County with expert artificial turf cleaning, pet odor removal, and professional-grade sanitization.",
+      "Janitorial and commercial cleaning in Sacramento and surrounding areas including Elk Grove, Roseville, Folsom, and the Central Valley.",
   },
   {
     name: "Murrieta",
     slug: "murrieta" as const,
     description:
-      "Murphy's Turf headquarters in Murrieta. Professional artificial turf cleaning for the Inland Empire including Temecula, Menifee, and Lake Elsinore.",
+      "Rangel Janitorial headquarters in Murrieta. Professional janitorial and commercial cleaning for the Inland Empire including Temecula, Menifee, and Lake Elsinore.",
   },
   {
-    name: "Martinez",
-    slug: "martinez" as const,
+    name: "Walnut Creek",
+    slug: "walnut-creek" as const,
     description:
-      "Professional artificial turf cleaning in Martinez and the East Bay. Serving Contra Costa County, Walnut Creek, Concord, and the greater Bay Area.",
-  },
-  {
-    name: "Sacramento",
-    slug: "sacramento" as const,
-    description:
-      "Artificial turf cleaning in Sacramento and surrounding areas including Elk Grove, Roseville, Folsom, and the Central Valley.",
+      "Professional janitorial and commercial cleaning in Walnut Creek and the East Bay. Serving Contra Costa County, Concord, Pleasant Hill, and the greater Bay Area.",
   },
 ];
 
@@ -92,76 +92,76 @@ export const blogIndexMetadata = generateBlogIndexMetadata();
 
 const blogPosts = [
   {
-    title: "How to Clean Artificial Turf: The Complete Guide",
-    slug: "how-to-clean-artificial-turf",
+    title: "Office Cleaning Best Practices for a Healthier Workplace",
+    slug: "office-cleaning-best-practices",
     description:
-      "Everything you need to know about cleaning artificial turf — from basic maintenance to deep cleaning. Learn the methods professionals use to keep synthetic grass pristine.",
+      "Essential office cleaning practices that promote employee health, productivity, and professional impressions. Learn what top janitorial companies focus on.",
   },
   {
-    title: "Professional Turf Cleaning in Huntington Beach: What to Expect",
-    slug: "professional-turf-cleaning-huntington-beach",
+    title: "Janitorial Services in Sacramento: What to Look For",
+    slug: "janitorial-services-sacramento",
     description:
-      "What Huntington Beach and Orange County homeowners should know about professional artificial turf cleaning. Services, pricing, and why coastal turf needs special attention.",
+      "A guide for Sacramento businesses seeking reliable janitorial services. What to expect, key questions to ask, and how to evaluate commercial cleaning companies.",
   },
   {
-    title: "Removing Pet Odors from Artificial Turf in Murrieta's Heat",
-    slug: "removing-pet-odors-murrieta",
+    title: "Commercial Cleaning in Murrieta & the Inland Empire",
+    slug: "commercial-cleaning-murrieta",
     description:
-      "How Inland Empire heat intensifies pet odors on artificial turf, and the proven methods Murphy's Turf uses to eliminate them. Tips specific to Murrieta and Temecula homeowners.",
+      "Why Inland Empire businesses trust Rangel Janitorial for their commercial cleaning needs. Services, reliability, and what sets us apart in Murrieta and Temecula.",
   },
   {
-    title: "Artificial Turf Maintenance in the Bay Area",
-    slug: "artificial-turf-maintenance-bay-area",
+    title: "The Benefits of Day Porter Services for Your Facility",
+    slug: "day-porter-benefits",
     description:
-      "Bay Area-specific artificial turf maintenance tips for Martinez, Walnut Creek, and Contra Costa County. How fog, moisture, and coastal conditions affect synthetic turf care.",
+      "How day porter services keep your facility looking its best throughout the business day. Real-time cleaning, restroom maintenance, and common area upkeep.",
   },
   {
-    title: "Sacramento Turf Cleaning Tips: Beating Central Valley Heat",
-    slug: "sacramento-turf-cleaning-tips",
+    title: "Electrostatic Disinfection Explained: How It Works",
+    slug: "electrostatic-disinfection-explained",
     description:
-      "Artificial turf cleaning strategies for Sacramento homeowners dealing with extreme Central Valley heat. Maintenance schedules, cooling tips, and when to call the professionals.",
+      "Understanding electrostatic disinfection technology — how it works, why it provides superior coverage, and when your facility needs it.",
   },
   {
-    title: "The Health Benefits of Regular Turf Sanitization",
-    slug: "health-benefits-turf-sanitization",
+    title: "Floor Care 101: VCT Strip and Wax Guide",
+    slug: "floor-care-vct-strip-wax",
     description:
-      "Why regular artificial turf sanitization matters for your family's health. Bacteria, allergens, and pathogens that accumulate on synthetic grass — and how to eliminate them.",
+      "Everything you need to know about VCT floor care — strip and wax schedules, maintenance tips, and why professional floor care extends the life of your flooring.",
   },
   {
-    title: "How Often Should You Clean Artificial Turf?",
-    slug: "how-often-clean-artificial-turf",
+    title: "Medical Facility Cleaning Standards You Should Know",
+    slug: "medical-facility-cleaning-standards",
     description:
-      "The recommended cleaning frequency for residential and commercial artificial turf. Factors that affect your schedule: pets, foot traffic, trees, and California climate.",
+      "Cleaning standards and best practices for medical and dental facilities. Infection control, compliance requirements, and what to expect from your janitorial provider.",
   },
   {
-    title: "Hydrogen Peroxide Turf Cleaning: The Safe Way to Clean Synthetic Turf",
-    slug: "hydrogen-peroxide-safe-turf-cleaning",
+    title: "Fitness Center Cleaning: A Complete Guide",
+    slug: "fitness-center-cleaning-guide",
     description:
-      "Learn about our professional-grade hydrogen peroxide-based cleaning solution. How it works, why it's safe for pets and children, and what makes it different from generic turf cleaners.",
+      "How to maintain a clean, hygienic fitness center. Equipment sanitization, locker room care, and the cleaning schedule your gym needs.",
   },
   {
-    title: "DIY vs. Professional Turf Cleaning: Is It Worth It?",
-    slug: "diy-vs-professional-turf-cleaning",
+    title: "How to Choose the Right Commercial Cleaning Company",
+    slug: "choosing-commercial-cleaning-company",
     description:
-      "Comparing DIY artificial turf cleaning to professional services. When a garden hose isn't enough, and why professional-grade equipment and solutions deliver better results.",
+      "Key factors to consider when selecting a commercial cleaning company. Insurance, references, scope of services, and red flags to watch for.",
   },
   {
-    title: "Artificial Turf and Pets: Keeping It Clean and Safe",
-    slug: "artificial-turf-pets-clean-safe",
+    title: "Carpet Cleaning for Commercial Buildings: What You Need to Know",
+    slug: "carpet-cleaning-commercial-buildings",
     description:
-      "The complete guide to maintaining artificial turf with pets. Odor prevention, cleaning routines, safe sanitization methods, and tips from 30+ years of experience.",
+      "Professional carpet cleaning extends carpet life and improves indoor air quality. Learn about methods, frequency, and what commercial carpet cleaning includes.",
   },
   {
-    title: "Why Does My Artificial Turf Smell? Causes and Fixes",
-    slug: "why-artificial-turf-smells-fix",
+    title: "Green Cleaning for Commercial Facilities",
+    slug: "green-cleaning-commercial-facilities",
     description:
-      "Common causes of artificial turf odor — pet urine, bacteria, trapped moisture, and organic buildup. Professional solutions that actually eliminate the smell, not just mask it.",
+      "How environmentally responsible cleaning practices benefit your facility, employees, and the planet. Green products, sustainable methods, and certifications to look for.",
   },
   {
-    title: "5 Signs Your Turf Needs Professional Cleaning",
-    slug: "signs-turf-needs-professional-cleaning",
+    title: "Janitorial Services in Walnut Creek & the East Bay",
+    slug: "janitorial-services-walnut-creek",
     description:
-      "How to tell when your artificial turf needs professional attention. Visible warning signs, smell indicators, and drainage issues that signal it's time to call Murphy's Turf.",
+      "Professional janitorial services for Walnut Creek, Concord, Pleasant Hill, and the greater East Bay. What Bay Area businesses should expect from their cleaning provider.",
   },
 ];
 

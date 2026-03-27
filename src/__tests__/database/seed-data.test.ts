@@ -134,7 +134,7 @@ describe('seed.sql', () => {
   // -------------------------------------------------------------------------
   it('DISCREPANCY: seed data uses Colorado locations but frontend uses California locations', () => {
     // The frontend in src/data/locations.ts uses California locations
-    // (huntington-beach, temecula, san-diego, etc.) while the database
+    // (sacramento, murrieta, walnut-creek) while the database
     // seed file uses Colorado locations. This means the seeded DB data
     // and the frontend static data are for entirely different geographies.
 
@@ -225,7 +225,7 @@ describe('seed.sql', () => {
   // -------------------------------------------------------------------------
   it('uses proper SQL apostrophe escaping', () => {
     // Common words with apostrophes should be escaped as '' in SQL strings
-    expect(seedSQL).toContain("Murphy''s");
+    expect(seedSQL).toContain("Rangel''s");
     expect(seedSQL).toContain("don''t");
 
     // Verify no unescaped apostrophes break string literals by checking

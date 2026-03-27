@@ -2,212 +2,259 @@ import type { Service } from '../types';
 
 export const services: Service[] = [
   {
-    slug: 'pet-hair-debris',
-    name: 'Pet Hair & Debris Removal',
-    shortDescription: 'Complete removal of pet hair, waste, leaves, branches, and hidden metal objects from your artificial turf — the essential first step in every turf cleaning service.',
-    fullDescription: `Every Murphy's Turf cleaning service begins with thorough pet hair and debris removal because it is the critical foundation that makes every subsequent step effective. Without clearing the surface first, cleaning solutions cannot penetrate the infill where bacteria and contaminants actually live. Pet hair is one of the most stubborn forms of debris on artificial turf — individual strands weave themselves into the synthetic fibers, tangling around the blades and working their way down into the infill layer where they trap moisture, attract dirt, and create the perfect environment for bacterial growth and unpleasant odors.
+    slug: 'janitorial-cleaning',
+    name: 'Janitorial Cleaning',
+    shortDescription: 'Comprehensive nightly and recurring cleaning for corporate buildings, warehouses, residential buildings, and offices — tailored to your facility.',
+    fullDescription: `Rangel Janitorial provides full-service janitorial cleaning for commercial facilities of all sizes. Our trained crews handle everything from nightly office cleaning and restroom sanitization to trash removal, surface disinfecting, and common area maintenance. We customize every cleaning program to match your facility's specific needs, traffic patterns, and schedule.
 
-Leaves, branches, and other organic debris pose a different but equally important threat to your turf's health and appearance. When left on the surface, organic matter begins to decompose — a process that California's intense sun accelerates dramatically. As leaves break down, they release tannins that can stain turf fibers, create a layer of mulch-like buildup that blocks drainage, and introduce bacteria and mold into your infill. What starts as a few scattered leaves can quickly become a breeding ground for the very contaminants you want to keep away from your family and pets. Our team removes every piece of organic debris from the entire surface, including hard-to-reach areas along fence lines, around planters, and beneath furniture or play equipment.
+Whether you manage a Class A office building, a corporate campus, a light industrial park, or a multi-unit residential property, our crews deliver consistent results you can count on. Every team member is background-checked, trained on proper cleaning protocols, and equipped with commercial-grade products and equipment.
 
-One of the unique steps in our debris removal process is the magnet pass. Over time, small metal objects find their way into artificial turf installations — staples and nails from the original installation, screws from nearby construction projects, bottle caps from outdoor gatherings, even stray hardware from patio furniture assembly. These hidden hazards are invisible beneath the turf fibers but can cause painful injuries to bare feet, curious children, and pets. We run a powerful magnet across the entire turf surface to capture and remove every metallic object, giving you peace of mind that your yard is safe for everyone who uses it.
-
-After the surface is cleared of debris, we turn our attention to de-weeding along the edges and seams of your turf. While weeds cannot grow through the turf backing itself, they are remarkably persistent at finding their way through seams where two pieces of turf meet, along the borders where turf meets hardscape or landscaping, and anywhere the perimeter is not perfectly sealed. Wind-blown seeds can also settle in infill material and germinate if conditions allow. Using specialized de-weeding tools, we remove every weed from these vulnerable areas, preventing root systems from expanding and potentially lifting or damaging your turf edges. This comprehensive debris removal process is included as the first step in every full Murphy's Turf cleaning visit, ensuring that the disinfecting and deodorizing treatments that follow can work at maximum effectiveness on a clean, prepared surface.`,
+We understand that a clean facility isn't just about appearances — it's about creating a healthy environment for your employees, tenants, and visitors. That's why we follow systematic cleaning checklists, conduct regular quality inspections, and maintain open communication with every client. Our goal is simple: when you walk into your building each morning, everything should be spotless.`,
     benefits: [
-      'Removes all pet hair tangled in synthetic turf fibers',
-      'Eliminates leaves, branches, and organic debris before they decompose',
-      'Magnet pass removes dangerous hidden metal objects for family safety',
-      'De-weeding prevents weed growth along turf edges and seams',
-      'Prevents bacteria buildup from decomposing organic matter',
-      'Restores clean, fresh appearance to your artificial turf',
-      'Included as the first step in every Murphy\'s Turf cleaning service',
+      'Customized cleaning programs for your specific facility',
+      'Trained, background-checked cleaning crews',
+      'Nightly, weekly, or custom scheduling options',
+      'Complete restroom sanitization and restocking',
+      'Break room and kitchen cleaning',
+      'Trash and recycling removal',
+      'Surface disinfecting and dusting',
     ],
     whatIncludes: [
-      'Complete pet hair and waste removal from entire turf surface',
-      'Leaf, branch, and organic debris clearing',
-      'Magnet sweep for hidden metal objects (staples, nails, bottle caps)',
-      'De-weeding along all turf edges, seams, and borders',
-      'Surface inspection for damage or problem areas',
-      'Disposal of all collected debris and waste',
+      'Nightly office and common area cleaning',
+      'Restroom sanitization and supply restocking',
+      'Trash and recycling collection and removal',
+      'Surface wiping and disinfecting',
+      'Dusting of desks, shelves, and fixtures',
+      'Vacuuming and mopping all floor surfaces',
+      'Break room and kitchen cleaning',
+      'Entrance and lobby maintenance',
     ],
     startingPrice: null,
-    iconName: 'Trash2',
-    image: '/images/services/debris-removal.png',
-    metaTitle: "Pet Hair & Debris Removal from Artificial Turf | Murphy's Turf",
-    metaDescription: "Professional pet hair, debris, and weed removal from artificial turf. The essential first step in every Murphy's Turf cleaning service. Serving California.",
+    iconName: 'Building2',
+    image: '/images/stock/janitorial-cleaning.jpg',
+    metaTitle: "Commercial Janitorial Cleaning Services | Rangel Janitorial",
+    metaDescription: "Professional janitorial cleaning for offices, warehouses, and commercial buildings. Customized cleaning programs with trained, background-checked crews. Serving California.",
     faqs: [
       {
-        question: 'Why is debris removal the first step in turf cleaning?',
-        answer: 'Debris like pet hair, leaves, and organic matter must be removed before any cleaning solution is applied. If left in place, these materials trap bacteria, block cleaning agents from reaching the infill, and can decompose into the turf fibers causing odors and discoloration.',
+        question: 'What types of facilities do you clean?',
+        answer: 'We service Class A office buildings, corporate campuses, light industrial parks, multi-unit residential properties, medical and dental facilities, municipalities, and fitness centers across California.',
       },
       {
-        question: 'Why do you run a magnet over the turf?',
-        answer: 'Over time, small metal objects like staples, nails, screws, and bottle caps can end up in your turf — especially in newer installations or homes with recent construction. Our magnet sweep catches these hidden hazards to keep your yard safe for bare feet, kids, and pets.',
+        question: 'How often will your crew clean our facility?',
+        answer: 'We offer nightly, multiple-times-per-week, weekly, and custom scheduling. Most commercial clients choose nightly service 5 days per week, but we tailor the frequency to your needs and budget.',
       },
       {
-        question: 'How often should debris be removed from artificial turf?',
-        answer: 'We recommend professional debris removal at least monthly if you have pets, or quarterly for turf without regular pet use. Between professional visits, a simple leaf blower or light raking can help keep the surface clear.',
+        question: 'Are your cleaning crews background-checked?',
+        answer: 'Yes. Every Rangel Janitorial team member undergoes a thorough background check before being assigned to any facility. We take security seriously.',
       },
       {
-        question: 'Do weeds really grow in artificial turf?',
-        answer: 'Yes — while weeds can\'t grow through the turf backing, they commonly sprout along edges, seams, and where the turf meets hardscape. Wind-blown seeds can also germinate in infill material. Our de-weeding service addresses all of these problem areas.',
+        question: 'Can you handle multi-building properties?',
+        answer: 'Absolutely. We regularly service multi-building campuses and properties with multiple tenants. We coordinate schedules and assign dedicated crews to ensure consistent results across all buildings.',
       },
     ],
   },
   {
-    slug: 'blooming-decompacting',
-    name: 'Blooming & De-Compacting',
-    shortDescription: 'Restore matted, worn artificial turf to like-new condition by re-blooming fibers and de-compacting infill so blades stand upright like natural grass.',
-    fullDescription: `The purpose of re-blooming turf is to bring back the life in your artificial lawn after it has been worn down by everyday use. Over time, when your turf is frequently walked on by family members, guests, and pets, the blades gradually become matted down and lose their upright, natural appearance. Foot traffic is the most common cause, but heavy patio furniture, planters, play equipment, and even the repeated weight of a resting dog can press fibers flat against the backing. In California, where outdoor living spaces are used year-round and the intense sun softens synthetic fibers during peak heat, this matting process is accelerated compared to cooler climates. What once looked like a lush, vibrant lawn begins to resemble a worn carpet — flat, dull, and visibly aged.
+    slug: 'day-porter',
+    name: 'Day Porter',
+    shortDescription: 'Customer-facing team members who provide cleaning and maintenance tasks during normal working hours to keep your facility looking its best all day.',
+    fullDescription: `Day porter service provides your facility with a dedicated, customer-facing cleaning professional during normal business hours. Unlike nightly janitorial crews who work after hours, day porters maintain your building's appearance and cleanliness in real time — addressing spills, restocking restrooms, tidying common areas, and ensuring your facility always makes an excellent first impression.
 
-During the blooming process, Murphy's Turf utilizes professional-grade power brushing machines specifically engineered for synthetic turf systems. These machines serve a dual purpose: they clean up and remove any caked debris that has become embedded deep within the fibers of the turf, and they simultaneously fluff the turf blades, lifting them back to their original upright position so they stand tall like natural grass would. The transformation is dramatic — customers are consistently amazed at the before-and-after difference, often saying their turf looks like it was just installed. High-traffic pathways, pet areas, and zones around outdoor furniture that had become noticeably flat are restored to match the rest of the yard, creating a uniform, lush appearance across the entire surface.
+Day porters are especially valuable for high-traffic facilities where cleanliness standards need to be maintained throughout the day. Lobbies, restrooms, break rooms, conference rooms, and shared spaces all benefit from continuous attention that nightly cleaning alone cannot provide. Your day porter becomes a familiar, professional presence in your building — someone tenants and visitors recognize and trust.
 
-De-compacting is the equally important companion to blooming. Over months and years of use, the infill material beneath your turf fibers compacts and hardens. California's heat intensifies this problem, essentially baking the infill into a dense, rigid layer that resists water penetration and prevents turf fibers from moving freely. Compacted infill creates hard spots underfoot, reduces the soft and cushioned feel your turf had when it was new, and — most critically — compromises drainage performance. When infill is too compacted, water cannot pass through efficiently, leading to pooling, slow drying, and the moisture retention that promotes bacterial growth and mold. Our de-compacting process loosens and redistributes the infill material, restoring proper drainage function, returning the soft feel underfoot, and allowing turf fibers to stand upright with the support they need.
-
-We recommend blooming and de-compacting every six to twelve months depending on traffic levels. Residential yards with moderate use benefit from annual service, while high-traffic areas, pet yards, and commercial installations may need attention every six months or even quarterly. Regular blooming and de-compacting is one of the most effective ways to extend the overall lifespan of your artificial turf investment — preventing the permanent fiber damage that occurs when matting is left unaddressed for too long. The sooner you restore flattened fibers, the better they recover and the longer your turf maintains its like-new appearance and performance.`,
+Our day porters are trained to work discreetly and efficiently, handling cleaning tasks without disrupting your business operations. They're equipped to respond to unexpected situations like spills, restroom issues, or last-minute conference room preparations. For property managers, a day porter means fewer tenant complaints, better building reviews, and higher retention rates.`,
     benefits: [
-      'Restores matted, flattened turf fibers to upright position',
-      'Removes caked debris embedded deep in turf fibers',
-      'De-compacts hardened infill for improved drainage',
-      'Dramatically improves the visual appearance of worn turf',
-      'Extends the overall lifespan of your artificial turf investment',
-      'Restores soft, natural feel underfoot',
-      'Prevents permanent fiber damage from prolonged matting',
+      'Real-time facility maintenance during business hours',
+      'Dedicated, customer-facing cleaning professional',
+      'Immediate response to spills and messes',
+      'Continuous restroom monitoring and restocking',
+      'Common area and lobby upkeep throughout the day',
+      'Conference room turnover between meetings',
+      'Reduces tenant complaints and improves satisfaction',
     ],
     whatIncludes: [
-      'Professional power brushing to lift and restore turf fibers',
-      'De-compacting of hardened infill material',
-      'Removal of caked debris from deep within turf fibers',
-      'Even redistribution of infill across the entire surface',
-      'High-traffic area focus with additional passes',
-      'Post-service inspection and maintenance recommendations',
+      'Dedicated daytime cleaning professional for your facility',
+      'Continuous lobby and common area maintenance',
+      'Restroom checks, cleaning, and supply restocking',
+      'Spill and mess response throughout the day',
+      'Conference room setup and turnover',
+      'Break room and kitchen maintenance',
+      'Trash collection from common areas',
+      'Light maintenance and touch-up tasks',
     ],
     startingPrice: null,
-    iconName: 'Flower2',
-    image: '/images/services/blooming.png',
-    metaTitle: "Turf Blooming & De-Compacting Service | Murphy's Turf",
-    metaDescription: "Restore matted artificial turf to like-new condition. Murphy's Turf blooming service lifts flattened fibers and de-compacts infill. Serving California.",
+    iconName: 'UserCheck',
+    image: '/images/stock/day-porter.jpg',
+    metaTitle: "Day Porter Services for Commercial Buildings | Rangel Janitorial",
+    metaDescription: "Professional day porter services to maintain your facility during business hours. Real-time cleaning, restroom monitoring, and spill response. Serving California.",
     faqs: [
       {
-        question: 'What causes artificial turf to become matted and flat?',
-        answer: 'Regular foot traffic, heavy furniture, pet activity, and even the weight of infill settling over time all contribute to turf fibers laying flat. California\'s intense heat can also soften fibers and accelerate matting, especially in high-traffic areas like entryways and pet runs.',
+        question: 'What does a day porter do?',
+        answer: 'A day porter is a dedicated cleaning professional who works during your business hours to maintain cleanliness in real time. They handle restroom monitoring, lobby upkeep, spill response, conference room turnover, break room cleaning, and more — keeping your facility presentable all day.',
       },
       {
-        question: 'How often should I have my turf bloomed?',
-        answer: 'For residential turf with moderate use, we recommend blooming every 6 to 12 months. High-traffic areas, pet yards, and commercial installations may benefit from quarterly blooming to maintain optimal appearance and performance.',
+        question: 'How is day porter service different from nightly janitorial?',
+        answer: 'Nightly janitorial handles deep cleaning after hours. Day porter service maintains cleanliness during the workday — responding to messes as they happen, restocking supplies, and keeping high-traffic areas presentable between janitorial visits.',
       },
       {
-        question: 'Will blooming fix permanently damaged turf fibers?',
-        answer: 'Blooming is highly effective at restoring fibers that have been pressed flat, but fibers that have been permanently kinked or melted (from heat reflection off windows, for example) may not fully recover. The sooner you address matting, the better the results — regular maintenance prevents permanent damage.',
+        question: 'Can we get a day porter for just a few days per week?',
+        answer: "Yes. We offer flexible scheduling for day porter services — full-time Monday through Friday, select days, or even partial days during peak hours. We match the coverage to your facility's needs.",
       },
       {
-        question: 'What is de-compacting and why does it matter?',
-        answer: 'Over time, infill material compacts and hardens — especially in California\'s heat. Compacted infill reduces drainage, creates hard spots, and prevents turf fibers from standing upright. De-compacting loosens and redistributes the infill, restoring proper drainage and a softer, more natural feel.',
+        question: 'What size facility needs a day porter?',
+        answer: 'Any facility with moderate to high foot traffic benefits from day porter service. Multi-tenant office buildings, medical facilities, fitness centers, and corporate campuses are the most common. If your restrooms, lobbies, or break rooms need attention between nightly cleanings, a day porter is the solution.',
       },
     ],
   },
   {
-    slug: 'disinfect-deodorize',
-    name: 'Disinfect & Deodorize',
-    shortDescription: 'Power-spray our professional-grade cleaning solution to kill 99.9% of germs and bacteria in your artificial turf infill — no bleach, no ammonia, completely pet-safe.',
-    fullDescription: `Murphy's Turf disinfecting and deodorizing service is the core of what we do, and it is the treatment that makes the biggest difference in the health, safety, and freshness of your artificial turf. Our process consists of power-spraying a professional-grade cleaning solution specifically formulated for synthetic turf that performs simultaneously as a cleaner, disinfectant, and deodorizer. Unlike surface-level cleaning methods that only address what you can see, our advanced cleaning solution is engineered to cut past the top synthetic turf layer and penetrate deep into the infill where bacteria and viruses actually live. It attacks contaminants at their source — the dense layer of infill material beneath the visible fibers where pet urine crystallizes, organic matter decomposes, and harmful microorganisms establish thriving colonies that are completely invisible from the surface.
+    slug: 'electrostatic-disinfection',
+    name: 'Electrostatic Disinfection',
+    shortDescription: 'Advanced electrostatic spraying technology to apply EPA List N approved disinfectants on all high-touch surfaces for comprehensive germ elimination.',
+    fullDescription: `Rangel Janitorial's electrostatic disinfection service uses advanced electrostatic sprayers to apply EPA List N approved disinfectant chemicals to all high-touch point surfaces in your facility. This technology provides a level of coverage and effectiveness that traditional spray-and-wipe methods simply cannot match.
 
-The science behind our cleaning solution is what sets it apart from every other turf cleaning product on the market. Formulated with stabilized accelerated hydrogen peroxide, our advanced cleaning solution delivers powerful disinfection without relying on bleach or ammonia — two chemicals that are unfortunately common in many cleaning products marketed for artificial turf. The problem with bleach and ammonia-based cleaners is significant: bleach leaves chemical residues on turf fibers that can irritate the skin of children and pets, weaken and discolor turf materials over time, and produce harsh fumes during application. Ammonia-based products are even worse for pet owners because ammonia is a component of urine — applying it to turf can actually attract pets to urinate in treated areas and creates a lingering chemical odor that many homeowners describe as a mystery smell they cannot identify or eliminate. Our cleaning solution avoids all of these problems because stabilized accelerated hydrogen peroxide breaks down into water and oxygen after doing its work, leaving absolutely no harmful residues behind.
+Electrostatic sprayers work by electrically charging disinfectant particles as they leave the nozzle. These charged droplets are attracted to surfaces and wrap around objects, coating every side — including the backs and undersides of furniture, equipment, and fixtures that manual wiping routinely misses. The result is complete, even coverage of every surface in the room, including door handles, light switches, elevator buttons, shared equipment, railings, and restroom fixtures.
 
-When power-sprayed onto your turf, our cleaning solution penetrates the synthetic surface and reaches the infill layer within minutes, where it kills 99.9% of germs and bacteria including dangerous pathogens like E. coli, Staphylococcus, and Salmonella. The deodorizing effect is equally impressive — rather than masking odors with artificial fragrance the way many consumer products do, our cleaning solution neutralizes odor-causing compounds at the molecular level and replaces them with a fresh, clean scent reminiscent of real grass. This is why so many of our customers tell us their artificial turf smells better after a Murphy's Turf cleaning than it did the day it was installed.
-
-California's warm climate makes professional disinfection and deodorizing essential, not optional. The state's heat accelerates bacterial growth exponentially — what might take weeks to become a problem in a cooler climate can develop in just days during a California summer. Pet waste, spilled food and beverages, bird droppings, and even pollen that settles on your turf all become fuel for bacterial colonies that multiply rapidly in warm conditions. Regular professional treatment keeps these populations in check and ensures your turf remains a safe, hygienic surface for your entire family. After treatment, your turf is safe for use as soon as it dries, which typically takes one to two hours in California's sunny conditions. This disinfect and deodorize service is the heart of Murphy's Turf cleaning process and the step that our customers value most.`,
+This service is ideal for medical and dental facilities, fitness centers, schools, and any workplace where infection control is a priority. We use only EPA List N approved disinfectants — the same class of products approved for use against SARS-CoV-2 and other dangerous pathogens. Electrostatic disinfection can be scheduled as a standalone service, added to your existing janitorial program, or deployed as an emergency response when illness outbreaks occur in your facility.`,
     benefits: [
-      'Kills 99.9% of germs and bacteria in minutes',
-      'Penetrates deep into infill where contaminants live',
-      'No bleach, no ammonia — completely safe for pets and children',
-      'Eliminates odors at their source, not just masking them',
-      'Leaves turf smelling fresh like real grass',
-      'Won\'t damage turf fibers or leave harmful residues',
-      'Powered by stabilized accelerated hydrogen peroxide — no bleach or ammonia',
+      'Complete surface coverage including hard-to-reach areas',
+      'EPA List N approved disinfectant chemicals',
+      'Kills bacteria and viruses on high-touch surfaces',
+      'Faster and more thorough than spray-and-wipe methods',
+      'Ideal for medical facilities, gyms, and high-traffic spaces',
+      'Can be added to existing janitorial programs',
+      'Available as emergency response for illness outbreaks',
     ],
     whatIncludes: [
-      'Full-surface power-spray application of our professional-grade cleaning solution',
-      'Deep penetration treatment into infill layer',
-      'Bacteria and virus elimination (99.9% kill rate)',
-      'Odor neutralization and fresh scent treatment',
-      'Edge and border treatment for complete coverage',
-      'Safe for use within hours of application',
+      'Electrostatic sprayer application of EPA-approved disinfectant',
+      'Complete coverage of all high-touch point surfaces',
+      'Door handles, light switches, and elevator buttons',
+      'Shared equipment and conference room surfaces',
+      'Restroom fixtures and partitions',
+      'Railings, countertops, and reception areas',
+      'Post-service documentation and reporting',
     ],
     startingPrice: null,
-    iconName: 'SprayCanIcon',
-    image: '/images/gallery/service-turf-disinfecting-v2.jpeg',
-    metaTitle: "Artificial Turf Disinfecting & Deodorizing | Murphy's Turf",
-    metaDescription: "Power-spray our professional-grade cleaning solution to kill 99.9% of germs and bacteria in your artificial turf. No bleach, no ammonia, pet-safe. Murphy's Turf serves California.",
+    iconName: 'Zap',
+    image: '/images/stock/electrostatic-disinfection.jpg',
+    metaTitle: "Electrostatic Disinfection Services | Rangel Janitorial",
+    metaDescription: "Advanced electrostatic disinfection with EPA List N approved chemicals. Complete high-touch surface coverage for offices, medical facilities, and gyms. Serving California.",
     faqs: [
       {
-        question: 'What cleaning solution do you use and how does it work?',
-        answer: 'We use a professional-grade stabilized accelerated hydrogen peroxide cleaning solution specifically formulated for synthetic turf. Unlike bleach or ammonia-based cleaners, our solution penetrates past the turf surface into the infill where bacteria and viruses actually live, killing 99.9% of contaminants without leaving harmful residues.',
+        question: 'What is electrostatic disinfection?',
+        answer: 'Electrostatic disinfection uses sprayers that electrically charge disinfectant droplets, causing them to wrap around and cling to surfaces — including backs and undersides of objects. This provides far more complete coverage than traditional spray-and-wipe methods.',
       },
       {
-        question: 'Is your cleaning solution safe for my pets and children?',
-        answer: 'Absolutely. Our cleaning solution contains no bleach or ammonia — chemicals that can leave residues that irritate skin, weaken turf fibers, and create mystery odors. The stabilized hydrogen peroxide formula breaks down into water and oxygen, making it completely safe for pets, kids, and the environment.',
+        question: 'What disinfectants do you use?',
+        answer: 'We exclusively use EPA List N approved disinfectant chemicals — the same class of products proven effective against SARS-CoV-2, influenza, norovirus, and other dangerous pathogens.',
       },
       {
-        question: 'How soon can we use the turf after treatment?',
-        answer: 'Your turf is safe to use as soon as it dries, which typically takes 1 to 2 hours depending on weather conditions. In California\'s warm, dry climate, drying time is often even shorter.',
+        question: 'How often should electrostatic disinfection be done?',
+        answer: 'For most commercial facilities, monthly or quarterly treatments complement regular janitorial cleaning. Medical facilities, gyms, and schools may benefit from weekly treatments. We also offer emergency response when illness outbreaks occur.',
       },
       {
-        question: 'Why is disinfecting better than just hosing down the turf?',
-        answer: 'Water alone only rinses the surface — it doesn\'t reach the infill layer where bacteria, urine crystals, and organic contaminants accumulate. Our professional-grade cleaning solution is power-sprayed to penetrate deep into the infill, attacking contaminants at their source rather than just moving them around.',
+        question: 'Is it safe for electronics and office equipment?',
+        answer: 'Yes. The fine mist produced by electrostatic sprayers uses very small amounts of liquid that dry quickly without leaving residue. It is safe for use around computers, phones, printers, and other office equipment.',
       },
     ],
   },
   {
-    slug: 'poop-scooping',
-    name: 'Poop Scooping & Removal',
-    shortDescription: 'Scheduled pet waste removal service plans so you can spend more time playing with your pets and less time cleaning up after them.',
-    fullDescription: `It is important that we clean up after our pets because their waste is not only an unruly sight but also genuinely harmful to the environment and the people around you. What many pet owners do not realize is just how dangerous pet waste truly is. According to the Environmental Protection Agency, pet waste is classified as a toxic pollutant — placed within the same category as oil spills and chemical runoff. This is not an exaggeration or a scare tactic; it is a scientifically established fact that dog waste contains a vast array of harmful bacteria and parasites that can make both people and pets seriously ill. E. coli, Giardia, Salmonella, Roundworm, Hookworm, and Campylobacter are just a few of the pathogens commonly found in dog feces, and these organisms can survive in soil and on surfaces for weeks or even months under the right conditions.
+    slug: 'floor-care',
+    name: 'Floor Care Services',
+    shortDescription: 'Specialized floor maintenance including VCT strip and wax, tile and grout cleaning, LVT care, concrete polishing, and stone floor restoration.',
+    fullDescription: `Rangel Janitorial provides specialized floor care services for every type of commercial flooring. Floors take more abuse than any other surface in your facility — constant foot traffic, spills, scuffs, and wear that regular mopping can't address. Our floor care programs restore your floors to like-new condition and keep them looking professional with scheduled maintenance.
 
-The health risks are particularly concerning for families with young children who play on or near the turf, and for other pets in the household who may come into contact with contaminated areas. Hookworm larvae can penetrate skin on contact, Roundworm eggs can be accidentally ingested by curious toddlers, and Giardia can spread between animals rapidly in multi-pet households. On artificial turf, these risks are amplified compared to natural grass because waste sits on the surface and in the infill rather than being absorbed and broken down by soil microorganisms the way it would be in a natural lawn. Without the biological decomposition process that real soil provides, pet waste on synthetic turf simply accumulates, concentrating bacteria and parasites in the very space where your family spends time outdoors.
+Our VCT (vinyl composition tile) strip and wax service removes old, yellowed wax buildup, strips the floor down to the base tile, and applies fresh coats of high-quality floor finish that provides a glossy, protective surface. For tile and grout floors, we use specialized equipment and cleaning solutions to remove embedded dirt, staining, and bacteria from grout lines that regular mopping leaves behind. Our LVT (luxury vinyl tile) care program uses manufacturer-approved products and techniques to maintain the appearance and warranty of your premium flooring.
 
-How often you should pick up pet waste depends largely on how many dogs you have. With one dog, cleaning up once a week can be manageable, though more frequent removal is always better for turf hygiene. If you have multiple dogs, daily waste removal may be necessary to prevent the rapid buildup that leads to odor problems, bacterial contamination, and accelerated wear on your turf infill. California's warm climate makes this timeline even more urgent — heat speeds up bacterial multiplication and intensifies odors dramatically, turning a minor inconvenience into a serious hygiene issue within just a couple of days.
-
-Murphy's Turf understands that many pet owners are simply too busy to keep up with the relentless cycle of waste removal. Between work, family responsibilities, and everything else that fills a day, the last thing most people want to do is spend their limited free time scooping poop. You would much rather spend that time playing with your pets, enjoying your backyard, and relaxing in your outdoor space. That is exactly why we created our dedicated poop scooping service plans — flexible, scheduled waste removal programs designed to keep your yard clean and safe while giving you back the time you deserve to spend with your fluffy friends rather than cleaning up after them.
-
-We offer multiple service plan options to fit every household's needs, including weekly service for single-dog homes, bi-weekly plans for lighter use, and more frequent scheduling for multi-dog households that need daily or every-other-day removal. There are no long-term contracts required — you can adjust or cancel your plan at any time. Regular professional waste removal also extends the life and effectiveness of your turf cleaning treatments. When waste is removed promptly and consistently, the disinfecting and deodorizing treatments we apply during full cleaning visits last longer and work more effectively because they are not fighting against layers of accumulated contamination.`,
+We also handle concrete floor polishing, natural stone floor restoration, and carpet care. Each floor type requires different products, equipment, and techniques — and our crews are trained on all of them. We develop a floor care schedule based on your facility's traffic patterns, floor types, and appearance standards.`,
     benefits: [
-      'Eliminates toxic pet waste classified by EPA as a pollutant',
-      'Protects your family from harmful bacteria and parasites',
-      'Prevents pet waste from breaking down into turf infill',
-      'Multiple service plan options to fit your schedule and needs',
-      'More time playing with your pets, less time cleaning up',
-      'Extends the effectiveness of turf cleaning treatments',
-      'Keeps your yard fresh and ready for family enjoyment',
+      'Restores floors to like-new appearance',
+      'VCT strip and wax with high-quality floor finish',
+      'Deep tile and grout cleaning removes embedded dirt',
+      'LVT care with manufacturer-approved products',
+      'Concrete polishing and stone floor restoration',
+      'Extends the lifespan of your flooring investment',
+      'Custom maintenance schedules based on traffic patterns',
     ],
     whatIncludes: [
-      'Thorough scooping and removal of all pet waste',
-      'Waste disposed of properly in sealed bags',
-      'Quick visual inspection of turf condition',
-      'Flexible scheduling: weekly, bi-weekly, or custom plans',
-      'Service for single or multiple-dog households',
-      'No long-term contracts required',
+      'VCT strip, seal, and wax application',
+      'Tile and grout deep cleaning and sealing',
+      'LVT cleaning with manufacturer-approved products',
+      'Concrete floor polishing and sealing',
+      'Natural stone floor restoration and care',
+      'Buff and burnish for ongoing maintenance',
+      'Floor assessment and maintenance scheduling',
     ],
     startingPrice: null,
-    iconName: 'Dog',
-    image: '/images/services/poop-scooping.jpg',
-    metaTitle: "Poop Scooping & Pet Waste Removal Service | Murphy's Turf",
-    metaDescription: "Scheduled pet waste removal from artificial turf. EPA classifies pet waste as toxic — let Murphy's Turf handle cleanup so you can enjoy your pets. Serving California.",
+    iconName: 'Layers',
+    image: '/images/stock/floor-care.jpg',
+    metaTitle: "Commercial Floor Care Services — Strip & Wax, Tile & Grout | Rangel Janitorial",
+    metaDescription: "Professional floor care for commercial facilities. VCT strip and wax, tile and grout cleaning, LVT, concrete, and stone floor services. Serving California.",
     faqs: [
       {
-        question: 'How often should I have pet waste removed?',
-        answer: 'It depends on how many dogs you have. For one dog, weekly service is usually sufficient. For two or more dogs, we recommend bi-weekly or even daily service to prevent waste from accumulating and breaking down into your turf infill, which creates odor and bacteria problems.',
+        question: 'How often should commercial floors be stripped and waxed?',
+        answer: 'Most commercial VCT floors need stripping and waxing once or twice per year, depending on foot traffic. High-traffic areas like lobbies and hallways may need more frequent attention. We also offer interim maintenance like buffing and burnishing to extend time between full strip-and-wax services.',
       },
       {
-        question: 'Why is pet waste on artificial turf worse than on natural grass?',
-        answer: 'On natural grass, soil microorganisms help break down waste over time. On artificial turf, waste sits on the surface and in the infill with nowhere to go — bacteria multiply, urine crystals form, and odors intensify, especially in California\'s heat. Regular removal is essential for maintaining clean, safe turf.',
+        question: 'Can you work on our floors after business hours?',
+        answer: 'Yes. Floor care services are typically scheduled during off-hours — evenings, weekends, or holidays — to avoid disrupting your business operations. We coordinate timing to ensure floors are dry and ready before your team arrives.',
       },
       {
-        question: 'Do I need to sign a long-term contract?',
-        answer: 'No — we offer flexible service plans with no long-term contracts required. Choose weekly, bi-weekly, or a custom schedule that works for your household. You can adjust or cancel your plan at any time.',
+        question: 'Do you handle all floor types?',
+        answer: 'We service VCT, tile and grout, LVT (luxury vinyl tile), concrete, natural stone (marble, granite, travertine), and carpet. Each floor type gets the specific products and techniques it requires.',
       },
       {
-        question: 'Is pet waste really that harmful?',
-        answer: 'Yes. The EPA classifies pet waste in the same pollutant category as oil and toxic chemicals. Dog waste can contain E. coli, Giardia, Roundworm, Hookworm, and other parasites that can make both people and other pets sick. Proper and timely removal protects your family and neighborhood.',
+        question: 'Our grout is permanently stained — can you fix it?',
+        answer: 'In most cases, yes. Our specialized tile and grout cleaning equipment and solutions can remove years of embedded dirt and staining. For severely damaged grout, we can also apply grout colorant to restore a uniform, clean appearance.',
+      },
+    ],
+  },
+  {
+    slug: 'carpet-cleaning',
+    name: 'Carpet Cleaning',
+    shortDescription: 'Professional commercial carpet cleaning using hot water extraction, encapsulation, and spot treatment to extend carpet life and maintain a clean appearance.',
+    fullDescription: `Commercial carpets take a beating — daily foot traffic grinds dirt deep into carpet fibers where vacuuming alone can't reach. Over time, this embedded soil breaks down carpet fibers, causes permanent discoloration, and creates an environment for allergens, bacteria, and odors. Rangel Janitorial's commercial carpet cleaning services restore your carpets and extend their useful life.
+
+Our primary method is hot water extraction (steam cleaning), which injects hot water and cleaning solution deep into the carpet fibers, then extracts the water along with dirt, allergens, and bacteria. This is the method recommended by most carpet manufacturers and is the most effective way to deep clean commercial carpet. For interim maintenance between deep cleanings, we offer encapsulation cleaning — a low-moisture method that crystallizes dirt particles for easy removal, allowing carpets to dry quickly with minimal disruption.
+
+We also provide spot treatment for high-visibility stains, traffic lane restoration for heavily worn pathways, and pre-treatment for stubborn areas. Our crews assess your carpet type, condition, and traffic patterns to recommend the right cleaning frequency and method for your facility.`,
+    benefits: [
+      'Hot water extraction removes deep-embedded dirt and allergens',
+      'Encapsulation cleaning for quick-dry interim maintenance',
+      'Extends the lifespan of your carpet investment',
+      'Removes stains, odors, and bacteria from carpet fibers',
+      'Traffic lane restoration for high-wear areas',
+      'Recommended by major carpet manufacturers',
+      'Flexible scheduling to minimize business disruption',
+    ],
+    whatIncludes: [
+      'Pre-inspection and carpet fiber assessment',
+      'Pre-treatment of high-traffic and stained areas',
+      'Hot water extraction (steam cleaning)',
+      'Encapsulation cleaning for interim maintenance',
+      'Spot treatment for stubborn stains',
+      'Post-cleaning grooming for even drying',
+      'Furniture moving as needed',
+    ],
+    startingPrice: null,
+    iconName: 'Sparkles',
+    image: '/images/stock/carpet-cleaning.jpg',
+    metaTitle: "Commercial Carpet Cleaning Services | Rangel Janitorial",
+    metaDescription: "Professional carpet cleaning for commercial facilities. Hot water extraction, encapsulation, and spot treatment. Extend carpet life and maintain appearance. Serving California.",
+    faqs: [
+      {
+        question: 'How often should commercial carpets be deep cleaned?',
+        answer: 'Most commercial facilities benefit from deep cleaning (hot water extraction) every 6 to 12 months, with interim encapsulation cleaning every 2 to 3 months for high-traffic areas. We tailor the schedule to your specific carpet and traffic levels.',
+      },
+      {
+        question: 'How long does carpet take to dry after cleaning?',
+        answer: 'Hot water extraction typically requires 4 to 8 hours of drying time. Encapsulation cleaning dries in 1 to 2 hours. We schedule services during off-hours so carpets are dry and ready when your team arrives.',
+      },
+      {
+        question: 'Can you remove old, set-in stains?',
+        answer: 'We can significantly improve or fully remove most stains with pre-treatment and specialized spot cleaning. Some permanent stains (bleach, certain dyes) may not fully come out, but our crew will assess and give you honest expectations before we start.',
+      },
+      {
+        question: 'Do you move furniture for carpet cleaning?',
+        answer: 'Yes, we can move light furniture as part of the service. For large or heavy items, we typically clean around them and move them by arrangement. We discuss logistics with you during scheduling.',
       },
     ],
   },

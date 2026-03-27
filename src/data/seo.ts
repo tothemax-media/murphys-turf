@@ -2,78 +2,78 @@ import type { SEOMetadata } from '../types';
 
 export const seoMetadata: Record<string, SEOMetadata> = {
   home: {
-    title: "Murphy's Turf | Professional Artificial Turf Cleaning California",
-    description: "Murphy's Turf — 30+ years of professional artificial turf cleaning, sanitization, and deodorizing across California. Professional-grade deep cleaning. Serving Huntington Beach, Murrieta, Bay Area & Sacramento. Get a free quote today.",
-    keywords: ["artificial turf cleaning", "synthetic turf cleaning California", "turf sanitization", "pet turf cleaning", "professional turf cleaning", "Murphy's Turf", "turf odor removal", "California turf cleaning"],
+    title: "Rangel Janitorial | Professional Commercial Cleaning Services California",
+    description: "Rangel Janitorial — professional janitorial cleaning, day porter, electrostatic disinfection, and floor care services across California. Serving Sacramento, Murrieta, and Walnut Creek. Get a free quote today.",
+    keywords: ["commercial cleaning services", "janitorial services California", "office cleaning", "commercial janitorial", "Rangel Janitorial", "building cleaning services", "professional cleaning company"],
   },
   contact: {
-    title: "Contact Murphy's Turf | Free Artificial Turf Cleaning Quote",
-    description: "Contact Murphy's Turf for a free artificial turf cleaning estimate. Serving Huntington Beach, Murrieta, Martinez, and Sacramento. Get a free quote today.",
-    keywords: ["contact Murphy's Turf", "free turf cleaning quote", "artificial turf cleaning estimate", "schedule turf cleaning"],
+    title: "Contact Rangel Janitorial | Free Commercial Cleaning Quote",
+    description: "Contact Rangel Janitorial for a free commercial cleaning estimate. Serving Sacramento, Murrieta, and Walnut Creek. Call 951-894-4222.",
+    keywords: ["contact Rangel Janitorial", "free cleaning quote", "commercial cleaning estimate", "janitorial services quote"],
   },
   services: {
-    title: "Artificial Turf Cleaning Services | Murphy's Turf",
-    description: "Professional artificial turf cleaning services: pet hair & debris removal, blooming & decompacting, disinfect & deodorize, poop scooping, and our signature deep cleaning treatment. 30+ years experience.",
-    keywords: ["artificial turf cleaning services", "professional turf cleaning", "turf sanitization", "pet odor removal turf", "turf blooming decompacting", "poop scooping turf"],
+    title: "Commercial Cleaning Services | Rangel Janitorial",
+    description: "Professional commercial cleaning services: janitorial cleaning, day porter, electrostatic disinfection, floor care, and carpet cleaning. Serving offices, medical facilities, and more across California.",
+    keywords: ["commercial cleaning services", "janitorial cleaning", "day porter services", "electrostatic disinfection", "floor care services", "carpet cleaning commercial"],
   },
-  "services/pet-hair-debris": {
-    title: "Pet Hair & Debris Removal from Artificial Turf | Murphy's Turf",
-    description: "Professional pet hair and debris removal from artificial turf. Thorough cleaning using professional-grade equipment to remove embedded dirt, leaves, and pet hair. Get a free quote today.",
-    keywords: ["pet hair removal artificial turf", "debris removal synthetic turf", "turf cleaning pet hair", "artificial grass debris cleanup", "professional turf cleaning California"],
+  "services/janitorial-cleaning": {
+    title: "Commercial Janitorial Cleaning Services | Rangel Janitorial",
+    description: "Professional janitorial cleaning for offices, warehouses, and commercial buildings. Nightly cleaning, restroom sanitization, and customized programs. Get a free quote today.",
+    keywords: ["janitorial cleaning services", "commercial janitorial", "office cleaning", "nightly cleaning service", "building cleaning", "professional janitorial California"],
   },
-  "services/blooming-decompacting": {
-    title: "Turf Blooming & Decompacting Services | Murphy's Turf",
-    description: "Restore your artificial turf's natural look with professional blooming and decompacting. We lift matted fibers and loosen compacted infill for a fresh, upright appearance. 30+ years experience.",
-    keywords: ["turf blooming", "turf decompacting", "artificial turf restoration", "matted turf fibers", "infill decompacting", "synthetic turf rejuvenation"],
+  "services/day-porter": {
+    title: "Day Porter Services for Commercial Buildings | Rangel Janitorial",
+    description: "Professional day porter services to maintain your facility during business hours. Real-time cleaning, restroom monitoring, and spill response for offices and commercial buildings.",
+    keywords: ["day porter services", "daytime cleaning", "facility maintenance", "building porter", "commercial day porter", "lobby cleaning"],
   },
-  "services/disinfect-deodorize": {
-    title: "Artificial Turf Disinfecting & Deodorizing | Murphy's Turf",
-    description: "Kill 99.9% of bacteria and eliminate odors from your artificial turf. Professional disinfecting and deodorizing that's safe for pets and kids. Get a free quote today.",
-    keywords: ["turf disinfecting", "turf deodorizing", "artificial turf sanitization", "synthetic grass odor removal", "antibacterial turf treatment", "safe turf cleaning pets kids"],
+  "services/electrostatic-disinfection": {
+    title: "Electrostatic Disinfection Services | Rangel Janitorial",
+    description: "Advanced electrostatic disinfection with EPA List N approved chemicals. Complete surface coverage for offices, medical facilities, and commercial buildings. Serving California.",
+    keywords: ["electrostatic disinfection", "EPA approved disinfection", "commercial disinfection services", "electrostatic spraying", "facility disinfection", "virus prevention cleaning"],
   },
-  "services/poop-scooping": {
-    title: "Poop Scooping Service for Artificial Turf | Murphy's Turf",
-    description: "Regular poop scooping service for artificial turf. We remove pet waste and sanitize the affected area to prevent odor and bacteria buildup. Serving California.",
-    keywords: ["poop scooping artificial turf", "pet waste removal turf", "dog poop cleanup synthetic grass", "turf poop scooping service", "pet waste turf sanitization"],
+  "services/floor-care": {
+    title: "Commercial Floor Care — Strip & Wax, Tile & Grout | Rangel Janitorial",
+    description: "Professional floor care for commercial facilities. VCT strip and wax, tile and grout cleaning, LVT care, concrete polishing, and stone floor restoration. Serving California.",
+    keywords: ["commercial floor care", "VCT strip and wax", "tile grout cleaning", "floor maintenance", "commercial floor cleaning", "floor restoration"],
+  },
+  "services/carpet-cleaning": {
+    title: "Commercial Carpet Cleaning Services | Rangel Janitorial",
+    description: "Professional carpet cleaning for offices and commercial buildings. Hot water extraction, encapsulation, and spot treatment to extend carpet life. Serving California.",
+    keywords: ["commercial carpet cleaning", "office carpet cleaning", "hot water extraction", "carpet steam cleaning", "commercial carpet care"],
   },
   locations: {
-    title: "Service Areas | Artificial Turf Cleaning Across California | Murphy's Turf",
-    description: "Murphy's Turf serves Huntington Beach, Murrieta, Martinez/Bay Area, and Sacramento. Professional artificial turf cleaning with 30+ years experience. Get a free quote today.",
-    keywords: ["California artificial turf cleaning", "Huntington Beach turf cleaning", "Murrieta turf cleaning", "Bay Area turf cleaning", "Sacramento turf cleaning", "Inland Empire turf cleaning"],
-  },
-  "locations/huntington-beach": {
-    title: "Artificial Turf Cleaning in Huntington Beach, CA | Murphy's Turf",
-    description: "Professional artificial turf cleaning in Huntington Beach and Orange County. Pet odor removal, professional-grade sanitization, and turf deodorizing. Call 951-331-3300 for a free quote.",
-    keywords: ["artificial turf cleaning Huntington Beach", "turf cleaning Orange County", "synthetic turf cleaning Huntington Beach", "pet turf cleaning Orange County", "professional turf cleaning Huntington Beach"],
-  },
-  "locations/murrieta": {
-    title: "Artificial Turf Cleaning in Murrieta, CA | Murphy's Turf",
-    description: "Murphy's Turf headquarters in Murrieta. Professional artificial turf cleaning, pet odor removal & professional-grade sanitization for the Inland Empire, Temecula, and surrounding areas. Call 951-331-3300.",
-    keywords: ["artificial turf cleaning Murrieta", "turf cleaning Inland Empire", "turf cleaning Temecula", "synthetic turf cleaning Murrieta", "pet turf cleaning Inland Empire", "professional turf cleaning Murrieta"],
-  },
-  "locations/martinez": {
-    title: "Artificial Turf Cleaning in Martinez & Bay Area, CA | Murphy's Turf",
-    description: "Professional artificial turf cleaning in Martinez, Walnut Creek, Concord & the East Bay. Murphy's Turf serves Contra Costa County with 30+ years experience. Call 925-338-0048.",
-    keywords: ["artificial turf cleaning Martinez", "turf cleaning East Bay", "turf cleaning Contra Costa", "Bay Area turf cleaning", "Walnut Creek turf cleaning", "professional turf cleaning Martinez"],
+    title: "Service Areas | Commercial Cleaning Across California | Rangel Janitorial",
+    description: "Rangel Janitorial serves Sacramento, Murrieta / Inland Empire, and Walnut Creek / East Bay with professional commercial cleaning services. Get a free quote today.",
+    keywords: ["California commercial cleaning", "Sacramento janitorial", "Murrieta cleaning services", "Walnut Creek janitorial", "East Bay commercial cleaning", "Inland Empire janitorial"],
   },
   "locations/sacramento": {
-    title: "Artificial Turf Cleaning in Sacramento, CA | Murphy's Turf",
-    description: "Professional artificial turf cleaning in Sacramento. Serving Elk Grove, Roseville, Folsom & more. Beat the Central Valley heat with professional-grade deep cleaning. Call 916-432-5033.",
-    keywords: ["artificial turf cleaning Sacramento", "turf cleaning Sacramento", "turf cleaning Elk Grove", "turf cleaning Roseville", "Central Valley turf cleaning", "professional turf cleaning Sacramento"],
+    title: "Janitorial Services in Sacramento, CA | Rangel Janitorial",
+    description: "Professional janitorial and commercial cleaning in Sacramento. Serving Elk Grove, Roseville, Folsom & more. Call 916-432-5033 for a free quote.",
+    keywords: ["janitorial services Sacramento", "commercial cleaning Sacramento", "office cleaning Sacramento", "Sacramento janitorial company", "Elk Grove cleaning", "Roseville janitorial"],
+  },
+  "locations/murrieta": {
+    title: "Janitorial Services in Murrieta & Inland Empire | Rangel Janitorial",
+    description: "Rangel Janitorial headquarters in Murrieta. Professional janitorial services for the Inland Empire, Temecula, Menifee, and surrounding areas. Call 951-331-3300.",
+    keywords: ["janitorial services Murrieta", "Inland Empire commercial cleaning", "Temecula janitorial", "Menifee cleaning services", "commercial cleaning Murrieta"],
+  },
+  "locations/walnut-creek": {
+    title: "Janitorial Services in Walnut Creek & East Bay | Rangel Janitorial",
+    description: "Professional janitorial services in Walnut Creek, Concord, Pleasant Hill & the East Bay. Rangel Janitorial serves Contra Costa County. Call 925-338-0048.",
+    keywords: ["janitorial services Walnut Creek", "East Bay commercial cleaning", "Concord janitorial", "Pleasant Hill cleaning", "Contra Costa janitorial"],
   },
   blog: {
-    title: "Artificial Turf Cleaning Blog | Tips & Guides | Murphy's Turf",
-    description: "Expert artificial turf cleaning tips, guides, and maintenance advice from Murphy's Turf — 30+ years experience. Learn about turf sanitization, pet odor removal, and keeping synthetic grass clean.",
-    keywords: ["artificial turf cleaning blog", "synthetic turf maintenance tips", "turf cleaning guide", "turf cleaning advice", "pet turf care", "Murphy's Turf blog"],
+    title: "Commercial Cleaning Blog | Tips & Guides | Rangel Janitorial",
+    description: "Expert commercial cleaning tips, facility maintenance guides, and janitorial best practices from Rangel Janitorial. Learn about office cleaning, floor care, and keeping your facility spotless.",
+    keywords: ["commercial cleaning blog", "janitorial tips", "facility maintenance guide", "office cleaning advice", "Rangel Janitorial blog"],
   },
   privacy: {
-    title: "Privacy Policy | Murphy's Turf",
-    description: "Read the Murphy's Turf privacy policy. Learn how we collect, use, and protect your personal information when you use our artificial turf cleaning services and website.",
-    keywords: ["Murphy's Turf privacy policy", "turf cleaning privacy", "data protection"],
+    title: "Privacy Policy | Rangel Janitorial",
+    description: "Read the Rangel Janitorial privacy policy. Learn how we collect, use, and protect your personal information when you use our commercial cleaning services and website.",
+    keywords: ["Rangel Janitorial privacy policy", "cleaning service privacy", "data protection"],
   },
   terms: {
-    title: "Terms of Service | Murphy's Turf",
-    description: "Review Murphy's Turf terms of service for our professional artificial turf cleaning and sanitization services in California.",
-    keywords: ["Murphy's Turf terms of service", "turf cleaning terms", "service agreement"],
+    title: "Terms of Service | Rangel Janitorial",
+    description: "Review Rangel Janitorial terms of service for our professional commercial cleaning and janitorial services in California.",
+    keywords: ["Rangel Janitorial terms of service", "cleaning service terms", "service agreement"],
   },
 };

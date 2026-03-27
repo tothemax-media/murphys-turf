@@ -1,10 +1,10 @@
 ---
-name: Murphy's Turf team contacts
-description: Real team members and phone numbers by location for Murphy's Turf
+name: Rangel Janitorial team contacts
+description: Real team members and phone numbers by location for Rangel Janitorial
 type: project
 ---
 
-Murphy's Turf location contacts:
+Rangel Janitorial location contacts:
 
 - **Ralph Rangel** — (925) 338-0048 — Martinez / Bay Area
 - **Brandon Rangel** — (916) 432-5033 — Sacramento

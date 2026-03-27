@@ -19,28 +19,26 @@ describe('LocationsPreview', () => {
     ).toBeInTheDocument();
   });
 
-  it('renders all 4 location city names', () => {
+  it('renders all 3 location city names', () => {
     render(<LocationsPreview />);
     expect(
-      screen.getByText('Huntington Beach / LA Area'),
+      screen.getByText('Greater Sacramento'),
     ).toBeInTheDocument();
     expect(
       screen.getByText('Murrieta / Inland Empire'),
     ).toBeInTheDocument();
-    expect(screen.getByText('Martinez / Bay Area')).toBeInTheDocument();
-    expect(screen.getByText('Greater Sacramento')).toBeInTheDocument();
+    expect(screen.getByText('Walnut Creek / East Bay')).toBeInTheDocument();
   });
 
   it('renders "Learn More" links for each location', () => {
     render(<LocationsPreview />);
     const learnMoreLinks = screen.getAllByText(/Learn More/);
-    expect(learnMoreLinks).toHaveLength(4);
+    expect(learnMoreLinks).toHaveLength(3);
 
     const slugs = [
-      'huntington-beach',
-      'murrieta',
-      'martinez',
       'sacramento',
+      'murrieta',
+      'walnut-creek',
     ];
     for (const slug of slugs) {
       const link = screen
@@ -53,13 +51,12 @@ describe('LocationsPreview', () => {
   it('renders "Get a Quote" links for each location', () => {
     render(<LocationsPreview />);
     const quoteLinks = screen.getAllByText(/Get a Quote/);
-    expect(quoteLinks).toHaveLength(4);
+    expect(quoteLinks).toHaveLength(3);
 
     const slugs = [
-      'huntington-beach',
-      'murrieta',
-      'martinez',
       'sacramento',
+      'murrieta',
+      'walnut-creek',
     ];
     for (const slug of slugs) {
       const link = screen

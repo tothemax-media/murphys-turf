@@ -10,29 +10,29 @@ interface FAQItem {
 
 const defaultItems: FAQItem[] = [
   {
-    question: 'How much does artificial turf cleaning cost?',
+    question: 'What types of facilities do you clean?',
     answer:
-      'Our services start at $49 for basic turf cleaning. We offer free estimates tailored to your turf size and specific needs. Contact us for a personalized quote.',
+      'We provide professional janitorial and commercial cleaning services for Class A office buildings, corporate campuses, light industrial parks, multi-unit complexes, medical and dental facilities, municipalities, and fitness centers across California.',
   },
   {
-    question: 'How often should I have my turf cleaned?',
+    question: 'How often do you provide cleaning services?',
     answer:
-      "We recommend monthly cleaning for most residential turf, or bi-weekly if you have pets. We'll create a custom schedule based on your turf's needs and usage.",
+      "We offer flexible scheduling including daily, nightly, weekly, and custom maintenance plans. We'll work with you to create a cleaning schedule that fits your facility's needs and budget.",
   },
   {
     question: 'Do you offer free estimates?',
     answer:
-      "Yes! We provide free, no-obligation estimates for all our services. Simply fill out our quote form or give us a call, and we'll schedule a convenient time to assess your turf.",
+      "Yes! We provide free, no-obligation estimates for all our services. Simply fill out our quote form or give us a call, and we'll schedule a convenient time to assess your facility.",
   },
   {
-    question: 'Are your cleaning products safe for pets and children?',
+    question: 'What cleaning services do you offer?',
     answer:
-      "Absolutely. Our professional-grade cleaning products are eco-friendly, pet-safe, and child-safe. Your family and pets can safely use the turf immediately after our cleaning service.",
+      'Our services include janitorial cleaning, day porter services, electrostatic disinfection, floor care (VCT strip and wax, polishing), and commercial carpet cleaning. Each service is tailored to your facility\'s specific requirements.',
   },
   {
     question: 'What areas do you serve?',
     answer:
-      'We proudly serve communities across California, including Huntington Beach, Murrieta, Martinez, Sacramento, and surrounding areas.',
+      'We proudly serve communities across California, including Sacramento, Murrieta, Walnut Creek, and surrounding areas.',
   },
   {
     question: 'What if I\'m not satisfied with the service?',

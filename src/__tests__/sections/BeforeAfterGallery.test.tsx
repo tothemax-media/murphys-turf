@@ -18,7 +18,7 @@ describe('BeforeAfterGallery', () => {
   it('renders before/after image with correct src and alt', () => {
     render(<BeforeAfterGallery />);
     const img = screen.getByAlt(
-      "Before and after turf cleaning by Murphy's Turf",
+      "Before and after turf cleaning by Rangel Janitorial",
     );
     expect(img).toBeInTheDocument();
     expect(img).toHaveAttribute('src', '/images/before-after.png');

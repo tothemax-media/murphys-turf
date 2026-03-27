@@ -115,9 +115,9 @@ describe('services data', () => {
   });
 
   describe('metaTitle branding', () => {
-    it('every metaTitle contains "Murphy\'s Turf"', () => {
+    it('every metaTitle contains "Rangel\'s Turf"', () => {
       for (const service of services) {
-        expect(service.metaTitle).toContain("Murphy's Turf");
+        expect(service.metaTitle).toContain("Rangel Janitorial");
       }
     });
   });

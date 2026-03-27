@@ -8,7 +8,7 @@ import {
   Star,
   ChevronRight,
   CheckCircle,
-  PawPrint,
+  ShieldCheck,
   Leaf,
   ThumbsUp,
   Droplets,
@@ -51,32 +51,39 @@ interface LocationData {
 
 const services = [
   {
-    name: 'Pet Hair & Debris Removal',
-    slug: 'pet-hair-debris',
-    image: '/images/gallery/service-turf-cleaning.png',
+    name: 'Janitorial Cleaning',
+    slug: 'janitorial-cleaning',
+    image: '/images/stock/janitorial-cleaning.jpg',
     shortDescription:
-      'Commercial-grade extraction of pet hair, leaves, dirt, and embedded debris from turf fibers and infill.',
+      'Comprehensive daily and nightly janitorial services for offices, medical facilities, and commercial buildings.',
   },
   {
-    name: 'Blooming & De-Compacting',
-    slug: 'blooming-decompacting',
-    image: '/images/gallery/service-turf-blooming-v2.png',
+    name: 'Day Porter',
+    slug: 'day-porter',
+    image: '/images/stock/day-porter.jpg',
     shortDescription:
-      'Restore flattened fibers and break up compacted infill for better drainage and appearance.',
+      'On-site daytime cleaning and maintenance to keep your facility looking its best throughout the business day.',
   },
   {
-    name: 'Disinfect & Deodorize',
-    slug: 'disinfect-deodorize',
-    image: '/images/gallery/service-turf-disinfecting-v2.jpeg',
+    name: 'Electrostatic Disinfection',
+    slug: 'electrostatic-disinfection',
+    image: '/images/stock/electrostatic-disinfection.jpg',
     shortDescription:
-      'Professional-grade disinfecting that eliminates bacteria, pet odors, mold, and mildew at their source.',
+      'Advanced electrostatic spraying technology for thorough disinfection of high-touch surfaces and hard-to-reach areas.',
   },
   {
-    name: 'Poop Scooping & Removal',
-    slug: 'poop-scooping',
-    image: '/images/gallery/service-turf-deodorizing.png',
+    name: 'Floor Care',
+    slug: 'floor-care',
+    image: '/images/stock/floor-care.jpg',
     shortDescription:
-      'Scheduled weekly or bi-weekly pet waste removal to keep your turf clean and hygienic.',
+      'Professional floor care including VCT strip and wax, polishing, and maintenance to keep your floors pristine.',
+  },
+  {
+    name: 'Carpet Cleaning',
+    slug: 'carpet-cleaning',
+    image: '/images/stock/carpet-cleaning.jpg',
+    shortDescription:
+      'Commercial carpet cleaning using professional-grade equipment to extend carpet life and maintain appearance.',
   },
 ];
 
@@ -94,51 +101,49 @@ const processSteps = [
   {
     image: '/images/gallery/process-get-job-done.png',
     title: 'Get The Job Done',
-    description: 'Enjoy your fresh, clean turf',
+    description: 'Enjoy your clean, spotless facility',
   },
 ];
 
 const galleryImages = [
-  { src: '/images/gallery/gallery-01.png', alt: "Murphy's Turf cleaning project — before and after" },
-  { src: '/images/gallery/gallery-02.png', alt: "Murphy's Turf cleaning project — turf disinfecting" },
-  { src: '/images/gallery/gallery-12.jpeg', alt: "Murphy's Turf — backyard turf with curved patio edge" },
-  { src: '/images/gallery/gallery-13.jpeg', alt: "Murphy's Turf — side yard turf with rock border" },
-  { src: '/images/gallery/gallery-14.jpeg', alt: "Murphy's Turf — poolside turf with stepping stones" },
-  { src: '/images/gallery/gallery-15.jpeg', alt: "Murphy's Turf — backyard putting green by pool" },
-  { src: '/images/gallery/gallery-16.jpeg', alt: "Murphy's Turf — front yard turf with dog" },
-  { src: '/images/gallery/gallery-05.png', alt: "Murphy's Turf cleaning project — turf restoration" },
+  { src: '/images/stock/gallery-office-lobby.jpg', alt: "Rangel Janitorial — clean office lobby" },
+  { src: '/images/stock/gallery-office-hallway.jpg', alt: "Rangel Janitorial — office hallway maintenance" },
+  { src: '/images/stock/gallery-conference-room.jpg', alt: "Rangel Janitorial — conference room cleaning" },
+  { src: '/images/stock/gallery-medical-office.jpg', alt: "Rangel Janitorial — medical office cleaning" },
+  { src: '/images/stock/gallery-gym-fitness.jpg', alt: "Rangel Janitorial — fitness center cleaning" },
+  { src: '/images/stock/gallery-floor-shine.jpg', alt: "Rangel Janitorial — polished commercial floor" },
 ];
 
 const locationFaqs = [
   {
-    question: 'How often should artificial turf be cleaned?',
+    question: 'What types of facilities do you clean?',
     answer:
-      'We recommend professional cleaning every 4-6 weeks for homes with pets. For turf without pets, a quarterly deep clean is usually sufficient.',
+      'We clean Class A office buildings, corporate campuses, light industrial parks, multi-unit complexes, medical and dental facilities, municipalities, and fitness centers.',
   },
   {
-    question: 'Are your cleaning products safe for pets and kids?',
+    question: 'Do you offer daily and nightly cleaning services?',
     answer:
-      'Absolutely. Our cleaning solution is hydrogen peroxide-based with no bleach or ammonia. It breaks down into water and oxygen, making it safe for pets, children, and the environment.',
+      'Yes. We offer both daily and nightly janitorial services, as well as day porter services for facilities that need on-site cleaning throughout the business day.',
   },
   {
-    question: 'What does your turf cleaning process include?',
+    question: 'What does your janitorial service include?',
     answer:
-      'Our process includes pet hair and debris removal, de-weeding, magnet sweep for metal objects, blooming and de-compacting, and a full disinfect and deodorize treatment.',
+      'Our services include lobby and common area cleaning, restroom sanitation and restocking, break room cleaning, trash and recycling removal, floor care, and more. We customize each plan to your facility.',
   },
   {
-    question: 'How long does a cleaning take?',
+    question: 'Are your employees background checked and insured?',
     answer:
-      'Most residential cleanings take 45 minutes to 1.5 hours depending on size and services included. Your turf is safe to use as soon as it dries, usually 1-2 hours.',
+      'Absolutely. All Rangel Janitorial employees undergo thorough background checks, and we carry comprehensive general liability and workers compensation insurance.',
   },
   {
-    question: 'Do I need to be home during service?',
+    question: 'How do you ensure consistent quality?',
     answer:
-      "No, you don't need to be home. We just need access to the turf area and a water source. We'll send a notification when the job is done.",
+      'We use detailed cleaning checklists customized to your facility, conduct regular quality inspections, and assign dedicated account managers as your single point of contact.',
   },
   {
-    question: 'Do you offer maintenance plans?',
+    question: 'Do you offer flexible maintenance plans?',
     answer:
-      'Yes, we offer weekly, bi-weekly, monthly, and quarterly maintenance plans. Regular plans keep costs predictable and your turf clean year-round.',
+      'Yes, we offer daily, nightly, weekly, and custom maintenance plans. We work with you to create a schedule that fits your facility needs and budget.',
   },
 ];
 
@@ -147,49 +152,51 @@ const locationFaqs = [
 // ---------------------------------------------------------------------------
 
 const locationData: Record<string, LocationData> = {
-  'huntington-beach': {
-    city: 'Huntington Beach',
-    slug: 'huntington-beach',
+  sacramento: {
+    city: 'Sacramento',
+    slug: 'sacramento',
     state: 'CA',
-    phone: '(951) 331-3300',
-    email: 'info@murphysturf.com',
+    phone: '(916) 432-5033',
+    email: 'info@rangeljanitorial.com',
     neighborhoods: [
-      'Huntington Beach',
-      'Newport Beach',
-      'Costa Mesa',
-      'Long Beach',
-      'Seal Beach',
+      'Sacramento',
+      'Elk Grove',
+      'Roseville',
+      'Folsom',
+      'Rancho Cordova',
+      'Citrus Heights',
+      'Natomas',
+      'West Sacramento',
     ],
     testimonials: [
       {
-        name: 'Jessica Moreno',
-        neighborhood: 'Newport Beach',
+        name: 'Greg Thomsen',
+        neighborhood: 'Elk Grove',
         rating: 5,
-        text: "Our Newport Beach backyard turf was developing a musty smell from the marine layer moisture and our two labs weren't helping. Murphy's Turf came out with their deep cleaning treatment and the difference was unbelievable. No more mold smell, no pet odor, and the fibers look like new. They understand coastal turf challenges better than anyone we've worked with.",
+        text: "We manage a medical office complex in Elk Grove and switched to Rangel Janitorial six months ago. The difference is night and day — our waiting rooms and exam rooms are spotless every morning. Their crew is thorough, professional, and consistent. Best janitorial service we've worked with in Sacramento.",
       },
       {
-        name: 'Derek Lawson',
-        neighborhood: 'Huntington Beach',
+        name: 'Priya Venkatesh',
+        neighborhood: 'Roseville',
         rating: 5,
-        text: "Living near the beach, our turf collects sand constantly and the salt air creates issues other companies don't know how to handle. Murphy's Turf deep extraction removed sand we didn't even know was in there, and the deep cleaning treatment left everything disinfected and fresh. Highly recommend for any coastal homeowner.",
+        text: "Our Roseville office building needed a reliable cleaning crew after our previous service became inconsistent. Rangel Janitorial stepped in and immediately raised the standard. Floors gleam, restrooms are always stocked and sanitized, and the break room is actually clean when we arrive each morning. Phenomenal service.",
       },
       {
-        name: 'Nina Patel',
-        neighborhood: 'Costa Mesa',
+        name: 'Danielle Foster',
+        neighborhood: 'Folsom',
         rating: 5,
-        text: "We have a large pet area in our Costa Mesa backyard that three dogs use daily. The smell was terrible by summer. Murphy's Turf poop scooping service combined with their monthly deep cleaning treatment completely solved the problem. Our yard is actually pleasant to be in again. Outstanding service from start to finish.",
+        text: "We signed up for Rangel Janitorial's nightly cleaning plan for our Folsom retail space. The consistency has been outstanding — our store always looks and smells clean when we open, customers notice the difference, and we never have to think about it. Their experience means they know exactly what they're doing.",
       },
     ],
-    metaTitle: "Artificial Turf Cleaning in Huntington Beach & LA Area | Murphy's Turf",
+    metaTitle: "Professional Janitorial Services in Sacramento, CA | Rangel Janitorial",
     metaDescription:
-      "Professional artificial turf cleaning in Huntington Beach, Newport Beach, Costa Mesa, Long Beach & Seal Beach. Professional-grade disinfecting. Get a free quote today.",
+      "Sacramento's trusted janitorial and commercial cleaning service. Rangel Janitorial serves Elk Grove, Roseville, Folsom & Rancho Cordova. Licensed & insured. Get a free quote today.",
     serviceAreaDescription:
-      'Serving the LA coastal corridor from Long Beach through Huntington Beach, Seal Beach, Newport Beach, and Costa Mesa.',
+      'Serving the greater Sacramento metro including Elk Grove, Roseville, Folsom, Rancho Cordova, Citrus Heights, and West Sacramento.',
     climateNote:
-      'Coastal fog and marine layer promote mold, while afternoon sun bakes pet contaminants into infill.',
-    formId: 'HYkmRFcmdQ1GD7aEpXzq',
-    mapQuery: "Murphy's+Turf+Huntington+Beach+CA",
-    mapEmbedUrl: "https://www.google.com/maps?q=Murphy's+Turf&cid=17738077160014500110&output=embed",
+      'Central Valley heat and dust demand frequent deep cleaning to maintain healthy, professional environments.',
+    formId: 'E4GmpR4mgHj6kL4dFr2w',
+    mapQuery: 'Rangel+Janitorial+Sacramento+CA',
   },
 
   murrieta: {
@@ -197,8 +204,9 @@ const locationData: Record<string, LocationData> = {
     slug: 'murrieta',
     state: 'CA',
     phone: '(951) 331-3300',
-    email: 'info@murphysturf.com',
+    email: 'info@rangeljanitorial.com',
     neighborhoods: [
+      'Murrieta',
       'Temecula',
       'French Valley',
       'Menifee',
@@ -215,118 +223,77 @@ const locationData: Record<string, LocationData> = {
         name: 'Brian Callahan',
         neighborhood: 'Temecula',
         rating: 5,
-        text: "We moved to Temecula from the coast and had no idea how different turf maintenance would be in the Inland Empire heat. The pet smell was unbearable by mid-July. Murphy's Turf deep cleaning treatment completely eliminated the odor and their blooming service made our matted turf look brand new. These guys are the real deal — 30 years of experience shows.",
+        text: "We run a busy dental practice in Temecula and cleanliness is non-negotiable for us. Rangel Janitorial handles our nightly cleaning and their attention to detail is incredible — every surface, every exam room, every restroom. Patients consistently comment on how clean our office is. These guys are the real deal.",
       },
       {
         name: 'Maria Sandoval',
         neighborhood: 'Menifee',
         rating: 5,
-        text: "After trying two other companies that gave us generic treatments, we switched to Murphy's Turf. The difference was immediate — their professional-grade cleaning actually works where other products failed. Our Menifee backyard turf is the best it's ever looked and smelled. When you care about clean turf, these are the people to call.",
+        text: "After trying two other janitorial companies that cut corners, we switched to Rangel Janitorial. The difference was immediate — our Menifee office space has never looked better. They actually clean behind desks and under furniture, not just the visible areas. When you care about clean facilities, these are the people to call.",
       },
       {
         name: 'Tyler Richardson',
         neighborhood: 'French Valley',
         rating: 5,
-        text: "Our new turf in French Valley was already starting to smell after just one summer with our dogs. Murphy's Turf came out, did the full deep cleaning treatment plus de-compacting, and within a few hours our backyard went from embarrassing to the best on the block. Being headquartered locally really makes a difference in response time too.",
+        text: "Our warehouse and office combo in French Valley needed a crew that could handle both environments. Rangel Janitorial came out, assessed the space, and put together a custom plan. The office is spotless and the warehouse common areas are maintained perfectly. Being local really makes a difference in response time too.",
       },
     ],
-    metaTitle: "Artificial Turf Cleaning in Murrieta & Inland Empire | Murphy's Turf HQ",
+    metaTitle: "Professional Janitorial Services in Murrieta & Inland Empire | Rangel Janitorial",
     metaDescription:
-      "Murphy's Turf headquarters in Murrieta. Professional artificial turf cleaning, pet odor removal & professional-grade disinfecting for the Inland Empire & Temecula Valley. Get a free quote today.",
+      "Rangel Janitorial serves the Inland Empire with professional janitorial and commercial cleaning. Murrieta, Temecula, Menifee & beyond. Licensed & insured. Get a free quote today.",
     serviceAreaDescription:
       'Serving the entire Inland Empire from Temecula and French Valley through Menifee, Lake Elsinore, Hemet, Perris, Wildomar, Canyon Lake, and Winchester.',
     climateNote:
-      'Summer temps exceed 100°F regularly, baking pet waste into infill and accelerating bacterial growth.',
+      'Inland Empire dust and summer heat require consistent cleaning to keep commercial spaces healthy and presentable.',
     formId: 'xBvd9OY1s3jhTIKq93sM',
-    mapQuery: '26323+Jefferson+Avenue+Murrieta+CA+92562',
-    mapEmbedUrl: "https://www.google.com/maps?q=Murphy's+Turf&cid=4930650047464481625&output=embed",
+    mapQuery: 'Rangel+Janitorial+Murrieta+CA',
   },
 
-  martinez: {
-    city: 'Martinez',
-    slug: 'martinez',
+  'walnut-creek': {
+    city: 'Walnut Creek',
+    slug: 'walnut-creek',
     state: 'CA',
     phone: '(925) 338-0048',
-    email: 'info@murphysturf.com',
+    email: 'info@rangeljanitorial.com',
     neighborhoods: [
+      'Walnut Creek',
       'Concord',
       'Pleasant Hill',
-      'Walnut Creek',
-      'Antioch',
-      'Brentwood',
+      'Lafayette',
+      'Danville',
+      'Martinez',
+      'San Ramon',
+      'Dublin',
     ],
     testimonials: [
       {
         name: 'Richard Yamamoto',
         neighborhood: 'Walnut Creek',
         rating: 5,
-        text: "Our Walnut Creek property had mold growing in the shaded areas of our turf from the Bay Area moisture. Murphy's Turf deep cleaning treatment eliminated every trace of it and their disinfecting protocol killed the bacteria our dogs had been tracking around. They understand East Bay microclimates better than any company we've worked with.",
+        text: "Our Walnut Creek office suite needed a janitorial service that understood professional environments. Rangel Janitorial delivers every single night — clean floors, sanitized restrooms, spotless kitchens. They understand East Bay business standards better than any company we've worked with.",
       },
       {
         name: "Colleen O'Malley",
         neighborhood: 'Concord',
         rating: 5,
-        text: "We had tried cleaning our Concord turf ourselves for years with store-bought products that never worked. Murphy's Turf came out, explained exactly what was living in our infill, and did their full deep cleaning treatment. The difference was dramatic — genuinely clean and fresh smelling turf for the first time since installation. Their 30 years of experience really shows.",
+        text: "We manage a multi-tenant office building in Concord and had been through three janitorial services in two years. Rangel Janitorial has been with us for over a year now and the quality has never dipped. Tenants are happy, common areas are immaculate, and their communication is excellent. Highly recommend.",
       },
       {
         name: 'Arjun Mehta',
         neighborhood: 'Pleasant Hill',
         rating: 5,
-        text: "After years of trying to manage our Pleasant Hill lawn ourselves, we finally called Murphy's Turf. Best decision we made. They identified that our turf had compacted infill and embedded debris causing drainage issues, then did their blooming and deep cleaning treatment. The turnaround has been remarkable — our turf looks and drains like new. Worth every penny.",
+        text: "After years of mediocre cleaning at our Pleasant Hill gym, we finally called Rangel Janitorial. Best decision we made. They handle the locker rooms, equipment floor, lobby, and restrooms — everything is sanitized and presentable when members walk in each morning. Worth every penny.",
       },
     ],
-    metaTitle: "Artificial Turf Cleaning in Martinez & East Bay | Murphy's Turf",
+    metaTitle: "Professional Janitorial Services in Walnut Creek & East Bay | Rangel Janitorial",
     metaDescription:
-      "East Bay artificial turf cleaning experts. Murphy's Turf serves Martinez, Walnut Creek, Pleasant Hill, Concord, Antioch & Brentwood with professional-grade disinfecting. Get a free quote today.",
+      "East Bay janitorial and commercial cleaning experts. Rangel Janitorial serves Walnut Creek, Concord, Pleasant Hill, Lafayette & Danville. Licensed & insured. Get a free quote today.",
     serviceAreaDescription:
-      'Serving Contra Costa County from Martinez through Concord, Pleasant Hill, Walnut Creek, Antioch, and Brentwood.',
+      'Serving Contra Costa County from Walnut Creek through Concord, Pleasant Hill, Lafayette, Danville, Martinez, San Ramon, and Dublin.',
     climateNote:
-      'Bay Area microclimates range from damp coastal fog near the strait to hot, dry conditions inland.',
+      'Bay Area microclimates range from damp conditions near the coast to warm, dry conditions inland — requiring adaptable cleaning approaches.',
     formId: 'mSr8BxMIMWFW5iSStd5F',
-    mapQuery: "Murphy's+Turf+Martinez+CA",
-  },
-
-  sacramento: {
-    city: 'Sacramento',
-    slug: 'sacramento',
-    state: 'CA',
-    phone: '(916) 432-5033',
-    email: 'info@murphysturf.com',
-    neighborhoods: [
-      'Elk Grove',
-      'Roseville',
-      'Folsom',
-      'Rancho Cordova',
-    ],
-    testimonials: [
-      {
-        name: 'Greg Thomsen',
-        neighborhood: 'Elk Grove',
-        rating: 5,
-        text: "The pet smell on our Elk Grove turf was so bad we stopped using the backyard entirely. Two dogs and Sacramento summers are a brutal combination. Murphy's Turf deep cleaning treatment completely eliminated the odor — not masked it, eliminated it. We can actually enjoy our outdoor space again. They genuinely know Sacramento turf challenges.",
-      },
-      {
-        name: 'Priya Venkatesh',
-        neighborhood: 'Roseville',
-        rating: 5,
-        text: "Our Roseville turf looked terrible after three years of Central Valley heat — fibers matted flat, infill compacted hard. Murphy's Turf blooming and de-compacting service was transformative. The turf looks like it was installed last week. Combined with professional-grade disinfecting, our backyard is clean, fresh, and beautiful again. Phenomenal service.",
-      },
-      {
-        name: 'Danielle Foster',
-        neighborhood: 'Folsom',
-        rating: 5,
-        text: "We signed up for Murphy's Turf monthly maintenance plan for our Folsom property — poop scooping plus quarterly deep cleaning treatment. The consistency has been outstanding. Our turf always looks and smells clean, our kids play on it without concern, and we never have to think about it. Their 30+ years of experience means they know exactly what they're doing.",
-      },
-    ],
-    metaTitle: "Artificial Turf Cleaning in Sacramento, CA | Murphy's Turf",
-    metaDescription:
-      "Sacramento's professional artificial turf cleaning. Murphy's Turf serves Elk Grove, Roseville, Folsom & Rancho Cordova with professional-grade disinfecting. Get a free quote today.",
-    serviceAreaDescription:
-      'Serving the greater Sacramento metro including Elk Grove, Roseville, Folsom, and Rancho Cordova.',
-    climateNote:
-      'Central Valley heat regularly exceeds 105°F, rapidly crystallizing pet urine and multiplying bacteria.',
-    formId: 'E4GmpR4mgHj6kL4dFr2w',
-    mapQuery: "Murphy's+Turf+Sacramento+CA",
+    mapQuery: 'Rangel+Janitorial+Walnut+Creek+CA',
   },
 };
 
@@ -336,10 +303,9 @@ const locationData: Record<string, LocationData> = {
 
 export function generateStaticParams() {
   return [
-    { slug: 'huntington-beach' },
-    { slug: 'murrieta' },
-    { slug: 'martinez' },
     { slug: 'sacramento' },
+    { slug: 'murrieta' },
+    { slug: 'walnut-creek' },
   ];
 }
 
@@ -390,7 +356,7 @@ export default async function LocationPage({
         {/* Background image with dark overlay */}
         <div className="absolute inset-0">
           <Image
-            src="/images/gallery/about-turf-cleaning.png"
+            src="/images/stock/commercial-cleaning-hero.jpg"
             alt=""
             fill
             className="object-cover"
@@ -417,14 +383,14 @@ export default async function LocationPage({
             {/* Left: headline + phone */}
             <AnimateOnScroll direction="up">
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white font-heading mb-4 leading-tight">
-                Turf Cleaning &amp; Maintenance
+                Professional Janitorial Services
                 <br />
                 <span className="text-cream">
                   in {location.city}, CA
                 </span>
               </h1>
               <p className="text-lg sm:text-xl text-white/80 font-body mb-8">
-                30+ Years of Trusted Cleaning for Your Turf &amp; Pets
+                Reliable Commercial Cleaning You Can Count On
               </p>
               <a
                 href={`tel:${location.phone.replace(/[^\d+]/g, '')}`}
@@ -459,11 +425,11 @@ export default async function LocationPage({
               Our Services in {location.city}
             </h2>
             <p className="text-lg text-charcoal-light font-body max-w-2xl mx-auto">
-              Professional turf care tailored to {location.city}&apos;s specific climate and conditions.
+              Professional commercial cleaning services tailored to {location.city}&apos;s businesses.
             </p>
           </AnimateOnScroll>
 
-          <StaggerContainer className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <StaggerContainer className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((service) => (
               <StaggerItem key={service.slug}>
                 <Link
@@ -505,8 +471,8 @@ export default async function LocationPage({
           <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
             <AnimateOnScroll direction="fade">
               <Image
-                src="/images/gallery/about-turf-cleaning.png"
-                alt="Murphy's Turf professional turf cleaning"
+                src="/images/stock/commercial-cleaning-hero.jpg"
+                alt="Rangel Janitorial professional commercial cleaning"
                 width={500}
                 height={400}
                 className="w-full h-auto rounded-2xl shadow-lg"
@@ -515,16 +481,16 @@ export default async function LocationPage({
 
             <AnimateOnScroll direction="up">
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-charcoal font-heading mb-6">
-                Reliable Turf Cleaning &amp; Maintenance
+                Reliable Janitorial &amp; Commercial Cleaning
               </h2>
               <p className="text-charcoal-light font-body leading-relaxed text-base mb-8">
-                30+ years in cleaning &amp; disinfecting, now applied to your lawn. Our trained
-                technicians deliver consistent, satisfaction-guaranteed turf care across{' '}
+                30+ years of commercial cleaning expertise. Our trained
+                crews deliver consistent, satisfaction-guaranteed facility maintenance across{' '}
                 {location.city} and surrounding communities.
               </p>
               <div className="flex flex-wrap gap-4">
                 {[
-                  { icon: PawPrint, label: 'Pet Friendly' },
+                  { icon: ShieldCheck, label: 'Insured & Bonded' },
                   { icon: Leaf, label: 'Eco Friendly' },
                   { icon: ThumbsUp, label: 'Satisfaction Guaranteed' },
                 ].map((badge) => (
@@ -720,7 +686,7 @@ export default async function LocationPage({
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title={`Murphy's Turf - ${location.city}`}
+                title={`Rangel Janitorial - ${location.city}`}
                 className="rounded-xl shadow-lg"
               />
             </AnimateOnScroll>
@@ -737,11 +703,11 @@ export default async function LocationPage({
             {/* Left: CTA text + contact info */}
             <AnimateOnScroll direction="up">
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white font-heading mb-6">
-                Ready for Fresh, Clean Turf in {location.city}?
+                Ready for a Spotless Facility in {location.city}?
               </h2>
               <p className="text-white/80 font-body text-lg mb-8">
-                Get your free quote today. Our team is ready to make your turf look and
-                smell like new.
+                Get your free quote today. Our team is ready to keep your facility
+                clean, healthy, and professional.
               </p>
               <div className="space-y-4">
                 <a

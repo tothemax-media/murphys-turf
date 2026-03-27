@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://murphys-turf.netlify.app/sitemap.xml
+Sitemap: https://rangel-janitorial.netlify.app/sitemap.xml

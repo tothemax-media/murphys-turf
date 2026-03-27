@@ -70,7 +70,7 @@ describe("storeUTMParams", () => {
 
     storeUTMParams(utm);
 
-    const stored = sessionStorage.getItem("murphys_turf_utm");
+    const stored = sessionStorage.getItem("rangel_janitorial_utm");
     expect(stored).not.toBeNull();
     expect(JSON.parse(stored!)).toEqual(utm);
   });
@@ -90,12 +90,12 @@ describe("getStoredUTMParams", () => {
       content: "post",
     };
 
-    sessionStorage.setItem("murphys_turf_utm", JSON.stringify(utm));
+    sessionStorage.setItem("rangel_janitorial_utm", JSON.stringify(utm));
     expect(getStoredUTMParams()).toEqual(utm);
   });
 
   it("returns null for invalid JSON", () => {
-    sessionStorage.setItem("murphys_turf_utm", "not-valid-json{");
+    sessionStorage.setItem("rangel_janitorial_utm", "not-valid-json{");
     expect(getStoredUTMParams()).toBeNull();
   });
 });
@@ -115,7 +115,7 @@ describe("appendUTMToFormData", () => {
       content: "ad1",
     };
 
-    sessionStorage.setItem("murphys_turf_utm", JSON.stringify(utm));
+    sessionStorage.setItem("rangel_janitorial_utm", JSON.stringify(utm));
 
     const formData = { name: "John", email: "john@example.com" };
     const result = appendUTMToFormData(formData);

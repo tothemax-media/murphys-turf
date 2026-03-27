@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Terms of Service',
   description:
-    "Murphy's Turf terms of service. Review the terms and conditions governing your use of our artificial turf cleaning services in California.",
+    "Rangel Janitorial terms of service. Review the terms and conditions governing your use of our janitorial and commercial cleaning services in California.",
 };
 
 const sections = [
@@ -45,16 +45,16 @@ export default function TermsOfServicePage() {
           {/* Introduction */}
           <div className="mb-10">
             <p className="text-charcoal font-body text-base leading-relaxed mb-4">
-              Welcome to Murphy&apos;s Turf LLC (&quot;Murphy&apos;s Turf,&quot; &quot;Company,&quot;
+              Welcome to Rangel Janitorial LLC (&quot;Rangel Janitorial,&quot; &quot;Company,&quot;
               &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;). These Terms of Service
-              (&quot;Terms&quot;) govern your access to and use of our website, services, and any
-              related offerings provided by Murphy&apos;s Turf LLC, a California limited liability
-              company. Please read these Terms carefully before using our services or accessing our
-              website.
+              (&quot;Terms&quot;) govern your access to and use of our website, janitorial and commercial
+              cleaning services, and any related offerings provided by Rangel Janitorial LLC, a
+              California limited liability company. Please read these Terms carefully before using
+              our services or accessing our website.
             </p>
             <p className="text-charcoal font-body text-base leading-relaxed">
               By accessing our website, requesting a quote, scheduling a service, or otherwise
-              engaging with Murphy&apos;s Turf LLC, you acknowledge that you have read, understood,
+              engaging with Rangel Janitorial LLC, you acknowledge that you have read, understood,
               and agree to be bound by these Terms. If you are entering into these Terms on behalf of
               a business or other legal entity, you represent that you have the authority to bind such
               entity to these Terms. If you do not agree to these Terms, you may not use our services.
@@ -90,7 +90,7 @@ export default function TermsOfServicePage() {
                 1. Acceptance of Terms
               </h2>
               <p className="text-charcoal font-body text-base leading-relaxed mb-4">
-                By using the Murphy&apos;s Turf LLC website or engaging our services in any capacity,
+                By using the Rangel Janitorial LLC website or engaging our services in any capacity,
                 you agree to comply with and be bound by these Terms of Service, our{' '}
                 <Link
                   href="/privacy-policy"
@@ -99,10 +99,10 @@ export default function TermsOfServicePage() {
                   Privacy Policy
                 </Link>
                 , and any additional terms and conditions that may apply to specific services or
-                features offered by Murphy&apos;s Turf LLC.
+                features offered by Rangel Janitorial LLC.
               </p>
               <p className="text-charcoal font-body text-base leading-relaxed mb-4">
-                These Terms constitute a legally binding agreement between you and Murphy&apos;s Turf
+                These Terms constitute a legally binding agreement between you and Rangel Janitorial
                 LLC. You must be at least 18 years of age or the age of legal majority in your
                 jurisdiction to enter into this agreement. By using our services, you represent and
                 warrant that you meet this age requirement and have the legal capacity to enter into a
@@ -122,28 +122,28 @@ export default function TermsOfServicePage() {
                 2. Services Description
               </h2>
               <p className="text-charcoal font-body text-base leading-relaxed mb-4">
-                Murphy&apos;s Turf LLC provides professional artificial turf cleaning services
+                Rangel Janitorial LLC provides professional janitorial and commercial cleaning services
                 throughout the State of California. Our
                 services include, but are not limited to:
               </p>
               <ul className="list-disc list-inside text-charcoal font-body text-base leading-relaxed mb-6 space-y-1 pl-4">
-                <li>Lawn cleaning and debris removal</li>
-                <li>Aeration services</li>
-                <li>Overseeding and reseeding</li>
-                <li>Fertilization programs</li>
-                <li>Pest and weed control treatments</li>
-                <li>Seasonal lawn maintenance and preparation</li>
-                <li>Turf cleaning for synthetic and natural grass surfaces</li>
-                <li>Custom lawn care programs tailored to your property</li>
+                <li>Daily and nightly janitorial cleaning</li>
+                <li>Day porter services</li>
+                <li>Electrostatic disinfection</li>
+                <li>Floor care (VCT strip and wax, polishing)</li>
+                <li>Commercial carpet cleaning</li>
+                <li>Restroom sanitation and restocking</li>
+                <li>Break room and common area cleaning</li>
+                <li>Custom facility maintenance programs tailored to your building</li>
               </ul>
               <p className="text-charcoal font-body text-base leading-relaxed mb-4">
                 The specific services to be provided will be outlined in a written quote or service
-                agreement. Murphy&apos;s Turf LLC reserves the right to modify, expand, or discontinue
+                agreement. Rangel Janitorial LLC reserves the right to modify, expand, or discontinue
                 any of its service offerings at any time and at its sole discretion.
               </p>
               <p className="text-charcoal font-body text-base leading-relaxed">
                 Service availability may vary based on geographic location, seasonal conditions, and
-                demand. Murphy&apos;s Turf LLC does not guarantee the availability of any particular
+                demand. Rangel Janitorial LLC does not guarantee the availability of any particular
                 service at any given time. We will make reasonable efforts to inform you in advance if
                 a requested service is unavailable.
               </p>
@@ -155,7 +155,7 @@ export default function TermsOfServicePage() {
                 3. Service Agreements and Scheduling
               </h2>
               <p className="text-charcoal font-body text-base leading-relaxed mb-4">
-                All services provided by Murphy&apos;s Turf LLC are subject to a service agreement or
+                All services provided by Rangel Janitorial LLC are subject to a service agreement or
                 written quote accepted by the customer. Service agreements may cover one-time services
                 or recurring maintenance programs.
               </p>
@@ -164,7 +164,7 @@ export default function TermsOfServicePage() {
                 Scheduling
               </h3>
               <p className="text-charcoal font-body text-base leading-relaxed mb-6">
-                Murphy&apos;s Turf LLC will work with you to schedule services at mutually convenient
+                Rangel Janitorial LLC will work with you to schedule services at mutually convenient
                 times. While we make every reasonable effort to adhere to agreed-upon schedules,
                 service times may be adjusted due to weather conditions, equipment availability, crew
                 scheduling, or other factors beyond our control. We will notify you as soon as
@@ -179,7 +179,7 @@ export default function TermsOfServicePage() {
                 Customers who enroll in recurring service programs agree to the frequency and scope of
                 services outlined in their service agreement. Recurring service agreements will
                 automatically continue until cancelled by either party in accordance with the
-                cancellation provisions set forth in Section 5. Murphy&apos;s Turf LLC reserves the
+                cancellation provisions set forth in Section 5. Rangel Janitorial LLC reserves the
                 right to adjust pricing for recurring services with 30 days&apos; written notice.
               </p>
 
@@ -204,12 +204,12 @@ export default function TermsOfServicePage() {
                 Quotes and Estimates
               </h3>
               <p className="text-charcoal font-body text-base leading-relaxed mb-6">
-                All quotes and estimates provided by Murphy&apos;s Turf LLC are valid for a period of
+                All quotes and estimates provided by Rangel Janitorial LLC are valid for a period of
                 thirty (30) days from the date of issuance, unless otherwise specified in writing.
                 Quotes are based on the information provided by the customer and a visual assessment of
                 the property. The final price may differ from the original quote if actual conditions
                 differ materially from those described or observed at the time of the estimate.
-                Murphy&apos;s Turf LLC will communicate any price adjustments to you before proceeding
+                Rangel Janitorial LLC will communicate any price adjustments to you before proceeding
                 with the service.
               </p>
 
@@ -219,8 +219,8 @@ export default function TermsOfServicePage() {
               <p className="text-charcoal font-body text-base leading-relaxed mb-6">
                 Payment is due upon completion of services unless alternative arrangements have been
                 agreed upon in writing. For recurring service programs, invoices are issued on a
-                monthly basis and are due within fifteen (15) days of the invoice date. Murphy&apos;s
-                Turf LLC accepts payment via credit card, debit card, ACH bank transfer, check, and
+                monthly basis and are due within fifteen (15) days of the invoice date. Rangel
+                Janitorial LLC accepts payment via credit card, debit card, ACH bank transfer, check, and
                 cash.
               </p>
 
@@ -230,7 +230,7 @@ export default function TermsOfServicePage() {
               <p className="text-charcoal font-body text-base leading-relaxed mb-6">
                 Invoices not paid within the specified payment period may be subject to a late fee of
                 1.5% per month (18% annually) on the outstanding balance, or the maximum rate
-                permitted by California law, whichever is less. Murphy&apos;s Turf LLC reserves the
+                permitted by California law, whichever is less. Rangel Janitorial LLC reserves the
                 right to suspend or terminate services for accounts with outstanding balances exceeding
                 30 days past due.
               </p>
@@ -239,7 +239,7 @@ export default function TermsOfServicePage() {
                 Price Changes
               </h3>
               <p className="text-charcoal font-body text-base leading-relaxed">
-                Murphy&apos;s Turf LLC reserves the right to adjust its pricing at any time. For
+                Rangel Janitorial LLC reserves the right to adjust its pricing at any time. For
                 customers on recurring service agreements, we will provide at least 30 days&apos;
                 written notice before any price increase takes effect. You may cancel your recurring
                 service agreement without penalty if you do not agree to a price increase, provided
@@ -257,11 +257,11 @@ export default function TermsOfServicePage() {
                 Cancellation by Customer
               </h3>
               <p className="text-charcoal font-body text-base leading-relaxed mb-6">
-                You may cancel a scheduled service appointment at no charge by providing Murphy&apos;s
-                Turf LLC with at least twenty-four (24) hours&apos; advance notice before the
+                You may cancel a scheduled service appointment at no charge by providing Rangel
+                Janitorial LLC with at least twenty-four (24) hours&apos; advance notice before the
                 scheduled service time. Cancellations made with less than 24 hours&apos; notice may be
-                subject to a cancellation fee equal to 50% of the quoted service price, at Murphy&apos;s
-                Turf LLC&apos;s discretion, to cover crew scheduling and preparation costs.
+                subject to a cancellation fee equal to 50% of the quoted service price, at Rangel
+                Janitorial LLC&apos;s discretion, to cover crew scheduling and preparation costs.
               </p>
 
               <h3 className="text-lg font-semibold font-heading text-charcoal mb-2">
@@ -275,13 +275,13 @@ export default function TermsOfServicePage() {
               </p>
 
               <h3 className="text-lg font-semibold font-heading text-charcoal mb-2">
-                Cancellation by Murphy&apos;s Turf LLC
+                Cancellation by Rangel Janitorial LLC
               </h3>
               <p className="text-charcoal font-body text-base leading-relaxed mb-6">
-                Murphy&apos;s Turf LLC reserves the right to cancel or refuse service at its
+                Rangel Janitorial LLC reserves the right to cancel or refuse service at its
                 discretion for any reason, including but not limited to unsafe working conditions,
                 hostile or abusive behavior toward our staff, fraudulent activity, or failure to comply
-                with these Terms. In the event Murphy&apos;s Turf LLC cancels a service, you will not
+                with these Terms. In the event Rangel Janitorial LLC cancels a service, you will not
                 be charged for the cancelled appointment, and any prepaid amounts for unperformed
                 services will be refunded.
               </p>
@@ -292,7 +292,7 @@ export default function TermsOfServicePage() {
               <p className="text-charcoal font-body text-base leading-relaxed">
                 If our crew arrives at the scheduled service location and is unable to perform the
                 service due to locked gates, unleashed animals, or other access issues not
-                communicated in advance, a service trip fee may apply. Murphy&apos;s Turf LLC will
+                communicated in advance, a service trip fee may apply. Rangel Janitorial LLC will
                 make reasonable attempts to contact you before leaving the property.
               </p>
             </div>
@@ -307,7 +307,7 @@ export default function TermsOfServicePage() {
                 Property Access
               </h3>
               <p className="text-charcoal font-body text-base leading-relaxed mb-6">
-                By scheduling services with Murphy&apos;s Turf LLC, you grant us permission to access
+                By scheduling services with Rangel Janitorial LLC, you grant us permission to access
                 your property for the purpose of performing the agreed-upon services. This includes
                 access to front and back yards, side yards, and any other areas specified in the
                 service agreement. If a gate code, key, or other access method is required, you are
@@ -318,11 +318,11 @@ export default function TermsOfServicePage() {
                 Pre-Existing Conditions
               </h3>
               <p className="text-charcoal font-body text-base leading-relaxed mb-6">
-                You are responsible for notifying Murphy&apos;s Turf LLC of any pre-existing
+                You are responsible for notifying Rangel Janitorial LLC of any pre-existing
                 conditions on the property that may affect our ability to perform services or that
                 could pose a risk to our crew. This includes, but is not limited to, underground
                 irrigation systems, invisible fences, utility lines, septic systems, sinkholes,
-                uneven terrain, or areas prone to flooding. Murphy&apos;s Turf LLC shall not be held
+                uneven terrain, or areas prone to flooding. Rangel Janitorial LLC shall not be held
                 liable for damage to undisclosed underground systems, structures, or features.
               </p>
 
@@ -330,10 +330,10 @@ export default function TermsOfServicePage() {
                 Property Damage
               </h3>
               <p className="text-charcoal font-body text-base leading-relaxed mb-6">
-                Murphy&apos;s Turf LLC carries comprehensive general liability insurance. If our crew
+                Rangel Janitorial LLC carries comprehensive general liability insurance. If our crew
                 causes damage to your property during the course of providing services, we will work
                 with you to address the issue promptly and fairly. Claims for property damage must be
-                reported to Murphy&apos;s Turf LLC in writing within seven (7) business days of the
+                reported to Rangel Janitorial LLC in writing within seven (7) business days of the
                 service date. We will investigate all claims thoroughly and, where our liability is
                 confirmed, arrange for appropriate repair or compensation.
               </p>
@@ -342,8 +342,8 @@ export default function TermsOfServicePage() {
                 Personal Injury
               </h3>
               <p className="text-charcoal font-body text-base leading-relaxed">
-                Murphy&apos;s Turf LLC maintains workers&apos; compensation insurance for all
-                employees. You agree not to hold Murphy&apos;s Turf LLC liable for any personal
+                Rangel Janitorial LLC maintains workers&apos; compensation insurance for all
+                employees. You agree not to hold Rangel Janitorial LLC liable for any personal
                 injuries sustained by you, your family members, guests, or pets as a result of being
                 present in the work area during service delivery. We recommend that all persons and
                 animals remain at a safe distance from active work zones.
@@ -360,7 +360,7 @@ export default function TermsOfServicePage() {
                 Satisfaction Guarantee
               </h3>
               <p className="text-charcoal font-body text-base leading-relaxed mb-6">
-                Murphy&apos;s Turf LLC stands behind the quality of our work. If you are not satisfied
+                Rangel Janitorial LLC stands behind the quality of our work. If you are not satisfied
                 with the results of a service, please contact us within 48 hours of service
                 completion. We will return to your property at no additional charge to re-perform the
                 service or address your specific concerns. This satisfaction guarantee applies to the
@@ -374,9 +374,9 @@ export default function TermsOfServicePage() {
               </h3>
               <p className="text-charcoal font-body text-base leading-relaxed mb-6">
                 Specific services may carry additional warranties as outlined in your service
-                agreement. For example, seeding services may include a germination guarantee subject
-                to proper watering and care by the property owner. The terms and duration of any
-                service-specific warranties will be clearly communicated at the time of service.
+                agreement. For example, floor care services may include a finish durability guarantee
+                subject to proper maintenance by the property owner or manager. The terms and duration
+                of any service-specific warranties will be clearly communicated at the time of service.
               </p>
 
               <h3 className="text-lg font-semibold font-heading text-charcoal mb-2">
@@ -384,12 +384,12 @@ export default function TermsOfServicePage() {
               </h3>
               <p className="text-charcoal font-body text-base leading-relaxed">
                 Except as expressly stated in this section, all services are provided &quot;as is&quot;
-                and Murphy&apos;s Turf LLC makes no warranties, express or implied, including but not
+                and Rangel Janitorial LLC makes no warranties, express or implied, including but not
                 limited to implied warranties of merchantability and fitness for a particular purpose.
-                Lawn and turf care outcomes are influenced by numerous environmental factors beyond
-                our control, including but not limited to soil conditions, weather patterns, water
-                availability, sun exposure, and existing lawn health. Murphy&apos;s Turf LLC does not
-                guarantee specific aesthetic or growth outcomes.
+                Cleaning and janitorial outcomes may be influenced by factors beyond our control,
+                including but not limited to facility condition, age of surfaces, tenant behavior,
+                and pre-existing damage. Rangel Janitorial LLC does not guarantee specific aesthetic
+                outcomes beyond the scope of the agreed-upon services.
               </p>
             </div>
 
@@ -399,16 +399,16 @@ export default function TermsOfServicePage() {
                 8. Limitation of Liability
               </h2>
               <p className="text-charcoal font-body text-base leading-relaxed mb-4">
-                To the maximum extent permitted by applicable law, Murphy&apos;s Turf LLC, including
+                To the maximum extent permitted by applicable law, Rangel Janitorial LLC, including
                 its owners, officers, employees, agents, and affiliates, shall not be liable for any
                 indirect, incidental, special, consequential, or punitive damages arising out of or
                 related to your use of our services or this agreement, regardless of the cause of
                 action or the theory of liability.
               </p>
               <p className="text-charcoal font-body text-base leading-relaxed mb-4">
-                In no event shall the total aggregate liability of Murphy&apos;s Turf LLC for all
+                In no event shall the total aggregate liability of Rangel Janitorial LLC for all
                 claims arising out of or related to a specific service exceed the total amount paid by
-                you to Murphy&apos;s Turf LLC for that particular service. This limitation applies to
+                you to Rangel Janitorial LLC for that particular service. This limitation applies to
                 all causes of action in the aggregate, including but not limited to breach of
                 contract, breach of warranty, negligence, strict liability, and other torts.
               </p>
@@ -426,7 +426,7 @@ export default function TermsOfServicePage() {
                 9. Indemnification
               </h2>
               <p className="text-charcoal font-body text-base leading-relaxed mb-4">
-                You agree to indemnify, defend, and hold harmless Murphy&apos;s Turf LLC and its
+                You agree to indemnify, defend, and hold harmless Rangel Janitorial LLC and its
                 owners, officers, directors, employees, contractors, agents, and affiliates from and
                 against any and all claims, damages, losses, liabilities, costs, and expenses
                 (including reasonable attorneys&apos; fees) arising out of or related to:
@@ -459,7 +459,7 @@ export default function TermsOfServicePage() {
                 10. Force Majeure
               </h2>
               <p className="text-charcoal font-body text-base leading-relaxed mb-4">
-                Murphy&apos;s Turf LLC shall not be liable for any failure or delay in performing its
+                Rangel Janitorial LLC shall not be liable for any failure or delay in performing its
                 obligations under these Terms or any service agreement where such failure or delay
                 results from circumstances beyond our reasonable control. Force majeure events include,
                 but are not limited to:
@@ -478,7 +478,7 @@ export default function TermsOfServicePage() {
                 <li>Supply chain disruptions affecting materials necessary for service delivery</li>
               </ul>
               <p className="text-charcoal font-body text-base leading-relaxed">
-                In the event of a force majeure occurrence, Murphy&apos;s Turf LLC will make
+                In the event of a force majeure occurrence, Rangel Janitorial LLC will make
                 reasonable efforts to notify you promptly and to reschedule affected services at the
                 earliest available opportunity. No cancellation fees or penalties shall apply to
                 services postponed due to force majeure events.
@@ -492,7 +492,7 @@ export default function TermsOfServicePage() {
               </h2>
               <p className="text-charcoal font-body text-base leading-relaxed mb-4">
                 These Terms of Service and any dispute arising out of or related to them or the
-                services provided by Murphy&apos;s Turf LLC shall be governed by and construed in
+                services provided by Rangel Janitorial LLC shall be governed by and construed in
                 accordance with the laws of the State of California, without regard to its conflict of
                 law provisions.
               </p>
@@ -512,7 +512,7 @@ export default function TermsOfServicePage() {
                 12. Dispute Resolution
               </h2>
               <p className="text-charcoal font-body text-base leading-relaxed mb-4">
-                Murphy&apos;s Turf LLC values its customers and is committed to resolving disputes
+                Rangel Janitorial LLC values its customers and is committed to resolving disputes
                 promptly and fairly. In the event of a disagreement or dispute regarding our services,
                 we encourage you to follow these steps:
               </p>
@@ -529,10 +529,10 @@ export default function TermsOfServicePage() {
                   local office number
                 </a>) or by email at{' '}
                 <a
-                  href="mailto:info@murphysturfcare.com"
+                  href="mailto:info@rangeljanitorial.com"
                   className="text-forest hover:text-sage underline underline-offset-2 transition-colors"
                 >
-                  info@murphysturfcare.com
+                  info@rangeljanitorial.com
                 </a>{' '}
                 to discuss your concern. Many issues can be resolved quickly through open and honest
                 communication. We aim to respond to all complaints within two (2) business days.
@@ -569,7 +569,7 @@ export default function TermsOfServicePage() {
                 13. Changes to Terms
               </h2>
               <p className="text-charcoal font-body text-base leading-relaxed mb-4">
-                Murphy&apos;s Turf LLC reserves the right to update, modify, or replace these Terms of
+                Rangel Janitorial LLC reserves the right to update, modify, or replace these Terms of
                 Service at any time at our sole discretion. When we make changes, we will revise the
                 &quot;Last updated&quot; date at the top of this page. If we make material changes, we
                 may provide additional notice, such as sending an email notification or posting a
@@ -595,12 +595,12 @@ export default function TermsOfServicePage() {
               </h2>
               <p className="text-charcoal font-body text-base leading-relaxed mb-4">
                 If you have any questions, concerns, or feedback regarding these Terms of Service or
-                the services provided by Murphy&apos;s Turf LLC, please do not hesitate to contact
+                the services provided by Rangel Janitorial LLC, please do not hesitate to contact
                 us:
               </p>
               <div className="bg-cream rounded-xl p-6 sm:p-8 border border-cream-dark">
                 <p className="font-heading font-bold text-forest text-lg mb-3">
-                  Murphy&apos;s Turf LLC
+                  Rangel Janitorial LLC
                 </p>
                 <div className="text-charcoal font-body text-base leading-relaxed space-y-2">
                   <p>
@@ -609,10 +609,10 @@ export default function TermsOfServicePage() {
                   <p>
                     <strong>Email:</strong>{' '}
                     <a
-                      href="mailto:info@murphysturfcare.com"
+                      href="mailto:info@rangeljanitorial.com"
                       className="text-forest hover:text-sage underline underline-offset-2 transition-colors"
                     >
-                      info@murphysturfcare.com
+                      info@rangeljanitorial.com
                     </a>
                   </p>
                   <p>

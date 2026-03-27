@@ -164,11 +164,11 @@ export default function BlogContent({
                             <div className="flex items-center gap-2">
                               <div className="w-8 h-8 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
                                 <span className="font-heading font-bold text-white text-xs">
-                                  MT
+                                  RJ
                                 </span>
                               </div>
                               <span className="text-white/90 font-body text-xs font-medium">
-                                Murphy&apos;s Turf
+                                Rangel Janitorial
                               </span>
                             </div>
                           </div>
@@ -397,11 +397,11 @@ export default function BlogContent({
                 <div className="absolute top-0 right-0 w-32 h-32 bg-sage/20 rounded-full blur-2xl -translate-y-1/2 translate-x-1/2" />
                 <div className="relative">
                   <h4 className="font-heading font-bold text-white text-lg mb-2">
-                    Need Professional Turf Cleaning?
+                    Need Professional Cleaning?
                   </h4>
                   <p className="font-body text-white/85 text-sm leading-relaxed mb-5">
-                    Our artificial turf cleaning experts are ready to restore
-                    your synthetic lawn. Get a free quote today.
+                    Our commercial cleaning experts are ready to keep
+                    your facility spotless. Get a free quote today.
                   </p>
                   <Link
                     href="/locations"
@@ -448,11 +448,11 @@ export default function BlogContent({
               <div className="absolute top-0 right-0 w-32 h-32 bg-sage/20 rounded-full blur-2xl -translate-y-1/2 translate-x-1/2" />
               <div className="relative text-center sm:text-left">
                 <h4 className="font-heading font-bold text-white text-lg mb-2">
-                  Need Professional Turf Cleaning?
+                  Need Professional Cleaning?
                 </h4>
                 <p className="font-body text-white/85 text-sm leading-relaxed mb-5">
-                  Our artificial turf cleaning experts are ready to restore
-                  your synthetic lawn. Get a free quote today.
+                  Our commercial cleaning experts are ready to keep
+                  your facility spotless. Get a free quote today.
                 </p>
                 <div className="flex flex-col sm:flex-row items-center gap-3">
                   <Link

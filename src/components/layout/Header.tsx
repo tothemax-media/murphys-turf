@@ -36,14 +36,12 @@ export default function Header() {
 
   const closeDrawer = useCallback(() => setDrawerOpen(false), []);
 
-  const linkClass = `font-body text-sm font-medium transition-colors duration-300 hover:text-sage ${
-    scrolled ? 'text-charcoal' : 'text-white'
-  }`;
+  const linkClass = 'font-body text-sm font-medium transition-colors duration-300 hover:text-sage text-charcoal';
 
   return (
     <header
-      className={`fixed top-0 left-0 z-50 w-full transition-all duration-300 ${
-        scrolled ? 'bg-white shadow-md' : 'bg-transparent'
+      className={`fixed top-0 left-0 z-50 w-full bg-white transition-shadow duration-300 ${
+        scrolled ? 'shadow-md' : ''
       }`}
     >
       <nav
@@ -55,11 +53,11 @@ export default function Header() {
           <Link
             href="/"
             className="flex items-center gap-2 transition-colors duration-300"
-            aria-label="Murphy's Turf — Home"
+            aria-label="Rangel Janitorial — Home"
           >
             <Image
-              src="/images/logo.avif"
-              alt="Murphy's Turf"
+              src="/images/logo.png"
+              alt="Rangel Janitorial"
               width={80}
               height={80}
               className="w-20 h-20 object-contain"
@@ -98,9 +96,7 @@ export default function Header() {
         <button
           type="button"
           onClick={() => setDrawerOpen(true)}
-          className={`lg:hidden transition-colors duration-300 ${
-            scrolled ? 'text-charcoal' : 'text-white'
-          }`}
+          className="lg:hidden text-charcoal transition-colors duration-300"
           aria-label="Open menu"
         >
           <Menu className="h-7 w-7" />
@@ -144,11 +140,11 @@ export default function Header() {
                   href="/"
                   onClick={closeDrawer}
                   className="flex items-center gap-2 text-forest"
-                  aria-label="Murphy's Turf — Home"
+                  aria-label="Rangel Janitorial — Home"
                 >
                   <Image
-                    src="/images/logo.avif"
-                    alt="Murphy's Turf"
+                    src="/images/logo.png"
+                    alt="Rangel Janitorial"
                     width={64}
                     height={64}
                     className="w-16 h-16 object-contain"

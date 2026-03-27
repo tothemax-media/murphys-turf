@@ -1,6 +1,6 @@
-# Murphy's Turf - Image Gallery Manifest
+# Rangel Janitorial - Image Gallery Manifest
 
-Downloaded from: https://murphysturfcleaningbayarea.com/
+Downloaded from: https://rangeljanitorialcleaningbayarea.com/
 Date: 2026-03-22
 
 ## Hero

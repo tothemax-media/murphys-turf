@@ -11,7 +11,7 @@ import {
   blogMetadata,
 } from "@/lib/seo/generateMetadataForAllPages";
 
-const SITE_URL = "https://murphysturf.com";
+const SITE_URL = "https://rangeljanitorial.com";
 
 describe("generateMetadataForAllPages", () => {
   describe("homeMetadata", () => {
@@ -120,14 +120,13 @@ describe("generateMetadataForAllPages", () => {
 
   describe("locationMetadata", () => {
     const expectedSlugs = [
-      "huntington-beach",
-      "murrieta",
-      "martinez",
       "sacramento",
+      "murrieta",
+      "walnut-creek",
     ] as const;
 
-    it("has exactly 4 entries keyed by slug", () => {
-      expect(Object.keys(locationMetadata)).toHaveLength(4);
+    it("has exactly 3 entries keyed by slug", () => {
+      expect(Object.keys(locationMetadata)).toHaveLength(3);
       for (const slug of expectedSlugs) {
         expect(locationMetadata).toHaveProperty(slug);
       }
@@ -165,7 +164,7 @@ describe("generateMetadataForAllPages", () => {
   describe("blogMetadata", () => {
     const expectedSlugs = [
       "how-to-clean-artificial-turf",
-      "professional-turf-cleaning-huntington-beach",
+      "professional-turf-cleaning-sacramento",
       "removing-pet-odors-murrieta",
       "artificial-turf-maintenance-bay-area",
       "sacramento-turf-cleaning-tips",

@@ -10,11 +10,11 @@ export default function CTABanner() {
     >
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="font-heading text-3xl md:text-4xl font-bold">
-          Ready for Clean, Fresh Turf?
+          Ready for a Spotless Facility?
         </h2>
         <p className="text-white/90 text-lg mt-4 max-w-2xl mx-auto font-body">
-          Get a free quote today and see the difference professional turf
-          cleaning makes. Select your area to call your local office or request a quote online.
+          Get a free quote today and see the difference professional janitorial
+          services make. Select your area to call your local office or request a quote online.
         </p>
         <Link
           href="/locations"

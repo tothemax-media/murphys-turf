@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description:
-    "Murphy's Turf privacy policy. Learn how we collect, use, and protect your personal information when you use our artificial turf cleaning services.",
+    "Rangel Janitorial privacy policy. Learn how we collect, use, and protect your personal information when you use our janitorial and commercial cleaning services.",
 };
 
 const sections = [
@@ -41,7 +41,7 @@ export default function PrivacyPolicyPage() {
           {/* Introduction */}
           <div className="mb-10">
             <p className="text-charcoal font-body text-base leading-relaxed mb-4">
-              Murphy&apos;s Turf LLC (&quot;Murphy&apos;s Turf,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) is
+              Rangel Janitorial LLC (&quot;Rangel Janitorial,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) is
               committed to protecting your privacy. This Privacy Policy explains how we collect, use,
               disclose, and safeguard your information when you visit our website, use our services, or
               otherwise interact with us. Please read this policy carefully to understand our views and
@@ -83,7 +83,7 @@ export default function PrivacyPolicyPage() {
                 1. Information We Collect
               </h2>
               <p className="text-charcoal font-body text-base leading-relaxed mb-4">
-                We collect information from you in several ways when you interact with Murphy&apos;s Turf.
+                We collect information from you in several ways when you interact with Rangel Janitorial.
                 The types of information we may collect include:
               </p>
 
@@ -100,7 +100,7 @@ export default function PrivacyPolicyPage() {
                 <li>Phone number</li>
                 <li>Mailing address and service property address</li>
                 <li>Billing and payment information</li>
-                <li>Details about your property and turf cleaning needs</li>
+                <li>Details about your facility and cleaning needs</li>
                 <li>Any other information you choose to provide in correspondence with us</li>
               </ul>
 
@@ -136,7 +136,7 @@ export default function PrivacyPolicyPage() {
                 2. How We Use Your Information
               </h2>
               <p className="text-charcoal font-body text-base leading-relaxed mb-4">
-                Murphy&apos;s Turf uses the information we collect for the following purposes:
+                Rangel Janitorial uses the information we collect for the following purposes:
               </p>
 
               <h3 className="text-lg font-semibold font-heading text-charcoal mb-2">
@@ -144,7 +144,7 @@ export default function PrivacyPolicyPage() {
               </h3>
               <ul className="list-disc list-inside text-charcoal font-body text-base leading-relaxed mb-6 space-y-1 pl-4">
                 <li>To process and fulfill your service requests, including scheduling appointments</li>
-                <li>To provide quotes and estimates for artificial turf cleaning services</li>
+                <li>To provide quotes and estimates for janitorial and commercial cleaning services</li>
                 <li>To manage your account and maintain records of services rendered</li>
                 <li>To process payments and send invoices</li>
               </ul>
@@ -155,7 +155,7 @@ export default function PrivacyPolicyPage() {
               <ul className="list-disc list-inside text-charcoal font-body text-base leading-relaxed mb-6 space-y-1 pl-4">
                 <li>To respond to your inquiries, questions, and requests</li>
                 <li>To send appointment confirmations and service reminders</li>
-                <li>To provide you with turf care tips and promotional offers (with your consent)</li>
+                <li>To provide you with facility maintenance tips and promotional offers (with your consent)</li>
                 <li>To notify you about changes to our services, policies, or terms</li>
               </ul>
 
@@ -176,7 +176,7 @@ export default function PrivacyPolicyPage() {
                 3. Information Sharing
               </h2>
               <p className="text-charcoal font-body text-base leading-relaxed mb-4">
-                Murphy&apos;s Turf does not sell, rent, or trade your personal information to third
+                Rangel Janitorial does not sell, rent, or trade your personal information to third
                 parties for their marketing purposes. We may share your information only in the
                 following limited circumstances:
               </p>
@@ -363,7 +363,7 @@ export default function PrivacyPolicyPage() {
               </h2>
               <p className="text-charcoal font-body text-base leading-relaxed mb-4">
                 Our website may contain links to third-party websites, services, or applications that
-                are not owned or controlled by Murphy&apos;s Turf. These may include social media
+                are not owned or controlled by Rangel Janitorial. These may include social media
                 platforms, review sites, payment processors, and partner businesses.
               </p>
               <p className="text-charcoal font-body text-base leading-relaxed">
@@ -382,7 +382,7 @@ export default function PrivacyPolicyPage() {
               </h2>
               <p className="text-charcoal font-body text-base leading-relaxed mb-4">
                 Our website and services are not directed to individuals under the age of 13.
-                Murphy&apos;s Turf does not knowingly collect personal information from children under
+                Rangel Janitorial does not knowingly collect personal information from children under
                 13 years of age. If we become aware that we have inadvertently collected personal
                 information from a child under 13, we will take steps to delete that information as
                 soon as possible.
@@ -391,10 +391,10 @@ export default function PrivacyPolicyPage() {
                 If you are a parent or guardian and believe your child has provided us with personal
                 information without your consent, please contact us at{' '}
                 <a
-                  href="mailto:info@murphysturfcare.com"
+                  href="mailto:info@rangeljanitorial.com"
                   className="text-forest hover:text-sage underline underline-offset-2 transition-colors"
                 >
-                  info@murphysturfcare.com
+                  info@rangeljanitorial.com
                 </a>{' '}
                 so that we can take appropriate action.
               </p>
@@ -406,7 +406,7 @@ export default function PrivacyPolicyPage() {
                 9. Changes to This Policy
               </h2>
               <p className="text-charcoal font-body text-base leading-relaxed mb-4">
-                Murphy&apos;s Turf reserves the right to update or modify this Privacy Policy at any
+                Rangel Janitorial reserves the right to update or modify this Privacy Policy at any
                 time. When we make changes, we will revise the &quot;Last updated&quot; date at the top
                 of this page. If we make material changes to this policy, we may also notify you by
                 email or by placing a prominent notice on our website.
@@ -429,7 +429,7 @@ export default function PrivacyPolicyPage() {
               </p>
               <div className="bg-cream rounded-xl p-6 sm:p-8 border border-cream-dark">
                 <p className="font-heading font-bold text-forest text-lg mb-3">
-                  Murphy&apos;s Turf LLC
+                  Rangel Janitorial LLC
                 </p>
                 <div className="text-charcoal font-body text-base leading-relaxed space-y-2">
                   <p>
@@ -438,10 +438,10 @@ export default function PrivacyPolicyPage() {
                   <p>
                     <strong>Email:</strong>{' '}
                     <a
-                      href="mailto:info@murphysturfcare.com"
+                      href="mailto:info@rangeljanitorial.com"
                       className="text-forest hover:text-sage underline underline-offset-2 transition-colors"
                     >
-                      info@murphysturfcare.com
+                      info@rangeljanitorial.com
                     </a>
                   </p>
                   <p>

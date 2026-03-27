@@ -49,13 +49,13 @@ export function generateLocalBusinessSchema() {
     email: COMPANY_EMAIL,
     additionalType: "https://schema.org/ProfessionalService",
     knowsAbout: [
-      "Artificial Turf Cleaning",
-      "Synthetic Turf Sanitization",
-      "Pet Turf Odor Removal",
-      "Turf Deodorizing",
-      "Turf Blooming & Decompacting",
-      "Professional-Grade Deep Cleaning",
-      "Poop Scooping",
+      "Janitorial Cleaning",
+      "Day Porter Services",
+      "Electrostatic Disinfection",
+      "Floor Care",
+      "Carpet Cleaning",
+      "Commercial Facility Maintenance",
+      "Medical Facility Cleaning",
     ],
     address: {
       "@type": "PostalAddress",
@@ -100,7 +100,7 @@ export function generateServiceSchema(service: {
   return {
     "@context": "https://schema.org",
     "@type": "Service",
-    serviceType: "Artificial Turf Cleaning Service",
+    serviceType: "Janitorial and Commercial Cleaning Service",
     name: service.name,
     description: service.description,
     url: `${SITE_URL}/services/${service.slug}`,
@@ -268,7 +268,7 @@ export function generateBlogListSchema(posts: { title: string; slug: string }[])
     "@context": "https://schema.org",
     "@type": "Blog",
     name: `${COMPANY_NAME} Blog`,
-    description: "Artificial turf cleaning tips, deep cleaning guides, pet turf maintenance advice, and synthetic turf care for California homeowners and businesses.",
+    description: "Janitorial and commercial cleaning tips, facility maintenance guides, and professional cleaning insights for California businesses and property managers.",
     url: `${SITE_URL}/blog`,
     publisher: {
       "@type": "Organization",

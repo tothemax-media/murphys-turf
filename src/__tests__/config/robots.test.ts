@@ -24,6 +24,6 @@ describe("robots", () => {
 
   it("includes the sitemap URL", () => {
     const result = robots();
-    expect(result.sitemap).toBe("https://murphysturf.com/sitemap.xml");
+    expect(result.sitemap).toBe("https://rangeljanitorial.com/sitemap.xml");
   });
 });

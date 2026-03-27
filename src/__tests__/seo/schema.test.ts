@@ -12,8 +12,8 @@ import {
   generateBlogListSchema,
 } from "@/lib/seo/schema";
 
-const SITE_URL = "https://murphysturf.com";
-const COMPANY_NAME = "Murphy's Turf";
+const SITE_URL = "https://rangeljanitorial.com";
+const COMPANY_NAME = "Rangel Janitorial";
 
 describe("generateOrganizationSchema", () => {
   it("returns valid schema.org context and type", () => {
@@ -66,8 +66,8 @@ describe("generateOrganizationSchema", () => {
     expect(schema.sameAs).toHaveLength(3);
     expect(schema.sameAs).toEqual([
       "https://www.facebook.com/profile.php?id=100090088264095",
-      "https://www.instagram.com/murphysturfcare/",
-      "https://www.youtube.com/@murphysturfcare/featured",
+      "https://www.instagram.com/rangeljanitorial/",
+      "https://www.youtube.com/@rangeljanitorial/featured",
     ]);
   });
 });
@@ -89,7 +89,7 @@ describe("generateLocalBusinessSchema", () => {
     expect(schema.name).toBe(COMPANY_NAME);
     expect(schema.description).toBeTruthy();
     expect(schema.url).toBe(SITE_URL);
-    expect(schema.email).toBe("info@murphysturf.com");
+    expect(schema.email).toBe("info@rangeljanitorial.com");
   });
 
   it("includes additionalType as ProfessionalService", () => {
@@ -153,8 +153,8 @@ describe("generateLocalBusinessSchema", () => {
     expect(schema.sameAs).toHaveLength(3);
     expect(schema.sameAs).toEqual([
       "https://www.facebook.com/profile.php?id=100090088264095",
-      "https://www.instagram.com/murphysturfcare/",
-      "https://www.youtube.com/@murphysturfcare/featured",
+      "https://www.instagram.com/rangeljanitorial/",
+      "https://www.youtube.com/@rangeljanitorial/featured",
     ]);
   });
 });
@@ -217,16 +217,16 @@ describe("generateServiceSchema", () => {
 
 describe("generateLocationSchema", () => {
   const locationWithPhone = {
-    name: "Huntington Beach",
-    slug: "huntington-beach",
-    description: "Turf cleaning in Huntington Beach.",
-    phone: "(714) 555-1234",
+    name: "Sacramento",
+    slug: "sacramento",
+    description: "Turf cleaning in Sacramento.",
+    phone: "(916) 432-5033",
   };
 
   const locationWithoutPhone = {
-    name: "Martinez",
-    slug: "martinez",
-    description: "Turf cleaning in Martinez.",
+    name: "Walnut Creek",
+    slug: "walnut-creek",
+    description: "Turf cleaning in Walnut Creek.",
   };
 
   it("returns valid schema.org context and type", () => {
@@ -237,17 +237,17 @@ describe("generateLocationSchema", () => {
 
   it("includes company name combined with location name", () => {
     const schema = generateLocationSchema(locationWithPhone);
-    expect(schema.name).toBe(`${COMPANY_NAME} - Huntington Beach`);
+    expect(schema.name).toBe(`${COMPANY_NAME} - Sacramento`);
   });
 
   it("builds URL from /locations/{slug} pattern", () => {
     const schema = generateLocationSchema(locationWithPhone);
-    expect(schema.url).toBe(`${SITE_URL}/locations/huntington-beach`);
+    expect(schema.url).toBe(`${SITE_URL}/locations/sacramento`);
   });
 
   it("includes telephone when phone is provided", () => {
     const schema = generateLocationSchema(locationWithPhone);
-    expect(schema.telephone).toBe("(714) 555-1234");
+    expect(schema.telephone).toBe("(916) 432-5033");
   });
 
   it("does not include telephone when phone is not provided", () => {
@@ -266,7 +266,7 @@ describe("generateLocationSchema", () => {
     const schema = generateLocationSchema(locationWithPhone);
     expect(schema.address).toEqual({
       "@type": "PostalAddress",
-      addressLocality: "Huntington Beach",
+      addressLocality: "Sacramento",
       addressRegion: "CA",
       addressCountry: "US",
     });
@@ -285,7 +285,7 @@ describe("generateLocationSchema", () => {
     const schema = generateLocationSchema(locationWithPhone);
     expect(schema.serviceArea).toEqual({
       "@type": "City",
-      name: "Huntington Beach",
+      name: "Sacramento",
       containedInPlace: {
         "@type": "State",
         name: "California",
@@ -484,11 +484,11 @@ describe("generateBlogPostSchema", () => {
   });
 
   it("uses custom author when provided", () => {
-    const post = { ...basePost, author: "John Murphy" };
+    const post = { ...basePost, author: "John Rangel" };
     const schema = generateBlogPostSchema(post);
     expect(schema.author).toEqual({
       "@type": "Organization",
-      name: "John Murphy",
+      name: "John Rangel",
       url: SITE_URL,
     });
   });

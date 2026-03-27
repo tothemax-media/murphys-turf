@@ -1,5 +1,5 @@
 -- ============================================================================
--- Murphy's Turf - Initial Database Schema
+-- Rangel Janitorial - Initial Database Schema
 -- Colorado Lawn Care Company
 -- ============================================================================
 

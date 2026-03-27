@@ -1,4 +1,4 @@
-import { PawPrint, Leaf, ShieldCheck } from 'lucide-react';
+import { Users, ShieldCheck, ThumbsUp } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 
 interface Benefit {
@@ -9,22 +9,22 @@ interface Benefit {
 
 const benefits: Benefit[] = [
   {
-    icon: PawPrint,
-    title: '100% Pet Friendly',
+    icon: Users,
+    title: 'Reliable, Background-Checked Crews',
     description:
-      'All our products and methods are completely safe for your furry friends. Your pets can enjoy the turf right after service.',
-  },
-  {
-    icon: Leaf,
-    title: 'Eco Friendly',
-    description:
-      'We use environmentally responsible, biodegradable products that are safe for your family, pets, and the planet.',
+      'Every team member is thoroughly vetted and background-checked. You can trust our crews in your facility after hours or during business operations.',
   },
   {
     icon: ShieldCheck,
+    title: 'Fully Bonded & Insured',
+    description:
+      'We carry comprehensive liability insurance and bonding, giving you complete peace of mind and protection for your property.',
+  },
+  {
+    icon: ThumbsUp,
     title: 'Satisfaction Guaranteed',
     description:
-      'Not happy with our work? We\'ll come back and make it right. Your satisfaction is our top priority, guaranteed.',
+      'Not happy with our work? We\'ll come back and make it right. Your satisfaction is our top priority, guaranteed on every clean.',
   },
 ];
 
@@ -33,7 +33,7 @@ export default function WhyChooseUs() {
     <section className="py-16 lg:py-24 bg-white">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-center font-heading text-3xl md:text-4xl font-bold text-charcoal">
-          Why Choose Murphy&apos;s Turf
+          Why Choose Rangel Janitorial
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 mt-12">

@@ -5,7 +5,7 @@ import Hero from '@/components/sections/Hero';
 describe('Hero', () => {
   it('renders the headline text', () => {
     render(<Hero />);
-    const headlineWords = ['When', 'You', 'Care', 'About', 'Clean', 'Turf,', 'Call', 'Murphy\u2019s', 'Turf'];
+    const headlineWords = ['When', 'You', 'Care', 'About', 'Clean', 'Turf,', 'Call', 'Rangel\u2019s', 'Turf'];
     for (const word of headlineWords) {
       expect(screen.getByText(word)).toBeInTheDocument();
     }

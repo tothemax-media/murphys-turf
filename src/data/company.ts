@@ -1,54 +1,52 @@
 import type { Company } from '../types';
 
 export const company: Company = {
-  name: "Murphy's Turf",
-  tagline: "When you care about clean turf, call Murphy's Turf",
-  phone: "",
-  email: "info@murphysturf.com",
+  name: "Rangel Janitorial",
+  tagline: "Creating Excellent First Impressions",
+  phone: "951-894-4222",
+  email: "info@rangeljanitorial.com",
   address: {
-    street: "",
+    street: "26323 Jefferson Ave Suite C",
     city: "Murrieta",
     state: "CA",
     zip: "92562",
   },
   businessHours: {
-    weekdays: "7:00 AM - 6:00 PM",
-    saturday: "8:00 AM - 4:00 PM",
+    weekdays: "9:00 AM - 5:00 PM",
+    saturday: "Closed",
     sunday: "Closed",
   },
-  founded: 1994,
-  description: `With over 30 years in the cleaning & disinfecting business, we've decided to take our experience and bring it to your lawn with turf maintenance and pet waste removal services. Murphy's technicians are carefully selected and trained to provide you the satisfaction of clean and maintained artificial grass with the best of our ability. With this process we ensure consistency as well as invest in our technicians so each and every team member is proud of the service they provide our clients.
-
-Murphy's Turf is a family-owned artificial turf cleaning company headquartered in Murrieta, California. We serve homeowners and businesses across Southern California and the Bay Area — from Huntington Beach and the LA coast to the Inland Empire, Martinez and Contra Costa County, and the Greater Sacramento region. Our professional-grade cleaning products use a stabilized accelerated hydrogen peroxide formula that contains no bleach or ammonia, making it completely safe for your pets, kids, and the environment while killing 99.9% of germs and bacteria.`,
-  mission: "To provide every customer with clean, sanitized, and beautifully maintained artificial turf using safe, eco-friendly products that protect families, pets, and the environment.",
+  founded: 2021,
+  description: `Rangel Janitorial is a professional commercial cleaning company headquartered in Murrieta, California. We provide janitorial cleaning, day porter services, electrostatic disinfection, floor care, and carpet cleaning for businesses across Southern and Northern California — from the Inland Empire to Walnut Creek and Sacramento. Our trained crews deliver consistent, reliable results for Class A office buildings, corporate campuses, medical and dental facilities, light industrial parks, multi-unit properties, municipalities, and fitness centers.`,
+  mission: "To create excellent first impressions through professional, reliable commercial cleaning services that keep your facilities spotless and your people healthy.",
   values: [
     {
-      title: "100% Pet Friendly",
-      description: "Every product we use is completely safe for your pets. Our professional-grade cleaning solution contains no bleach or ammonia — just stabilized accelerated hydrogen peroxide that eliminates bacteria without leaving harmful residues.",
+      title: "Reliable & Consistent",
+      description: "Our trained crews show up on time, every time. We deliver the same high standard of clean night after night — because your facility's reputation depends on it.",
     },
     {
-      title: "Eco Friendly",
-      description: "We're committed to environmentally responsible cleaning. Our advanced cleaning solution is biodegradable and free from harsh chemicals, protecting California's ecosystems while delivering a superior clean.",
+      title: "Professional Teams",
+      description: "Every team member is carefully selected, background-checked, and trained to handle commercial environments with care. We invest in our people so they take pride in the service they provide.",
     },
     {
       title: "Satisfaction Guaranteed",
-      description: "We stand behind every service we provide. If you're not completely satisfied with the results, we'll make it right. Our 30+ years of cleaning experience means we know how to deliver results that exceed expectations.",
+      description: "We stand behind every service we provide. If you're not completely satisfied with the results, we'll make it right. Your facility deserves nothing less than excellent.",
     },
   ],
   stats: {
-    yearsInBusiness: 30,
-    customersServed: "5,000+",
+    yearsInBusiness: 4,
+    customersServed: "500+",
     satisfactionRate: "99%",
-    projectsCompleted: "15,000+",
+    projectsCompleted: "5,000+",
   },
   socialMedia: {
-    facebook: "https://www.facebook.com/profile.php?id=100090088264095",
-    instagram: "https://www.instagram.com/murphysturfcare/",
-    youtube: "https://www.youtube.com/@murphysturfcare/featured",
+    facebook: "",
+    instagram: "",
+    youtube: "",
   },
   certifications: [
     "Licensed & Insured",
-    "30+ Years Cleaning & Disinfecting Experience",
-    "Certified Turf Cleaning Applicator",
+    "EPA List N Approved Disinfectants",
+    "Background-Checked Crews",
   ],
 };

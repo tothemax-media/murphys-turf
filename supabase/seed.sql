@@ -1,5 +1,5 @@
 -- =============================================================================
--- Murphy's Turf - Seed Data
+-- Rangel Janitorial - Seed Data
 -- Professional Lawn Care Services Across Colorado
 -- =============================================================================
 
@@ -43,7 +43,7 @@ INSERT INTO services (
     'Post-service walkthrough and recommendations'
   ],
   1, true,
-  'Professional Lawn Cleaning Services | Murphy''s Turf Colorado',
+  'Professional Lawn Cleaning Services | Rangel''s Turf Colorado',
   'Expert lawn cleaning and debris removal across Colorado. We clear leaves, thatch, and buildup so your grass can thrive. Starting at $75. Free estimates.'
 ),
 
@@ -70,7 +70,7 @@ INSERT INTO services (
     'Optional overseeding coordination at discounted bundle rate'
   ],
   2, true,
-  'Core Aeration Services for Colorado Clay Soil | Murphy''s Turf',
+  'Core Aeration Services for Colorado Clay Soil | Rangel''s Turf',
   'Professional core aeration designed for Colorado''s compacted clay. Improve water penetration, root growth, and lawn health. Starting at $125.'
 ),
 
@@ -96,7 +96,7 @@ INSERT INTO services (
     'Post-seeding watering schedule and care instructions'
   ],
   3, true,
-  'Professional Lawn Seeding & Overseeding | Murphy''s Turf Colorado',
+  'Professional Lawn Seeding & Overseeding | Rangel''s Turf Colorado',
   'Thicken your Colorado lawn with altitude-adapted grass seed blends. Slit-seeding for maximum germination. Starting at $150. Free estimates.'
 ),
 
@@ -123,7 +123,7 @@ INSERT INTO services (
     'Written fertilization schedule for the remainder of the season'
   ],
   4, true,
-  'Lawn Fertilization Programs for Colorado Soil | Murphy''s Turf',
+  'Lawn Fertilization Programs for Colorado Soil | Rangel''s Turf',
   'Soil-tested fertilization programs built for alkaline Colorado soil. Correct iron deficiency, feed your lawn right. Starting at $85.'
 ),
 
@@ -149,7 +149,7 @@ INSERT INTO services (
     'Follow-up inspection within 14 days at no extra charge'
   ],
   5, true,
-  'Lawn Pest Control — Grubs, Mites & More | Murphy''s Turf Colorado',
+  'Lawn Pest Control — Grubs, Mites & More | Rangel''s Turf Colorado',
   'Integrated pest management for Colorado lawns. We target grubs, clover mites, sod webworms, and more. Pet-safe options. Starting at $95.'
 ),
 
@@ -176,7 +176,7 @@ INSERT INTO services (
     'Year-round monitoring with seasonal adjustment recommendations'
   ],
   6, true,
-  'Seasonal Lawn Maintenance Plans | Murphy''s Turf Colorado',
+  'Seasonal Lawn Maintenance Plans | Rangel''s Turf Colorado',
   'All-inclusive seasonal lawn care for Colorado homes. Spring through winter coverage with bundled savings. Starting at $199/visit. Free consultation.'
 );
 
@@ -196,13 +196,13 @@ INSERT INTO locations (
 (
   'denver',
   'Denver',
-  'Murphy''s Turf has been serving Denver homeowners since day one. From the historic bungalow lawns of Park Hill to the modern landscapes of Stapleton, we understand the unique challenges of maintaining turf in the Mile High City — intense UV, clay soil, water restrictions, and unpredictable late-spring snow. Our Denver crews live and work in the neighborhoods they serve.',
+  'Rangel''s Turf has been serving Denver homeowners since day one. From the historic bungalow lawns of Park Hill to the modern landscapes of Stapleton, we understand the unique challenges of maintaining turf in the Mile High City — intense UV, clay soil, water restrictions, and unpredictable late-spring snow. Our Denver crews live and work in the neighborhoods they serve.',
   '2901 Blake St, Suite 100, Denver, CO 80205',
   '(720) 555-0147',
   ARRAY['Capitol Hill', 'Cherry Creek', 'Highlands', 'Park Hill', 'Washington Park', 'Stapleton'],
   'We serve all Denver neighborhoods inside the city limits, from Globeville and RiNo in the north to Hampden and Southmoor in the south, and everything between Lakewood border and Aurora border.',
   true,
-  'Lawn Care Services in Denver, CO | Murphy''s Turf',
+  'Lawn Care Services in Denver, CO | Rangel''s Turf',
   'Professional lawn care in Denver. Aeration, seeding, fertilization, and more for Mile High City yards. Serving Capitol Hill, Cherry Creek, Highlands & beyond.'
 ),
 
@@ -216,7 +216,7 @@ INSERT INTO locations (
   ARRAY['Briargate', 'Old Colorado City', 'Broadmoor', 'Manitou Springs', 'Rockrimmon'],
   'Our Colorado Springs service area spans from Monument and Black Forest in the north to Fountain and Security-Widefield in the south, including Manitou Springs, Woodland Park approaches, and the entire Powers corridor.',
   true,
-  'Lawn Care Services in Colorado Springs, CO | Murphy''s Turf',
+  'Lawn Care Services in Colorado Springs, CO | Rangel''s Turf',
   'Expert lawn care in Colorado Springs. We handle Pikes Peak region soil, altitude, and climate challenges. Serving Briargate, Broadmoor, Old Colorado City & more.'
 ),
 
@@ -230,7 +230,7 @@ INSERT INTO locations (
   ARRAY['Southlands', 'Saddle Rock', 'Tallyn''s Reach', 'Heather Ridge', 'Mission Viejo'],
   'We cover all of Aurora from the Colfax corridor south to E-470, and from the Denver border east to Watkins and Bennett. This includes Centennial-adjacent areas, Smoky Hill, and the Quincy reservoir neighborhood.',
   true,
-  'Lawn Care Services in Aurora, CO | Murphy''s Turf',
+  'Lawn Care Services in Aurora, CO | Rangel''s Turf',
   'Professional lawn care across Aurora, CO. From new-build yards to established neighborhoods, we deliver results. Serving Southlands, Saddle Rock & more.'
 ),
 
@@ -244,7 +244,7 @@ INSERT INTO locations (
   ARRAY['Green Mountain', 'Bear Creek', 'Belmar', 'Applewood', 'Lakewood Gulch'],
   'Our Lakewood coverage includes everything from the Sixth Avenue corridor to Hampden, and from Sheridan Blvd west to the C-470 foothills communities including parts of Morrison and Indian Hills approaches.',
   true,
-  'Lawn Care Services in Lakewood, CO | Murphy''s Turf',
+  'Lawn Care Services in Lakewood, CO | Rangel''s Turf',
   'Lakewood lawn care specialists. We handle foothills terrain, shady yards, and rocky soil. Serving Green Mountain, Bear Creek, Belmar, Applewood & beyond.'
 ),
 
@@ -258,7 +258,7 @@ INSERT INTO locations (
   ARRAY['University Hill', 'North Boulder', 'South Boulder', 'Table Mesa', 'Gunbarrel'],
   'We serve the City of Boulder, unincorporated Boulder County including Gunbarrel and Niwot, plus Louisville, Superior, and Lafayette. Our crews are familiar with Boulder''s water-use regulations and xeriscaping ordinances.',
   true,
-  'Lawn Care Services in Boulder, CO | Murphy''s Turf',
+  'Lawn Care Services in Boulder, CO | Rangel''s Turf',
   'Eco-conscious lawn care in Boulder. Organic-forward fertilization, water-wise practices, pollinator-safe pest control. Serving University Hill to Gunbarrel.'
 ),
 
@@ -272,7 +272,7 @@ INSERT INTO locations (
   ARRAY['Old Town', 'Midtown', 'Fossil Creek', 'Timnath', 'Windsor'],
   'Our northern Colorado coverage extends from Fort Collins proper through Timnath, Windsor, and Loveland. We also serve Wellington to the north and Berthoud to the south along the I-25 corridor.',
   true,
-  'Lawn Care Services in Fort Collins, CO | Murphy''s Turf',
+  'Lawn Care Services in Fort Collins, CO | Rangel''s Turf',
   'Professional lawn care in Fort Collins and northern Colorado. Tuned to Larimer County''s climate. Serving Old Town, Timnath, Windsor, Fossil Creek & more.'
 );
 
@@ -291,7 +291,7 @@ INSERT INTO testimonials (
   'Karen Lindstrom',
   'Washington Park, Denver',
   5,
-  'We bought our Wash Park bungalow three years ago and the lawn was mostly crabgrass and bare dirt. Murphy''s Turf came out, did a soil test, aerated, overseeded with a bluegrass blend, and put us on a fertilization schedule. By the second summer our neighbors were asking what our secret was. Honestly the best investment we''ve made in this house besides the kitchen remodel.',
+  'We bought our Wash Park bungalow three years ago and the lawn was mostly crabgrass and bare dirt. Rangel''s Turf came out, did a soil test, aerated, overseeded with a bluegrass blend, and put us on a fertilization schedule. By the second summer our neighbors were asking what our secret was. Honestly the best investment we''ve made in this house besides the kitchen remodel.',
   'seasonal-maintenance',
   true, true
 ),
@@ -299,7 +299,7 @@ INSERT INTO testimonials (
   'David and Maria Espinoza',
   'Briargate, Colorado Springs',
   5,
-  'After our builder left us with six inches of clay and a prayer, Murphy''s Turf transformed our yard from a mud pit into an actual lawn. They aerated twice in the first year, brought in compost topdressing, and seeded with a fescue-bluegrass mix that handles our wind and sun exposure. Two years in and the grass is thick, green, and our kids practically live on it all summer. Worth every penny.',
+  'After our builder left us with six inches of clay and a prayer, Rangel''s Turf transformed our yard from a mud pit into an actual lawn. They aerated twice in the first year, brought in compost topdressing, and seeded with a fescue-bluegrass mix that handles our wind and sun exposure. Two years in and the grass is thick, green, and our kids practically live on it all summer. Worth every penny.',
   'aeration',
   true, true
 ),
@@ -307,7 +307,7 @@ INSERT INTO testimonials (
   'Tom Nguyen',
   'Old Town, Fort Collins',
   5,
-  'I''m a bit of a lawn nerd and I was skeptical about handing things over to a service. But Murphy''s team actually knew more about northern Colorado soil chemistry than I did. They identified an iron deficiency I''d been misdiagnosing as nitrogen shortage for two years. Three treatments later my lawn went from yellow-green to the darkest green on the block. These guys know their stuff.',
+  'I''m a bit of a lawn nerd and I was skeptical about handing things over to a service. But Rangel''s team actually knew more about northern Colorado soil chemistry than I did. They identified an iron deficiency I''d been misdiagnosing as nitrogen shortage for two years. Three treatments later my lawn went from yellow-green to the darkest green on the block. These guys know their stuff.',
   'fertilization',
   true, true
 ),
@@ -317,7 +317,7 @@ INSERT INTO testimonials (
   'Rachel Whitfield',
   'Cherry Creek, Denver',
   5,
-  'Murphy''s Turf cleaned up our yard after a massive cottonwood drop in June. They were out within two days of my call, removed everything including the stuff tangled in the flower beds, and the lawn looked better than it had all spring. Very professional crew — they even moved our patio furniture back exactly where it was.',
+  'Rangel''s Turf cleaned up our yard after a massive cottonwood drop in June. They were out within two days of my call, removed everything including the stuff tangled in the flower beds, and the lawn looked better than it had all spring. Very professional crew — they even moved our patio furniture back exactly where it was.',
   'lawn-cleaning',
   false, true
 ),
@@ -333,7 +333,7 @@ INSERT INTO testimonials (
   'Jennifer Castillo',
   'Table Mesa, Boulder',
   5,
-  'I specifically chose Murphy''s Turf because they offered organic fertilizer options. Living in Boulder, I didn''t want harsh chemicals around my garden or the bees. Their organic program took a little longer to show results compared to synthetic, but by midsummer the lawn was gorgeous and I felt good about what was going into the soil. They also gave me great watering tips that cut my bill down.',
+  'I specifically chose Rangel''s Turf because they offered organic fertilizer options. Living in Boulder, I didn''t want harsh chemicals around my garden or the bees. Their organic program took a little longer to show results compared to synthetic, but by midsummer the lawn was gorgeous and I felt good about what was going into the soil. They also gave me great watering tips that cut my bill down.',
   'fertilization',
   false, true
 ),
@@ -341,7 +341,7 @@ INSERT INTO testimonials (
   'Brian Kowalski',
   'Green Mountain, Lakewood',
   4,
-  'Our lot has a steep slope in the backyard that other companies didn''t want to deal with. Murphy''s Turf came out, assessed the grade, and did a combination of aeration and overseeding with a deep-root fescue that''s actually holding the soil better now. Still working on full coverage on the steepest section, but huge improvement from where we started.',
+  'Our lot has a steep slope in the backyard that other companies didn''t want to deal with. Rangel''s Turf came out, assessed the grade, and did a combination of aeration and overseeding with a deep-root fescue that''s actually holding the soil better now. Still working on full coverage on the steepest section, but huge improvement from where we started.',
   'seeding',
   false, true
 ),
@@ -349,7 +349,7 @@ INSERT INTO testimonials (
   'Amanda Reyes',
   'Highlands, Denver',
   5,
-  'Clover mites were invading our house every spring — hundreds of tiny red dots on the windowsills. Murphy''s Turf did a perimeter treatment and lawn application that knocked them out completely. For the first time in three years we had a mite-free April. They also explained why our south-facing foundation wall was the entry point, which no one else had bothered to do.',
+  'Clover mites were invading our house every spring — hundreds of tiny red dots on the windowsills. Rangel''s Turf did a perimeter treatment and lawn application that knocked them out completely. For the first time in three years we had a mite-free April. They also explained why our south-facing foundation wall was the entry point, which no one else had bothered to do.',
   'pest-control',
   false, true
 ),
@@ -365,7 +365,7 @@ INSERT INTO testimonials (
   'Priya Sharma',
   'Stapleton, Denver',
   4,
-  'We''re in a newer Stapleton development where the soil is basically construction fill with an inch of sod on top. Murphy''s Turf was honest about the challenges and set realistic expectations. After a full season of aeration, topdressing, and targeted fertilization, the lawn is finally starting to fill in and actually feel like real grass. Appreciate their honesty and patience.',
+  'We''re in a newer Stapleton development where the soil is basically construction fill with an inch of sod on top. Rangel''s Turf was honest about the challenges and set realistic expectations. After a full season of aeration, topdressing, and targeted fertilization, the lawn is finally starting to fill in and actually feel like real grass. Appreciate their honesty and patience.',
   'seeding',
   false, true
 ),
@@ -373,7 +373,7 @@ INSERT INTO testimonials (
   'Steve Caldwell',
   'Applewood, Lakewood',
   5,
-  'Had a grub problem that was destroying patches of our front lawn — you could literally peel the sod back like a carpet. Murphy''s Turf identified the species, treated with a targeted grub control, and reseeded the damaged areas. Within six weeks the dead patches were filling in. They came back for a free follow-up inspection too. Stand-up company.',
+  'Had a grub problem that was destroying patches of our front lawn — you could literally peel the sod back like a carpet. Rangel''s Turf identified the species, treated with a targeted grub control, and reseeded the damaged areas. Within six weeks the dead patches were filling in. They came back for a free follow-up inspection too. Stand-up company.',
   'pest-control',
   false, true
 ),
@@ -381,7 +381,7 @@ INSERT INTO testimonials (
   'Lisa Tran',
   'North Boulder, Boulder',
   5,
-  'Murphy''s Turf did a full spring cleanup for us after a brutal winter with multiple heavy snows. Broken branches everywhere, leaves that never got picked up in November, matted grass underneath it all. They cleared everything, dethatched the worst areas, and got us set up for the season. Our yard went from depressing to inviting in a single visit. Highly recommend.',
+  'Rangel''s Turf did a full spring cleanup for us after a brutal winter with multiple heavy snows. Broken branches everywhere, leaves that never got picked up in November, matted grass underneath it all. They cleared everything, dethatched the worst areas, and got us set up for the season. Our yard went from depressing to inviting in a single visit. Highly recommend.',
   'lawn-cleaning',
   false, true
 );
@@ -398,7 +398,7 @@ INSERT INTO faqs (
 
 -- GENERAL (5)
 (
-  'What areas of Colorado does Murphy''s Turf serve?',
+  'What areas of Colorado does Rangel''s Turf serve?',
   'We currently serve six major metro areas along the Front Range: Denver, Colorado Springs, Aurora, Lakewood, Boulder, and Fort Collins. Within each city we cover the surrounding suburbs and unincorporated areas as well. Check our Locations page for a full list of neighborhoods, or give us a call — if you''re within about 15 miles of one of our offices, we can probably get to you.',
   'general', 1, true,
   NULL, NULL
@@ -410,7 +410,7 @@ INSERT INTO faqs (
   NULL, NULL
 ),
 (
-  'Do I need to be home when Murphy''s Turf comes for service?',
+  'Do I need to be home when Rangel''s Turf comes for service?',
   'No, you don''t need to be home. We just need access to your yard. If your property has a locked gate, you can provide a gate code or leave it unlocked on your service day. We''ll leave a detailed door hanger after each visit summarizing the work completed and any recommendations. You''ll also get an email confirmation with notes from the technician.',
   'general', 3, true,
   NULL, NULL

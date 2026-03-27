@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 
-const CONSENT_KEY = "murphys_turf_cookie_consent";
+const CONSENT_KEY = "rangel_janitorial_cookie_consent";
 
 export function CookieConsent() {
   const [showBanner, setShowBanner] = useState(false);

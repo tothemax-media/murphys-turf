@@ -72,9 +72,9 @@ describe("sitemap()", () => {
     }
   });
 
-  it("all URLs use the base URL https://murphysturf.com", () => {
+  it("all URLs use the base URL https://rangeljanitorial.com", () => {
     for (const entry of entries) {
-      expect(entry.url).toMatch(/^https:\/\/murphysturf\.com/);
+      expect(entry.url).toMatch(/^https:\/\/rangeljanitorial\.com/);
     }
   });
 });

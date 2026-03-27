@@ -15,15 +15,14 @@ const REQUIRED_FIELDS = [
 ] as const;
 
 const EXPECTED_PHONES: Record<string, string> = {
-  'huntington-beach': '951-331-3300',
-  murrieta: '951-331-3300',
-  martinez: '925-338-0048',
   sacramento: '916-432-5033',
+  murrieta: '951-331-3300',
+  'walnut-creek': '925-338-0048',
 };
 
 describe('locations data', () => {
-  it('contains exactly 4 locations', () => {
-    expect(locations).toHaveLength(4);
+  it('contains exactly 3 locations', () => {
+    expect(locations).toHaveLength(3);
   });
 
   describe('slug integrity', () => {
@@ -105,9 +104,9 @@ describe('locations data', () => {
 
   describe('metaTitle', () => {
     it.each(locations.map((l) => [l.slug, l]))(
-      '%s metaTitle contains "Murphy\'s Turf"',
+      '%s metaTitle contains "Rangel\'s Turf"',
       (_slug, location) => {
-        expect(location.metaTitle).toContain("Murphy's Turf");
+        expect(location.metaTitle).toContain("Rangel Janitorial");
       },
     );
   });

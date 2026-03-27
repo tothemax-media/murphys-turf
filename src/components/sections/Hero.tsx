@@ -8,12 +8,12 @@ import { Counter } from '@/components/ui/AnimateOnScroll';
 
 const stats = [
   { value: 30, suffix: '+', label: 'Years Experience' },
-  { value: 5000, suffix: '+', label: 'Happy Customers' },
+  { value: 5000, suffix: '+', label: 'Happy Clients' },
   { value: 99, suffix: '%', label: 'Satisfaction Rate' },
-  { value: 15000, suffix: '+', label: 'Projects Completed' },
+  { value: 15000, suffix: '+', label: 'Facilities Cleaned' },
 ];
 
-const headlineWords = "When You Care About Clean Turf, Call Murphy\u2019s Turf".split(' ');
+const headlineWords = "Creating Excellent First Impressions Every Day".split(' ');
 
 export default function Hero() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -39,14 +39,14 @@ export default function Hero() {
       >
         <Image
           src="/images/hero.jpg"
-          alt="Beautiful clean artificial turf"
+          alt="Professional commercial cleaning by Rangel Janitorial"
           fill
           className="object-cover"
           priority
         />
       </motion.div>
 
-      {/* Animated gradient overlay — fades in on load, pulses subtly */}
+      {/* Animated gradient overlay */}
       <motion.div
         className="absolute inset-0 z-[1] bg-gradient-to-b from-black/70 via-black/50 to-black/35"
         initial={{ opacity: 0 }}
@@ -87,16 +87,16 @@ export default function Hero() {
           ))}
         </h1>
 
-        {/* Subtitle — sweeps in with a slight blur clear */}
+        {/* Subtitle */}
         <motion.p
           className="text-lg md:text-xl text-white/90 mt-6 font-body max-w-2xl mx-auto"
           initial={{ opacity: 0, y: 30, filter: 'blur(6px)' }}
           animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
           transition={{ duration: 0.8, delay: 1.3, ease: 'easeOut' }}
         >
-          Worried about your pets ruining your turf? Count on Murphy&apos;s to
-          help bring your artificial grass back to life with a variety of
-          services ranging from reblooming to debris removal &amp; deodorizing.
+          Rangel Janitorial provides reliable, professional commercial cleaning
+          for offices, medical facilities, industrial parks, and more. 30+ years
+          of experience keeping California&apos;s businesses spotless.
         </motion.p>
 
         {/* Floating / breathing CTA button */}
@@ -131,7 +131,7 @@ export default function Hero() {
           </motion.div>
         </motion.div>
 
-        {/* Stats row — staggered reveal with animated Counter values */}
+        {/* Stats row */}
         <motion.div
           className="mt-12 grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-0"
           initial="hidden"

@@ -51,7 +51,7 @@ export function generateServiceMetadata(service: {
   slug: string;
   shortDescription: string;
 }): Metadata {
-  const title = `${service.name} | Artificial Turf Cleaning California`;
+  const title = `${service.name} | Commercial Cleaning California`;
   const description = `${service.shortDescription} Professional ${service.name.toLowerCase()} by ${COMPANY_NAME} — 30+ years experience. Get a free quote today!`;
 
   return generatePageMetadata(title, description, `/services/${service.slug}`);
@@ -62,8 +62,8 @@ export function generateLocationMetadata(location: {
   slug: string;
   description: string;
 }): Metadata {
-  const title = `Artificial Turf Cleaning in ${location.name}, CA`;
-  const description = `${location.description} ${COMPANY_NAME} provides professional artificial turf cleaning and sanitization in ${location.name}, CA. Get a free estimate today!`;
+  const title = `Janitorial & Commercial Cleaning in ${location.name}, CA`;
+  const description = `${location.description} ${COMPANY_NAME} provides professional janitorial and commercial cleaning services in ${location.name}, CA. Get a free estimate today!`;
 
   return generatePageMetadata(
     title,
@@ -113,8 +113,8 @@ export function generateBlogMetadata(post: {
 
 export function generateBlogIndexMetadata(): Metadata {
   return generatePageMetadata(
-    "Artificial Turf Cleaning Blog — Tips & Guides",
-    "Expert artificial turf cleaning tips, deep cleaning guides, and synthetic turf maintenance advice from Murphy's Turf. 30+ years of experience keeping California turf clean and fresh.",
+    "Commercial Cleaning Blog — Tips & Guides",
+    "Expert janitorial and commercial cleaning tips, facility maintenance guides, and industry insights from Rangel Janitorial. 30+ years of experience keeping California facilities clean and professional.",
     "/blog"
   );
 }
@@ -127,19 +127,19 @@ export const DEFAULT_METADATA: Metadata = {
   description: COMPANY_DESCRIPTION,
   metadataBase: new URL(SITE_URL),
   keywords: [
-    "artificial turf cleaning",
-    "synthetic turf cleaning",
-    "turf sanitization",
-    "pet turf cleaning",
-    "turf odor removal",
-    "turf deodorizing",
-    "professional turf deep cleaning",
-    "artificial grass cleaning California",
-    "turf cleaning Huntington Beach",
-    "turf cleaning Murrieta",
-    "turf cleaning Martinez",
-    "turf cleaning Sacramento",
-    "Murphy's Turf",
+    "janitorial services",
+    "commercial cleaning",
+    "office cleaning",
+    "janitorial company California",
+    "day porter services",
+    "electrostatic disinfection",
+    "floor care services",
+    "carpet cleaning commercial",
+    "janitorial services Sacramento",
+    "janitorial services Murrieta",
+    "janitorial services Walnut Creek",
+    "medical facility cleaning",
+    "Rangel Janitorial",
   ],
   alternates: {
     canonical: SITE_URL,

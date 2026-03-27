@@ -52,10 +52,10 @@ export default function ExitIntentPopup() {
                 <Gift className="w-8 h-8 text-sage" />
               </div>
               <h3 className="text-2xl font-bold text-forest font-heading mb-2">
-                Wait! Get 10% Off Your First Turf Cleaning
+                Wait! Get 10% Off Your First Cleaning Service
               </h3>
               <p className="text-charcoal-light font-body mb-6">
-                Get <span className="font-bold text-sage">10% off</span> your first turf cleaning service
+                Get <span className="font-bold text-sage">10% off</span> your first janitorial cleaning service
                 when you request a free quote today!
               </p>
               <a

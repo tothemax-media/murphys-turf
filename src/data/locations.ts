@@ -2,33 +2,36 @@ import type { Location } from '../types';
 
 export const locations: Location[] = [
   {
-    slug: 'huntington-beach',
-    name: 'Huntington Beach / LA Area',
+    slug: 'sacramento',
+    name: 'Greater Sacramento',
     state: 'CA',
-    description: `Huntington Beach and the surrounding coastal LA communities face unique turf challenges — salt air, sand infiltration, coastal moisture, and intense UV exposure. Murphy's Turf uses our professional-grade cleaning system to eliminate bacteria, neutralize pet odors, and restore turf across Huntington Beach, Newport Beach, Costa Mesa, Long Beach, and Seal Beach.`,
+    description: `Rangel Janitorial provides professional janitorial and commercial cleaning services across the Greater Sacramento region. From office buildings and medical facilities to retail spaces and warehouses, our trained crews deliver consistent, reliable results. We serve Sacramento, Elk Grove, Roseville, Folsom, Rancho Cordova, and surrounding communities with customized cleaning programs tailored to each facility's needs.`,
     serviceAreaDescription:
-      "Murphy's Turf provides professional artificial turf cleaning throughout the Huntington Beach and greater Los Angeles coastal area, including Newport Beach, Costa Mesa, Long Beach, Seal Beach, and surrounding communities.",
+      "Rangel Janitorial serves the entire Sacramento metropolitan area, including Elk Grove, Roseville, Folsom, Rancho Cordova, Citrus Heights, and surrounding communities.",
     neighborhoods: [
-      'Huntington Beach',
-      'Newport Beach',
-      'Costa Mesa',
-      'Long Beach',
-      'Seal Beach',
+      'Sacramento',
+      'Elk Grove',
+      'Roseville',
+      'Folsom',
+      'Rancho Cordova',
+      'Citrus Heights',
+      'Natomas',
+      'West Sacramento',
     ],
-    phone: '951-331-3300',
-    address: 'Huntington Beach, CA',
+    phone: '916-432-5033',
+    address: 'Sacramento, CA',
     metaTitle:
-      "Artificial Turf Cleaning in Huntington Beach & LA Area | Murphy's Turf",
+      "Professional Janitorial Services in Sacramento, CA | Rangel Janitorial",
     metaDescription:
-      "Professional artificial turf cleaning in Huntington Beach, Newport Beach, Long Beach & coastal LA. Professional-grade, pet-safe service. Call Murphy's Turf: 951-331-3300.",
+      "Professional janitorial and commercial cleaning services in Sacramento, Elk Grove, Roseville & Folsom. Licensed & insured. Call Rangel Janitorial: 916-432-5033.",
   },
   {
     slug: 'murrieta',
     name: 'Murrieta / Inland Empire',
     state: 'CA',
-    description: `Murrieta is home — our headquarters since day one. The Inland Empire's extreme heat bakes pet waste into infill, amplifying odors and bacteria far beyond what cooler climates produce. Our professional-grade cleaning system penetrates deep to break apart baked-in contamination, serving every corner of the IE from Temecula to Canyon Lake.`,
+    description: `Rangel Janitorial is proud to serve the Murrieta and greater Inland Empire area with professional janitorial services. Our experienced crews handle everything from nightly office cleaning and floor care to specialized deep cleaning for medical offices, gyms, and retail locations. We serve Murrieta, Temecula, Menifee, Lake Elsinore, and communities throughout the Inland Empire.`,
     serviceAreaDescription:
-      "As our hometown and headquarters, Murphy's Turf serves every corner of the Inland Empire — from Murrieta, Temecula, and French Valley to Menifee, Lake Elsinore, Hemet, Perris, Wildomar, Canyon Lake, Temescal Valley, and Winchester.",
+      "Rangel Janitorial serves the entire Inland Empire — from Murrieta, Temecula, and French Valley to Menifee, Lake Elsinore, Hemet, Perris, Wildomar, Canyon Lake, Temescal Valley, and Winchester.",
     neighborhoods: [
       'Murrieta',
       'Temecula',
@@ -45,51 +48,32 @@ export const locations: Location[] = [
     phone: '951-331-3300',
     address: 'Murrieta, CA 92562',
     metaTitle:
-      "Artificial Turf Cleaning in Murrieta & Inland Empire | Murphy's Turf",
+      "Professional Janitorial Services in Murrieta & Inland Empire | Rangel Janitorial",
     metaDescription:
-      "Murphy's Turf headquarters in Murrieta, CA. Professional artificial turf cleaning with deep cleaning for the entire Inland Empire. Pet-safe. Call 951-331-3300.",
+      "Rangel Janitorial serves the Inland Empire with professional janitorial and commercial cleaning services. Licensed & insured. Call 951-331-3300.",
   },
   {
-    slug: 'martinez',
-    name: 'Martinez / Bay Area',
+    slug: 'walnut-creek',
+    name: 'Walnut Creek / East Bay',
     state: 'CA',
-    description: `Martinez and Contra Costa County span coastal moisture near the Carquinez Strait to inland heat around Antioch and Brentwood — each creating different turf problems. Murphy's Turf adapts our professional-grade cleaning to address mold in waterfront areas and heat-amplified bacteria inland, serving Concord, Pleasant Hill, Walnut Creek, and the broader East Bay.`,
+    description: `Rangel Janitorial brings professional janitorial and commercial cleaning services to Walnut Creek and the greater East Bay area. Our crews are experienced with the unique needs of Bay Area businesses — from high-rise office suites and co-working spaces to medical facilities and retail storefronts. We serve Walnut Creek, Concord, Pleasant Hill, Lafayette, Danville, and surrounding communities.`,
     serviceAreaDescription:
-      "Murphy's Turf serves Martinez and the greater Contra Costa County area, including Concord, Pleasant Hill, Walnut Creek, Antioch, Brentwood, and surrounding East Bay communities.",
+      "Rangel Janitorial serves Walnut Creek and the greater Contra Costa County area, including Concord, Pleasant Hill, Lafayette, Danville, Martinez, and surrounding East Bay communities.",
     neighborhoods: [
-      'Martinez',
+      'Walnut Creek',
       'Concord',
       'Pleasant Hill',
-      'Walnut Creek',
-      'Antioch',
-      'Brentwood',
+      'Lafayette',
+      'Danville',
+      'Martinez',
+      'San Ramon',
+      'Dublin',
     ],
     phone: '925-338-0048',
-    address: 'Martinez, CA',
+    address: 'Walnut Creek, CA',
     metaTitle:
-      "Artificial Turf Cleaning in Martinez & Bay Area | Murphy's Turf",
+      "Professional Janitorial Services in Walnut Creek & East Bay | Rangel Janitorial",
     metaDescription:
-      "Professional artificial turf cleaning in Martinez, Walnut Creek, Concord & East Bay. Professional-grade, pet-safe. Call Murphy's Turf: 925-338-0048.",
-  },
-  {
-    slug: 'sacramento',
-    name: 'Greater Sacramento',
-    state: 'CA',
-    description: `Sacramento's Central Valley heat regularly exceeds 100°F, baking pet waste into turf and accelerating bacterial growth. Murphy's Turf uses professional-grade deep extraction to pull embedded contaminants from every layer, serving Sacramento, Elk Grove, Roseville, Folsom, and Rancho Cordova.`,
-    serviceAreaDescription:
-      "Murphy's Turf serves the entire Sacramento metropolitan area, including Elk Grove, Roseville, Folsom, Rancho Cordova, and surrounding communities.",
-    neighborhoods: [
-      'Sacramento',
-      'Elk Grove',
-      'Roseville',
-      'Folsom',
-      'Rancho Cordova',
-    ],
-    phone: '916-432-5033',
-    address: 'Sacramento, CA',
-    metaTitle:
-      "Artificial Turf Cleaning in Sacramento, CA | Murphy's Turf",
-    metaDescription:
-      "Professional artificial turf cleaning in Sacramento, Elk Grove, Roseville & Folsom. Professional-grade, pet-safe. Call Murphy's Turf: 916-432-5033.",
+      "Professional janitorial and commercial cleaning in Walnut Creek, Concord, Pleasant Hill & East Bay. Licensed & insured. Call Rangel Janitorial: 925-338-0048.",
   },
 ];
