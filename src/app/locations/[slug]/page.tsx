@@ -686,16 +686,22 @@ export default async function LocationPage({
                 {location.serviceAreaDescription}
               </p>
               <StaggerContainer staggerDelay={0.05} className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                {location.neighborhoods.map((neighborhood) => (
-                  <StaggerItem key={neighborhood} direction="scale">
-                    <div className="flex items-center gap-2 bg-white rounded-lg px-4 py-3 shadow-sm">
-                      <CheckCircle className="w-4 h-4 text-sage flex-shrink-0" />
-                      <span className="text-charcoal font-body text-sm font-medium">
-                        {neighborhood}
-                      </span>
-                    </div>
-                  </StaggerItem>
-                ))}
+                {location.neighborhoods.map((neighborhood) => {
+                  const neighborhoodSlug = `turf-cleaning-in-${neighborhood.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')}`;
+                  return (
+                    <StaggerItem key={neighborhood} direction="scale">
+                      <Link
+                        href={`/locations/${location.slug}/${neighborhoodSlug}`}
+                        className="flex items-center gap-2 bg-white rounded-lg px-4 py-3 shadow-sm hover:shadow-md transition-shadow"
+                      >
+                        <CheckCircle className="w-4 h-4 text-sage flex-shrink-0" />
+                        <span className="text-charcoal font-body text-sm font-medium">
+                          {neighborhood}
+                        </span>
+                      </Link>
+                    </StaggerItem>
+                  );
+                })}
               </StaggerContainer>
 
               {/* Climate Note */}
