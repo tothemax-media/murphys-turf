@@ -34,7 +34,7 @@ export const company: Company = {
     },
   ],
   stats: {
-    yearsInBusiness: 4,
+    yearsInBusiness: 30,
     customersServed: "500+",
     satisfactionRate: "99%",
     projectsCompleted: "5,000+",

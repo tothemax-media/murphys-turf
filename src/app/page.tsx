@@ -58,7 +58,7 @@ const stats = [
   { label: 'Customers Served', value: 500, suffix: '+' },
   { label: 'Projects Completed', value: 5000, suffix: '+' },
   { label: 'Satisfaction Rate', value: 99, suffix: '%' },
-  { label: 'Years Serving California', value: 4, suffix: '+' },
+  { label: 'Years of Experience', value: 30, suffix: '+' },
 ];
 
 const industries = [
@@ -189,7 +189,7 @@ export default function Home() {
               <span className="text-sage-light">You Can Count On</span>
             </h1>
             <p className="mt-5 text-lg sm:text-xl text-gray-200 font-body leading-relaxed max-w-2xl">
-              Background-checked crews. Spotless facilities — guaranteed. From corporate offices to medical facilities, we keep California businesses clean and healthy.
+              30+ years of experience. Background-checked crews. Spotless facilities — guaranteed.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <Link
