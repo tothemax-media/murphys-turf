@@ -159,6 +159,14 @@ const locationData: Record<string, LocationData> = {
       'Costa Mesa',
       'Long Beach',
       'Seal Beach',
+      'Irvine',
+      'Fountain Valley',
+      'Garden Grove',
+      'Westminster',
+      'Laguna Beach',
+      'Dana Point',
+      'San Clemente',
+      'Anaheim',
     ],
     testimonials: [
       {
@@ -184,7 +192,7 @@ const locationData: Record<string, LocationData> = {
     metaDescription:
       "Professional artificial turf cleaning in Huntington Beach, Newport Beach, Costa Mesa, Long Beach & Seal Beach. Professional-grade disinfecting. Get a free quote today.",
     serviceAreaDescription:
-      'Serving the LA coastal corridor from Long Beach through Huntington Beach, Seal Beach, Newport Beach, and Costa Mesa.',
+      'Serving the LA coastal corridor and Orange County — from Long Beach and Seal Beach through Huntington Beach, Newport Beach, Costa Mesa, Irvine, Fountain Valley, Laguna Beach, Dana Point, San Clemente, and Anaheim.',
     climateNote:
       'Coastal fog and marine layer promote mold, while afternoon sun bakes pet contaminants into infill.',
     formId: 'HYkmRFcmdQ1GD7aEpXzq',
@@ -209,6 +217,14 @@ const locationData: Record<string, LocationData> = {
       'Canyon Lake',
       'Temescal Valley',
       'Winchester',
+      'Corona',
+      'Riverside',
+      'Moreno Valley',
+      'San Jacinto',
+      'Beaumont',
+      'Eastvale',
+      'Norco',
+      'Fallbrook',
     ],
     testimonials: [
       {
@@ -234,7 +250,7 @@ const locationData: Record<string, LocationData> = {
     metaDescription:
       "Murphy's Turf headquarters in Murrieta. Professional artificial turf cleaning, pet odor removal & professional-grade disinfecting for the Inland Empire & Temecula Valley. Get a free quote today.",
     serviceAreaDescription:
-      'Serving the entire Inland Empire from Temecula and French Valley through Menifee, Lake Elsinore, Hemet, Perris, Wildomar, Canyon Lake, and Winchester.',
+      'Serving the entire Inland Empire from Temecula and French Valley through Menifee, Lake Elsinore, Hemet, Perris, Wildomar, Canyon Lake, Winchester, Corona, Riverside, Moreno Valley, Eastvale, and Fallbrook.',
     climateNote:
       'Summer temps exceed 100°F regularly, baking pet waste into infill and accelerating bacterial growth.',
     formId: 'xBvd9OY1s3jhTIKq93sM',
@@ -254,6 +270,15 @@ const locationData: Record<string, LocationData> = {
       'Walnut Creek',
       'Antioch',
       'Brentwood',
+      'Lafayette',
+      'Danville',
+      'San Ramon',
+      'Dublin',
+      'Livermore',
+      'Pleasanton',
+      'Orinda',
+      'Alamo',
+      'Oakley',
     ],
     testimonials: [
       {
@@ -279,7 +304,7 @@ const locationData: Record<string, LocationData> = {
     metaDescription:
       "East Bay artificial turf cleaning experts. Murphy's Turf serves Martinez, Walnut Creek, Pleasant Hill, Concord, Antioch & Brentwood with professional-grade disinfecting. Get a free quote today.",
     serviceAreaDescription:
-      'Serving Contra Costa County from Martinez through Concord, Pleasant Hill, Walnut Creek, Antioch, and Brentwood.',
+      'Serving Contra Costa County and the Tri-Valley — from Martinez through Concord, Pleasant Hill, Walnut Creek, Antioch, Brentwood, Lafayette, Danville, San Ramon, Dublin, Livermore, and Pleasanton.',
     climateNote:
       'Bay Area microclimates range from damp coastal fog near the strait to hot, dry conditions inland.',
     formId: 'mSr8BxMIMWFW5iSStd5F',
@@ -297,6 +322,14 @@ const locationData: Record<string, LocationData> = {
       'Roseville',
       'Folsom',
       'Rancho Cordova',
+      'Citrus Heights',
+      'West Sacramento',
+      'Carmichael',
+      'Fair Oaks',
+      'Rocklin',
+      'Granite Bay',
+      'Natomas',
+      'Orangevale',
     ],
     testimonials: [
       {
@@ -322,7 +355,7 @@ const locationData: Record<string, LocationData> = {
     metaDescription:
       "Sacramento's professional artificial turf cleaning. Murphy's Turf serves Elk Grove, Roseville, Folsom & Rancho Cordova with professional-grade disinfecting. Get a free quote today.",
     serviceAreaDescription:
-      'Serving the greater Sacramento metro including Elk Grove, Roseville, Folsom, and Rancho Cordova.',
+      'Serving the entire Sacramento metropolitan area, including Elk Grove, Roseville, Folsom, Rancho Cordova, Citrus Heights, West Sacramento, Carmichael, Fair Oaks, Rocklin, Granite Bay, and Orangevale.',
     climateNote:
       'Central Valley heat regularly exceeds 105°F, rapidly crystallizing pet urine and multiplying bacteria.',
     formId: 'E4GmpR4mgHj6kL4dFr2w',

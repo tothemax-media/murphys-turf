@@ -8,6 +8,10 @@ import {
   ChevronRight,
   CheckCircle,
   Droplets,
+  ShieldCheck,
+  PawPrint,
+  Clock,
+  Award,
 } from 'lucide-react';
 import { notFound } from 'next/navigation';
 
@@ -62,12 +66,20 @@ const parentLocations: Record<string, ParentLocation> = {
     climateNote:
       'Coastal fog and marine layer promote mold growth on turf, while afternoon sun bakes pet contaminants into infill.',
     serviceAreaDescription:
-      'Serving the LA coastal corridor from Long Beach through Huntington Beach, Seal Beach, Newport Beach, and Costa Mesa.',
+      'Serving the LA coastal corridor and Orange County — from Long Beach and Seal Beach through Huntington Beach, Newport Beach, Costa Mesa, Irvine, Fountain Valley, Laguna Beach, Dana Point, San Clemente, and Anaheim.',
     subLocations: [
       { name: 'Newport Beach', slug: toSubLocationSlug('Newport Beach') },
       { name: 'Costa Mesa', slug: toSubLocationSlug('Costa Mesa') },
       { name: 'Long Beach', slug: toSubLocationSlug('Long Beach') },
       { name: 'Seal Beach', slug: toSubLocationSlug('Seal Beach') },
+      { name: 'Irvine', slug: toSubLocationSlug('Irvine') },
+      { name: 'Fountain Valley', slug: toSubLocationSlug('Fountain Valley') },
+      { name: 'Garden Grove', slug: toSubLocationSlug('Garden Grove') },
+      { name: 'Westminster', slug: toSubLocationSlug('Westminster') },
+      { name: 'Laguna Beach', slug: toSubLocationSlug('Laguna Beach') },
+      { name: 'Dana Point', slug: toSubLocationSlug('Dana Point') },
+      { name: 'San Clemente', slug: toSubLocationSlug('San Clemente') },
+      { name: 'Anaheim', slug: toSubLocationSlug('Anaheim') },
     ],
   },
   murrieta: {
@@ -80,7 +92,7 @@ const parentLocations: Record<string, ParentLocation> = {
     climateNote:
       'Summer temperatures regularly exceed 100°F in the Inland Empire, baking pet waste into infill and accelerating bacterial growth.',
     serviceAreaDescription:
-      'Serving the entire Inland Empire from Temecula and French Valley through Menifee, Lake Elsinore, Hemet, Perris, Wildomar, Canyon Lake, and Winchester.',
+      'Serving the entire Inland Empire from Temecula and French Valley through Menifee, Lake Elsinore, Hemet, Perris, Wildomar, Canyon Lake, Winchester, Corona, Riverside, Moreno Valley, Eastvale, and Fallbrook.',
     subLocations: [
       { name: 'Temecula', slug: toSubLocationSlug('Temecula') },
       { name: 'French Valley', slug: toSubLocationSlug('French Valley') },
@@ -92,6 +104,14 @@ const parentLocations: Record<string, ParentLocation> = {
       { name: 'Canyon Lake', slug: toSubLocationSlug('Canyon Lake') },
       { name: 'Temescal Valley', slug: toSubLocationSlug('Temescal Valley') },
       { name: 'Winchester', slug: toSubLocationSlug('Winchester') },
+      { name: 'Corona', slug: toSubLocationSlug('Corona') },
+      { name: 'Riverside', slug: toSubLocationSlug('Riverside') },
+      { name: 'Moreno Valley', slug: toSubLocationSlug('Moreno Valley') },
+      { name: 'San Jacinto', slug: toSubLocationSlug('San Jacinto') },
+      { name: 'Beaumont', slug: toSubLocationSlug('Beaumont') },
+      { name: 'Eastvale', slug: toSubLocationSlug('Eastvale') },
+      { name: 'Norco', slug: toSubLocationSlug('Norco') },
+      { name: 'Fallbrook', slug: toSubLocationSlug('Fallbrook') },
     ],
   },
   martinez: {
@@ -104,13 +124,22 @@ const parentLocations: Record<string, ParentLocation> = {
     climateNote:
       'Bay Area microclimates range from damp coastal fog near the Carquinez Strait to hot, dry conditions inland — each creating different turf maintenance challenges.',
     serviceAreaDescription:
-      'Serving Contra Costa County from Martinez through Concord, Pleasant Hill, Walnut Creek, Antioch, and Brentwood.',
+      'Serving Contra Costa County and the Tri-Valley — from Martinez through Concord, Pleasant Hill, Walnut Creek, Antioch, Brentwood, Lafayette, Danville, San Ramon, Dublin, Livermore, and Pleasanton.',
     subLocations: [
       { name: 'Concord', slug: toSubLocationSlug('Concord') },
       { name: 'Pleasant Hill', slug: toSubLocationSlug('Pleasant Hill') },
       { name: 'Walnut Creek', slug: toSubLocationSlug('Walnut Creek') },
       { name: 'Antioch', slug: toSubLocationSlug('Antioch') },
       { name: 'Brentwood', slug: toSubLocationSlug('Brentwood') },
+      { name: 'Lafayette', slug: toSubLocationSlug('Lafayette') },
+      { name: 'Danville', slug: toSubLocationSlug('Danville') },
+      { name: 'San Ramon', slug: toSubLocationSlug('San Ramon') },
+      { name: 'Dublin', slug: toSubLocationSlug('Dublin') },
+      { name: 'Livermore', slug: toSubLocationSlug('Livermore') },
+      { name: 'Pleasanton', slug: toSubLocationSlug('Pleasanton') },
+      { name: 'Orinda', slug: toSubLocationSlug('Orinda') },
+      { name: 'Alamo', slug: toSubLocationSlug('Alamo') },
+      { name: 'Oakley', slug: toSubLocationSlug('Oakley') },
     ],
   },
   sacramento: {
@@ -123,12 +152,20 @@ const parentLocations: Record<string, ParentLocation> = {
     climateNote:
       'Sacramento\'s Central Valley heat regularly exceeds 100°F, baking pet waste into turf and accelerating bacterial growth far beyond what milder climates produce.',
     serviceAreaDescription:
-      'Serving the entire Sacramento metropolitan area, including Elk Grove, Roseville, Folsom, Rancho Cordova, and surrounding communities.',
+      'Serving the entire Sacramento metropolitan area, including Elk Grove, Roseville, Folsom, Rancho Cordova, Citrus Heights, West Sacramento, Carmichael, Fair Oaks, Rocklin, Granite Bay, and Orangevale.',
     subLocations: [
       { name: 'Elk Grove', slug: toSubLocationSlug('Elk Grove') },
       { name: 'Roseville', slug: toSubLocationSlug('Roseville') },
       { name: 'Folsom', slug: toSubLocationSlug('Folsom') },
       { name: 'Rancho Cordova', slug: toSubLocationSlug('Rancho Cordova') },
+      { name: 'Citrus Heights', slug: toSubLocationSlug('Citrus Heights') },
+      { name: 'West Sacramento', slug: toSubLocationSlug('West Sacramento') },
+      { name: 'Carmichael', slug: toSubLocationSlug('Carmichael') },
+      { name: 'Fair Oaks', slug: toSubLocationSlug('Fair Oaks') },
+      { name: 'Rocklin', slug: toSubLocationSlug('Rocklin') },
+      { name: 'Granite Bay', slug: toSubLocationSlug('Granite Bay') },
+      { name: 'Natomas', slug: toSubLocationSlug('Natomas') },
+      { name: 'Orangevale', slug: toSubLocationSlug('Orangevale') },
     ],
   },
 };
@@ -201,6 +238,39 @@ const faqs = [
 ];
 
 // ---------------------------------------------------------------------------
+// Process steps
+// ---------------------------------------------------------------------------
+
+const processSteps = [
+  {
+    image: '/images/gallery/process-contact-us.png',
+    title: 'Contact Us',
+    description: 'Get a free quote online or call us directly. We respond the same day.',
+  },
+  {
+    image: '/images/gallery/process-schedule-estimate.png',
+    title: 'Schedule Your Estimate',
+    description: 'We visit your property, assess the turf, and provide a detailed estimate.',
+  },
+  {
+    image: '/images/gallery/process-get-job-done.png',
+    title: 'Get The Job Done',
+    description: 'Our crew performs a full deep clean. Enjoy your fresh, clean turf the same day.',
+  },
+];
+
+// ---------------------------------------------------------------------------
+// Trust badges
+// ---------------------------------------------------------------------------
+
+const trustBadges = [
+  { icon: ShieldCheck, title: 'Fully Bonded & Insured', description: 'Licensed professionals you can trust' },
+  { icon: PawPrint, title: '100% Pet-Safe Products', description: 'No bleach, no ammonia — safe for pets & kids' },
+  { icon: Clock, title: '30+ Years Experience', description: 'Decades of professional cleaning expertise' },
+  { icon: Award, title: 'Satisfaction Guaranteed', description: "Not happy? We'll make it right" },
+];
+
+// ---------------------------------------------------------------------------
 // Lookup helpers
 // ---------------------------------------------------------------------------
 
@@ -241,16 +311,20 @@ export async function generateMetadata({
   }
   const { parent, sub } = result;
 
-  const title = `Turf Cleaning in ${sub.name}, CA | Murphy's Turf`;
-  const description = `Professional artificial turf cleaning in ${sub.name}, California. Pet-safe disinfecting, deodorizing, blooming & debris removal. Serving ${sub.name} and the ${parent.city} area. Call ${parent.phone} for a free quote.`;
+  const title = `Artificial Turf Cleaning in ${sub.name}, CA | Murphy's Turf`;
+  const description = `Professional artificial turf cleaning in ${sub.name}, California. Pet-safe disinfecting, deodorizing, blooming & debris removal. 30+ years experience serving ${sub.name} and the ${parent.city} area. Call ${parent.phone} for a free quote.`;
 
   return {
     title,
     description,
+    alternates: {
+      canonical: `https://murphysturf.com/locations/${parent.slug}/${sub.slug}`,
+    },
     openGraph: {
       title,
       description,
       type: 'website',
+      url: `https://murphysturf.com/locations/${parent.slug}/${sub.slug}`,
     },
   };
 }
@@ -282,6 +356,7 @@ export default async function SubLocationPage({
     description: `Professional artificial turf cleaning in ${sub.name}, CA. Pet-safe disinfecting, deodorizing, and turf restoration.`,
     telephone: parent.phone,
     email: parent.email,
+    url: `https://murphysturf.com/locations/${parent.slug}/${sub.slug}`,
     areaServed: {
       '@type': 'City',
       name: sub.name,
@@ -299,12 +374,28 @@ export default async function SubLocationPage({
     ],
   };
 
+  // Schema.org BreadcrumbList JSON-LD
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://murphysturf.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Locations', item: 'https://murphysturf.com/locations' },
+      { '@type': 'ListItem', position: 3, name: `${parent.city}, ${parent.state}`, item: `https://murphysturf.com/locations/${parent.slug}` },
+      { '@type': 'ListItem', position: 4, name: sub.name },
+    ],
+  };
+
   return (
     <div className="scroll-smooth pb-20 lg:pb-0">
       {/* JSON-LD */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
 
       {/* ================================================================
@@ -430,6 +521,25 @@ export default async function SubLocationPage({
       </section>
 
       {/* ================================================================
+          2b. TRUST BADGES
+          ================================================================ */}
+      <section className="py-10 sm:py-14 bg-white border-b border-charcoal/5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+            {trustBadges.map((badge) => (
+              <div key={badge.title} className="flex flex-col items-center text-center gap-2">
+                <div className="w-12 h-12 rounded-full bg-sage/10 flex items-center justify-center">
+                  <badge.icon className="w-6 h-6 text-sage" />
+                </div>
+                <h3 className="font-heading font-bold text-charcoal text-sm">{badge.title}</h3>
+                <p className="text-charcoal-light font-body text-xs">{badge.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ================================================================
           3. SERVICES
           ================================================================ */}
       <section className="py-14 sm:py-20 bg-white">
@@ -470,6 +580,46 @@ export default async function SubLocationPage({
                   </span>
                 </div>
               </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ================================================================
+          3b. HOW IT WORKS — process steps
+          ================================================================ */}
+      <section className="py-14 sm:py-20 bg-cream">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-bold text-charcoal font-heading mb-4">
+              How It Works in {sub.name}
+            </h2>
+            <p className="text-lg text-charcoal-light font-body max-w-2xl mx-auto">
+              Getting your turf professionally cleaned is simple. Here&apos;s our 3-step process.
+            </p>
+          </div>
+
+          <div className="grid sm:grid-cols-3 gap-8">
+            {processSteps.map((step, idx) => (
+              <div key={step.title} className="flex flex-col items-center text-center">
+                <div className="relative w-24 h-24 rounded-full overflow-hidden mb-4 shadow-lg">
+                  <Image
+                    src={step.image}
+                    alt={step.title}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="w-8 h-8 rounded-full bg-sage text-white font-bold text-sm flex items-center justify-center mb-3">
+                  {idx + 1}
+                </div>
+                <h3 className="font-heading font-bold text-charcoal text-lg mb-2">
+                  {step.title}
+                </h3>
+                <p className="text-charcoal-light font-body text-sm leading-relaxed">
+                  {step.description}
+                </p>
+              </div>
             ))}
           </div>
         </div>

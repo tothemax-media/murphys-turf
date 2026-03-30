@@ -37,13 +37,13 @@ export default function Header() {
   const closeDrawer = useCallback(() => setDrawerOpen(false), []);
 
   const linkClass = `font-body text-sm font-medium transition-colors duration-300 hover:text-sage ${
-    scrolled ? 'text-charcoal' : 'text-white'
+    'text-charcoal'
   }`;
 
   return (
     <header
       className={`fixed top-0 left-0 z-50 w-full transition-all duration-300 ${
-        scrolled ? 'bg-white shadow-md' : 'bg-transparent'
+        'bg-white shadow-md'
       }`}
     >
       <nav
@@ -99,7 +99,7 @@ export default function Header() {
           type="button"
           onClick={() => setDrawerOpen(true)}
           className={`lg:hidden transition-colors duration-300 ${
-            scrolled ? 'text-charcoal' : 'text-white'
+            'text-charcoal'
           }`}
           aria-label="Open menu"
         >
