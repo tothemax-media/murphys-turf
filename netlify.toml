@@ -39,3 +39,13 @@
   from = "/contact/*"
   to = "/locations"
   status = 301
+
+[[redirects]]
+  from = "/contact-us"
+  to = "/locations"
+  status = 301
+
+[[redirects]]
+  from = "/contact-us/*"
+  to = "/locations"
+  status = 301
