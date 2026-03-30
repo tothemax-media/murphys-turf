@@ -58,8 +58,9 @@ export default function Header() {
             <Image
               src="/images/logo.png"
               alt="Rangel Janitorial"
-              width={160}
-              height={78}
+              width={450}
+              height={221}
+              priority
               className="h-16 w-auto object-contain"
             />
           </Link>
@@ -145,8 +146,8 @@ export default function Header() {
                   <Image
                     src="/images/logo.png"
                     alt="Rangel Janitorial"
-                    width={128}
-                    height={63}
+                    width={360}
+                    height={177}
                     className="h-12 w-auto object-contain"
                   />
                 </Link>

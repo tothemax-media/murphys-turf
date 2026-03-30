@@ -31,7 +31,7 @@ We understand that a clean facility isn't just about appearances — it's about 
     ],
     startingPrice: null,
     iconName: 'Building2',
-    image: '/images/stock/janitorial-cleaning.jpg',
+    image: '/images/stock/janitorial-cleaning.png',
     metaTitle: "Commercial Janitorial Cleaning Services | Rangel Janitorial",
     metaDescription: "Professional janitorial cleaning for offices, warehouses, and commercial buildings. Customized cleaning programs with trained, professional crews. Serving California.",
     faqs: [
@@ -83,7 +83,7 @@ Our day porters are trained to work discreetly and efficiently, handling cleanin
     ],
     startingPrice: null,
     iconName: 'UserCheck',
-    image: '/images/stock/day-porter.jpg',
+    image: '/images/stock/day-porter.png',
     metaTitle: "Day Porter Services for Commercial Buildings | Rangel Janitorial",
     metaDescription: "Professional day porter services to maintain your facility during business hours. Real-time cleaning, restroom monitoring, and spill response. Serving California.",
     faqs: [
@@ -134,7 +134,7 @@ This service is ideal for medical and dental facilities, fitness centers, school
     ],
     startingPrice: null,
     iconName: 'Zap',
-    image: '/images/stock/electrostatic-disinfection.jpg',
+    image: '/images/stock/electrostatic-disinfection.png',
     metaTitle: "Electrostatic Disinfection Services | Rangel Janitorial",
     metaDescription: "Advanced electrostatic disinfection with EPA List N approved chemicals. Complete high-touch surface coverage for offices, medical facilities, and gyms. Serving California.",
     faqs: [
@@ -185,7 +185,7 @@ We also handle concrete floor polishing, natural stone floor restoration, and ca
     ],
     startingPrice: null,
     iconName: 'Layers',
-    image: '/images/stock/floor-care.jpg',
+    image: '/images/stock/floor-care.png',
     metaTitle: "Commercial Floor Care Services — Strip & Wax, Tile & Grout | Rangel Janitorial",
     metaDescription: "Professional floor care for commercial facilities. VCT strip and wax, tile and grout cleaning, LVT, concrete, and stone floor services. Serving California.",
     faqs: [
@@ -236,7 +236,7 @@ We also provide spot treatment for high-visibility stains, traffic lane restorat
     ],
     startingPrice: null,
     iconName: 'Sparkles',
-    image: '/images/stock/carpet-cleaning.jpg',
+    image: '/images/stock/carpet-cleaning.png',
     metaTitle: "Commercial Carpet Cleaning Services | Rangel Janitorial",
     metaDescription: "Professional carpet cleaning for commercial facilities. Hot water extraction, encapsulation, and spot treatment. Extend carpet life and maintain appearance. Serving California.",
     faqs: [
