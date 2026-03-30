@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Phone, CheckCircle, ArrowRight, ChevronRight, Building2, Sparkles } from 'lucide-react';
 import { notFound } from 'next/navigation';
 import { AnimateOnScroll, StaggerContainer, StaggerItem } from '@/components/ui/AnimateOnScroll';
+import OurWorkGallery from '@/components/sections/OurWorkGallery';
 
 // ---------------------------------------------------------------------------
 // Types
@@ -452,6 +453,9 @@ export default async function SubcityPage({
           </AnimateOnScroll>
         </div>
       </section>
+
+      {/* Our Work Gallery */}
+      <OurWorkGallery />
 
       {/* ================================================================
           BACK TO PARENT LOCATION

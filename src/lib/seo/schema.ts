@@ -13,7 +13,7 @@ export function generateOrganizationSchema() {
     "@type": "Organization",
     name: COMPANY_NAME,
     url: SITE_URL,
-    logo: `${SITE_URL}/images/logo.png`,
+    logo: `${SITE_URL}/images/logo.webp`,
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "customer service",
@@ -248,7 +248,7 @@ export function generateBlogPostSchema(post: {
       url: SITE_URL,
       logo: {
         "@type": "ImageObject",
-        url: `${SITE_URL}/images/logo.png`,
+        url: `${SITE_URL}/images/logo.webp`,
       },
     },
     image: post.image

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import BlogContent from './BlogContent';
 import { AnimateOnScroll } from '@/components/ui/AnimateOnScroll';
+import OurWorkGallery from '@/components/sections/OurWorkGallery';
 
 export const metadata: Metadata = {
   title: 'Blog',
@@ -194,6 +195,9 @@ export default function BlogPage() {
           </p>
         </AnimateOnScroll>
       </section>
+
+      {/* Our Work Gallery */}
+      <OurWorkGallery />
 
       {/* ----------------- BLOG CONTENT ----------------- */}
       <BlogContent

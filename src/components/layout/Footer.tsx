@@ -71,7 +71,7 @@ export default function Footer() {
                 alt="Rangel Janitorial"
                 width={420}
                 height={206}
-                className="h-14 w-auto object-contain brightness-0 invert"
+                className="h-14 w-auto object-contain"
               />
             </Link>
             <p className="mt-4 font-body text-sm leading-relaxed text-gray-400">

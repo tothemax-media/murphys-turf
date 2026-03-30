@@ -3,18 +3,18 @@
 import Image from 'next/image';
 
 const galleryImages = [
-  { src: '/images/gallery/our-work/rangel-04-6941b0a11a326437fadc1201.png', alt: 'Rangel crew members cleaning a commercial facility' },
-  { src: '/images/gallery/our-work/rangel-03-6941b0a19a634f517e8840f2.png', alt: 'Rangel employee disinfecting office workspace' },
-  { src: '/images/gallery/our-work/rangel-18-6941b0a175b607cf5e318d3e.png', alt: 'Polished commercial floor by Rangel Janitorial' },
+  { src: '/images/gallery/our-work/rangel-02-6941b0a16edec52d705e6e30.png', alt: 'Rangel crew member mopping commercial floors' },
   { src: '/images/gallery/our-work/rangel-13-6941b0a1db710a50675087a5.png', alt: 'Rangel crew member cleaning restroom facilities' },
-  { src: '/images/gallery/our-work/rangel-05-6941b0a11a326457f0dc1202.png', alt: 'Commercial carpet vacuuming by Rangel crew' },
-  { src: '/images/gallery/our-work/rangel-25-6941b0a16edec5bcf45e6e2d.png', alt: 'Electrostatic disinfection sprayer in use' },
   { src: '/images/gallery/our-work/rangel-17-6941b0a17109a80798658d66.png', alt: 'Freshly polished warehouse floor' },
   { src: '/images/gallery/our-work/rangel-21-6941b0a10041dc7c1a15ddbd.png', alt: 'Rangel crew member vacuuming office carpet' },
   { src: '/images/gallery/our-work/rangel-11-6941b0a175b6078f79318d3d.png', alt: 'Detailed surface cleaning by Rangel crew' },
   { src: '/images/gallery/our-work/rangel-12-6941b0a1db710a16915087a6.png', alt: 'Commercial lobby floor cleaning' },
   { src: '/images/gallery/our-work/rangel-09-6941b0a1dd15223020c724e4.png', alt: 'Rangel crew member cleaning glass surfaces' },
   { src: '/images/gallery/our-work/rangel-16-6941b0a16edec513c25e6e41.png', alt: 'Team members sanitizing office surfaces' },
+  { src: '/images/gallery/our-work/rangel-10-6941b0a17109a8dad2658d64.png', alt: 'Clean commercial office cubicle space' },
+  { src: '/images/gallery/our-work/rangel-15-6941b0a16edec523065e6e2e.png', alt: 'Rangel crew handling trash and recycling' },
+  { src: '/images/gallery/our-work/rangel-22-6941b0a1db710a7d4d5087a4.png', alt: 'Break room table cleaning by Rangel crew' },
+  { src: '/images/gallery/our-work/rangel-24-6941b0a1ca729885d4435373.png', alt: 'Rangel crew member dusting ceiling fixtures' },
 ];
 
 export default function OurWorkGallery() {
