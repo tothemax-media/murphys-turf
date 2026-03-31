@@ -310,6 +310,7 @@ const locationData: Record<string, LocationData> = {
       'Bay Area microclimates range from damp conditions near the coast to warm, dry conditions inland — requiring adaptable cleaning approaches.',
     formId: 'FOFJpViBh8idExeBbAk8',
     mapQuery: 'Rangel+Janitorial+Walnut+Creek+CA',
+    gmb: 'https://www.google.com/maps/place/Rangel+Janitorial/data=!4m2!3m1!1s0x0:0xc3ee3d9f0986ca02',
   },
 };
 
