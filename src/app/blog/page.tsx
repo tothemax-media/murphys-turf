@@ -146,6 +146,86 @@ const blogPosts: BlogPost[] = [
       'California weather varies wildly by region and season. This month-by-month maintenance guide helps you stay ahead of seasonal challenges, from summer heat to winter rains, to keep your artificial turf performing its best.',
     gradient: 'from-orange-500 via-amber-400 to-yellow-400',
   },
+  {
+    slug: 'turf-cleaning-bay-area-martinez',
+    title: 'Artificial Turf Cleaning in the Bay Area: A Guide for Martinez & East Bay Homeowners',
+    category: 'Local Guides',
+    author: "Murphy's Turf Team",
+    date: '2026-03-20',
+    excerpt:
+      'Bay Area homeowners face unique turf cleaning challenges from microclimates, coastal fog, and seasonal rain. Learn how Murphy\'s Turf keeps synthetic grass clean across Martinez, Walnut Creek, Concord, and the East Bay.',
+    gradient: 'from-sky-600 via-blue-400 to-teal-400',
+  },
+  {
+    slug: 'turf-cleaning-sacramento',
+    title: 'Artificial Turf Cleaning in Sacramento: Surviving Central Valley Heat',
+    category: 'Local Guides',
+    author: "Murphy's Turf Team",
+    date: '2026-03-18',
+    excerpt:
+      'Sacramento homeowners need specialized turf cleaning strategies for Central Valley heat. Learn how to maintain artificial turf through 100-degree summers and keep your synthetic lawn fresh year-round.',
+    gradient: 'from-amber-500 via-yellow-400 to-orange-400',
+  },
+  {
+    slug: 'artificial-turf-cleaning-los-angeles',
+    title: 'Artificial Turf Cleaning in Los Angeles: What LA Homeowners Need to Know',
+    category: 'Local Guides',
+    author: "Murphy's Turf Team",
+    date: '2026-03-25',
+    excerpt:
+      'Los Angeles homeowners face unique turf cleaning challenges from smog, heat, and year-round outdoor living. Learn how to keep your artificial turf clean, safe, and fresh in the LA basin.',
+    gradient: 'from-purple-500 via-fuchsia-400 to-pink-400',
+  },
+  {
+    slug: 'artificial-turf-cleaning-anaheim',
+    title: 'Artificial Turf Cleaning in Anaheim: Keeping Your Synthetic Lawn Fresh in North Orange County',
+    category: 'Local Guides',
+    author: "Murphy's Turf Team",
+    date: '2026-03-22',
+    excerpt:
+      'Anaheim homeowners need smart turf cleaning strategies for warm inland OC temperatures. Learn how to maintain artificial turf in Anaheim and why professional cleaning makes a difference.',
+    gradient: 'from-orange-500 via-red-400 to-rose-400',
+  },
+  {
+    slug: 'artificial-turf-cleaning-riverside',
+    title: 'Artificial Turf Cleaning in Riverside: Professional Turf Care for the Inland Empire',
+    category: 'Local Guides',
+    author: "Murphy's Turf Team",
+    date: '2026-03-24',
+    excerpt:
+      'Riverside homeowners face extreme heat and dry conditions that accelerate turf contamination. Learn how to maintain artificial turf in Riverside and keep your synthetic lawn clean through Inland Empire summers.',
+    gradient: 'from-amber-600 via-orange-500 to-red-400',
+  },
+  {
+    slug: 'artificial-turf-cleaning-irvine',
+    title: 'Artificial Turf Cleaning in Irvine: Maintaining Pristine Turf in South Orange County',
+    category: 'Local Guides',
+    author: "Murphy's Turf Team",
+    date: '2026-03-23',
+    excerpt:
+      'Irvine homeowners expect perfect lawns and HOA-compliant landscapes. Learn how professional turf cleaning keeps artificial grass pristine in Irvine\'s warm inland OC climate.',
+    gradient: 'from-emerald-500 via-green-400 to-lime-400',
+  },
+  {
+    slug: 'artificial-turf-cleaning-long-beach',
+    title: 'Artificial Turf Cleaning in Long Beach: Coastal Meets Urban',
+    category: 'Local Guides',
+    author: "Murphy's Turf Team",
+    date: '2026-03-21',
+    excerpt:
+      'Long Beach homeowners face a mix of coastal moisture and urban pollution on their artificial turf. Learn the best cleaning strategies for synthetic grass in California\'s 7th largest city.',
+    gradient: 'from-cyan-500 via-blue-400 to-indigo-400',
+  },
+  {
+    slug: 'artificial-turf-cleaning-san-diego',
+    title: 'Artificial Turf Cleaning in San Diego: Sun, Surf, and Synthetic Grass Care',
+    category: 'Local Guides',
+    author: "Murphy's Turf Team",
+    date: '2026-03-26',
+    excerpt:
+      'San Diego homeowners enjoy year-round sun but face unique turf cleaning challenges. Learn how to maintain artificial turf in San Diego\'s coastal and inland neighborhoods for a clean, fresh lawn.',
+    gradient: 'from-blue-500 via-sky-400 to-cyan-400',
+  },
 ];
 
 const categories = ['All', 'Turf Cleaning', 'Pet Care', 'Maintenance Tips', 'Local Guides'] as const;

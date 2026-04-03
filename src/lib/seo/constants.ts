@@ -35,18 +35,28 @@ export const LOCATION_SLUGS = [
 ] as const;
 
 export const BLOG_SLUGS = [
+  // Existing posts (match actual built pages)
   "how-to-clean-artificial-turf",
-  "professional-turf-cleaning-huntington-beach",
-  "removing-pet-odors-murrieta",
-  "artificial-turf-maintenance-bay-area",
-  "sacramento-turf-cleaning-tips",
-  "health-benefits-turf-sanitization",
+  "removing-pet-odors-artificial-turf",
   "how-often-clean-artificial-turf",
-  "chlorine-based-turf-cleaning",
   "diy-vs-professional-turf-cleaning",
   "artificial-turf-pets-clean-safe",
-  "why-artificial-turf-smells-fix",
+  "chlorine-based-turf-cleaning",
   "signs-turf-needs-professional-cleaning",
+  "turf-cleaning-huntington-beach",
+  "turf-cleaning-murrieta-inland-empire",
+  "poop-scooping-service-worth-it",
+  "artificial-turf-bacteria-health-risks",
+  "seasonal-turf-maintenance-california",
+  // City-targeted posts
+  "turf-cleaning-bay-area-martinez",
+  "turf-cleaning-sacramento",
+  "artificial-turf-cleaning-los-angeles",
+  "artificial-turf-cleaning-anaheim",
+  "artificial-turf-cleaning-riverside",
+  "artificial-turf-cleaning-irvine",
+  "artificial-turf-cleaning-long-beach",
+  "artificial-turf-cleaning-san-diego",
 ] as const;
 
 export type ServiceSlug = (typeof SERVICE_SLUGS)[number];
