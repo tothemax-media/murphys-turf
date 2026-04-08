@@ -59,6 +59,12 @@ export const metadata: Metadata = {
     apple: '/apple-touch-icon.png',
   },
   manifest: '/manifest.json',
+  other: {
+    'ai-content-declaration': 'human-authored',
+    'content-type-ai-readable': 'true',
+    'llm-index': '/llms.txt',
+    'llm-full-content': '/llms-full.txt',
+  },
   openGraph: {
     title: "Rangel Janitorial | Professional Commercial Cleaning Services in California",
     description:

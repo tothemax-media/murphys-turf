@@ -103,5 +103,38 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...servicePages, ...locationPages, ...sublocationPages, ...blogPages];
+  // LLM SEO: .md mirrors of every blog post so AI crawlers can fetch clean
+  // markdown in one request instead of parsing HTML.
+  const blogMarkdownMirrors: MetadataRoute.Sitemap = BLOG_SLUGS.map((slug) => ({
+    url: `${SITE_URL}/blog/${slug}.md`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.5,
+  }));
+
+  // LLM SEO: llmstxt.org spec files
+  const llmIndexPages: MetadataRoute.Sitemap = [
+    {
+      url: `${SITE_URL}/llms.txt`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    },
+    {
+      url: `${SITE_URL}/llms-full.txt`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    },
+  ];
+
+  return [
+    ...staticPages,
+    ...servicePages,
+    ...locationPages,
+    ...sublocationPages,
+    ...blogPages,
+    ...blogMarkdownMirrors,
+    ...llmIndexPages,
+  ];
 }

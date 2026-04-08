@@ -495,12 +495,18 @@ export async function generateMetadata({
   return {
     title: post.title,
     description: post.metaDescription,
+    alternates: {
+      canonical: `/blog/${post.slug}`,
+    },
     openGraph: {
       title: `${post.title} | Rangel Janitorial Blog`,
       description: post.metaDescription,
       type: 'article',
       publishedTime: post.publishDate,
+      modifiedTime: post.publishDate,
       authors: [post.author.name],
+      section: post.category,
+      url: `/blog/${post.slug}`,
     },
   };
 }
@@ -536,28 +542,38 @@ export default async function BlogPostPage({
   const categoryColor =
     categoryColors[post.category] || 'bg-sage/15 text-sage-dark';
 
-  // Build JSON-LD structured data
+  // Build JSON-LD structured data (BlogPosting for Generative Engine Optimization)
+  const postUrl = `https://rangeljanitorial.com/blog/${post.slug}`;
   const articleJsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': 'BlogPosting',
     headline: post.title,
     description: post.metaDescription,
+    url: postUrl,
+    inLanguage: 'en-US',
     author: {
       '@type': 'Organization',
       name: 'Rangel Janitorial',
+      url: 'https://rangeljanitorial.com',
     },
     publisher: {
       '@type': 'Organization',
       name: 'Rangel Janitorial',
       url: 'https://rangeljanitorial.com',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://rangeljanitorial.com/images/logo.webp',
+      },
     },
     datePublished: post.publishDate,
     dateModified: post.publishDate,
+    image: 'https://rangeljanitorial.com/images/og-image.png',
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://rangeljanitorial.com/blog/${post.slug}`,
+      '@id': postUrl,
     },
     articleSection: post.category,
+    keywords: [post.category, 'commercial cleaning', 'janitorial', 'California'],
   };
 
   const breadcrumbJsonLd = {
