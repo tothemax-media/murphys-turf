@@ -15,6 +15,7 @@ import {
   List,
 } from 'lucide-react';
 import { AnimateOnScroll, StaggerContainer, StaggerItem } from '@/components/ui/AnimateOnScroll';
+import { LOCATION_BLOG_POSTS } from '@/content/location-posts';
 
 // ---------------------------------------------------------------------------
 // Types
@@ -457,24 +458,15 @@ const blogPosts: Record<string, BlogPost> = {
   },
 };
 
+// Merge the inline blog posts with the 34 location-focused posts.
+// The location posts live in a separate file to keep this page maintainable.
+Object.assign(blogPosts, LOCATION_BLOG_POSTS as unknown as Record<string, BlogPost>);
+
 // ---------------------------------------------------------------------------
 // Static Params & Metadata
 // ---------------------------------------------------------------------------
 
-const validSlugs = [
-  'office-cleaning-best-practices',
-  'janitorial-services-sacramento',
-  'commercial-cleaning-murrieta',
-  'day-porter-benefits',
-  'electrostatic-disinfection-explained',
-  'floor-care-vct-strip-wax',
-  'medical-facility-cleaning-standards',
-  'fitness-center-cleaning-guide',
-  'choosing-commercial-cleaning-company',
-  'carpet-cleaning-commercial-buildings',
-  'green-cleaning-commercial-facilities',
-  'janitorial-services-walnut-creek',
-];
+const validSlugs = Object.keys(blogPosts);
 
 export function generateStaticParams() {
   return validSlugs.map((slug) => ({ slug }));

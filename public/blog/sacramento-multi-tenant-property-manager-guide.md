@@ -1,0 +1,69 @@
+# Sacramento Multi-Tenant Property Management: A Guide to Janitorial Vendor Contracts
+
+> How Sacramento property managers structure janitorial vendor contracts for multi-tenant buildings. Scope, billing, common-area allocation, tenant chargebacks, and SLAs.
+
+**Category:** Sacramento Guides
+**Published:** March 22, 2026
+**Reading time:** 9 min read
+**Source:** https://rangeljanitorial.com/blog/sacramento-multi-tenant-property-manager-guide
+
+---
+
+## Multi-Tenant Cleaning Is a Different Business
+
+Cleaning a single-tenant office is straightforward. Cleaning a multi-tenant building in Sacramento — where the property manager pays for common areas and tenants pay for their own suites — is an exercise in scope, billing, and communication. Done well, it makes a building feel premium. Done poorly, it generates monthly tenant complaints.
+
+The right vendor relationship starts with a clear contract that separates common-area work from tenant suite work, defines billing for each, and creates a path for tenants to add or modify service in their own space without involving the property manager every time.
+
+## Defining the Common-Area Scope
+
+Common areas in a Sacramento multi-tenant building typically include the lobby, corridors, restrooms, elevators, stairwells, exterior entries, parking deck, and any shared amenities. The contract should list each space, the frequency of service, and the specific tasks performed at each frequency.
+
+Vague contract language like 'general cleaning' is the source of most disputes. Replace it with specific tasks: vacuum carpet, damp mop hard floors, disinfect restroom touch points, restock paper goods, empty trash, wipe glass entries, and so on, with the frequency next to each.
+
+## Tenant Suite Cleaning
+
+Tenant suites are normally cleaned under separate contracts — sometimes through the property manager's master vendor at a published rate, sometimes through a tenant's own vendor of choice. A multi-tenant building runs more smoothly when most tenants use the building's preferred vendor, because the crew is already on-site and security is simpler.
+
+Offering a published per-square-foot rate to tenants — sometimes called a 'tenant offering' — is a powerful tool for property managers. It removes friction, generates revenue for the property, and improves overall building cleanliness.
+
+## Billing and Cost Allocation
+
+Most Sacramento multi-tenant cleaning contracts bill the common-area work to the building owner monthly, with costs allocated back to tenants through CAM (common-area maintenance) charges. Tenant suite work bills directly to the tenant, either by the building or by the vendor.
+
+Keeping common-area billing and tenant suite billing on separate invoices makes audits, lease reconciliations, and tenant disputes much easier to resolve. A good vendor will set this up automatically.
+
+## Service Level Agreements and Response Times
+
+Multi-tenant contracts should include explicit service-level agreements (SLAs). At minimum: response time for an emergency cleaning request (typically 1-2 hours), response time for a standard issue (same business day), and a target resolution time for a quality complaint.
+
+SLAs are only useful if they are tracked and reported. Ask for a monthly report showing all tenant requests, response times, and resolutions. Vendors who avoid this reporting are usually hiding chronic issues.
+
+## Tenant Communication and Complaint Resolution
+
+Tenants almost never call the cleaning company directly — they call the property manager. The vendor's job is to make the property manager's life easy by offering a clean intake channel, a fast response, and a closed-loop confirmation when an issue is resolved.
+
+A simple email alias, ticketing system, or shared spreadsheet works for most Sacramento buildings. The key is consistency: every issue logged, every issue resolved, and every resolution communicated back to the tenant.
+
+## Project Work and Capital Improvements
+
+Multi-tenant buildings need periodic project work: floor strip and wax, carpet extraction, window cleaning, pressure washing, and high dusting. The contract should include a calendar of these projects so the property manager can budget and announce them to tenants in advance.
+
+Capital improvements like replacing entry mats, installing touchless dispensers, or upgrading to green cleaning chemistry can be coordinated through the same vendor. A good janitorial partner thinks beyond their daily tasks and helps the property manager plan ahead.
+
+## Performance Reviews and Vendor Accountability
+
+Quarterly performance reviews between the property manager and the cleaning vendor account manager are the standard at well-run Sacramento multi-tenant buildings. The review covers complaint metrics, SLA performance, project work completion, and any tenant feedback.
+
+When a vendor knows the review is coming, they show up better. When the review uncovers a chronic gap, the vendor has a chance to fix it before the contract is at risk. Skipping reviews is the first step toward an under-performing program.
+
+## Choosing a Vendor for Your Sacramento Multi-Tenant Building
+
+Look for vendors with proven multi-tenant experience in Sacramento, a published common-area scope, transparent billing, an SLA-driven complaint process, and a regional account manager who walks the property monthly. Stable crews and low turnover are the leading indicators of a vendor who will still be performing in year three.
+
+Rangel Janitorial manages multi-tenant cleaning programs across Sacramento, Roseville, Folsom, and Elk Grove. Contact our Sacramento team at (916) 426-2311 for a free walkthrough and a draft scope tailored to your building.
+
+---
+
+*Published by Rangel Janitorial — Professional janitorial and commercial cleaning services across California. Rangel Janitorial delivers reliable, thorough cleaning for offices, medical facilities, industrial parks, fitness centers, and multi-unit complexes. Serving Sacramento, Murrieta, and Walnut Creek.*
+*Read the original: https://rangeljanitorial.com/blog/sacramento-multi-tenant-property-manager-guide*

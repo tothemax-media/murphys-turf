@@ -1,0 +1,69 @@
+# Murrieta School District Cleaning Vendor Selection: A Guide for Facilities Directors
+
+> How Murrieta and Inland Empire school districts select cleaning vendors. RFPs, SLAs, prevailing wage, child safety, and what facilities directors need to know.
+
+**Category:** Murrieta Guides
+**Published:** March 19, 2026
+**Reading time:** 9 min read
+**Source:** https://rangeljanitorial.com/blog/murrieta-school-district-vendor-selection
+
+---
+
+## Why School Vendor Selection Is Different
+
+School districts in Murrieta, Temecula, Menifee, and the surrounding Inland Empire run formal procurement processes for janitorial vendors. Public funds, prevailing wage rules, child safety requirements, and elected board oversight all shape the process.
+
+Facilities directors need to balance cost, quality, compliance, and political risk in every vendor decision. The right process protects all four.
+
+## Building the RFP
+
+A school district janitorial RFP should specify scope, frequency, square footage, prevailing wage requirements, insurance and bonding, background check standards, references, and quality-control expectations.
+
+Vague RFPs invite low-quality bids. Specific RFPs invite serious vendors and produce comparable proposals.
+
+## Prevailing Wage and Labor Compliance
+
+California public works projects — including district janitorial contracts above thresholds — require prevailing wage compliance. The vendor must pay the regional prevailing wage rate, document hours, and submit certified payroll.
+
+Vendors who do not understand prevailing wage create compliance risk for the district. Asking specifically about prevailing wage experience filters out unqualified bidders.
+
+## Background Checks and Live Scan
+
+Every employee working in California schools must pass a Department of Justice and FBI background check via Live Scan. Vendors must document this for every crew member assigned to a school site.
+
+Districts should request copies of current Live Scan clearances before any new crew member starts work.
+
+## Daily Cleaning Scope
+
+School cleaning scope typically includes classrooms, restrooms, cafeterias, gymnasiums, hallways, offices, and outdoor areas. Frequency varies — some areas daily, others weekly or monthly.
+
+The RFP should specify exactly what is cleaned at what frequency. Schools that leave this vague end up with cleaning gaps and parent complaints.
+
+## Summer Deep Cleaning
+
+Summer is when school districts handle the heaviest cleaning projects: floor stripping and waxing, carpet extraction, deep cleaning of classrooms, and projects that cannot happen during the school year. The vendor needs the capacity and equipment to deliver on a tight summer schedule.
+
+A vendor who falls behind on summer deep cleaning leaves the district with a bad start to the new school year. Asking for summer project case studies during vendor selection is wise.
+
+## Health and Safety Programs
+
+School cleaning chemistry should be selected for child safety: low VOC, fragrance-free where possible, and certified safe by EPA Safer Choice or Green Seal. The vendor should provide a current product list and SDS for every product used on campus.
+
+Microfiber cleaning, color-coded mop heads, and HEPA-filtered vacuums reduce cross-contamination and chemical exposure.
+
+## Communication and Site Supervision
+
+Each school site needs a named on-site supervisor or lead. Communication between principals, custodial leads, and the vendor's account manager should be regular and documented.
+
+Districts should expect monthly performance reports and quarterly account reviews from any vendor managing more than a single school.
+
+## Choosing a Murrieta Inland Empire School Cleaning Vendor
+
+Look for vendors with documented school experience, prevailing wage compliance, Live Scan background checks, summer deep-cleaning capacity, and a stable account management team.
+
+Rangel Janitorial works with school districts, charter schools, and private schools across the Inland Empire. Contact our Murrieta team at (951) 331-3300 for a walkthrough and a custom proposal.
+
+---
+
+*Published by Rangel Janitorial — Professional janitorial and commercial cleaning services across California. Rangel Janitorial delivers reliable, thorough cleaning for offices, medical facilities, industrial parks, fitness centers, and multi-unit complexes. Serving Sacramento, Murrieta, and Walnut Creek.*
+*Read the original: https://rangeljanitorial.com/blog/murrieta-school-district-vendor-selection*

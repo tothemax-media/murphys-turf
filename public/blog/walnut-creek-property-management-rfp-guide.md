@@ -1,0 +1,69 @@
+# Walnut Creek Property Management Cleaning Vendor RFP Guide
+
+> How Walnut Creek property managers structure janitorial RFPs, evaluate proposals, and select vendors for Class A and Class B multi-tenant buildings.
+
+**Category:** Walnut Creek Guides
+**Published:** March 3, 2026
+**Reading time:** 9 min read
+**Source:** https://rangeljanitorial.com/blog/walnut-creek-property-management-rfp-guide
+
+---
+
+## Why a Formal RFP Matters
+
+Walnut Creek property managers overseeing Class A and Class B multi-tenant buildings benefit from a formal RFP process when selecting or switching cleaning vendors. The process produces comparable proposals, surfaces qualified vendors, and documents the decision.
+
+Skipping the RFP often results in under-priced, under-delivered programs that fail within a year.
+
+## Writing the RFP
+
+A good RFP specifies scope, frequency, square footage, special requirements, insurance, background check standards, references, and quality-control expectations.
+
+Vague RFPs invite low-quality bids. Specific RFPs invite serious vendors and produce comparable proposals.
+
+## Scope Definition
+
+The RFP should list every space, its square footage, and the specific tasks at each frequency. Common areas, tenant suites, and special areas like fitness rooms should be documented separately.
+
+Ambiguity in scope is the leading cause of disputes later in the contract.
+
+## Insurance and Bonding
+
+Cleaning vendors should carry comprehensive general liability, workers compensation, and umbrella policies. Bonding protects the property from theft and damage by cleaning staff.
+
+Certificates of insurance should name the property management company as additional insured.
+
+## Background Checks and Staffing
+
+Every crew member should have a documented background check. The RFP should specify the required level of screening and ask vendors to explain their onboarding process.
+
+Turnover statistics from vendors indicate the stability of the program.
+
+## References and Walk-Throughs
+
+The RFP should require at least three references from comparable Walnut Creek or East Bay properties. Property managers should call each reference and ask about quality, communication, and turnover.
+
+A walk-through of each bidding vendor's current account gives the strongest signal of real-world performance.
+
+## Pricing Structure
+
+Cleaning pricing is typically per square foot per month, with separate line items for floor care projects and special services. Avoid choosing on price alone — the lowest bid is almost always the most expensive program by year two.
+
+Multi-year contracts with built-in escalation clauses provide pricing stability for both parties.
+
+## Evaluation and Decision
+
+Scoring RFP responses on a weighted matrix — experience, references, pricing, quality plan, and account management — produces a defensible decision.
+
+Documenting the decision protects the property manager if the selected vendor is later questioned.
+
+## Choosing the Right Walnut Creek Vendor
+
+Look for vendors with stable crews, named account managers, documented quality programs, and transparent pricing. Rangel Janitorial responds to RFPs for Walnut Creek Class A and Class B buildings regularly.
+
+Contact our Walnut Creek team at (925) 655-9008 or ralph@rangeljanitorial.com to discuss your RFP and schedule a walk-through.
+
+---
+
+*Published by Rangel Janitorial — Professional janitorial and commercial cleaning services across California. Rangel Janitorial delivers reliable, thorough cleaning for offices, medical facilities, industrial parks, fitness centers, and multi-unit complexes. Serving Sacramento, Murrieta, and Walnut Creek.*
+*Read the original: https://rangeljanitorial.com/blog/walnut-creek-property-management-rfp-guide*

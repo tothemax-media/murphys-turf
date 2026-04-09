@@ -41,15 +41,201 @@ const SERVICE_SLUGS = extractStringArray("SERVICE_SLUGS");
 const LOCATION_SLUGS = extractStringArray("LOCATION_SLUGS");
 
 // ---------------------------------------------------------------------------
-// Parse blog posts from page.tsx
+// Balanced brace walker (respects string/template literal state)
+// ---------------------------------------------------------------------------
+function walkBalanced(src, startIndex) {
+  let depth = 1;
+  let i = startIndex;
+  let inStr = null;
+  let escape = false;
+  while (i < src.length && depth > 0) {
+    const c = src[i];
+    if (escape) {
+      escape = false;
+    } else if (inStr) {
+      if (c === "\\") escape = true;
+      else if (c === inStr) inStr = null;
+    } else {
+      if (c === '"' || c === "'" || c === "`") inStr = c;
+      else if (c === "{") depth++;
+      else if (c === "}") depth--;
+    }
+    i++;
+  }
+  return src.slice(startIndex, i - 1);
+}
+
+// ---------------------------------------------------------------------------
+// Extract a location post (mkPost + sections format)
+// ---------------------------------------------------------------------------
+function extractLocationPost(slug) {
+  const slugRe = new RegExp(`slug:\\s*"${slug}"`);
+  const slugMatch = locationPostsSrc.match(slugRe);
+  if (!slugMatch) return null;
+
+  // Walk backward to find the enclosing mkPost({
+  const before = locationPostsSrc.slice(0, slugMatch.index);
+  const openIdx = before.lastIndexOf("mkPost({");
+  if (openIdx === -1) return null;
+  const blockStart = openIdx + "mkPost({".length;
+  const block = walkBalanced(locationPostsSrc, blockStart);
+
+  const strField = (name) => {
+    // String literal form
+    const litRe = new RegExp(
+      `${name}:\\s*(?:"([^"\\n]*(?:\\\\"[^"\\n]*)*)"|'([^'\\n]*(?:\\\\'[^'\\n]*)*)')`
+    );
+    const m = block.match(litRe);
+    if (m) return (m[1] || m[2] || "").replace(/\\"/g, '"').replace(/\\'/g, "'");
+    // Identifier form: `category: SAC_CAT,`
+    const idRe = new RegExp(`${name}:\\s*(\\w+)\\s*,`);
+    const mi = block.match(idRe);
+    if (mi && locationConstants[mi[1]]) return locationConstants[mi[1]];
+    return "";
+  };
+
+  // metaDescription sometimes wraps across lines
+  const metaRe = /metaDescription:\s*\n?\s*"([\s\S]*?)",\s*\n\s*category/;
+  const metaMatch = block.match(metaRe);
+  const metaDescription = metaMatch
+    ? metaMatch[1].replace(/\s+/g, " ").trim()
+    : strField("metaDescription");
+
+  // Extract sections: [...]
+  const sectionsIdx = block.indexOf("sections:");
+  if (sectionsIdx === -1) return null;
+  const arrStart = block.indexOf("[", sectionsIdx);
+  // Walk balanced brackets
+  let depth = 1;
+  let i = arrStart + 1;
+  let inStr = null;
+  let escape = false;
+  while (i < block.length && depth > 0) {
+    const c = block[i];
+    if (escape) escape = false;
+    else if (inStr) {
+      if (c === "\\") escape = true;
+      else if (c === inStr) inStr = null;
+    } else {
+      if (c === '"' || c === "'" || c === "`") inStr = c;
+      else if (c === "[") depth++;
+      else if (c === "]") depth--;
+    }
+    i++;
+  }
+  const sectionsText = block.slice(arrStart + 1, i - 1);
+
+  // Parse section objects: { h2: "...", paragraphs: ["...", "..."] }
+  // Split by top-level object boundaries
+  const sections = [];
+  {
+    let d = 0;
+    let s = null;
+    let esc = false;
+    let objStart = -1;
+    for (let j = 0; j < sectionsText.length; j++) {
+      const c = sectionsText[j];
+      if (esc) {
+        esc = false;
+      } else if (s) {
+        if (c === "\\") esc = true;
+        else if (c === s) s = null;
+      } else {
+        if (c === '"' || c === "'" || c === "`") s = c;
+        else if (c === "{") {
+          if (d === 0) objStart = j + 1;
+          d++;
+        } else if (c === "}") {
+          d--;
+          if (d === 0 && objStart !== -1) {
+            sections.push(sectionsText.slice(objStart, j));
+            objStart = -1;
+          }
+        }
+      }
+    }
+  }
+
+  // Convert each section to HTML-like content for downstream markdown conversion
+  const contentParts = sections.map((secBlock) => {
+    const h2Match = secBlock.match(/h2:\s*"([^"]+)"/);
+    const h2 = h2Match ? h2Match[1] : "";
+    // paragraphs: [ "...", "..." ]
+    const pArrMatch = secBlock.match(/paragraphs:\s*\[([\s\S]*?)\]/);
+    const pArr = pArrMatch ? pArrMatch[1] : "";
+    // Split paragraphs by top-level quoted strings
+    const paragraphs = [];
+    {
+      let s = null;
+      let esc = false;
+      let buf = "";
+      for (let j = 0; j < pArr.length; j++) {
+        const c = pArr[j];
+        if (esc) {
+          buf += c;
+          esc = false;
+          continue;
+        }
+        if (s) {
+          if (c === "\\") {
+            esc = true;
+            continue;
+          }
+          if (c === s) {
+            paragraphs.push(buf);
+            buf = "";
+            s = null;
+            continue;
+          }
+          buf += c;
+        } else if (c === '"' || c === "'") {
+          s = c;
+        }
+      }
+    }
+    const h2Html = `<h2>${h2}</h2>`;
+    const pHtml = paragraphs.map((p) => `<p>${p}</p>`).join("\n");
+    return `${h2Html}\n${pHtml}`;
+  });
+
+  return {
+    slug,
+    title: strField("title"),
+    metaDescription,
+    category: strField("category"),
+    publishDate: strField("publishDate"),
+    readingTime: strField("readingTime"),
+    content: contentParts.join("\n\n"),
+  };
+}
+
+// ---------------------------------------------------------------------------
+// Parse blog posts from page.tsx + location-posts.ts
 // ---------------------------------------------------------------------------
 const blogPageSrc = readFileSync(
   join(ROOT, "src/app/blog/[slug]/page.tsx"),
   "utf8"
 );
+const locationPostsSrc = readFileSync(
+  join(ROOT, "src/content/location-posts.ts"),
+  "utf8"
+);
+
+// Resolve top-level string constants (e.g., SAC_CAT = "Sacramento Guides")
+// so references like `category: SAC_CAT,` resolve to the real string.
+const locationConstants = {};
+for (const m of locationPostsSrc.matchAll(
+  /^const\s+(\w+)\s*=\s*"([^"]+)"\s*;/gm
+)) {
+  locationConstants[m[1]] = m[2];
+}
 
 function extractPost(slug) {
-  // Find the opening of this post block
+  // Try location-posts.ts first (newer long-form posts using mkPost + sections)
+  const locationPost = extractLocationPost(slug);
+  if (locationPost) return locationPost;
+
+  // Fall back to page.tsx inline posts
   const startRe = new RegExp(`'${slug.replace(/[-\/]/g, "\\$&")}':\\s*\\{`);
   const startMatch = blogPageSrc.match(startRe);
   if (!startMatch) {
