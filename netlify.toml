@@ -1,6 +1,13 @@
 [build]
   command = "npm run build"
   publish = "out"
+  # This site is Next.js with output: "export" — a pure static build.
+  # Disable the Netlify Next.js runtime plugin so requests for unknown URLs
+  # are served by Netlify's static CDN (clean 404) instead of being wrapped
+  # in a serverless function that can crash and return 5xx.
+  # This is the root cause of the 45K+ Server error (5xx) reports in GSC.
+  [build.environment]
+    NETLIFY_NEXT_PLUGIN_SKIP = "true"
 
 [[headers]]
   for = "/*"
@@ -72,3 +79,165 @@
   from = "/contact-us/*"
   to = "/locations"
   status = 301
+
+# ---------------------------------------------------------------------------
+# HACK RESIDUE CLEANUP — 410 Gone
+# This site was previously compromised and Google Search Console still shows
+# ~92K URLs from the old hacked install. Returning 410 (instead of 404) tells
+# Google "this is permanently gone, remove it from the index" — de-indexing
+# happens ~10x faster than a regular 404.
+#
+# Each rule uses force=true so it beats any static file that might exist,
+# and status=410 which Google treats as a permanent removal signal.
+# ---------------------------------------------------------------------------
+
+# WordPress core paths (this site was never WordPress)
+[[redirects]]
+  from = "/wp-admin/*"
+  to = "/404.html"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/wp-content/*"
+  to = "/404.html"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/wp-includes/*"
+  to = "/404.html"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/wp-json/*"
+  to = "/404.html"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/wp-login.php"
+  to = "/404.html"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/xmlrpc.php"
+  to = "/404.html"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/wp-*"
+  to = "/404.html"
+  status = 410
+  force = true
+
+# PHP files — this site is pure static, there are no legitimate .php URLs
+[[redirects]]
+  from = "/*.php"
+  to = "/404.html"
+  status = 410
+  force = true
+
+# WordPress query-style permalinks (?p=123, ?page_id=123, etc.)
+[[redirects]]
+  from = "/"
+  query = {p = ":id"}
+  to = "/404.html"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/"
+  query = {page_id = ":id"}
+  to = "/404.html"
+  status = 410
+  force = true
+
+# Common hacked-site spam paths
+[[redirects]]
+  from = "/cgi-bin/*"
+  to = "/404.html"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/feed"
+  to = "/404.html"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/feed/*"
+  to = "/404.html"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/comments/feed/*"
+  to = "/404.html"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/category/*"
+  to = "/404.html"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/tag/*"
+  to = "/404.html"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/author/*"
+  to = "/404.html"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/?*s=*"
+  to = "/404.html"
+  status = 410
+  force = true
+
+# Backup / install / env files (common hack targets)
+[[redirects]]
+  from = "/.env"
+  to = "/404.html"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/.git/*"
+  to = "/404.html"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/backup/*"
+  to = "/404.html"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/install.php"
+  to = "/404.html"
+  status = 410
+  force = true
+
+# ---------------------------------------------------------------------------
+# CLEAN 404 FALLBACK
+# Absolute final rule — if nothing else matched, serve /404.html with a real
+# HTTP 404 status. This ensures we NEVER return 5xx for missing pages.
+# Without this, an unknown URL could slip through to the Netlify default
+# handler which (with the Next.js plugin misconfigured) was producing 5xx.
+# ---------------------------------------------------------------------------
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
