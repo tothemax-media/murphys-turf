@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Privacy Policy',
   description:
     "Rangel Janitorial privacy policy. Learn how we collect, use, and protect your personal information when you use our janitorial and commercial cleaning services.",
+  alternates: {
+    canonical: '/privacy-policy',
+  },
 };
 
 const sections = [

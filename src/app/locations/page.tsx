@@ -8,6 +8,12 @@ export const metadata: Metadata = {
   title: 'Service Locations | Professional Janitorial Services Across California',
   description:
     "Rangel Janitorial provides professional janitorial and commercial cleaning services across California. Serving Sacramento, Murrieta, and Walnut Creek.",
+  alternates: {
+    canonical: '/locations',
+  },
+  openGraph: {
+    url: '/locations',
+  },
 };
 
 const locations = [

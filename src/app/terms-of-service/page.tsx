@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Terms of Service',
   description:
     "Rangel Janitorial terms of service. Review the terms and conditions governing your use of our janitorial and commercial cleaning services in California.",
+  alternates: {
+    canonical: '/terms-of-service',
+  },
 };
 
 const sections = [

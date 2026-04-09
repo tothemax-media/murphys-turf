@@ -12,6 +12,12 @@ export const metadata: Metadata = {
   title: 'Commercial Cleaning Services | Rangel Janitorial',
   description:
     "Professional janitorial cleaning, day porter, electrostatic disinfection, floor care, and carpet cleaning services. Serving Sacramento, Murrieta, and Walnut Creek. Get a free quote today.",
+  alternates: {
+    canonical: '/services',
+  },
+  openGraph: {
+    url: '/services',
+  },
 };
 
 const services = [

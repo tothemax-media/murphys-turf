@@ -91,6 +91,45 @@
 # and status=410 which Google treats as a permanent removal signal.
 # ---------------------------------------------------------------------------
 
+# Hacked /products/* URLs — this site sells services, not products. Every
+# /products/{numeric-id} URL in Google Search Console is hack residue from the
+# previous compromised install and accounts for the bulk of the 92K bad URLs.
+[[redirects]]
+  from = "/products"
+  to = "/404.html"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/products/*"
+  to = "/404.html"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/product/*"
+  to = "/404.html"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/shop/*"
+  to = "/404.html"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/cart/*"
+  to = "/404.html"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/checkout/*"
+  to = "/404.html"
+  status = 410
+  force = true
+
 # WordPress core paths (this site was never WordPress)
 [[redirects]]
   from = "/wp-admin/*"

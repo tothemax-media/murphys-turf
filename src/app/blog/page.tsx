@@ -7,10 +7,14 @@ export const metadata: Metadata = {
   title: 'Blog',
   description:
     "Expert janitorial and commercial cleaning tips, facility maintenance guides, and industry insights for California businesses. Learn from Rangel Janitorial professionals how to keep your facility clean, healthy, and professional.",
+  alternates: {
+    canonical: '/blog',
+  },
   openGraph: {
     title: "Blog | Rangel Janitorial",
     description:
       'Expert janitorial and commercial cleaning tips, facility maintenance guides, and industry insights for California businesses.',
+    url: '/blog',
   },
 };
 

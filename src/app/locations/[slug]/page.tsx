@@ -339,10 +339,14 @@ export async function generateMetadata({
   return {
     title: location.metaTitle,
     description: location.metaDescription,
+    alternates: {
+      canonical: `/locations/${slug}`,
+    },
     openGraph: {
       title: location.metaTitle,
       description: location.metaDescription,
       type: 'website',
+      url: `/locations/${slug}`,
     },
   };
 }

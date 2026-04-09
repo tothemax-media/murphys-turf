@@ -30,9 +30,11 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://rangeljanitorial.com'),
-  alternates: {
-    canonical: '/',
-  },
+  // NOTE: Do NOT set alternates.canonical here. A canonical in the root layout
+  // is inherited by every child route that doesn't override it, which causes
+  // Google to treat every location/service/blog page as an "Alternate page
+  // with proper canonical tag" pointing to the homepage — and refuse to index
+  // them. Each page declares its own canonical in its own generateMetadata.
   title: {
     default: "Rangel Janitorial | Professional Commercial Cleaning Services in California",
     template: "%s | Rangel Janitorial",

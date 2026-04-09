@@ -4,6 +4,10 @@ import { Building2, Home, Mail } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Page Not Found',
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function NotFound() {

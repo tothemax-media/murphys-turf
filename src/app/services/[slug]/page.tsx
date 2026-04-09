@@ -568,10 +568,14 @@ export async function generateMetadata({
   return {
     title: `${service.name} | Rangel Janitorial`,
     description: service.metaDescription,
+    alternates: {
+      canonical: `/services/${slug}`,
+    },
     openGraph: {
       title: `${service.name} | Rangel Janitorial — Commercial Cleaning`,
       description: service.metaDescription,
       type: 'website',
+      url: `/services/${slug}`,
     },
   };
 }
