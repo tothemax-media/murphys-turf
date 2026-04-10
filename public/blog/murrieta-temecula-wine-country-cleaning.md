@@ -61,7 +61,7 @@ Pollen, leaves, and bird droppings are constant outdoor cleaning challenges. A t
 
 Look for vendors with experience in hospitality, premium finishes, and visitor-facing environments. Stable, professional crews are essential because wine country properties are visible and any issue gets noticed immediately.
 
-Rangel Janitorial is headquartered in Murrieta and serves wineries, tasting rooms, hotels, and offices throughout the wine country corridor. Contact our Murrieta team at (951) 331-3300 or email ralph@rangeljanitorial.com.
+Rangel Janitorial is headquartered in Murrieta and serves wineries, tasting rooms, hotels, and offices throughout the wine country corridor. Contact our Murrieta team at (951) 894-4222 or email ralph@rangeljanitorial.com.
 
 ---
 

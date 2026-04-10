@@ -40,10 +40,10 @@ const services: ServiceData[] = [
   },
   {
     icon: Sparkles,
-    name: 'Carpet Cleaning',
-    slug: 'carpet-cleaning',
+    name: 'Office Cleaning',
+    slug: 'office-cleaning',
     description:
-      'Commercial carpet cleaning services using professional-grade equipment to extend carpet life and maintain a clean appearance.',
+      'Comprehensive office cleaning services to keep workspaces, desks, and common areas spotless and professionally maintained.',
   },
 ];
 

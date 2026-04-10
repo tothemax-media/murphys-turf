@@ -134,7 +134,7 @@ export const DEFAULT_METADATA: Metadata = {
     "day porter services",
     "electrostatic disinfection",
     "floor care services",
-    "carpet cleaning commercial",
+    "office cleaning commercial",
     "janitorial services Sacramento",
     "janitorial services Murrieta",
     "janitorial services Walnut Creek",

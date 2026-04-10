@@ -16,7 +16,7 @@ const REQUIRED_FIELDS = [
 
 const EXPECTED_PHONES: Record<string, string> = {
   sacramento: '916-426-2311',
-  murrieta: '951-331-3300',
+  murrieta: '951-894-4222',
   'walnut-creek': '925-655-9008',
 };
 

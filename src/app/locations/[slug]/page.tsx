@@ -18,6 +18,7 @@ import { notFound } from 'next/navigation';
 import { AnimateOnScroll, StaggerContainer, StaggerItem } from '@/components/ui/AnimateOnScroll';
 import OurWorkGallery from '@/components/sections/OurWorkGallery';
 import FAQ from '@/components/sections/FAQ';
+import LeadForm from '@/components/forms/LeadForm';
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -68,37 +69,37 @@ const services = [
   {
     name: 'Janitorial Cleaning',
     slug: 'janitorial-cleaning',
-    image: '/images/stock/janitorial-cleaning.jpg',
+    image: '/images/stock/janitorial-cleaning.png',
     shortDescription:
       'Comprehensive daily and nightly janitorial services for offices, medical facilities, and commercial buildings.',
   },
   {
     name: 'Day Porter',
     slug: 'day-porter',
-    image: '/images/stock/day-porter.jpg',
+    image: '/images/stock/day-porter.png',
     shortDescription:
       'On-site daytime cleaning and maintenance to keep your facility looking its best throughout the business day.',
   },
   {
     name: 'Electrostatic Disinfection',
     slug: 'electrostatic-disinfection',
-    image: '/images/stock/electrostatic-disinfection.jpg',
+    image: '/images/stock/electrostatic-disinfection.png',
     shortDescription:
       'Advanced electrostatic spraying technology for thorough disinfection of high-touch surfaces and hard-to-reach areas.',
   },
   {
     name: 'Floor Care',
     slug: 'floor-care',
-    image: '/images/stock/floor-care.jpg',
+    image: '/images/stock/floor-care.png',
     shortDescription:
       'Professional floor care including VCT strip and wax, polishing, and maintenance to keep your floors pristine.',
   },
   {
-    name: 'Carpet Cleaning',
-    slug: 'carpet-cleaning',
-    image: '/images/stock/carpet-cleaning.jpg',
+    name: 'Office Cleaning',
+    slug: 'office-cleaning',
+    image: '/images/stock/office-lobby.jpg',
     shortDescription:
-      'Commercial carpet cleaning using professional-grade equipment to extend carpet life and maintain appearance.',
+      'Dedicated office cleaning for professional work environments — workstations, conference rooms, and common areas.',
   },
 ];
 
@@ -175,7 +176,8 @@ const locationData: Record<string, LocationData> = {
     email: 'ralph@rangeljanitorial.com',
     neighborhoods: [
       'Sacramento',
-      'Elk Grove',
+      'Downtown Sacramento',
+      'Midtown Sacramento',
       'Roseville',
       'Folsom',
       'Rancho Cordova',
@@ -186,9 +188,9 @@ const locationData: Record<string, LocationData> = {
     testimonials: [
       {
         name: 'Greg Thomsen',
-        neighborhood: 'Elk Grove',
+        neighborhood: 'Downtown Sacramento',
         rating: 5,
-        text: "We manage a medical office complex in Elk Grove and switched to Rangel Janitorial six months ago. The difference is night and day — our waiting rooms and exam rooms are spotless every morning. Their crew is thorough, professional, and consistent. Best janitorial service we've worked with in Sacramento.",
+        text: "We manage a medical office complex in Downtown Sacramento and switched to Rangel Janitorial six months ago. The difference is night and day — our waiting rooms and exam rooms are spotless every morning. Their crew is thorough, professional, and consistent. Best janitorial service we've worked with in Sacramento.",
       },
       {
         name: 'Priya Venkatesh',
@@ -205,9 +207,9 @@ const locationData: Record<string, LocationData> = {
     ],
     metaTitle: "Professional Janitorial Services in Sacramento, CA | Rangel Janitorial",
     metaDescription:
-      "Sacramento's trusted janitorial and commercial cleaning service. Rangel Janitorial serves Elk Grove, Roseville, Folsom & Rancho Cordova. Licensed & insured. Get a free quote today.",
+      "Sacramento's trusted janitorial and commercial cleaning service. Rangel Janitorial serves Downtown Sacramento, Midtown, Roseville, Folsom & Rancho Cordova. Licensed & insured. Get a free quote today.",
     serviceAreaDescription:
-      'Serving the greater Sacramento metro including Elk Grove, Roseville, Folsom, Rancho Cordova, Citrus Heights, and West Sacramento.',
+      'Serving the greater Sacramento metro including Downtown Sacramento, Midtown Sacramento, Roseville, Folsom, Rancho Cordova, Citrus Heights, and West Sacramento.',
     climateNote:
       'Central Valley heat and dust demand frequent deep cleaning to maintain healthy, professional environments.',
     formId: '6L08kToCUbkqyOiTqitu',
@@ -218,7 +220,7 @@ const locationData: Record<string, LocationData> = {
     city: 'Murrieta',
     slug: 'murrieta',
     state: 'CA',
-    phone: '(951) 331-3300',
+    phone: '(951) 894-4222',
     email: 'ralph@rangeljanitorial.com',
     neighborhoods: [
       'Murrieta',
@@ -486,7 +488,7 @@ export default async function LocationPage({
         {/* Background image with dark overlay */}
         <div className="absolute inset-0">
           <Image
-            src="/images/stock/commercial-cleaning-hero.jpg"
+            src="/images/rangel/deb1af_b057f98a07374ed994b036bcb6705970~mv2.png"
             alt={`Professional commercial cleaning services in ${location.city}, California by Rangel Janitorial`}
             fill
             className="object-cover"
@@ -544,14 +546,10 @@ export default async function LocationPage({
               </div>
             </AnimateOnScroll>
 
-            {/* Right: Lead form iframe */}
+            {/* Right: Lead form */}
             <AnimateOnScroll direction="up" className="w-full">
-              <div className="bg-white rounded-2xl shadow-2xl p-2 sm:p-3">
-                <iframe
-                  src={`https://api.leadconnectorhq.com/widget/form/${location.formId}`}
-                  style={{ width: '100%', height: '989px', border: 'none', borderRadius: '12px' }}
-                  title={`Get a Free Quote - ${location.city}`}
-                />
+              <div className="bg-white rounded-2xl shadow-2xl">
+                <LeadForm formId={location.formId} location={location.city} />
               </div>
             </AnimateOnScroll>
           </div>
@@ -607,24 +605,35 @@ export default async function LocationPage({
       </section>
 
       {/* ================================================================
-          3. ABOUT US
+          3. TRUSTED BY LOCAL BUSINESSES (Testimonial Section)
           ================================================================ */}
       <section className="py-14 sm:py-20 bg-cream">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
             <AnimateOnScroll direction="fade">
-              <Image
-                src="/images/stock/commercial-cleaning-hero.jpg"
-                alt="Rangel Janitorial professional commercial cleaning"
-                width={500}
-                height={400}
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
+              <div className="bg-white rounded-2xl p-8 sm:p-10 shadow-lg border border-gray-100">
+                <div className="flex gap-1 mb-4">
+                  {Array.from({ length: 5 }).map((_, i) => (
+                    <Star key={i} className="w-6 h-6 text-sage fill-sage" />
+                  ))}
+                </div>
+                <blockquote className="text-charcoal font-body text-lg leading-relaxed italic mb-6">
+                  &ldquo;{location.testimonials[0].text}&rdquo;
+                </blockquote>
+                <div className="border-t border-gray-200 pt-4">
+                  <p className="font-semibold text-charcoal font-heading">
+                    {location.testimonials[0].name}
+                  </p>
+                  <p className="text-charcoal-light font-body text-sm">
+                    {location.testimonials[0].neighborhood}, {location.state}
+                  </p>
+                </div>
+              </div>
             </AnimateOnScroll>
 
             <AnimateOnScroll direction="up">
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-charcoal font-heading mb-6">
-                Reliable Janitorial &amp; Commercial Cleaning
+                Trusted by {location.city} Businesses
               </h2>
               <p className="text-charcoal-light font-body leading-relaxed text-base mb-8">
                 30+ years of commercial cleaning expertise. Our trained
@@ -789,7 +798,7 @@ export default async function LocationPage({
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
               <h2 className="text-2xl sm:text-3xl font-bold text-charcoal font-heading mb-6">
-                Neighborhoods We Serve in {location.city}
+                {slug === 'walnut-creek' ? 'Communities We Serve in the East Bay' : `Neighborhoods We Serve in ${location.city}`}
               </h2>
               <p className="text-charcoal-light font-body leading-relaxed mb-8">
                 {location.serviceAreaDescription}
@@ -896,15 +905,10 @@ export default async function LocationPage({
               </div>
             </AnimateOnScroll>
 
-            {/* Right: Lead form iframe */}
+            {/* Right: Lead form */}
             <AnimateOnScroll direction="up" className="w-full">
-              <div className="bg-white rounded-2xl shadow-2xl p-2 sm:p-4">
-                <iframe
-                  src={`https://api.leadconnectorhq.com/widget/form/${location.formId}`}
-                  style={{ width: '100%', height: '989px', border: 'none', borderRadius: '12px' }}
-                  title={`Get a Free Quote - ${location.city}`}
-                  loading="lazy"
-                />
+              <div className="bg-white rounded-2xl shadow-2xl">
+                <LeadForm formId={location.formId} location={location.city} />
               </div>
             </AnimateOnScroll>
           </div>

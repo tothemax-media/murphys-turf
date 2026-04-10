@@ -11,7 +11,7 @@ import OurWorkGallery from '@/components/sections/OurWorkGallery';
 export const metadata: Metadata = {
   title: 'Commercial Cleaning Services | Rangel Janitorial',
   description:
-    "Professional janitorial cleaning, day porter, electrostatic disinfection, floor care, and carpet cleaning services. Serving Sacramento, Murrieta, and Walnut Creek. Get a free quote today.",
+    "Professional janitorial cleaning, day porter, electrostatic disinfection, floor care, and office cleaning services. Serving Sacramento, Murrieta, and Walnut Creek. Get a free quote today.",
   alternates: {
     canonical: '/services',
   },
@@ -54,12 +54,12 @@ const services = [
       'Specialized floor maintenance including VCT strip and wax, tile and grout cleaning, LVT care, concrete polishing, and stone floor restoration.',
   },
   {
-    name: 'Carpet Cleaning',
-    slug: 'carpet-cleaning',
-    image: '/images/stock/carpet-cleaning.png',
-    alt: 'Professional carpet cleaning with hot water extraction in a commercial building',
+    name: 'Office Cleaning',
+    slug: 'office-cleaning',
+    image: '/images/stock/office-lobby.jpg',
+    alt: 'Professional office cleaning by Rangel Janitorial',
     description:
-      'Professional commercial carpet cleaning using hot water extraction, encapsulation, and spot treatment to extend carpet life and maintain a clean appearance.',
+      'Dedicated cleaning for professional work environments including workstation sanitization, conference rooms, common areas, and break rooms.',
   },
 ];
 

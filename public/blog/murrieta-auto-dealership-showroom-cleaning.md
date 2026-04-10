@@ -61,7 +61,7 @@ A vendor experienced with dealership brand audits can help the dealership pass w
 
 Look for vendors with auto dealership experience, the equipment to handle showrooms and service bays, day porter capacity, and a stable team that understands the brand-driven nature of the work.
 
-Rangel Janitorial cleans auto dealerships throughout the Inland Empire. Contact our Murrieta team at (951) 331-3300 for a walkthrough and a custom proposal.
+Rangel Janitorial cleans auto dealerships throughout the Inland Empire. Contact our Murrieta team at (951) 894-4222 for a walkthrough and a custom proposal.
 
 ---
 

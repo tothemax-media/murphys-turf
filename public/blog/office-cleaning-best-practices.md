@@ -39,7 +39,7 @@ Shared kitchen and break room areas accumulate bacteria quickly from food prepar
 ## Creating a Cleaning Schedule
 
  
-The most effective cleaning programs combine daily maintenance with periodic deep cleaning. Daily tasks should include trash removal, restroom sanitation, and surface wiping. Weekly tasks might include [floor care](https://rangeljanitorial.com/services/floor-care) and detailed dusting. Monthly or quarterly tasks should include [carpet cleaning](https://rangeljanitorial.com/services/carpet-cleaning), floor stripping and waxing, and window cleaning.
+The most effective cleaning programs combine daily maintenance with periodic deep cleaning. Daily tasks should include trash removal, restroom sanitation, and surface wiping. Weekly tasks might include [floor care](https://rangeljanitorial.com/services/floor-care) and detailed dusting. Monthly or quarterly tasks should include [office deep cleaning](https://rangeljanitorial.com/services/office-cleaning), floor stripping and waxing, and window cleaning.
 
  
 ## When to Call a Professional

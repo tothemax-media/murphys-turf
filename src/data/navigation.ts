@@ -16,7 +16,7 @@ export const footerNav: NavGroup[] = [
       { label: "Day Porter", href: "/services/day-porter" },
       { label: "Electrostatic Disinfection", href: "/services/electrostatic-disinfection" },
       { label: "Floor Care", href: "/services/floor-care" },
-      { label: "Carpet Cleaning", href: "/services/carpet-cleaning" },
+      { label: "Office Cleaning", href: "/services/office-cleaning" },
     ],
   },
   {

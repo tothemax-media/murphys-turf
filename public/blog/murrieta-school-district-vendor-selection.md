@@ -61,7 +61,7 @@ Districts should expect monthly performance reports and quarterly account review
 
 Look for vendors with documented school experience, prevailing wage compliance, Live Scan background checks, summer deep-cleaning capacity, and a stable account management team.
 
-Rangel Janitorial works with school districts, charter schools, and private schools across the Inland Empire. Contact our Murrieta team at (951) 331-3300 for a walkthrough and a custom proposal.
+Rangel Janitorial works with school districts, charter schools, and private schools across the Inland Empire. Contact our Murrieta team at (951) 894-4222 for a walkthrough and a custom proposal.
 
 ---
 

@@ -61,7 +61,7 @@ When a vendor knows the review is coming, they show up better. When the review u
 
 Look for vendors with proven multi-tenant experience in Sacramento, a published common-area scope, transparent billing, an SLA-driven complaint process, and a regional account manager who walks the property monthly. Stable crews and low turnover are the leading indicators of a vendor who will still be performing in year three.
 
-Rangel Janitorial manages multi-tenant cleaning programs across Sacramento, Roseville, Folsom, and Elk Grove. Contact our Sacramento team at (916) 426-2311 for a free walkthrough and a draft scope tailored to your building.
+Rangel Janitorial manages multi-tenant cleaning programs across Sacramento, Roseville, Folsom, and Downtown Sacramento. Contact our Sacramento team at (916) 426-2311 for a free walkthrough and a draft scope tailored to your building.
 
 ---
 

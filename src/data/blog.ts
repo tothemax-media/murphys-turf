@@ -32,7 +32,7 @@ Our trained crews follow detailed, customized checklists for every facility we s
 
 Contact your local Rangel Janitorial office to schedule a free consultation — visit [rangeljanitorial.com/locations](/locations) to find the team nearest you.
 `,
-    featuredImage: "/images/stock/janitorial-cleaning.jpg",
+    featuredImage: "/images/rangel/deb1af_6cf9db2e1a39480a854bf4f15e86dd74~mv2.jpg",
     category: "Janitorial Tips",
     author: "Rangel Janitorial Team",
     publishedDate: "2026-03-15",
@@ -67,7 +67,7 @@ Sacramento's Central Valley climate means dust is a constant challenge, especial
 
 Contact Rangel Janitorial Sacramento at (916) 426-2311 for a free consultation.
 `,
-    featuredImage: "/images/stock/office-building.jpg",
+    featuredImage: "/images/rangel/OIP_jfif.jpg",
     category: "Local Guides",
     author: "Rangel Janitorial Team",
     publishedDate: "2026-03-08",
@@ -93,9 +93,9 @@ We provide comprehensive commercial cleaning for offices, medical facilities, fi
 
 With our headquarters in Murrieta, we understand the local market and the unique needs of Inland Empire businesses. Our 30+ years of experience, combined with our commitment to quality and reliability, make us the trusted choice for commercial cleaning in the region.
 
-Contact Rangel Janitorial Murrieta at (951) 331-3300 for a free quote.
+Contact Rangel Janitorial Murrieta at (951) 894-4222 for a free quote.
 `,
-    featuredImage: "/images/stock/corporate-office.jpg",
+    featuredImage: "/images/rangel/10uvmmedicaloffices-studiosb.jpg",
     category: "Local Guides",
     author: "Rangel Janitorial Team",
     publishedDate: "2026-02-25",
@@ -127,7 +127,7 @@ A consistently clean facility improves tenant retention, reduces complaints, and
 
 Contact Rangel Janitorial to learn more about our day porter services — visit [rangeljanitorial.com/locations](/locations).
 `,
-    featuredImage: "/images/stock/day-porter.jpg",
+    featuredImage: "/images/rangel/Website_2013_City_Hall_Entrance_HD.jpg",
     category: "Janitorial Tips",
     author: "Rangel Janitorial Team",
     publishedDate: "2026-02-18",
@@ -157,7 +157,7 @@ Electrostatic disinfection is particularly valuable for medical facilities, fitn
 
 We combine electrostatic disinfection with our regular janitorial services for comprehensive facility hygiene. Contact us to learn more about adding this service to your cleaning program.
 `,
-    featuredImage: "/images/stock/electrostatic-disinfection.jpg",
+    featuredImage: "/images/rangel/fitness-room.jpg",
     category: "Janitorial Tips",
     author: "Rangel Janitorial Team",
     publishedDate: "2026-02-10",

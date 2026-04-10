@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { Instagram, Facebook, Youtube, Phone, MapPin } from 'lucide-react';
+import { Instagram, Facebook, Youtube } from 'lucide-react';
 import NewsletterForm from '@/components/forms/NewsletterForm';
 
 /* ------------------------------------------------------------------ */
@@ -14,7 +14,7 @@ const servicesLinks = [
   { label: 'Day Porter', href: '/services/day-porter' },
   { label: 'Electrostatic Disinfection', href: '/services/electrostatic-disinfection' },
   { label: 'Floor Care', href: '/services/floor-care' },
-  { label: 'Carpet Cleaning', href: '/services/carpet-cleaning' },
+  { label: 'Office Cleaning', href: '/services/office-cleaning' },
 ];
 
 const locationsLinks = [
@@ -78,14 +78,7 @@ export default function Footer() {
               California&apos;s trusted commercial cleaning experts. Specializing in janitorial
               services, floor care, electrostatic disinfection, and facility maintenance. Serving California.
             </p>
-            <div className="mt-4 flex items-center gap-2 text-gray-400 font-body text-sm">
-              <MapPin className="w-4 h-4 text-sage flex-shrink-0" />
-              <span>26323 Jefferson Ave Suite C, Murrieta, CA 92562</span>
-            </div>
-            <a href="tel:9518944222" className="mt-2 flex items-center gap-2 text-gray-400 font-body text-sm py-1 hover:text-sage transition-colors">
-              <Phone className="w-4 h-4 text-sage flex-shrink-0" />
-              <span>951-894-4222</span>
-            </a>
+            {/* Social links only — address and phone removed per client request */}
             {/* Social Media Links */}
             <div className="mt-6 flex items-center gap-4">
               {socialLinks.map((social) => {

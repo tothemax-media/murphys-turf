@@ -61,7 +61,7 @@ Wet floor signs, traffic control during cleaning, and clear communication with w
 
 Look for vendors with documented industrial experience, owned equipment, OSHA training, food-safety awareness if applicable, and references from comparable facilities. A regional account manager who walks the facility regularly is a strong sign of quality.
 
-Rangel Janitorial cleans warehouses and distribution centers throughout the Inland Empire. Contact our Murrieta team at (951) 331-3300 to schedule a walkthrough and a custom proposal.
+Rangel Janitorial cleans warehouses and distribution centers throughout the Inland Empire. Contact our Murrieta team at (951) 894-4222 to schedule a walkthrough and a custom proposal.
 
 ---
 

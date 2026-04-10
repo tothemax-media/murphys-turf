@@ -55,9 +55,9 @@ const services = [
       'Professional floor stripping, waxing, buffing, and refinishing for hard surfaces including VCT, tile, and concrete.',
   },
   {
-    name: 'Carpet Cleaning',
+    name: 'Office Cleaning',
     description:
-      'Deep extraction carpet cleaning that removes embedded dirt, stains, and allergens to extend carpet life.',
+      'Comprehensive office cleaning services to keep workspaces, desks, and common areas spotless and professionally maintained.',
   },
 ];
 
@@ -69,6 +69,9 @@ const facilityTypes = [
   'Medical & Dental Facilities',
   'Municipalities',
   'Fitness Centers',
+  'Homeowners Associations',
+  'Shopping Centers',
+  'Schools & Educational Facilities',
 ];
 
 // ---------------------------------------------------------------------------
@@ -83,7 +86,8 @@ const regionData: Record<string, RegionData> = {
     email: 'ralph@rangeljanitorial.com',
     subcities: [
       'Sacramento',
-      'Elk Grove',
+      'Downtown Sacramento',
+      'Midtown Sacramento',
       'Roseville',
       'Folsom',
       'Rancho Cordova',
@@ -108,7 +112,7 @@ const regionData: Record<string, RegionData> = {
   murrieta: {
     regionName: 'Murrieta',
     slug: 'murrieta',
-    phone: '(951) 331-3300',
+    phone: '(951) 894-4222',
     email: 'ralph@rangeljanitorial.com',
     subcities: [
       'Murrieta',

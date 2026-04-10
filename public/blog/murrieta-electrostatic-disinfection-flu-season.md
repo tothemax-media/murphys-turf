@@ -61,7 +61,7 @@ The cost is modest compared to the productivity loss of multiple employees out s
 
 Look for vendors with proper electrostatic equipment, EPA-registered chemistry, trained operators, and the ability to scale for outbreak response.
 
-Rangel Janitorial provides electrostatic disinfection across Murrieta, Temecula, and the Inland Empire. Contact our Murrieta team at (951) 331-3300 for a free assessment and a custom program.
+Rangel Janitorial provides electrostatic disinfection across Murrieta, Temecula, and the Inland Empire. Contact our Murrieta team at (951) 894-4222 for a free assessment and a custom program.
 
 ---
 

@@ -61,7 +61,7 @@ export const faqs: FAQItem[] = [
   },
   {
     question: "Do you offer discounts for multi-location or bundled services?",
-    answer: "Yes, clients with multiple facilities or bundled service packages (for example, nightly janitorial plus monthly floor care and quarterly carpet cleaning) receive preferred pricing. Contact us at 951-894-4222 to discuss a custom package for your facilities.",
+    answer: "Yes, clients with multiple facilities or bundled service packages (for example, nightly janitorial plus monthly floor care and quarterly office cleaning) receive preferred pricing. Contact us at 951-894-4222 to discuss a custom package for your facilities.",
     category: "pricing",
   },
 
@@ -91,10 +91,10 @@ export const faqs: FAQItem[] = [
     serviceSlug: "floor-care",
   },
   {
-    question: "How does your carpet cleaning service work?",
-    answer: "We use truck-mounted hot water extraction (steam cleaning) and low-moisture encapsulation methods depending on your carpet type and facility needs. Our process removes deep-set dirt, stains, and allergens while minimizing dry time. We also offer carpet spot treatment and interim maintenance programs to extend the life of your carpet.",
+    question: "What does your office cleaning service include?",
+    answer: "Our office cleaning service covers thorough cleaning of workstations, desks, and surfaces, restroom sanitization, break room cleaning, trash removal, vacuuming and mopping, glass and mirror cleaning, and high-touch surface disinfection. We tailor the scope to your office layout and can include specialized services like electrostatic disinfection on request.",
     category: "services",
-    serviceSlug: "carpet-cleaning",
+    serviceSlug: "office-cleaning",
   },
   {
     question: "Can you handle medical and dental facility cleaning?",
@@ -134,7 +134,7 @@ export const faqs: FAQItem[] = [
   // Locations (3)
   {
     question: "Do you serve the Sacramento area?",
-    answer: "Yes, Rangel Janitorial serves the Greater Sacramento region including Elk Grove, Roseville, Folsom, Rancho Cordova, Natomas, and surrounding communities. We provide full-service commercial janitorial cleaning, floor care, carpet cleaning, and electrostatic disinfection throughout the Sacramento metro area.",
+    answer: "Yes, Rangel Janitorial serves the Greater Sacramento region including Downtown Sacramento, Roseville, Folsom, Rancho Cordova, Natomas, and surrounding communities. We provide full-service commercial janitorial cleaning, floor care, office cleaning, and electrostatic disinfection throughout the Sacramento metro area.",
     category: "locations",
     locationSlug: "sacramento",
   },

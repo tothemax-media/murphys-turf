@@ -23,7 +23,7 @@ export type ServiceType =
   | 'day-porter'
   | 'electrostatic-disinfection'
   | 'floor-care'
-  | 'carpet-cleaning'
+  | 'office-cleaning'
   | 'other';
 
 export type LeadStatus = 'new' | 'contacted' | 'quoted' | 'won' | 'lost';

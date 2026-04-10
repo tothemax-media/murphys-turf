@@ -13,7 +13,7 @@ function toSlug(name: string): string {
 
 const SUBLOCATION_DATA: Record<string, string[]> = {
   sacramento: [
-    'Sacramento', 'Elk Grove', 'Roseville', 'Folsom', 'Rancho Cordova',
+    'Sacramento', 'Downtown Sacramento', 'Midtown Sacramento', 'Roseville', 'Folsom', 'Rancho Cordova',
     'Citrus Heights', 'Natomas', 'West Sacramento', 'Carmichael', 'Fair Oaks',
     'Orangevale', 'Antelope', 'North Highlands', 'Arden-Arcade', 'Rocklin',
     'Lincoln', 'Woodland', 'Davis', 'Loomis', 'Granite Bay',

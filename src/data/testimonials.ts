@@ -33,8 +33,8 @@ export const testimonials: Testimonial[] = [
     customerName: 'Patricia Donovan',
     customerLocation: 'Murrieta',
     rating: 5,
-    reviewText: "We run a fitness center in the Temecula area and cleanliness is the number one thing members care about. Rangel Janitorial cleans every night and does deep carpet cleaning monthly. The locker rooms, equipment areas, and lobby always look and smell fresh when members walk in at 5 AM. They've been a huge part of our retention.",
-    serviceType: 'carpet-cleaning',
+    reviewText: "We run a fitness center in the Temecula area and cleanliness is the number one thing members care about. Rangel Janitorial cleans every night and does a thorough deep clean of our office and front desk areas monthly. The locker rooms, equipment areas, and lobby always look and smell fresh when members walk in at 5 AM. They've been a huge part of our retention.",
+    serviceType: 'office-cleaning',
   },
   {
     customerName: 'David Nakamura',
@@ -54,8 +54,8 @@ export const testimonials: Testimonial[] = [
     customerName: 'Robert Gallegos',
     customerLocation: 'Murrieta',
     rating: 5,
-    reviewText: "We have a 40,000 square foot corporate office in Menifee and Rangel Janitorial has been our cleaning provider for two years. The floor care program alone has saved us from having to replace carpet tiles — their extraction cleaning gets stains out that I thought were permanent. Over 30 years of experience really shows.",
-    serviceType: 'carpet-cleaning',
+    reviewText: "We have a 40,000 square foot corporate office in Menifee and Rangel Janitorial has been our cleaning provider for two years. Their office cleaning program keeps every workspace, conference room, and common area immaculate — the attention to detail is impressive. Over 30 years of experience really shows.",
+    serviceType: 'office-cleaning',
   },
   {
     customerName: 'Susan Chang',

@@ -55,7 +55,7 @@ A vendor who provides quarterly sustainability reports saves the facility manage
 
 Look for vendors with certified product lists, microfiber and HEPA equipment, dilution control systems, written green policies, and the ability to support sustainability documentation.
 
-Rangel Janitorial offers green cleaning programs across Murrieta and the Inland Empire. Contact our Murrieta team at (951) 331-3300 to discuss your sustainability goals.
+Rangel Janitorial offers green cleaning programs across Murrieta and the Inland Empire. Contact our Murrieta team at (951) 894-4222 to discuss your sustainability goals.
 
 ---
 

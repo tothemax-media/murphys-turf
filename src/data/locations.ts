@@ -5,12 +5,13 @@ export const locations: Location[] = [
     slug: 'sacramento',
     name: 'Greater Sacramento',
     state: 'CA',
-    description: `Rangel Janitorial provides professional janitorial and commercial cleaning services across the Greater Sacramento region. From office buildings and medical facilities to retail spaces and warehouses, our trained crews deliver consistent, reliable results. We serve Sacramento, Elk Grove, Roseville, Folsom, Rancho Cordova, and surrounding communities with customized cleaning programs tailored to each facility's needs.`,
+    description: `Rangel Janitorial provides professional janitorial and commercial cleaning services across the Greater Sacramento region. From office buildings and medical facilities to retail spaces and warehouses, our trained crews deliver consistent, reliable results. We serve Downtown Sacramento, Midtown Sacramento, Roseville, Folsom, Rancho Cordova, and surrounding communities with customized cleaning programs tailored to each facility's needs.`,
     serviceAreaDescription:
-      "Rangel Janitorial serves the entire Sacramento metropolitan area, including Elk Grove, Roseville, Folsom, Rancho Cordova, Citrus Heights, and surrounding communities.",
+      "Rangel Janitorial serves the entire Sacramento metropolitan area, including Downtown Sacramento, Midtown Sacramento, Roseville, Folsom, Rancho Cordova, Citrus Heights, and surrounding communities.",
     neighborhoods: [
       'Sacramento',
-      'Elk Grove',
+      'Downtown Sacramento',
+      'Midtown Sacramento',
       'Roseville',
       'Folsom',
       'Rancho Cordova',
@@ -23,7 +24,7 @@ export const locations: Location[] = [
     metaTitle:
       "Professional Janitorial Services in Sacramento, CA | Rangel Janitorial",
     metaDescription:
-      "Professional janitorial and commercial cleaning services in Sacramento, Elk Grove, Roseville & Folsom. Licensed & insured. Call Rangel Janitorial: 916-426-2311.",
+      "Professional janitorial and commercial cleaning services in Sacramento, Downtown, Midtown, Roseville & Folsom. Licensed & insured. Call Rangel Janitorial: 916-426-2311.",
   },
   {
     slug: 'murrieta',
@@ -45,12 +46,12 @@ export const locations: Location[] = [
       'Temescal Valley',
       'Winchester',
     ],
-    phone: '951-331-3300',
+    phone: '951-894-4222',
     address: 'Murrieta, CA 92562',
     metaTitle:
       "Professional Janitorial Services in Murrieta & Inland Empire | Rangel Janitorial",
     metaDescription:
-      "Rangel Janitorial serves the Inland Empire with professional janitorial and commercial cleaning services. Licensed & insured. Call 951-331-3300.",
+      "Rangel Janitorial serves the Inland Empire with professional janitorial and commercial cleaning services. Licensed & insured. Call 951-894-4222.",
   },
   {
     slug: 'walnut-creek',

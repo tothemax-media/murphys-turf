@@ -91,7 +91,7 @@ const blogPosts: Record<string, BlogPost> = {
       <p class="text-charcoal-light font-body leading-relaxed mb-4">Shared kitchen and break room areas accumulate bacteria quickly from food preparation, spills, and frequent use. Daily cleaning of counters, sinks, appliance handles, and tables is essential to prevent bacterial buildup and maintain a pleasant environment for employees.</p>
 
       <h2 id="creating-a-cleaning-schedule" class="text-2xl font-bold font-heading text-charcoal mt-8 mb-4">Creating a Cleaning Schedule</h2>
-      <p class="text-charcoal-light font-body leading-relaxed mb-4">The most effective cleaning programs combine daily maintenance with periodic deep cleaning. Daily tasks should include trash removal, restroom sanitation, and surface wiping. Weekly tasks might include <a href="/services/floor-care" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">floor care</a> and detailed dusting. Monthly or quarterly tasks should include <a href="/services/carpet-cleaning" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">carpet cleaning</a>, floor stripping and waxing, and window cleaning.</p>
+      <p class="text-charcoal-light font-body leading-relaxed mb-4">The most effective cleaning programs combine daily maintenance with periodic deep cleaning. Daily tasks should include trash removal, restroom sanitation, and surface wiping. Weekly tasks might include <a href="/services/floor-care" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">floor care</a> and detailed dusting. Monthly or quarterly tasks should include <a href="/services/office-cleaning" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">office deep cleaning</a>, floor stripping and waxing, and window cleaning.</p>
 
       <h2 id="when-to-call-a-professional" class="text-2xl font-bold font-heading text-charcoal mt-8 mb-4">When to Call a Professional</h2>
       <p class="text-charcoal-light font-body leading-relaxed mb-4">While basic tidying can be handled in-house, professional <a href="/services/janitorial-cleaning" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">janitorial cleaning services</a> deliver a level of thoroughness and consistency that most internal teams cannot match. Professional crews have the training, equipment, and products to maintain your facility at the highest standard.</p>
@@ -164,7 +164,7 @@ const blogPosts: Record<string, BlogPost> = {
       <p class="text-charcoal-light font-body leading-relaxed mb-4">We serve Class A office buildings, corporate campuses, light industrial parks, medical and dental facilities, municipalities, fitness centers, and multi-unit complexes. Our services include <a href="/services/janitorial-cleaning" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">janitorial cleaning</a>, <a href="/services/day-porter" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">day porter</a>, and <a href="/services/electrostatic-disinfection" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">electrostatic disinfection</a>.</p>
 
       <h2 id="getting-started" class="text-2xl font-bold font-heading text-charcoal mt-8 mb-4">Getting Started</h2>
-      <p class="text-charcoal-light font-body leading-relaxed mb-4">Contact Rangel Janitorial Murrieta at (951) 331-3300 for a free, no-obligation quote tailored to your facility.</p>
+      <p class="text-charcoal-light font-body leading-relaxed mb-4">Contact Rangel Janitorial Murrieta at (951) 894-4222 for a free, no-obligation quote tailored to your facility.</p>
     `,
     relatedSlugs: ['janitorial-services-sacramento', 'day-porter-benefits', 'janitorial-services-walnut-creek'],
   },
@@ -260,9 +260,9 @@ const blogPosts: Record<string, BlogPost> = {
       <p class="text-charcoal-light font-body leading-relaxed mb-4">Professional strip and wax involves removing all old finish down to the bare tile, thoroughly cleaning the surface, and then applying multiple coats of high-quality floor finish. Each coat is allowed to dry before the next is applied, building up a durable, high-gloss protective barrier.</p>
 
       <h2 id="maintenance-between-services" class="text-2xl font-bold font-heading text-charcoal mt-8 mb-4">Maintenance Between Services</h2>
-      <p class="text-charcoal-light font-body leading-relaxed mb-4">Between full strip and wax services, regular buffing and spot maintenance keeps floors looking great and extends the life of the finish. Rangel Janitorial also offers <a href="/services/carpet-cleaning" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">carpet cleaning</a> and ongoing floor maintenance programs tailored to your facility's needs.</p>
+      <p class="text-charcoal-light font-body leading-relaxed mb-4">Between full strip and wax services, regular buffing and spot maintenance keeps floors looking great and extends the life of the finish. Rangel Janitorial also offers <a href="/services/office-cleaning" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">office cleaning</a> and ongoing floor maintenance programs tailored to your facility's needs.</p>
     `,
-    relatedSlugs: ['office-cleaning-best-practices', 'carpet-cleaning-commercial-buildings', 'choosing-commercial-cleaning-company'],
+    relatedSlugs: ['office-cleaning-best-practices', 'office-cleaning-best-practices-guide', 'choosing-commercial-cleaning-company'],
   },
 
   'medical-facility-cleaning-standards': {
@@ -353,7 +353,7 @@ const blogPosts: Record<string, BlogPost> = {
       <p class="text-charcoal-light font-body leading-relaxed mb-4">Always verify that your cleaning company carries comprehensive general liability insurance, workers compensation, and bonding. Request certificates of insurance and verify them with the insurance provider.</p>
 
       <h2 id="scope-of-services" class="text-2xl font-bold font-heading text-charcoal mt-8 mb-4">Scope of Services</h2>
-      <p class="text-charcoal-light font-body leading-relaxed mb-4">Look for a company that offers a full range of services including <a href="/services/janitorial-cleaning" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">janitorial cleaning</a>, <a href="/services/day-porter" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">day porter</a>, <a href="/services/floor-care" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">floor care</a>, and <a href="/services/carpet-cleaning" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">carpet cleaning</a>. A single provider for all your cleaning needs simplifies management and ensures consistent quality.</p>
+      <p class="text-charcoal-light font-body leading-relaxed mb-4">Look for a company that offers a full range of services including <a href="/services/janitorial-cleaning" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">janitorial cleaning</a>, <a href="/services/day-porter" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">day porter</a>, <a href="/services/floor-care" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">floor care</a>, and <a href="/services/office-cleaning" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">office cleaning</a>. A single provider for all your cleaning needs simplifies management and ensures consistent quality.</p>
 
       <h2 id="red-flags-to-watch-for" class="text-2xl font-bold font-heading text-charcoal mt-8 mb-4">Red Flags to Watch For</h2>
       <p class="text-charcoal-light font-body leading-relaxed mb-4">Be cautious of companies that offer significantly below-market pricing, cannot provide references, or are vague about their insurance coverage. These can be signs of corners being cut that will ultimately affect the quality of service you receive.</p>
@@ -361,34 +361,34 @@ const blogPosts: Record<string, BlogPost> = {
     relatedSlugs: ['office-cleaning-best-practices', 'janitorial-services-sacramento', 'commercial-cleaning-murrieta'],
   },
 
-  'carpet-cleaning-commercial-buildings': {
-    slug: 'carpet-cleaning-commercial-buildings',
-    title: 'Carpet Cleaning for Commercial Buildings: What You Need to Know',
+  'office-cleaning-best-practices-guide': {
+    slug: 'office-cleaning-best-practices-guide',
+    title: 'Office Cleaning Best Practices: A Complete Guide',
     metaDescription:
-      'Professional carpet cleaning extends carpet life and improves indoor air quality. Learn about methods, frequency, and what commercial carpet cleaning includes.',
+      'Comprehensive guide to office cleaning best practices. Learn about scheduling, key focus areas, and how professional office cleaning improves workplace health and productivity.',
     category: 'Janitorial Tips',
     author: authors["Rangel Janitorial Team"],
     publishDate: 'December 28, 2025',
     readingTime: '6 min read',
     featuredGradient: 'from-emerald-500 via-teal-400 to-cyan-400',
     headings: [
-      'Why Commercial Carpet Cleaning Matters',
-      'Hot Water Extraction Method',
-      'How Often to Clean',
-      'Choosing a Carpet Cleaning Provider',
+      'Why Professional Office Cleaning Matters',
+      'Key Areas That Need Daily Attention',
+      'How Often to Schedule Deep Cleaning',
+      'Choosing an Office Cleaning Provider',
     ],
     content: `
-      <h2 id="why-commercial-carpet-cleaning-matters" class="text-2xl font-bold font-heading text-charcoal mt-8 mb-4">Why Commercial Carpet Cleaning Matters</h2>
-      <p class="text-charcoal-light font-body leading-relaxed mb-4">Commercial carpets trap dirt, allergens, bacteria, and other contaminants that daily vacuuming cannot remove. Professional <a href="/services/carpet-cleaning" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">deep carpet cleaning</a> is essential for maintaining appearance, extending carpet life, and improving indoor air quality.</p>
+      <h2 id="why-professional-office-cleaning-matters" class="text-2xl font-bold font-heading text-charcoal mt-8 mb-4">Why Professional Office Cleaning Matters</h2>
+      <p class="text-charcoal-light font-body leading-relaxed mb-4">A clean office directly impacts employee health, productivity, and the impression your business makes on clients. Professional <a href="/services/office-cleaning" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">office cleaning</a> goes beyond surface tidying — it addresses high-touch surfaces, workstation hygiene, and common areas that accumulate bacteria throughout the workday.</p>
 
-      <h2 id="hot-water-extraction-method" class="text-2xl font-bold font-heading text-charcoal mt-8 mb-4">Hot Water Extraction Method</h2>
-      <p class="text-charcoal-light font-body leading-relaxed mb-4">Hot water extraction — the method recommended by major carpet manufacturers — uses hot water and cleaning solution injected deep into carpet fibers, then extracted along with embedded dirt and contaminants. This provides the most thorough clean possible.</p>
+      <h2 id="key-areas-that-need-daily-attention" class="text-2xl font-bold font-heading text-charcoal mt-8 mb-4">Key Areas That Need Daily Attention</h2>
+      <p class="text-charcoal-light font-body leading-relaxed mb-4">Desks, keyboards, phones, door handles, light switches, and shared equipment are the highest-priority surfaces in any office. These high-touch areas harbor the most bacteria and should be sanitized daily. Break rooms, restrooms, and reception areas also need consistent attention to maintain a professional environment.</p>
 
-      <h2 id="how-often-to-clean" class="text-2xl font-bold font-heading text-charcoal mt-8 mb-4">How Often to Clean</h2>
-      <p class="text-charcoal-light font-body leading-relaxed mb-4">High-traffic areas should be professionally cleaned quarterly, while general office areas can typically go six to twelve months between deep cleanings. Regular professional cleaning can double or triple the useful life of commercial carpet.</p>
+      <h2 id="how-often-to-schedule-deep-cleaning" class="text-2xl font-bold font-heading text-charcoal mt-8 mb-4">How Often to Schedule Deep Cleaning</h2>
+      <p class="text-charcoal-light font-body leading-relaxed mb-4">Daily maintenance cleaning should be supplemented with periodic deep cleaning — typically monthly or quarterly depending on office size and foot traffic. Deep cleaning includes detailed dusting, upholstery cleaning, <a href="/services/floor-care" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">floor care</a>, and thorough sanitization of all surfaces.</p>
 
-      <h2 id="choosing-a-carpet-cleaning-provider" class="text-2xl font-bold font-heading text-charcoal mt-8 mb-4">Choosing a Carpet Cleaning Provider</h2>
-      <p class="text-charcoal-light font-body leading-relaxed mb-4">Look for a provider with commercial-grade equipment, experience with your type of carpet, and the ability to work after hours to minimize disruption. Rangel Janitorial provides professional carpet cleaning combined with <a href="/services/floor-care" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">floor care</a> for commercial buildings across California.</p>
+      <h2 id="choosing-an-office-cleaning-provider" class="text-2xl font-bold font-heading text-charcoal mt-8 mb-4">Choosing an Office Cleaning Provider</h2>
+      <p class="text-charcoal-light font-body leading-relaxed mb-4">Look for a provider with experience in commercial office environments, proper insurance, and the ability to work after hours to minimize disruption. Rangel Janitorial provides comprehensive office cleaning combined with <a href="/services/janitorial-cleaning" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">janitorial services</a> for commercial buildings across California.</p>
     `,
     relatedSlugs: ['floor-care-vct-strip-wax', 'office-cleaning-best-practices', 'choosing-commercial-cleaning-company'],
   },
@@ -449,7 +449,7 @@ const blogPosts: Record<string, BlogPost> = {
       <p class="text-charcoal-light font-body leading-relaxed mb-4">A local janitorial provider offers faster response times, better understanding of regional conditions, and stronger accountability to the community they serve. Rangel Janitorial's Walnut Creek office serves the entire East Bay with dedicated local crews.</p>
 
       <h2 id="our-walnut-creek-services" class="text-2xl font-bold font-heading text-charcoal mt-8 mb-4">Our Walnut Creek Services</h2>
-      <p class="text-charcoal-light font-body leading-relaxed mb-4">We offer the full range of commercial cleaning services in the East Bay including <a href="/services/janitorial-cleaning" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">janitorial cleaning</a>, <a href="/services/day-porter" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">day porter services</a>, <a href="/services/electrostatic-disinfection" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">electrostatic disinfection</a>, and <a href="/services/carpet-cleaning" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">carpet cleaning</a> for all facility types.</p>
+      <p class="text-charcoal-light font-body leading-relaxed mb-4">We offer the full range of commercial cleaning services in the East Bay including <a href="/services/janitorial-cleaning" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">janitorial cleaning</a>, <a href="/services/day-porter" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">day porter services</a>, <a href="/services/electrostatic-disinfection" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">electrostatic disinfection</a>, and <a href="/services/office-cleaning" class="text-forest hover:text-sage underline underline-offset-2 transition-colors">office cleaning</a> for all facility types.</p>
 
       <h2 id="getting-started" class="text-2xl font-bold font-heading text-charcoal mt-8 mb-4">Getting Started</h2>
       <p class="text-charcoal-light font-body leading-relaxed mb-4">Contact Rangel Janitorial Walnut Creek at (925) 655-9008 for a free consultation and quote tailored to your facility's needs.</p>

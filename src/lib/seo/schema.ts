@@ -53,7 +53,7 @@ export function generateLocalBusinessSchema() {
       "Day Porter Services",
       "Electrostatic Disinfection",
       "Floor Care",
-      "Carpet Cleaning",
+      "Office Cleaning",
       "Commercial Facility Maintenance",
       "Medical Facility Cleaning",
     ],

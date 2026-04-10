@@ -61,7 +61,7 @@ Communication training — how to greet, when to step aside, how to handle reque
 
 Look for vendors with day porter experience, trained porters, supervised programs, and the flexibility to scale coverage with the building's needs.
 
-Rangel Janitorial provides day porter services to Class A buildings across Murrieta and Temecula. Contact our Murrieta team at (951) 331-3300 for a walkthrough and a custom day porter proposal.
+Rangel Janitorial provides day porter services to Class A buildings across Murrieta and Temecula. Contact our Murrieta team at (951) 894-4222 for a walkthrough and a custom day porter proposal.
 
 ---
 

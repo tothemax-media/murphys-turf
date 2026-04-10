@@ -61,7 +61,7 @@ A good vendor knows the GC schedule and adapts to changes without losing time.
 
 Look for vendors with documented post-construction experience, the right equipment, GC references, and the capacity to scale up for large projects.
 
-Rangel Janitorial provides post-construction cleaning across the Inland Empire. Contact our Murrieta team at (951) 331-3300 for a walkthrough and a custom proposal.
+Rangel Janitorial provides post-construction cleaning across the Inland Empire. Contact our Murrieta team at (951) 894-4222 for a walkthrough and a custom proposal.
 
 ---
 

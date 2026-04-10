@@ -24,7 +24,7 @@ Always verify that your cleaning company carries comprehensive general liability
 ## Scope of Services
 
  
-Look for a company that offers a full range of services including [janitorial cleaning](https://rangeljanitorial.com/services/janitorial-cleaning), [day porter](https://rangeljanitorial.com/services/day-porter), [floor care](https://rangeljanitorial.com/services/floor-care), and [carpet cleaning](https://rangeljanitorial.com/services/carpet-cleaning). A single provider for all your cleaning needs simplifies management and ensures consistent quality.
+Look for a company that offers a full range of services including [janitorial cleaning](https://rangeljanitorial.com/services/janitorial-cleaning), [day porter](https://rangeljanitorial.com/services/day-porter), [floor care](https://rangeljanitorial.com/services/floor-care), and [office cleaning](https://rangeljanitorial.com/services/office-cleaning). A single provider for all your cleaning needs simplifies management and ensures consistent quality.
 
  
 ## Red Flags to Watch For

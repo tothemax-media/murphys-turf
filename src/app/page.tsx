@@ -8,7 +8,6 @@ import {
   ShieldCheck,
   Users,
   ThumbsUp,
-  Sparkles,
   Building2,
   UserCheck,
   Zap,
@@ -19,6 +18,8 @@ import {
   Home as HomeIcon,
   Landmark,
   Dumbbell,
+  ShoppingBag,
+  GraduationCap,
   ClipboardList,
   CalendarCheck,
   CheckCircle2,
@@ -33,7 +34,7 @@ const services = [
   { name: 'Day Porter', slug: 'day-porter', icon: UserCheck, description: 'On-site daytime staff for real-time facility upkeep.' },
   { name: 'Electrostatic Disinfection', slug: 'electrostatic-disinfection', icon: Zap, description: '360-degree disinfectant coverage on all surfaces.' },
   { name: 'Floor Care', slug: 'floor-care', icon: Layers, description: 'Strip, wax, buff, and polish for all floor types.' },
-  { name: 'Carpet Cleaning', slug: 'carpet-cleaning', icon: Sparkles, description: 'Deep extraction cleaning to extend carpet life.' },
+  { name: 'Office Cleaning', slug: 'office-cleaning', icon: Building2, description: 'Dedicated cleaning for professional work environments.' },
 ];
 
 const testimonials = [
@@ -68,6 +69,9 @@ const industries = [
   { name: 'Multi-Unit Properties', icon: HomeIcon },
   { name: 'Municipalities & Government Buildings', icon: Landmark },
   { name: 'Fitness Centers & Gyms', icon: Dumbbell },
+  { name: 'Homeowners Associations', icon: HomeIcon },
+  { name: 'Shopping Centers', icon: ShoppingBag },
+  { name: 'Schools & Educational Facilities', icon: GraduationCap },
 ];
 
 const steps = [

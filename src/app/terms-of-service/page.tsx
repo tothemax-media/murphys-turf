@@ -134,7 +134,7 @@ export default function TermsOfServicePage() {
                 <li>Day porter services</li>
                 <li>Electrostatic disinfection</li>
                 <li>Floor care (VCT strip and wax, polishing)</li>
-                <li>Commercial carpet cleaning</li>
+                <li>Office cleaning services</li>
                 <li>Restroom sanitation and restocking</li>
                 <li>Break room and common area cleaning</li>
                 <li>Custom facility maintenance programs tailored to your building</li>

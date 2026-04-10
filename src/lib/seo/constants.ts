@@ -25,7 +25,7 @@ export const SERVICE_SLUGS = [
   "day-porter",
   "electrostatic-disinfection",
   "floor-care",
-  "carpet-cleaning",
+  "office-cleaning",
 ] as const;
 
 export const LOCATION_SLUGS = [
@@ -45,7 +45,7 @@ export const BLOG_SLUGS = [
   "medical-facility-cleaning-standards",
   "fitness-center-cleaning-guide",
   "choosing-commercial-cleaning-company",
-  "carpet-cleaning-commercial-buildings",
+  "office-cleaning-best-practices-guide",
   "green-cleaning-commercial-facilities",
   "janitorial-services-walnut-creek",
   // Sacramento location posts (12)
@@ -65,7 +65,7 @@ export const BLOG_SLUGS = [
   "murrieta-temecula-wine-country-cleaning",
   "inland-empire-warehouse-distribution-cleaning",
   "murrieta-medical-dental-urgent-care-cleaning",
-  "murrieta-hot-climate-carpet-care",
+  "murrieta-hot-climate-floor-care",
   "murrieta-school-district-vendor-selection",
   "murrieta-hospitality-tasting-room-cleaning",
   "murrieta-hoa-multifamily-cleaning",

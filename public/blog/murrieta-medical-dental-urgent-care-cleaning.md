@@ -61,7 +61,7 @@ Background checks and signed confidentiality agreements should be standard for e
 
 Look for vendors with documented medical office experience, current OSHA training, EPA-registered hospital-grade chemistry, background-checked staff, and the ability to produce documentation for surveys.
 
-Rangel Janitorial cleans medical, dental, and urgent care practices throughout Murrieta, Temecula, and the Inland Empire. Contact our Murrieta team at (951) 331-3300 for a walkthrough and a custom proposal.
+Rangel Janitorial cleans medical, dental, and urgent care practices throughout Murrieta, Temecula, and the Inland Empire. Contact our Murrieta team at (951) 894-4222 for a walkthrough and a custom proposal.
 
 ---
 

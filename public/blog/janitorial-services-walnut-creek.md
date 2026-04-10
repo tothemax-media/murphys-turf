@@ -24,7 +24,7 @@ A local janitorial provider offers faster response times, better understanding o
 ## Our Walnut Creek Services
 
  
-We offer the full range of commercial cleaning services in the East Bay including [janitorial cleaning](https://rangeljanitorial.com/services/janitorial-cleaning), [day porter services](https://rangeljanitorial.com/services/day-porter), [electrostatic disinfection](https://rangeljanitorial.com/services/electrostatic-disinfection), and [carpet cleaning](https://rangeljanitorial.com/services/carpet-cleaning) for all facility types.
+We offer the full range of commercial cleaning services in the East Bay including [janitorial cleaning](https://rangeljanitorial.com/services/janitorial-cleaning), [day porter services](https://rangeljanitorial.com/services/day-porter), [electrostatic disinfection](https://rangeljanitorial.com/services/electrostatic-disinfection), and [office cleaning](https://rangeljanitorial.com/services/office-cleaning) for all facility types.
 
  
 ## Getting Started

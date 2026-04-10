@@ -27,7 +27,7 @@ const defaultItems: FAQItem[] = [
   {
     question: 'What cleaning services do you offer?',
     answer:
-      'Our services include janitorial cleaning, day porter services, electrostatic disinfection, floor care (VCT strip and wax, polishing), and commercial carpet cleaning. Each service is tailored to your facility\'s specific requirements.',
+      'Our services include janitorial cleaning, day porter services, electrostatic disinfection, floor care (VCT strip and wax, polishing), and office cleaning. Each service is tailored to your facility\'s specific requirements.',
   },
   {
     question: 'What areas do you serve?',

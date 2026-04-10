@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     template: "%s | Rangel Janitorial",
   },
   description:
-    "Professional janitorial and commercial cleaning services across California. Janitorial cleaning, day porter, electrostatic disinfection, floor care, and carpet cleaning for offices, medical facilities, and more. Serving Sacramento, Murrieta, and Walnut Creek.",
+    "Professional janitorial and commercial cleaning services across California. Janitorial cleaning, day porter, electrostatic disinfection, floor care, and office cleaning for offices, medical facilities, and more. Serving Sacramento, Murrieta, and Walnut Creek.",
   keywords: [
     'commercial cleaning services California',
     'janitorial services Murrieta',
@@ -101,10 +101,7 @@ export default function RootLayout({
         <Footer />
         <ExitIntentPopup />
         <MobileStickyQuote />
-        <Script
-          src="https://link.msgsndr.com/js/form_embed.js"
-          strategy="lazyOnload"
-        />
+        {/* GHL form embed script removed — using native LeadForm component */}
         <Script
           id="structured-data"
           type="application/ld+json"
@@ -117,7 +114,7 @@ export default function RootLayout({
               "url": "https://rangeljanitorial.com",
               "contactPoint": [
                 { "@type": "ContactPoint", "telephone": "+19164262311", "areaServed": ["Sacramento"], "contactType": "customer service" },
-                { "@type": "ContactPoint", "telephone": "+19513313300", "areaServed": ["Murrieta", "Inland Empire"], "contactType": "customer service" },
+                { "@type": "ContactPoint", "telephone": "+19518944222", "areaServed": ["Murrieta", "Inland Empire"], "contactType": "customer service" },
                 { "@type": "ContactPoint", "telephone": "+19256559008", "areaServed": ["Walnut Creek", "East Bay"], "contactType": "customer service" }
               ],
               "address": {

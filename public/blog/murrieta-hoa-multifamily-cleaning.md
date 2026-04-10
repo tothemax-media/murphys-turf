@@ -61,7 +61,7 @@ Resident requests should flow through a clear channel to the property manager an
 
 Look for vendors with multi-family experience, scheduled common-area programs, day porter availability for high-amenity properties, and stable crews that residents recognize.
 
-Rangel Janitorial cleans HOAs and apartment communities throughout Murrieta and the Inland Empire. Contact our Murrieta team at (951) 331-3300 for a walkthrough and a custom proposal.
+Rangel Janitorial cleans HOAs and apartment communities throughout Murrieta and the Inland Empire. Contact our Murrieta team at (951) 894-4222 for a walkthrough and a custom proposal.
 
 ---
 

@@ -61,7 +61,7 @@ Posting cleaning checklists, training staff to greet guests warmly, and maintain
 
 Look for vendors with hospitality experience, day porter capacity, premium finish care, and a stable team that understands the customer-facing nature of the work.
 
-Rangel Janitorial cleans hospitality venues throughout Temecula and Murrieta. Contact our Murrieta team at (951) 331-3300 for a walkthrough and a custom proposal.
+Rangel Janitorial cleans hospitality venues throughout Temecula and Murrieta. Contact our Murrieta team at (951) 894-4222 for a walkthrough and a custom proposal.
 
 ---
 

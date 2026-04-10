@@ -30,7 +30,7 @@ Professional strip and wax involves removing all old finish down to the bare til
 ## Maintenance Between Services
 
  
-Between full strip and wax services, regular buffing and spot maintenance keeps floors looking great and extends the life of the finish. Rangel Janitorial also offers [carpet cleaning](https://rangeljanitorial.com/services/carpet-cleaning) and ongoing floor maintenance programs tailored to your facility's needs.
+Between full strip and wax services, regular buffing and spot maintenance keeps floors looking great and extends the life of the finish. Rangel Janitorial also offers [office cleaning](https://rangeljanitorial.com/services/office-cleaning) and ongoing floor maintenance programs tailored to your facility's needs.
 
 ---
 

@@ -74,7 +74,7 @@ const servicesData: Record<string, ServiceData> = {
   'janitorial-cleaning': {
     name: 'Janitorial Cleaning',
     slug: 'janitorial-cleaning',
-    image: '/images/services/janitorial-cleaning.png',
+    image: '/images/stock/janitorial-cleaning.png',
     imageAlt: 'Professional janitorial crew cleaning a corporate office building',
     tagline: 'Reliable, thorough cleaning that creates excellent first impressions',
     metaDescription:
@@ -167,7 +167,7 @@ const servicesData: Record<string, ServiceData> = {
   'day-porter': {
     name: 'Day Porter',
     slug: 'day-porter',
-    image: '/images/services/day-porter.png',
+    image: '/images/stock/day-porter.png',
     imageAlt: 'Day porter maintaining a commercial building lobby during business hours',
     tagline: 'On-site daytime cleaning that keeps your facility pristine throughout the day',
     metaDescription:
@@ -253,14 +253,14 @@ const servicesData: Record<string, ServiceData> = {
     relatedServices: [
       { name: 'Janitorial Cleaning', slug: 'janitorial-cleaning' },
       { name: 'Electrostatic Disinfection', slug: 'electrostatic-disinfection' },
-      { name: 'Carpet Cleaning', slug: 'carpet-cleaning' },
+      { name: 'Office Cleaning', slug: 'office-cleaning' },
     ],
   },
 
   'electrostatic-disinfection': {
     name: 'Electrostatic Disinfection',
     slug: 'electrostatic-disinfection',
-    image: '/images/services/electrostatic-disinfection.png',
+    image: '/images/stock/electrostatic-disinfection.png',
     imageAlt: 'Technician performing electrostatic disinfection in a commercial office',
     tagline: 'Advanced disinfection technology for complete surface coverage',
     metaDescription:
@@ -346,14 +346,14 @@ const servicesData: Record<string, ServiceData> = {
     relatedServices: [
       { name: 'Janitorial Cleaning', slug: 'janitorial-cleaning' },
       { name: 'Day Porter', slug: 'day-porter' },
-      { name: 'Carpet Cleaning', slug: 'carpet-cleaning' },
+      { name: 'Office Cleaning', slug: 'office-cleaning' },
     ],
   },
 
   'floor-care': {
     name: 'Floor Care',
     slug: 'floor-care',
-    image: '/images/services/floor-care.png',
+    image: '/images/stock/floor-care.png',
     imageAlt: 'Commercial floor care specialist stripping and waxing VCT floors',
     tagline: 'Professional floor maintenance that protects your investment and looks stunning',
     metaDescription:
@@ -438,95 +438,95 @@ const servicesData: Record<string, ServiceData> = {
     ],
     relatedServices: [
       { name: 'Janitorial Cleaning', slug: 'janitorial-cleaning' },
-      { name: 'Carpet Cleaning', slug: 'carpet-cleaning' },
+      { name: 'Office Cleaning', slug: 'office-cleaning' },
       { name: 'Day Porter', slug: 'day-porter' },
     ],
   },
 
-  'carpet-cleaning': {
-    name: 'Carpet Cleaning',
-    slug: 'carpet-cleaning',
-    image: '/images/services/carpet-cleaning.png',
-    imageAlt: 'Professional carpet cleaning with hot water extraction in a commercial building',
-    tagline: 'Extend carpet life and improve indoor air quality with professional cleaning',
+  'office-cleaning': {
+    name: 'Office Cleaning',
+    slug: 'office-cleaning',
+    image: '/images/stock/office-lobby.jpg',
+    imageAlt: 'Professional office cleaning by Rangel Janitorial',
+    tagline: 'Dedicated cleaning for professional work environments',
     metaDescription:
-      'Professional commercial carpet cleaning services in California. Rangel Janitorial uses professional-grade equipment for deep carpet cleaning in offices and commercial facilities. Get a free quote.',
+      'Professional office cleaning services in California. Rangel Janitorial provides thorough workstation sanitization, conference room cleaning, and common area maintenance for offices. Get a free quote.',
     descriptionParagraphs: [
-      'Commercial carpets take a beating from daily foot traffic, spills, and the accumulation of dirt and allergens that regular vacuuming alone cannot remove. Professional carpet cleaning is essential for maintaining the appearance of your facility, extending the life of your carpet investment, and improving indoor air quality for building occupants.',
-      'Rangel Janitorial uses professional-grade hot water extraction equipment — the method recommended by major carpet manufacturers — to deliver a deep clean that reaches the base of carpet fibers where dirt, bacteria, and allergens accumulate. Our process removes embedded soil, stains, and contaminants that daily vacuuming leaves behind, restoring your carpet\'s appearance and freshness.',
-      'Regular professional carpet cleaning is not just about appearance. Carpets trap airborne particles including dust, pollen, mold spores, and bacteria. Over time, these trapped contaminants can affect indoor air quality and aggravate allergies and respiratory conditions for building occupants. Our deep extraction process removes these particles from the carpet, contributing to a healthier indoor environment.',
-      'We work with you to develop a carpet cleaning schedule that makes sense for your facility. High-traffic areas like lobbies, hallways, and conference rooms may need quarterly cleaning, while private offices can typically go six to twelve months between deep cleanings. We also offer spot cleaning and stain treatment services for spills and messes that need immediate attention between scheduled cleanings.',
+      'A clean office is more than just a nice-to-have — it directly affects employee health, productivity, and the impression your business makes on clients and visitors. Rangel Janitorial provides dedicated office cleaning services designed specifically for professional work environments, from single-suite offices to multi-floor corporate buildings throughout California.',
+      'Our office cleaning crews focus on the areas that matter most in a working environment. Workstation sanitization includes wiping down desks, keyboards, phones, and monitors — the high-touch surfaces where germs accumulate throughout the workday. We also clean and disinfect conference rooms between uses, ensuring every meeting starts in a fresh, professional space.',
+      'Common areas receive detailed attention as well. Lobbies, reception desks, hallways, and elevator landings are cleaned and maintained to create a welcoming first impression. Break rooms and kitchen areas are thoroughly cleaned and sanitized, including countertops, appliances, sinks, and tables, so employees have a hygienic space to eat and recharge during the day.',
+      'We understand that every office has different needs and schedules. Our cleaning programs are fully customizable — whether you need nightly cleaning five days a week or a lighter schedule for a smaller office, we build a plan that fits your space and budget. Our teams are trained to work quietly and efficiently around office equipment and sensitive documents, respecting your workspace at all times.',
     ],
     included: [
-      'Hot water extraction deep cleaning',
-      'Pre-treatment of stains and high-traffic areas',
-      'Spot and stain removal',
-      'Deodorizing treatment',
-      'Fast-dry technology',
-      'Furniture moving as needed',
+      'Workstation and desk sanitization',
+      'Conference room cleaning and reset',
+      'Common area and lobby maintenance',
+      'Break room and kitchen deep cleaning',
+      'Restroom sanitation and restocking',
+      'Trash and recycling removal',
     ],
     benefits: [
       {
+        icon: ShieldCheck,
+        title: 'Healthier Workspace',
+        description:
+          'Regular sanitization of desks, phones, and shared surfaces reduces the spread of illness and keeps your team healthy.',
+      },
+      {
+        icon: Building2,
+        title: 'Professional Impressions',
+        description:
+          'A spotless office makes a strong impression on clients, partners, and prospective employees who visit your space.',
+      },
+      {
         icon: Sparkles,
-        title: 'Revived Appearance',
+        title: 'Workstation Sanitization',
         description:
-          'Deep cleaning removes embedded dirt and stains, restoring your carpet\'s original color and texture.',
+          'We clean the high-touch surfaces employees interact with every day — desks, keyboards, phones, and monitors.',
       },
       {
-        icon: Droplets,
-        title: 'Improved Air Quality',
+        icon: CalendarCheck,
+        title: 'Flexible Scheduling',
         description:
-          'Extraction removes trapped allergens, dust, and bacteria from carpet fibers for a healthier indoor environment.',
-      },
-      {
-        icon: TrendingUp,
-        title: 'Extended Carpet Life',
-        description:
-          'Regular professional cleaning prevents fiber breakdown from embedded grit, adding years to your carpet investment.',
-      },
-      {
-        icon: Clock,
-        title: 'Minimal Downtime',
-        description:
-          'Our fast-dry technology means carpets are ready for use much sooner than traditional methods.',
+          'Choose the days, times, and frequency that work best for your office — nightly, weekly, or a custom schedule.',
       },
     ],
     beforeAfter: [
       {
-        label: 'High-Traffic Hallway',
+        label: 'Open Office Workspace',
         beforeColor: 'bg-brown/40',
         afterColor: 'bg-sage/50',
-        beforeCaption: 'Dingy, worn carpet from heavy foot traffic',
-        afterCaption: 'Clean, refreshed carpet after professional extraction',
+        beforeCaption: 'Cluttered, dusty office workspace after a busy week',
+        afterCaption: 'Clean, sanitized workspace ready for Monday morning',
       },
       {
-        label: 'Conference Room Cleaning',
+        label: 'Conference Room Reset',
         beforeColor: 'bg-brown/30',
         afterColor: 'bg-sage/40',
-        beforeCaption: 'Stained and soiled conference room carpet',
-        afterCaption: 'Stain-free, deodorized carpet ready for use',
+        beforeCaption: 'Conference room after a full day of meetings',
+        afterCaption: 'Spotless conference room prepped for the next day',
       },
     ],
     faqs: [
       {
-        question: 'How often should commercial carpets be professionally cleaned?',
+        question: 'What does your office cleaning service include?',
         answer:
-          'Frequency depends on foot traffic and use. High-traffic areas like lobbies and hallways benefit from quarterly cleaning. General office areas typically need cleaning every six to twelve months. We will assess your facility and recommend a schedule that keeps your carpets in optimal condition.',
+          'Our office cleaning covers workstation sanitization (desks, keyboards, phones, monitors), conference room cleaning, common area and lobby maintenance, break room and kitchen deep cleaning, restroom sanitation and restocking, and trash and recycling removal. We customize the scope to match your office layout and priorities.',
       },
       {
-        question: 'How long does it take for carpets to dry?',
+        question: 'Can you clean around sensitive office equipment and documents?',
         answer:
-          'With our professional-grade equipment and fast-dry technology, most carpets are ready for light foot traffic within two to four hours. Complete drying typically occurs within six to eight hours depending on humidity and air circulation.',
+          'Absolutely. Our crews are trained to work carefully around computers, printers, confidential documents, and other sensitive office equipment. We follow strict protocols to ensure nothing is disturbed or damaged during cleaning.',
       },
       {
-        question: 'Can you remove tough stains?',
+        question: 'How often should an office be professionally cleaned?',
         answer:
-          'We treat a wide variety of stains including coffee, food, ink, and dirt. We pre-treat stains with specialized solutions before extraction for the best results. While most stains can be removed or significantly reduced, some older or set-in stains may not be completely removable. We will always give you an honest assessment.',
+          'Most offices benefit from nightly or several-times-per-week cleaning. High-traffic offices with many employees may need daily service, while smaller offices can often maintain cleanliness with two to three visits per week. We will assess your space and recommend the ideal frequency.',
       },
       {
-        question: 'Do you clean carpets after hours?',
+        question: 'Do you offer after-hours office cleaning?',
         answer:
-          'Yes. We schedule carpet cleaning during evenings and weekends to minimize disruption to your business operations. This ensures maximum drying time before employees return and avoids any impact on your daily workflow.',
+          'Yes. The majority of our office cleaning is performed during evenings and weekends so there is no disruption to your business day. We coordinate schedules with your building management to ensure seamless access and security compliance.',
       },
     ],
     relatedServices: [
@@ -546,7 +546,7 @@ const validSlugs = [
   'day-porter',
   'electrostatic-disinfection',
   'floor-care',
-  'carpet-cleaning',
+  'office-cleaning',
 ];
 
 export function generateStaticParams() {
@@ -795,7 +795,7 @@ export default async function ServiceDetailPage({
                 </h3>
                 <div className="rounded-xl overflow-hidden">
                   <Image
-                    src="/images/before-after.png"
+                    src="/images/rangel/summit-holladay-partners-llc-i_k.jpg"
                     alt={`${pair.label} - Before and after`}
                     width={800}
                     height={400}

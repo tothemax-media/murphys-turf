@@ -14,7 +14,7 @@ export const homeMetadata = generatePageMetadata(
 
 export const servicesMetadata = generatePageMetadata(
   "Our Janitorial & Commercial Cleaning Services",
-  "Rangel Janitorial offers comprehensive commercial cleaning: janitorial cleaning, day porter services, electrostatic disinfection, floor care, and carpet cleaning. 30+ years experience.",
+  "Rangel Janitorial offers comprehensive commercial cleaning: janitorial cleaning, day porter services, electrostatic disinfection, floor care, and office cleaning. 30+ years experience.",
   "/services"
 );
 
@@ -50,10 +50,10 @@ const services = [
       "Professional floor care including VCT strip and wax, polishing, and ongoing maintenance to keep your floors pristine.",
   },
   {
-    name: "Carpet Cleaning",
-    slug: "carpet-cleaning" as const,
+    name: "Office Cleaning",
+    slug: "office-cleaning" as const,
     shortDescription:
-      "Commercial carpet cleaning services using professional-grade equipment to extend carpet life and maintain a clean, professional appearance.",
+      "Comprehensive office cleaning services to keep workspaces, desks, and common areas spotless and professionally maintained.",
   },
 ];
 
@@ -67,7 +67,7 @@ const locations = [
     name: "Sacramento",
     slug: "sacramento" as const,
     description:
-      "Janitorial and commercial cleaning in Sacramento and surrounding areas including Elk Grove, Roseville, Folsom, and the Central Valley.",
+      "Janitorial and commercial cleaning in Sacramento and surrounding areas including Downtown Sacramento, Roseville, Folsom, and the Central Valley.",
   },
   {
     name: "Murrieta",
@@ -146,10 +146,10 @@ const blogPosts = [
       "Key factors to consider when selecting a commercial cleaning company. Insurance, references, scope of services, and red flags to watch for.",
   },
   {
-    title: "Carpet Cleaning for Commercial Buildings: What You Need to Know",
-    slug: "carpet-cleaning-commercial-buildings",
+    title: "Office Cleaning Best Practices: A Complete Guide",
+    slug: "office-cleaning-best-practices-guide",
     description:
-      "Professional carpet cleaning extends carpet life and improves indoor air quality. Learn about methods, frequency, and what commercial carpet cleaning includes.",
+      "Comprehensive guide to office cleaning best practices. Learn about scheduling, key focus areas, and how professional office cleaning improves workplace health and productivity.",
   },
   {
     title: "Green Cleaning for Commercial Facilities",

@@ -233,7 +233,7 @@ const sacramentoPosts: LocationPost[] = [
       {
         h2: "Choosing a Sacramento Medical Cleaning Partner",
         paragraphs: [
-          "Rangel Janitorial has cleaned medical and dental offices across the Greater Sacramento area for years, including practices in Roseville, Folsom, Elk Grove, and downtown Sacramento. Our crews are trained on bloodborne pathogen protocols annually, our products are EPA-registered hospital-grade, and our supervisors walk every medical account regularly.",
+          "Rangel Janitorial has cleaned medical and dental offices across the Greater Sacramento area for years, including practices in Roseville, Folsom, Midtown, and Downtown Sacramento. Our crews are trained on bloodborne pathogen protocols annually, our products are EPA-registered hospital-grade, and our supervisors walk every medical account regularly.",
           "If you manage a Sacramento medical practice and want to upgrade your cleaning program, contact our team at (916) 426-2311 for a free walkthrough. We will document our recommendations against the standards above so your next survey or inspection finds no environmental cleaning gaps.",
         ],
       },
@@ -396,7 +396,7 @@ const sacramentoPosts: LocationPost[] = [
         h2: "Choosing a Vendor for Your Sacramento Multi-Tenant Building",
         paragraphs: [
           "Look for vendors with proven multi-tenant experience in Sacramento, a published common-area scope, transparent billing, an SLA-driven complaint process, and a regional account manager who walks the property monthly. Stable crews and low turnover are the leading indicators of a vendor who will still be performing in year three.",
-          "Rangel Janitorial manages multi-tenant cleaning programs across Sacramento, Roseville, Folsom, and Elk Grove. Contact our Sacramento team at (916) 426-2311 for a free walkthrough and a draft scope tailored to your building.",
+          "Rangel Janitorial manages multi-tenant cleaning programs across Sacramento, Roseville, Folsom, and Downtown Sacramento. Contact our Sacramento team at (916) 426-2311 for a free walkthrough and a draft scope tailored to your building.",
         ],
       },
     ],
@@ -807,7 +807,7 @@ const sacramentoPosts: LocationPost[] = [
     ],
     relatedSlugs: [
       "floor-care-vct-strip-wax",
-      "carpet-cleaning-commercial-buildings",
+      "office-cleaning-best-practices-guide",
       "sacramento-class-a-office-cleaning-checklist",
     ],
   }),
@@ -1134,7 +1134,7 @@ const murrietaPosts: LocationPost[] = [
         h2: "Choosing a Wine Country Cleaning Vendor",
         paragraphs: [
           "Look for vendors with experience in hospitality, premium finishes, and visitor-facing environments. Stable, professional crews are essential because wine country properties are visible and any issue gets noticed immediately.",
-          "Rangel Janitorial is headquartered in Murrieta and serves wineries, tasting rooms, hotels, and offices throughout the wine country corridor. Contact our Murrieta team at (951) 331-3300 or email ralph@rangeljanitorial.com.",
+          "Rangel Janitorial is headquartered in Murrieta and serves wineries, tasting rooms, hotels, and offices throughout the wine country corridor. Contact our Murrieta team at (951) 894-4222 or email ralph@rangeljanitorial.com.",
         ],
       },
     ],
@@ -1215,7 +1215,7 @@ const murrietaPosts: LocationPost[] = [
         h2: "Choosing an Inland Empire Industrial Cleaning Partner",
         paragraphs: [
           "Look for vendors with documented industrial experience, owned equipment, OSHA training, food-safety awareness if applicable, and references from comparable facilities. A regional account manager who walks the facility regularly is a strong sign of quality.",
-          "Rangel Janitorial cleans warehouses and distribution centers throughout the Inland Empire. Contact our Murrieta team at (951) 331-3300 to schedule a walkthrough and a custom proposal.",
+          "Rangel Janitorial cleans warehouses and distribution centers throughout the Inland Empire. Contact our Murrieta team at (951) 894-4222 to schedule a walkthrough and a custom proposal.",
         ],
       },
     ],
@@ -1296,7 +1296,7 @@ const murrietaPosts: LocationPost[] = [
         h2: "Choosing a Murrieta Medical Cleaning Partner",
         paragraphs: [
           "Look for vendors with documented medical office experience, current OSHA training, EPA-registered hospital-grade chemistry, background-checked staff, and the ability to produce documentation for surveys.",
-          "Rangel Janitorial cleans medical, dental, and urgent care practices throughout Murrieta, Temecula, and the Inland Empire. Contact our Murrieta team at (951) 331-3300 for a walkthrough and a custom proposal.",
+          "Rangel Janitorial cleans medical, dental, and urgent care practices throughout Murrieta, Temecula, and the Inland Empire. Contact our Murrieta team at (951) 894-4222 for a walkthrough and a custom proposal.",
         ],
       },
     ],
@@ -1308,10 +1308,10 @@ const murrietaPosts: LocationPost[] = [
   }),
 
   mkPost({
-    slug: "murrieta-hot-climate-carpet-care",
-    title: "Hot Climate Carpet Care: Surviving Inland Empire Summers",
+    slug: "murrieta-hot-climate-floor-care",
+    title: "Hot Climate Floor Care: Surviving Inland Empire Summers",
     metaDescription:
-      "How Murrieta and Inland Empire commercial carpets survive 100+ degree summers, dust, and heavy AC use. A guide to extending commercial carpet life in hot climates.",
+      "How Murrieta and Inland Empire commercial floors survive 100+ degree summers, dust, and heavy AC use. A guide to extending commercial floor life in hot climates.",
     category: MUR_CAT,
     publishDate: "March 22, 2026",
     readingTime: "8 min read",
@@ -1377,12 +1377,12 @@ const murrietaPosts: LocationPost[] = [
         h2: "Choosing a Murrieta Carpet Care Vendor",
         paragraphs: [
           "Look for vendors with truck-mount and portable extraction equipment, IICRC-trained technicians, and a documented schedule. Rangel Janitorial provides commercial carpet care across the Inland Empire.",
-          "Contact our Murrieta team at (951) 331-3300 to schedule a free carpet assessment and a custom care calendar for your facility.",
+          "Contact our Murrieta team at (951) 894-4222 to schedule a free carpet assessment and a custom care calendar for your facility.",
         ],
       },
     ],
     relatedSlugs: [
-      "carpet-cleaning-commercial-buildings",
+      "office-cleaning-best-practices-guide",
       "sacramento-floor-care-climate",
       "commercial-cleaning-murrieta",
     ],
@@ -1458,7 +1458,7 @@ const murrietaPosts: LocationPost[] = [
         h2: "Choosing a Murrieta Inland Empire School Cleaning Vendor",
         paragraphs: [
           "Look for vendors with documented school experience, prevailing wage compliance, Live Scan background checks, summer deep-cleaning capacity, and a stable account management team.",
-          "Rangel Janitorial works with school districts, charter schools, and private schools across the Inland Empire. Contact our Murrieta team at (951) 331-3300 for a walkthrough and a custom proposal.",
+          "Rangel Janitorial works with school districts, charter schools, and private schools across the Inland Empire. Contact our Murrieta team at (951) 894-4222 for a walkthrough and a custom proposal.",
         ],
       },
     ],
@@ -1539,7 +1539,7 @@ const murrietaPosts: LocationPost[] = [
         h2: "Choosing a Temecula Hospitality Cleaning Vendor",
         paragraphs: [
           "Look for vendors with hospitality experience, day porter capacity, premium finish care, and a stable team that understands the customer-facing nature of the work.",
-          "Rangel Janitorial cleans hospitality venues throughout Temecula and Murrieta. Contact our Murrieta team at (951) 331-3300 for a walkthrough and a custom proposal.",
+          "Rangel Janitorial cleans hospitality venues throughout Temecula and Murrieta. Contact our Murrieta team at (951) 894-4222 for a walkthrough and a custom proposal.",
         ],
       },
     ],
@@ -1620,7 +1620,7 @@ const murrietaPosts: LocationPost[] = [
         h2: "Choosing a Murrieta Multi-Family Cleaning Vendor",
         paragraphs: [
           "Look for vendors with multi-family experience, scheduled common-area programs, day porter availability for high-amenity properties, and stable crews that residents recognize.",
-          "Rangel Janitorial cleans HOAs and apartment communities throughout Murrieta and the Inland Empire. Contact our Murrieta team at (951) 331-3300 for a walkthrough and a custom proposal.",
+          "Rangel Janitorial cleans HOAs and apartment communities throughout Murrieta and the Inland Empire. Contact our Murrieta team at (951) 894-4222 for a walkthrough and a custom proposal.",
         ],
       },
     ],
@@ -1701,7 +1701,7 @@ const murrietaPosts: LocationPost[] = [
         h2: "Choosing an Inland Empire Dealership Cleaning Partner",
         paragraphs: [
           "Look for vendors with auto dealership experience, the equipment to handle showrooms and service bays, day porter capacity, and a stable team that understands the brand-driven nature of the work.",
-          "Rangel Janitorial cleans auto dealerships throughout the Inland Empire. Contact our Murrieta team at (951) 331-3300 for a walkthrough and a custom proposal.",
+          "Rangel Janitorial cleans auto dealerships throughout the Inland Empire. Contact our Murrieta team at (951) 894-4222 for a walkthrough and a custom proposal.",
         ],
       },
     ],
@@ -1782,7 +1782,7 @@ const murrietaPosts: LocationPost[] = [
         h2: "Choosing a Murrieta Day Porter Vendor",
         paragraphs: [
           "Look for vendors with day porter experience, trained porters, supervised programs, and the flexibility to scale coverage with the building's needs.",
-          "Rangel Janitorial provides day porter services to Class A buildings across Murrieta and Temecula. Contact our Murrieta team at (951) 331-3300 for a walkthrough and a custom day porter proposal.",
+          "Rangel Janitorial provides day porter services to Class A buildings across Murrieta and Temecula. Contact our Murrieta team at (951) 894-4222 for a walkthrough and a custom day porter proposal.",
         ],
       },
     ],
@@ -1863,7 +1863,7 @@ const murrietaPosts: LocationPost[] = [
         h2: "Choosing a Post-Construction Cleaning Vendor",
         paragraphs: [
           "Look for vendors with documented post-construction experience, the right equipment, GC references, and the capacity to scale up for large projects.",
-          "Rangel Janitorial provides post-construction cleaning across the Inland Empire. Contact our Murrieta team at (951) 331-3300 for a walkthrough and a custom proposal.",
+          "Rangel Janitorial provides post-construction cleaning across the Inland Empire. Contact our Murrieta team at (951) 894-4222 for a walkthrough and a custom proposal.",
         ],
       },
     ],
@@ -1944,7 +1944,7 @@ const murrietaPosts: LocationPost[] = [
         h2: "Choosing a Murrieta Electrostatic Disinfection Vendor",
         paragraphs: [
           "Look for vendors with proper electrostatic equipment, EPA-registered chemistry, trained operators, and the ability to scale for outbreak response.",
-          "Rangel Janitorial provides electrostatic disinfection across Murrieta, Temecula, and the Inland Empire. Contact our Murrieta team at (951) 331-3300 for a free assessment and a custom program.",
+          "Rangel Janitorial provides electrostatic disinfection across Murrieta, Temecula, and the Inland Empire. Contact our Murrieta team at (951) 894-4222 for a free assessment and a custom program.",
         ],
       },
     ],
@@ -2018,7 +2018,7 @@ const murrietaPosts: LocationPost[] = [
         h2: "Choosing a Murrieta Green Cleaning Vendor",
         paragraphs: [
           "Look for vendors with certified product lists, microfiber and HEPA equipment, dilution control systems, written green policies, and the ability to support sustainability documentation.",
-          "Rangel Janitorial offers green cleaning programs across Murrieta and the Inland Empire. Contact our Murrieta team at (951) 331-3300 to discuss your sustainability goals.",
+          "Rangel Janitorial offers green cleaning programs across Murrieta and the Inland Empire. Contact our Murrieta team at (951) 894-4222 to discuss your sustainability goals.",
         ],
       },
     ],

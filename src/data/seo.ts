@@ -13,8 +13,8 @@ export const seoMetadata: Record<string, SEOMetadata> = {
   },
   services: {
     title: "Commercial Cleaning Services | Rangel Janitorial",
-    description: "Professional commercial cleaning services: janitorial cleaning, day porter, electrostatic disinfection, floor care, and carpet cleaning. Serving offices, medical facilities, and more across California.",
-    keywords: ["commercial cleaning services", "janitorial cleaning", "day porter services", "electrostatic disinfection", "floor care services", "carpet cleaning commercial"],
+    description: "Professional commercial cleaning services: janitorial cleaning, day porter, electrostatic disinfection, floor care, and office cleaning. Serving offices, medical facilities, and more across California.",
+    keywords: ["commercial cleaning services", "janitorial cleaning", "day porter services", "electrostatic disinfection", "floor care services", "office cleaning commercial"],
   },
   "services/janitorial-cleaning": {
     title: "Commercial Janitorial Cleaning Services | Rangel Janitorial",
@@ -36,10 +36,10 @@ export const seoMetadata: Record<string, SEOMetadata> = {
     description: "Professional floor care for commercial facilities. VCT strip and wax, tile and grout cleaning, LVT care, concrete polishing, and stone floor restoration. Serving California.",
     keywords: ["commercial floor care", "VCT strip and wax", "tile grout cleaning", "floor maintenance", "commercial floor cleaning", "floor restoration"],
   },
-  "services/carpet-cleaning": {
-    title: "Commercial Carpet Cleaning Services | Rangel Janitorial",
-    description: "Professional carpet cleaning for offices and commercial buildings. Hot water extraction, encapsulation, and spot treatment to extend carpet life. Serving California.",
-    keywords: ["commercial carpet cleaning", "office carpet cleaning", "hot water extraction", "carpet steam cleaning", "commercial carpet care"],
+  "services/office-cleaning": {
+    title: "Office Cleaning Services | Rangel Janitorial",
+    description: "Professional office cleaning for commercial buildings and workplaces. Comprehensive desk, surface, and workspace sanitization to maintain a healthy, productive environment. Serving California.",
+    keywords: ["office cleaning services", "commercial office cleaning", "workplace cleaning", "office sanitization", "professional office cleaning"],
   },
   locations: {
     title: "Service Areas | Commercial Cleaning Across California | Rangel Janitorial",
@@ -48,12 +48,12 @@ export const seoMetadata: Record<string, SEOMetadata> = {
   },
   "locations/sacramento": {
     title: "Janitorial Services in Sacramento, CA | Rangel Janitorial",
-    description: "Professional janitorial and commercial cleaning in Sacramento. Serving Elk Grove, Roseville, Folsom & more. Call 916-426-2311 for a free quote.",
-    keywords: ["janitorial services Sacramento", "commercial cleaning Sacramento", "office cleaning Sacramento", "Sacramento janitorial company", "Elk Grove cleaning", "Roseville janitorial"],
+    description: "Professional janitorial and commercial cleaning in Sacramento. Serving Downtown Sacramento, Roseville, Folsom & more. Call 916-426-2311 for a free quote.",
+    keywords: ["janitorial services Sacramento", "commercial cleaning Sacramento", "office cleaning Sacramento", "Sacramento janitorial company", "Downtown Sacramento cleaning", "Roseville janitorial"],
   },
   "locations/murrieta": {
     title: "Janitorial Services in Murrieta & Inland Empire | Rangel Janitorial",
-    description: "Rangel Janitorial headquarters in Murrieta. Professional janitorial services for the Inland Empire, Temecula, Menifee, and surrounding areas. Call 951-331-3300.",
+    description: "Rangel Janitorial headquarters in Murrieta. Professional janitorial services for the Inland Empire, Temecula, Menifee, and surrounding areas. Call 951-894-4222.",
     keywords: ["janitorial services Murrieta", "Inland Empire commercial cleaning", "Temecula janitorial", "Menifee cleaning services", "commercial cleaning Murrieta"],
   },
   "locations/walnut-creek": {

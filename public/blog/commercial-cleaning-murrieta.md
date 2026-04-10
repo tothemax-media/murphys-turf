@@ -30,7 +30,7 @@ We serve Class A office buildings, corporate campuses, light industrial parks, m
 ## Getting Started
 
  
-Contact Rangel Janitorial Murrieta at (951) 331-3300 for a free, no-obligation quote tailored to your facility.
+Contact Rangel Janitorial Murrieta at (951) 894-4222 for a free, no-obligation quote tailored to your facility.
 
 ---
 

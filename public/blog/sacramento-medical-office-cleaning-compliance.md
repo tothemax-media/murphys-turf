@@ -59,7 +59,7 @@ Practice managers should ask their janitorial vendor for sample logs, training r
 
 ## Choosing a Sacramento Medical Cleaning Partner
 
-Rangel Janitorial has cleaned medical and dental offices across the Greater Sacramento area for years, including practices in Roseville, Folsom, Elk Grove, and downtown Sacramento. Our crews are trained on bloodborne pathogen protocols annually, our products are EPA-registered hospital-grade, and our supervisors walk every medical account regularly.
+Rangel Janitorial has cleaned medical and dental offices across the Greater Sacramento area for years, including practices in Roseville, Folsom, Midtown, and Downtown Sacramento. Our crews are trained on bloodborne pathogen protocols annually, our products are EPA-registered hospital-grade, and our supervisors walk every medical account regularly.
 
 If you manage a Sacramento medical practice and want to upgrade your cleaning program, contact our team at (916) 426-2311 for a free walkthrough. We will document our recommendations against the standards above so your next survey or inspection finds no environmental cleaning gaps.
 
