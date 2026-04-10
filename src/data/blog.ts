@@ -32,7 +32,7 @@ Our trained crews follow detailed, customized checklists for every facility we s
 
 Contact your local Rangel Janitorial office to schedule a free consultation — visit [rangeljanitorial.com/locations](/locations) to find the team nearest you.
 `,
-    featuredImage: "/images/rangel/deb1af_6cf9db2e1a39480a854bf4f15e86dd74~mv2.jpg",
+    featuredImage: "/images/gallery/our-work/rangel-02-6941b0a16edec52d705e6e30.png",
     category: "Janitorial Tips",
     author: "Rangel Janitorial Team",
     publishedDate: "2026-03-15",
@@ -67,7 +67,7 @@ Sacramento's Central Valley climate means dust is a constant challenge, especial
 
 Contact Rangel Janitorial Sacramento at (916) 426-2311 for a free consultation.
 `,
-    featuredImage: "/images/rangel/OIP_jfif.jpg",
+    featuredImage: "/images/gallery/our-work/rangel-09-6941b0a1dd15223020c724e4.png",
     category: "Local Guides",
     author: "Rangel Janitorial Team",
     publishedDate: "2026-03-08",
@@ -95,7 +95,7 @@ With our headquarters in Murrieta, we understand the local market and the unique
 
 Contact Rangel Janitorial Murrieta at (951) 894-4222 for a free quote.
 `,
-    featuredImage: "/images/rangel/10uvmmedicaloffices-studiosb.jpg",
+    featuredImage: "/images/gallery/our-work/rangel-13-6941b0a1db710a50675087a5.png",
     category: "Local Guides",
     author: "Rangel Janitorial Team",
     publishedDate: "2026-02-25",
@@ -127,7 +127,7 @@ A consistently clean facility improves tenant retention, reduces complaints, and
 
 Contact Rangel Janitorial to learn more about our day porter services — visit [rangeljanitorial.com/locations](/locations).
 `,
-    featuredImage: "/images/rangel/Website_2013_City_Hall_Entrance_HD.jpg",
+    featuredImage: "/images/gallery/our-work/rangel-17-6941b0a17109a80798658d66.png",
     category: "Janitorial Tips",
     author: "Rangel Janitorial Team",
     publishedDate: "2026-02-18",
@@ -157,7 +157,7 @@ Electrostatic disinfection is particularly valuable for medical facilities, fitn
 
 We combine electrostatic disinfection with our regular janitorial services for comprehensive facility hygiene. Contact us to learn more about adding this service to your cleaning program.
 `,
-    featuredImage: "/images/rangel/fitness-room.jpg",
+    featuredImage: "/images/gallery/our-work/rangel-22-6941b0a1db710a7d4d5087a4.png",
     category: "Janitorial Tips",
     author: "Rangel Janitorial Team",
     publishedDate: "2026-02-10",

@@ -122,12 +122,12 @@ const processSteps = [
 ];
 
 const galleryImages = [
-  { src: '/images/rangel/deb1af_6cf9db2e1a39480a854bf4f15e86dd74~mv2.jpg', alt: "Rangel Janitorial crew member sanitizing a commercial restroom" },
-  { src: '/images/rangel/10uvmmedicaloffices-studiosb.jpg', alt: "Medical office waiting room maintained by Rangel Janitorial" },
-  { src: '/images/rangel/iStock_class.jpg', alt: "Polished commercial lobby floor cleaned by Rangel Janitorial" },
-  { src: '/images/rangel/Website_2013_City_Hall_Entrance_HD.jpg', alt: "Municipal building entrance maintained by Rangel Janitorial" },
-  { src: '/images/rangel/fitness-room.jpg', alt: "Fitness center equipment floor cleaned by Rangel Janitorial" },
-  { src: '/images/rangel/OIP_jfif.jpg', alt: "Commercial office building serviced by Rangel Janitorial" },
+  { src: '/images/gallery/our-work/rangel-02-6941b0a16edec52d705e6e30.png', alt: 'Rangel crew member mopping commercial floors' },
+  { src: '/images/gallery/our-work/rangel-13-6941b0a1db710a50675087a5.png', alt: 'Rangel crew member cleaning restroom facilities' },
+  { src: '/images/gallery/our-work/rangel-17-6941b0a17109a80798658d66.png', alt: 'Freshly polished warehouse floor' },
+  { src: '/images/gallery/our-work/rangel-21-6941b0a10041dc7c1a15ddbd.png', alt: 'Rangel crew member vacuuming office space' },
+  { src: '/images/gallery/our-work/rangel-11-6941b0a175b6078f79318d3d.png', alt: 'Detailed surface cleaning by Rangel crew' },
+  { src: '/images/gallery/our-work/rangel-12-6941b0a1db710a16915087a6.png', alt: 'Commercial lobby floor cleaning' },
 ];
 
 const locationFaqs = [
@@ -488,7 +488,7 @@ export default async function LocationPage({
         {/* Background image with dark overlay */}
         <div className="absolute inset-0">
           <Image
-            src="/images/rangel/deb1af_b057f98a07374ed994b036bcb6705970~mv2.png"
+            src="/images/gallery/our-work/rangel-10-6941b0a17109a8dad2658d64.png"
             alt={`Professional commercial cleaning services in ${location.city}, California by Rangel Janitorial`}
             fill
             className="object-cover"

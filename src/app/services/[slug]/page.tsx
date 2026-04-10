@@ -795,7 +795,7 @@ export default async function ServiceDetailPage({
                 </h3>
                 <div className="rounded-xl overflow-hidden">
                   <Image
-                    src="/images/rangel/summit-holladay-partners-llc-i_k.jpg"
+                    src="/images/gallery/our-work/rangel-17-6941b0a17109a80798658d66.png"
                     alt={`${pair.label} - Before and after`}
                     width={800}
                     height={400}

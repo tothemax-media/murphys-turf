@@ -13,7 +13,7 @@ export default function BeforeAfterGallery() {
 
         <div className="mt-12 flex flex-col items-center">
           <Image
-            src="/images/rangel/summit-holladay-partners-llc-i_k.jpg"
+            src="/images/gallery/our-work/rangel-17-6941b0a17109a80798658d66.png"
             alt="Professional commercial cleaning by Rangel Janitorial"
             width={1200}
             height={600}
