@@ -779,42 +779,7 @@ export default async function ServiceDetailPage({
         </div>
       </section>
 
-      {/* ----------------------------------------------------------------- */}
-      {/* Before / After Gallery */}
-      {/* ----------------------------------------------------------------- */}
-      <section className="py-16 sm:py-20 bg-cream">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl font-bold font-heading text-charcoal mb-10 text-center">
-            Before &amp; After
-          </h2>
-          <AnimateOnScroll direction="fade" className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {service.beforeAfter.map((pair, index) => (
-              <div key={index} className="space-y-3">
-                <h3 className="font-semibold font-heading text-charcoal text-center">
-                  {pair.label}
-                </h3>
-                <div className="rounded-xl overflow-hidden">
-                  <Image
-                    src="/images/gallery/our-work/rangel-17-6941b0a17109a80798658d66.png"
-                    alt={`${pair.label} - Before and after`}
-                    width={800}
-                    height={400}
-                    className="w-full h-auto rounded-xl"
-                  />
-                  <div className="grid grid-cols-2 gap-3 mt-2">
-                    <p className="text-xs text-charcoal-light font-body text-center">
-                      {pair.beforeCaption}
-                    </p>
-                    <p className="text-xs text-charcoal-light font-body text-center">
-                      {pair.afterCaption}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </AnimateOnScroll>
-        </div>
-      </section>
+      {/* Before / After section removed */}
 
       {/* ----------------------------------------------------------------- */}
       {/* Quote CTA */}

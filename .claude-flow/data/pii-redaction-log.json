@@ -1,0 +1,1110 @@
+[
+  {
+    "timestamp": "2026-04-11T02:52:23.960Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 197
+  },
+  {
+    "timestamp": "2026-04-11T02:52:17.071Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 264
+  },
+  {
+    "timestamp": "2026-04-11T02:52:09.412Z",
+    "tool": "write",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 6125
+  },
+  {
+    "timestamp": "2026-04-11T02:51:33.932Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 273
+  },
+  {
+    "timestamp": "2026-04-11T02:51:03.121Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 1969
+  },
+  {
+    "timestamp": "2026-04-10T20:21:43.182Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Email Address",
+        "count": 1
+      }
+    ],
+    "inputLength": 482
+  },
+  {
+    "timestamp": "2026-04-10T20:20:24.737Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 566
+  },
+  {
+    "timestamp": "2026-04-10T20:18:12.999Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 109
+  },
+  {
+    "timestamp": "2026-04-10T20:17:57.214Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 114
+  },
+  {
+    "timestamp": "2026-04-10T20:17:31.009Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Email Address",
+        "count": 1
+      },
+      {
+        "type": "Phone Number",
+        "count": 1
+      }
+    ],
+    "inputLength": 945
+  },
+  {
+    "timestamp": "2026-04-10T20:17:16.361Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 710
+  },
+  {
+    "timestamp": "2026-04-10T20:16:53.371Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 171
+  },
+  {
+    "timestamp": "2026-04-10T20:16:38.379Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 193
+  },
+  {
+    "timestamp": "2026-04-10T20:14:29.610Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Email Address",
+        "count": 1
+      }
+    ],
+    "inputLength": 1493
+  },
+  {
+    "timestamp": "2026-04-10T20:14:15.192Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 2498
+  },
+  {
+    "timestamp": "2026-04-10T20:13:50.008Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 714
+  },
+  {
+    "timestamp": "2026-04-10T20:11:19.274Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 1813
+  },
+  {
+    "timestamp": "2026-04-10T20:10:25.163Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 763
+  },
+  {
+    "timestamp": "2026-04-10T20:09:38.762Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 286
+  },
+  {
+    "timestamp": "2026-04-10T19:59:33.468Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 566
+  },
+  {
+    "timestamp": "2026-04-10T19:59:20.194Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Email Address",
+        "count": 1
+      }
+    ],
+    "inputLength": 733
+  },
+  {
+    "timestamp": "2026-04-10T19:40:59.527Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 258
+  },
+  {
+    "timestamp": "2026-04-10T19:40:58.309Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 411
+  },
+  {
+    "timestamp": "2026-04-10T19:04:57.960Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 1276
+  },
+  {
+    "timestamp": "2026-04-10T19:03:46.130Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 1098
+  },
+  {
+    "timestamp": "2026-04-10T19:03:36.174Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 462
+  },
+  {
+    "timestamp": "2026-04-10T19:03:28.451Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 466
+  },
+  {
+    "timestamp": "2026-04-10T19:03:25.594Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 674
+  },
+  {
+    "timestamp": "2026-04-10T19:03:20.272Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 589
+  },
+  {
+    "timestamp": "2026-04-10T19:03:14.026Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 189
+  },
+  {
+    "timestamp": "2026-04-10T19:03:13.228Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 224
+  },
+  {
+    "timestamp": "2026-04-10T19:03:12.187Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 205
+  },
+  {
+    "timestamp": "2026-04-10T19:03:07.160Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 299
+  },
+  {
+    "timestamp": "2026-04-10T19:03:06.658Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 241
+  },
+  {
+    "timestamp": "2026-04-10T19:03:05.949Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 172
+  },
+  {
+    "timestamp": "2026-04-10T19:03:00.736Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 158
+  },
+  {
+    "timestamp": "2026-04-10T19:03:00.075Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 169
+  },
+  {
+    "timestamp": "2026-04-10T19:02:55.474Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 28642
+  },
+  {
+    "timestamp": "2026-04-10T19:01:37.204Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 829
+  },
+  {
+    "timestamp": "2026-04-10T19:01:19.761Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 427
+  },
+  {
+    "timestamp": "2026-04-10T19:01:18.218Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 438
+  },
+  {
+    "timestamp": "2026-04-10T19:01:16.359Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 434
+  },
+  {
+    "timestamp": "2026-04-10T19:01:15.032Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 432
+  },
+  {
+    "timestamp": "2026-04-10T19:01:02.393Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 870
+  },
+  {
+    "timestamp": "2026-04-10T19:00:50.128Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 136
+  },
+  {
+    "timestamp": "2026-04-10T19:00:10.580Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 373
+  },
+  {
+    "timestamp": "2026-04-10T19:00:02.247Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 266
+  },
+  {
+    "timestamp": "2026-04-10T19:00:00.373Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 282
+  },
+  {
+    "timestamp": "2026-04-10T18:59:57.998Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 257
+  },
+  {
+    "timestamp": "2026-04-10T18:59:57.160Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 275
+  },
+  {
+    "timestamp": "2026-04-10T18:59:48.633Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 291
+  },
+  {
+    "timestamp": "2026-04-10T18:59:42.491Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 201
+  },
+  {
+    "timestamp": "2026-04-10T18:59:12.955Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 614
+  },
+  {
+    "timestamp": "2026-04-10T18:58:59.810Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 456
+  },
+  {
+    "timestamp": "2026-04-10T18:58:52.714Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 348
+  },
+  {
+    "timestamp": "2026-04-10T18:58:29.929Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 1047
+  },
+  {
+    "timestamp": "2026-04-10T18:58:23.101Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 1011
+  },
+  {
+    "timestamp": "2026-04-10T18:58:14.697Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 438
+  },
+  {
+    "timestamp": "2026-04-10T18:58:08.434Z",
+    "tool": "write",
+    "redacted": [
+      {
+        "type": "Email Address",
+        "count": 1
+      },
+      {
+        "type": "Phone Number",
+        "count": 1
+      }
+    ],
+    "inputLength": 9575
+  },
+  {
+    "timestamp": "2026-04-10T18:57:37.480Z",
+    "tool": "write",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 1639
+  },
+  {
+    "timestamp": "2026-04-10T18:57:22.395Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 170
+  },
+  {
+    "timestamp": "2026-04-10T18:57:09.112Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 5393
+  },
+  {
+    "timestamp": "2026-04-10T18:56:57.388Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 236
+  },
+  {
+    "timestamp": "2026-04-10T18:56:49.505Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 537
+  },
+  {
+    "timestamp": "2026-04-10T18:56:43.682Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 496
+  },
+  {
+    "timestamp": "2026-04-10T18:56:42.378Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 650
+  },
+  {
+    "timestamp": "2026-04-10T18:56:41.915Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 2407
+  },
+  {
+    "timestamp": "2026-04-10T18:56:40.438Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 629
+  },
+  {
+    "timestamp": "2026-04-10T18:56:24.879Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 1356
+  },
+  {
+    "timestamp": "2026-04-10T18:56:22.978Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 215
+  },
+  {
+    "timestamp": "2026-04-10T18:56:17.712Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 295
+  },
+  {
+    "timestamp": "2026-04-10T18:56:13.165Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 6721
+  },
+  {
+    "timestamp": "2026-04-10T18:56:12.464Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Phone Number",
+        "count": 1
+      }
+    ],
+    "inputLength": 789
+  },
+  {
+    "timestamp": "2026-04-10T18:56:03.350Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 679
+  },
+  {
+    "timestamp": "2026-04-10T18:55:47.641Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 791
+  },
+  {
+    "timestamp": "2026-04-10T18:55:47.155Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 1120
+  },
+  {
+    "timestamp": "2026-04-10T18:55:38.953Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 783
+  },
+  {
+    "timestamp": "2026-04-10T18:55:32.189Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 229
+  },
+  {
+    "timestamp": "2026-04-10T18:55:26.617Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 583
+  },
+  {
+    "timestamp": "2026-04-10T18:55:20.627Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 533
+  },
+  {
+    "timestamp": "2026-04-10T18:55:18.472Z",
+    "tool": "bash",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 245
+  },
+  {
+    "timestamp": "2026-04-10T18:55:09.621Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 1277
+  },
+  {
+    "timestamp": "2026-04-10T18:55:02.845Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 261
+  },
+  {
+    "timestamp": "2026-04-10T18:55:01.484Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 838
+  },
+  {
+    "timestamp": "2026-04-10T18:54:58.640Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 667
+  },
+  {
+    "timestamp": "2026-04-10T18:54:55.913Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 552
+  },
+  {
+    "timestamp": "2026-04-10T18:54:49.626Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 221
+  },
+  {
+    "timestamp": "2026-04-10T18:54:48.486Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 792
+  },
+  {
+    "timestamp": "2026-04-10T18:54:45.304Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Phone Number",
+        "count": 2
+      }
+    ],
+    "inputLength": 690
+  },
+  {
+    "timestamp": "2026-04-10T18:54:42.504Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 1162
+  },
+  {
+    "timestamp": "2026-04-10T18:54:37.128Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 891
+  },
+  {
+    "timestamp": "2026-04-10T18:54:36.663Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Phone Number",
+        "count": 2
+      }
+    ],
+    "inputLength": 499
+  },
+  {
+    "timestamp": "2026-04-10T18:54:34.607Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 606
+  },
+  {
+    "timestamp": "2026-04-10T18:54:33.240Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 911
+  },
+  {
+    "timestamp": "2026-04-10T18:54:32.858Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 956
+  },
+  {
+    "timestamp": "2026-04-10T18:54:32.613Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 525
+  },
+  {
+    "timestamp": "2026-04-10T18:54:27.122Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 545
+  },
+  {
+    "timestamp": "2026-04-10T18:54:25.890Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 1522
+  },
+  {
+    "timestamp": "2026-04-10T18:54:22.887Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 1081
+  },
+  {
+    "timestamp": "2026-04-10T18:54:21.637Z",
+    "tool": "edit",
+    "redacted": [
+      {
+        "type": "Possible Mnemonic Seed",
+        "count": 1
+      }
+    ],
+    "inputLength": 208
+  }
+]

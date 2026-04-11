@@ -1,0 +1,18 @@
+[
+  {
+    "id": "hardcoded-localhost",
+    "severity": "WARN",
+    "description": "Hardcoded localhost URL or IP — use env vars instead",
+    "file": "lead.mts",
+    "filePath": "/Users/wififunded/ralph/rangel-janitorial/rangel-janitorial/netlify/functions/lead.mts",
+    "timestamp": "2026-04-11T02:52:09.413Z"
+  },
+  {
+    "id": "debug-statements",
+    "severity": "WARN",
+    "description": "Debug statement left in code (console.log / print / debugger)",
+    "file": "generate-llm-files.mjs",
+    "filePath": "/Users/wififunded/ralph/rangel-janitorial/rangel-janitorial/scripts/generate-llm-files.mjs",
+    "timestamp": "2026-04-08T22:49:48.392Z"
+  }
+]

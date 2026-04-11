@@ -66,7 +66,7 @@ export default function LeadForm({ formId, location }: LeadFormProps) {
     };
 
     try {
-      const res = await fetch('/api/lead', {
+      const res = await fetch('/.netlify/functions/lead', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
